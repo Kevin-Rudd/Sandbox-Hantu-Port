@@ -1,0 +1,156 @@
+{
+	"version": "0.7.0",
+	"id": "KevinRudd.SandboxHantu",
+	"name": "Hantu Port - Sandbox Mode",
+	"description": "WIP Mod converting The Pen and the Sword to a sandbox mission.",
+	"authors": [
+		"Kevin Rudd",
+		"Kercyx"
+	],
+	"dependencies": [
+		{
+			"runtimeID": "00471CB5D0039770",
+			"comment": "charset_dugong_worker_technician_m",
+			"toChunk": 13
+		},
+		{
+			"runtimeID": "005BF453E152342B",
+			"comment": "Dugong Backdrop stuff",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "0016D60F4F6A0509",
+			"comment": "Dugong Backdrop stuff",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "006E140D067AB3A8",
+			"comment": "Dugong Backdrop stuff",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00A569187571C49D",
+			"comment": "Dugong Backdrop stuff",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "0094779243B229C8",
+			"comment": "Dugong Backdrop stuff",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "006D867907261266",
+			"comment": "Dugong Backdrop stuff",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "0099C80B6E1131EA",
+			"comment": "Dugong Backdrop stuff",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "006A281554C53AAC",
+			"comment": "Dugong Backdrop stuff",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00EB96B21395FCC8",
+			"comment": "Dugong Backdrop stuff",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00E06D455F0A6A53",
+			"comment": "Dugong Backdrop stuff",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00FF5D20BB022A70",
+			"comment": "Dugong Backdrop stuff",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "009BED9A5E00669E",
+			"comment": "Dugong Backdrop stuff",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "004404583CB3B147",
+			"comment": "Nude Hokkaido Bodyguard",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "007DA820C9C33155",
+			"comment": "Nude Hokkaido Bodyguard",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00D266E2CEEE1E59",
+			"comment": "Nude Hokkaido Bodyguard",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00E333E894410E9B",
+			"comment": "Nude Bangcock Guard",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "001A9B232AE1202B",
+			"comment": "Nude Hokkaido Bodyguard",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00CB4C67CC4A22D5",
+			"comment": "Nude Hokkaido Bodyguard",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "007DAF4ACF2F0320",
+			"comment": "Nude Hokkaido Bodyguard",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "004E5BC8375F7D23",
+			"comment": "Mendozer Desk Divider",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00D167B329091046",
+			"comment": "fx_e_rain",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00FDB8565FFAA61A",
+			"comment": "hitmanrainwetlogic",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "008DA82DE27F8837",
+			"comment": "rainkillbox",
+			"toChunk": 1
+		}
+	],
+	"localisation": {
+		"english": {
+			"ui_salty_entrance_name": "Front Gate",
+			"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility"
+		},
+		"french": {
+			"ui_salty_entrance_name": "Ze Front Gate",
+			"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility"
+		},
+		"italian": {},
+		"german": {},
+		"spanish": {},
+		"russian": {},
+		"chineseSimplified": {},
+		"chineseTraditional": {},
+		"japanese": {}
+	},
+	"frameworkVersion": "2.0.0",
+	"contentFolders": [
+		"content"
+	],
+	"blobsFolders": [
+		"blobs"
+	]
+}

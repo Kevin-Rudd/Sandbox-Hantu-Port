@@ -1,0 +1,238 @@
+{
+    "tempHash": "005336FF7ECBADE6",
+    "tbluHash": "001D0945FE00C5B7",
+    "rootEntity": "5c4c284b3d10a306",
+    "entities": {
+        "7173629b0b402be7": {
+            "parent": "5c4c284b3d10a306",
+            "name": "painted_metal_trim_rust_a",
+            "template": "[assembly:/_pro/environment/materials/levels/seagull/trims_painted_metal_seagull_a.mi].pc_entitytype",
+            "blueprint": "[assembly:/_pro/environment/materials/levels/seagull/trims_painted_metal_seagull_a.mi].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -180.0
+                        },
+                        "position": {
+                            "x": 8.39727783203125,
+                            "y": 47.76089096069336,
+                            "z": 5.978165149688721
+                        }
+                    }
+                },
+                "ConstantColorRGB_02_Value_op": {
+                    "type": "IRenderMaterialEntity.EModifierOperation",
+                    "value": "eReplace"
+                },
+                "ConstantColorRGB_02_Value": {
+                    "type": "SColorRGB",
+                    "value": "#b0b0b0"
+                },
+                "Active": {
+                    "type": "bool",
+                    "value": true
+                }
+            },
+            "postInitProperties": {
+                "Clients": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "5c4c284b3d10a306"
+                    ]
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5c4c284b3d10a306"
+                }
+            },
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "962d80b9a872171c": {
+            "parent": "5c4c284b3d10a306",
+            "name": "seagull_warehouse_sign_a",
+            "template": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_sign_a.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_sign_a.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90.0,
+                            "y": 0.004125296138226986,
+                            "z": -0.023892337456345559
+                        },
+                        "position": {
+                            "x": -8.138153076171875,
+                            "y": -5.797727108001709,
+                            "z": 8.233345031738282
+                        }
+                    }
+                }
+            },
+            "postInitProperties": {
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5c4c284b3d10a306"
+                }
+            },
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "593f377ab4529260": {
+            "parent": "5c4c284b3d10a306",
+            "name": "corrugated_metal_seagull_a",
+            "template": "[assembly:/_pro/environment/materials/levels/seagull/corrugated_metal_seagull_a.mi].pc_entitytype",
+            "blueprint": "[assembly:/_pro/environment/materials/levels/seagull/corrugated_metal_seagull_a.mi].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -180.0
+                        },
+                        "position": {
+                            "x": 18.29875946044922,
+                            "y": 42.88338851928711,
+                            "z": -0.0000019999999949504856
+                        }
+                    }
+                },
+                "ConstantColorRGB_04_Value_op": {
+                    "type": "IRenderMaterialEntity.EModifierOperation",
+                    "value": "eReplace"
+                },
+                "ConstantColorRGB_04_Value": {
+                    "type": "SColorRGB",
+                    "value": "#ffffff"
+                }
+            },
+            "postInitProperties": {
+                "Clients": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "5c4c284b3d10a306"
+                    ]
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5c4c284b3d10a306"
+                }
+            },
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "f537b2737c2559d9": {
+            "parent": "5c4c284b3d10a306",
+            "name": "parking_sign_height_a",
+            "template": "[assembly:/_pro/environment/templates/props/industrial/carpark_boom.template?/parking_sign_height_a.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/environment/templates/props/industrial/carpark_boom.template?/parking_sign_height_a.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "position": {
+                            "x": -8.194709777832032,
+                            "y": -0.17983999848365785,
+                            "z": 6.510799884796143
+                        }
+                    }
+                }
+            },
+            "postInitProperties": {
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5c4c284b3d10a306"
+                }
+            },
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "5c4c284b3d10a306": {
+            "parent": null,
+            "name": "seagull_security_building_canopy_a",
+            "template": "[assembly:/_pro/environment/geometry/levels/seagull/seagull_warehouse_a.wl2?/seagull_security_building_canopy_a.prim].pc_entitytype",
+            "blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -180.0
+                        },
+                        "position": {
+                            "x": 91.34822845458985,
+                            "y": 166.00149536132813,
+                            "z": 0.0
+                        }
+                    }
+                }
+            },
+            "postInitProperties": {},
+            "editorOnly": false,
+            "platformSpecificPropertyValues": [],
+            "propertyAliases": [
+                {
+                    "exposeProperty": "ConstantColorRGB_04_Value",
+                    "onEntity": "593f377ab4529260",
+                    "asProperty": "ConstantColorRGB_04_Value"
+                },
+                {
+                    "exposeProperty": "ConstantColorRGB_02_Value",
+                    "onEntity": "7173629b0b402be7",
+                    "asProperty": "ConstantColorRGB_02_Value"
+                }
+            ]
+        },
+        "63230283b8ca9d8b": {
+            "parent": "5c4c284b3d10a306",
+            "name": "parking_sign_height_a_01",
+            "template": "[assembly:/_pro/environment/templates/props/industrial/carpark_boom.template?/parking_sign_height_a.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/environment/templates/props/industrial/carpark_boom.template?/parking_sign_height_a.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "position": {
+                            "x": -8.194709777832032,
+                            "y": -5.864165782928467,
+                            "z": 6.860802173614502
+                        }
+                    }
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5c4c284b3d10a306"
+                }
+            },
+            "postInitProperties": {},
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        }
+    },
+    "overrideDeletes": [],
+    "pinConnectionOverrides": [],
+    "pinConnectionOverrideDeletes": [],
+    "propertyOverrides": [],
+    "externalScenes": [],
+    "subType": 0,
+    "quickEntityVersion": 2.1
+}

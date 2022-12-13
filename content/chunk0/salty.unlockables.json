@@ -1,0 +1,28 @@
+{
+    "LOCATION_PARENT_SALTY": {
+        "Properties": {
+            "Order": 160,
+            "HideProgression": false
+        }
+    },
+    "STARTING_LOCATION_SALTY_SEAGULL_FRONT": {
+        "Id": "STARTING_LOCATION_SALTY_SEAGULL_FRONT",
+        "Guid": "deb39a7a-1ef3-4a47-a29c-06015f67edc7",
+        "Type": "access",
+        "Subtype": "startinglocation",
+        "ImageId": null,
+        "RMTPrice": -1,
+        "GamePrice": -1,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "IsDroppable": false,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "Location": "LOCATION_PARENT_SALTY",
+            "RepositoryId": "60462da-cacc-4fc4-b25b-6d103c512243",
+            "Equip": []
+        },
+        "Rarity": null
+    }
+}

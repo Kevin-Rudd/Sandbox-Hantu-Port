@@ -1,0 +1,474 @@
+{
+	"tempHash": "00687B7D679B2ED6",
+	"tbluHash": "00236D7B6BCB7F9A",
+	"rootEntity": "706cee53228d45f8",
+	"entities": {
+		"59d3add967b5b2da": {
+			"parent": "4014be6d475fba31",
+			"name": "Var4",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_nude_v4.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"6ef97c2391ba431c": {
+			"parent": "b2b2945286ff3ad7",
+			"name": "Var2",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"85f915e0efce4e1d": {
+			"parent": "b2b2945286ff3ad7",
+			"name": "Var4",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"6d0d701d2e86d1d2": {
+			"parent": "706cee53228d45f8",
+			"name": "HeroB",
+			"template": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["c6855242d20497f2", "b28058e4d4ea6dc2", "a203149c43ddb5f1", "35de9c62557a4ef2", "3de6ffe0ecd53e3a"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"706cee53228d45f8": {
+			"parent": null,
+			"name": "CHARSET_GuardSecurity",
+			"template": "[modules:/zoutfitvariationcollection.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariationcollection.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["ccd28ef20a1ffd62", "4014be6d475fba31", "f5e824f9dba962dd", "6d0d701d2e86d1d2", "b2b2945286ff3ad7"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"dc824357ba4c00f8": {
+			"parent": "f5e824f9dba962dd",
+			"name": "Var1",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_heroa_v1.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"de4278dff74dc9db": {
+			"parent": "f5e824f9dba962dd",
+			"name": "Var4",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_heroa_v4.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"c03860ea692faf57": {
+			"parent": "4014be6d475fba31",
+			"name": "Var2",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_nude_v2.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"b8d31fabc50d2413": {
+			"parent": "b2b2945286ff3ad7",
+			"name": "Var0",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"f5e824f9dba962dd": {
+			"parent": "706cee53228d45f8",
+			"name": "HeroA",
+			"template": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["e732818187074b02", "dc824357ba4c00f8", "ead516303790e85d", "5a2a889dd010fa91", "de4278dff74dc9db"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"3de6ffe0ecd53e3a": {
+			"parent": "6d0d701d2e86d1d2",
+			"name": "Var4",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"e732818187074b02": {
+			"parent": "f5e824f9dba962dd",
+			"name": "Var0",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_heroa_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"1f93772f02a74bd5": {
+			"parent": "ccd28ef20a1ffd62",
+			"name": "1",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_actor_v6.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"4bdddf759b7173": {
+			"parent": "ccd28ef20a1ffd62",
+			"name": "2",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_actor_v7.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"35de9c62557a4ef2": {
+			"parent": "6d0d701d2e86d1d2",
+			"name": "Var3",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"b2b2945286ff3ad7": {
+			"parent": "706cee53228d45f8",
+			"name": "HeroC",
+			"template": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["b8d31fabc50d2413", "918c515d7d8be426", "6ef97c2391ba431c", "5a03dfcf8bc8b6c8", "85f915e0efce4e1d"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"ead516303790e85d": {
+			"parent": "f5e824f9dba962dd",
+			"name": "Var2",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_heroa_v2.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"918c515d7d8be426": {
+			"parent": "b2b2945286ff3ad7",
+			"name": "Var1",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"e619449567059de3": {
+			"parent": "ccd28ef20a1ffd62",
+			"name": "0",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_actor_v5.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"56c8d5bd3e4953fa": {
+			"parent": "4014be6d475fba31",
+			"name": "Var1",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_nude_v1.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"4014be6d475fba31": {
+			"parent": "706cee53228d45f8",
+			"name": "Nude",
+			"template": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["f96ce142ab7b9743", "56c8d5bd3e4953fa", "c03860ea692faf57", "535cf4eb3c9f5d7c", "59d3add967b5b2da"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"a203149c43ddb5f1": {
+			"parent": "6d0d701d2e86d1d2",
+			"name": "Var2",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"b28058e4d4ea6dc2": {
+			"parent": "6d0d701d2e86d1d2",
+			"name": "Var1",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"5a03dfcf8bc8b6c8": {
+			"parent": "b2b2945286ff3ad7",
+			"name": "Var3",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"535cf4eb3c9f5d7c": {
+			"parent": "4014be6d475fba31",
+			"name": "Var3",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_nude_v3.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"f96ce142ab7b9743": {
+			"parent": "4014be6d475fba31",
+			"name": "Var0",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_nude_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"1d05225779387647": {
+			"parent": "ccd28ef20a1ffd62",
+			"name": "4",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_actor_v4.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"ee7752cf4b3aa8e1": {
+			"parent": "ccd28ef20a1ffd62",
+			"name": "3",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_actor_v8.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"ccd28ef20a1ffd62": {
+			"parent": "706cee53228d45f8",
+			"name": "Actor",
+			"template": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["e619449567059de3", "1f93772f02a74bd5", "4bdddf759b7173", "ee7752cf4b3aa8e1", "1d05225779387647"]
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"c6855242d20497f2": {
+			"parent": "6d0d701d2e86d1d2",
+			"name": "Var0",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"5a2a889dd010fa91": {
+			"parent": "f5e824f9dba962dd",
+			"name": "Var3",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_heroa_v3.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"propertyOverrides": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

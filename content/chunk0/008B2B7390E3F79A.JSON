@@ -1,0 +1,168 @@
+{
+    "Data": {
+        "EnableSaving": true,
+        "Objectives": [{
+                "Comment": "--- Primary Target 1 ---",
+                "Id": "80621eca-eddf-4167-a9fe-912e8f476b73",
+                "Primary": true,
+                "SuccessEvent": {
+                    "EventName": "Kill",
+                    "EventValues": {
+                        "RepositoryId": "22283ca4-89cf-4235-be1d-4f76cd1bd321"
+                    }
+                }
+            }, {
+                "Comment": "--- Primary Target 2 ---",
+                "Id": "0b6ae576-32d0-4d09-990a-ab16e9987bae",
+                "Primary": true,
+                "SuccessEvent": {
+                    "EventName": "Kill",
+                    "EventValues": {
+                        "RepositoryId": "55334e2d-45c6-41b3-920e-aeb5c5111b37"
+                    }
+                }
+            }, {
+                "Comment": "--- Primary Target 3 ---",
+                "Id": "dd100889-2a9e-4ed0-91c2-b780ae77e53f",
+                "Primary": true,
+                "SuccessEvent": {
+                    "EventName": "Kill",
+                    "EventValues": {
+                        "RepositoryId": "0a4e517a-e1e1-41d7-af91-751bc663df35"
+                    }
+                }
+            }, {
+                "Comment": "----- Do not Eliminate Main Hostage -----",
+                "Id": "0b935cd6-8ca4-4094-81a4-2b1c24465cee",
+                "Primary": true,
+                "ForceShowOnLoadingScreen": true,
+                "ObjectiveType": "custom",
+                "LongBriefingText": "$loc UI_CONTRACT_SEAGULL_DESC",
+                "Image": "images/contracts/seagull/tile_hostages.jpg",
+                "BriefingName": "$loc UI_CONTRACT_SEAGULL_HOSTAGE_NAME",
+                "BriefingText": "$loc UI_CONTRACT_SEAGULL_HOSTAGE_OBJ",
+                "HUDTemplate": {
+                    "display": "$loc UI_CONTRACT_SEAGULL_HOSTAGE_OBJ",
+                    "iconType": 8
+                },
+                "Type": "statemachine",
+                "Definition": {
+                    "display": {
+                        "iconType": 8
+                    },
+                    "Scope": "session",
+                    "States": {
+                        "Start": {
+                            "Main_Hostage_Down": {
+                                "Transition": "Failure"
+                            },
+                            "AllTargetsDown": {
+                                "Transition": "Success"
+                            }
+                        }
+                    }
+                }
+            }, {
+                "Id": "22bdf176-4ca4-4075-9ce3-ea792392983e",
+                "Type": "statemachine",
+                "Category": "condition",
+                "ExcludeFromScoring": true,
+                "OnActive": {
+                    "IfInProgress": {
+                        "Visible": false
+                    },
+                    "IfCompleted": {
+                        "Visible": false
+                    },
+                    "IfFailed": {
+                        "Visible": false
+                    }
+                },
+                "Definition": {
+                    "Scope": "session",
+                    "Context": {},
+                    "States": {
+                        "Start": {
+                            "TargetsEscaping": {
+                                "Transition": "Success"
+                            }
+                        }
+                    }
+                }
+            }, {
+                "Activation": {
+                    "$eq": ["$22bdf176-4ca4-4075-9ce3-ea792392983e", "Completed"]
+                },
+                "Id": "bee28940-3092-4639-b24a-5c7e16e94d07",
+                "BriefingText": "$loc UI_CONTRACT_ELUSIVE_STATE_FAILED",
+                "IsHidden": true,
+                "ExcludeFromScoring": true,
+                "HUDTemplate": {
+                    "display": "$loc UI_CONTRACT_SEAGULL_Objective_StopEvacuation"
+                },
+                "IgnoreIfInactive": true,
+                "OnActive": {
+                    "IfCompleted": {
+                        "Visible": false
+                    },
+                    "IfInProgress": {
+                        "Visible": false
+                    },
+                    "IfFailed": {
+                        "Visible": false
+                    }
+                },
+                "Scope": "session",
+                "Type": "statemachine",
+                "Definition": {
+                    "Context": {},
+                    "States": {
+                        "Start": {
+                            "MainTargetEscaped": {
+                                "Transition": "Failure"
+                            },
+                            "PreventedEvacuation": {
+                                "Transition": "Success"
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "Bricks": ["assembly:/_pro/scenes/missions/Salty/mission_seagull/mission_seagull.brick"],
+        "DevOnlyBricks": ["assembly:/_pro/scenes/missions/Salty/mission_seagull/dev_seagull.brick"],
+        "GameDifficulties": [{
+            "Difficulty": "easy",
+            "Bricks": []
+        }, {
+            "Difficulty": "normal",
+            "Bricks": []
+        }, {
+            "Difficulty": "hard",
+            "Bricks": []
+        }
+    ],
+        "GameChangers": []
+    },
+    "Metadata": {
+        "DebriefingVideo": "debriefing_seagull",
+        "Location": "LOCATION_SALTY_SEAGULL",
+        "Title": "UI_CONTRACT_SEAGULL_TITLE",
+        "CodeName_Hint": "SC_Seagull",
+        "ScenePath": "assembly:/_pro/scenes/missions/Salty/mission_seagull/scene_seagull.entity",
+        "Description": "UI_CONTRACT_SEAGULL_DESC",
+        "Id": "00e57709-e049-44c9-a2c3-7655e19884fb",
+        "CreationTimestamp": "2014-04-04T09:41:25.473Z",
+        "LastUpdate": "2015-05-19T09:56:04.984Z",
+        "Type": "flashback",
+        "Subtype": "flashback",
+        "Release": "2.20.x",
+        "CreatorUserId": "ae4a3efe-63c9-43e9-8f57-67678b9f95e2",
+        "IsPublished": true,
+        "TileImage": "images/contracts/seagull/tile_hostages.jpg",
+        "BriefingVideo": "briefing_seagull",
+        "BackgroundImage": "images/contracts/seagull/tile_background.jpg",
+        "Entitlements": ["H2_LEGACY_EXPANSION"]
+    },
+    "UserData": {}
+}
