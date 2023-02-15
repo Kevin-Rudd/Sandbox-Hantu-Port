@@ -8,6 +8,12 @@
 		"Kercyx"
 	],
 	"dependencies": [
+		
+		{
+			"runtimeID": "00A2C1C13F32DC48",
+			"comment": "Pool Table",
+			"toChunk": 13
+		},
 		{
 			"runtimeID": "00BE81860475E8A6",
 			"comment": "Marrakesh board",
