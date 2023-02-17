@@ -8,7 +8,11 @@
 		"Kercyx"
 	],
 	"dependencies": [
-		
+		{
+			"runtimeID": "002A10E4E0CEF7AC",
+			"comment": "Colorado Fridge",
+			"toChunk": 13
+		},
 		{
 			"runtimeID": "00A2C1C13F32DC48",
 			"comment": "Pool Table",
