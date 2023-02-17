@@ -9,6 +9,11 @@
 	],
 	"dependencies": [
 		{
+			"runtimeID": "002662B9942D950C",
+			"comment": "Boiling food",
+			"toChunk": 13
+		},
+		{
 			"runtimeID": "002A10E4E0CEF7AC",
 			"comment": "Colorado Fridge",
 			"toChunk": 13
