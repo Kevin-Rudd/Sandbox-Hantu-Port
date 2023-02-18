@@ -9,6 +9,11 @@
 	],
 	"dependencies": [
 		{
+			"runtimeID": "00FA28F8E6E05145",
+			"comment": "kitchen desk",
+			"toChunk": 13
+		},
+		{
 			"runtimeID": "002662B9942D950C",
 			"comment": "Boiling food",
 			"toChunk": 13
