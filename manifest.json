@@ -9,6 +9,21 @@
 	],
 	"dependencies": [
 		{
+			"runtimeID": "002CF1B02A3EBA0E",
+			"comment": "colorado poster 1",
+			"toChunk": 13
+		},
+		{
+			"runtimeID": "006907D612C33E40",
+			"comment": "colorado poster 2",
+			"toChunk": 13
+		},
+		{
+			"runtimeID": "00D9533DC0FA6740",
+			"comment": "colorado poster 3",
+			"toChunk": 13
+		},
+		{
 			"runtimeID": "00FA28F8E6E05145",
 			"comment": "kitchen desk",
 			"toChunk": 13
