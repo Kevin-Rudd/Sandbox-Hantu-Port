@@ -192,5 +192,16 @@
 	],
 	"blobsFolders": [
 		"blobs"
-	]
+	],
+	"options": [
+        {
+            "name": "Playing on official servers",
+            "tooltip": "Playing on official servers",
+            "type": "checkbox",
+            "enabledByDefault": true,
+            "thumbs": [
+                "ConsoleCmd OnlineResources_Disable 1"
+            ]
+        }
+]
 }

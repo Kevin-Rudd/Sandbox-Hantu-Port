@@ -393,7 +393,7 @@
 				"m_Outfit": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_actor_v4.entitytemplate].pc_entitytemplate",
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_actor_v8.entitytemplate].pc_entitytemplate",
 						"flag": "9F"
 					}
 				}

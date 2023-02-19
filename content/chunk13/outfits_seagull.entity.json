@@ -1868,6 +1868,17 @@
 						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_greenland.sweetmenutext?/outfits_greenland_guard_genericsecurity_m_hpa752_description_8f928c7a-99dd-43db-a027-1310cf49f3ad.sweetline].pc_sweetline",
 						"flag": "5F"
 					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_HUSH", "eAVV_CIVMALECH01", "eAVV_CIVMALECH02", "eAVV_KONG"]
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "958ef354a73d986e",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
 				}
 			},
 			"postInitProperties": {
