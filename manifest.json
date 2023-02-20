@@ -125,6 +125,18 @@
 			"comment": "Nude Hokkaido Bodyguard",
 			"toChunk": 1
 		},{
+			"runtimeID": "00C1D9EA1821B076",
+			"comment": "[assembly:/_pro/characters/templates/hokkaido/char_hokkaido_guards.template?/outfit_resortsecurity_m_nude_v2.entitytemplate].pc_entitytemplate",
+			"toChunk": 1
+		},{
+			"runtimeID": "0082D36455D5BB12",
+			"comment": "[assembly:/_pro/characters/templates/bangkok/char_bangkok_guards.template?/outfit_hotelsecurity_m02_nude_v4.entitytemplate].pc_entitytemplate",
+			"toChunk": 1
+		},{
+			"runtimeID": "00F7CFFCECC4C227",
+			"comment": "[assembly:/_pro/characters/templates/bangkok/char_bangkok_guards.template?/outfit_hotelsecurity_m01_nude_v6.entitytemplate].pc_entitytemplate",
+			"toChunk": 1
+		},{
 			"runtimeID": "004E5BC8375F7D23",
 			"comment": "Mendozer Desk Divider",
 			"toChunk": 1
