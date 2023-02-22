@@ -9,6 +9,16 @@
 	],
 	"dependencies": [
 		{
+			"runtimeID": "000E34383A7CF837",
+			"comment": "submarine",
+			"toChunk": 13
+		},
+		{
+			"runtimeID": "00974DC022B3EE7A",
+			"comment": "submarine control panel",
+			"toChunk": 13
+		},
+		{
 			"runtimeID": "007985B6DF50DA78",
 			"comment": "security_camera_pole_a",
 			"toChunk": 13
