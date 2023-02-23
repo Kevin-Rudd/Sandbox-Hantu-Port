@@ -9,6 +9,31 @@
 	],
 	"dependencies": [
 		{
+			"runtimeID": "0050664E32C50F44",
+			"comment": "screen image",
+			"toChunk": 13
+		},
+		{
+			"runtimeID": "000EE66B7C533417",
+			"comment": "screen image",
+			"toChunk": 13
+		},
+		{
+			"runtimeID": "00983AE75619983B",
+			"comment": "screen image",
+			"toChunk": 13
+		},
+		{
+			"runtimeID": "001552169284A8BC",
+			"comment": "screen image",
+			"toChunk": 13
+		},
+		{
+			"runtimeID": "00EF8CE55966ED8D",
+			"comment": "world map screen",
+			"toChunk": 13
+		},
+		{
 			"runtimeID": "000E34383A7CF837",
 			"comment": "submarine",
 			"toChunk": 13
