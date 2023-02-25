@@ -2067,6 +2067,182 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
+		},
+		"abcda33c39b0e1dc": {
+			"parent": "abcdf7590853cb19",
+			"name": "Greenland_Worker_YachtCrew_M_HPA1299",
+			"template": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianeMale"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": true
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcdfcd9a371cd22"]
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_LEATHER"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "bbffa24b-fa46-4f9d-a73d-71de56ff3bfe"
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Sailor"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Sailor"
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_YachtCrew"
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_CIVMALECH01", "eAVV_CIVMALECH02", "eAVV_CIVMALEHI01"]
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd9018677fe280": {
+			"parent": "abcda33c39b0e1dc",
+			"name": "Prof_Greenland",
+			"template": "[assembly:/_pro/design/actor/profession.template?/prof_greenland.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcda33c39b0e1dc"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd081ffd6ed8b0": {
+			"parent": "abcda33c39b0e1dc",
+			"name": "Keyword_Prof_Class_Worker_Service",
+			"template": "00F9D6858A5DDC26",
+			"blueprint": "000E44CD728EC628",
+			"properties": {},
+			"postInitProperties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcda33c39b0e1dc"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd0896cb8b6505": {
+			"parent": "abcda33c39b0e1dc",
+			"name": "Keyword_FOLEY_OUTFIT_WORKER_CLOTH_LIGHT",
+			"template": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_light.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_light.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcda33c39b0e1dc"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd962bcaf4bf21": {
+			"parent": "abcda33c39b0e1dc",
+			"name": "Prof_Greenland_YachtCrew",
+			"template": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_yachtcrew.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_yachtcrew.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcda33c39b0e1dc"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdfcd9a371cd22": {
+			"parent": "abcda33c39b0e1dc",
+			"name": "CHARSET_YachtCrew",
+			"template": "006F2965B7BEB5F1",
+			"blueprint": "00A0EEAC40FAB758",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdeeb29e7b5174": {
+			"parent": "abcda33c39b0e1dc",
+			"name": "Prof_Greenland_Worker",
+			"template": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_worker.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_worker.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcda33c39b0e1dc"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd6b0f4cd0e28d": {
+			"parent": "abcda33c39b0e1dc",
+			"name": "Keyword_Prof_Class_Default",
+			"template": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {},
+			"postInitProperties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcda33c39b0e1dc"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
 		}
 	},
 	"overrideDeletes": [],
