@@ -8,7 +8,26 @@
 		"Kercyx"
 	],
 	"dependencies": [
-		
+		{
+			"runtimeID": "003BDE62B6F58E8A",
+			"comment": "Gloves dispenser",
+			"toChunk": 13
+		},
+		{
+			"runtimeID": "00B80347AF88C514",
+			"comment": "Consulate Desk",
+			"toChunk": 13
+		},
+		{
+			"runtimeID": "005963EBB48C85E2",
+			"comment": "Cabinet Morgue",
+			"toChunk": 13
+		},
+		{
+			"runtimeID": "00A9713DE434A540",
+			"comment": "Morgue table",
+			"toChunk": 13
+		},
 		{
 			"runtimeID": "00D2AE2A202604C4",
 			"comment": "X-ray mi",
