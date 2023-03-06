@@ -8,6 +8,43 @@
 		"Kercyx"
 	],
 	"dependencies": [
+		
+		{
+			"runtimeID": "00FD8EB1CD96BF42",
+			"comment": "Beer coaster",
+			"toChunk": 13
+		},
+		{
+			"runtimeID": "008F2C59E06043E7",
+			"comment": "VHS Player",
+			"toChunk": 13
+		},
+	{
+		"runtimeID": "00C0FA51F2559672",
+		"comment": "fridge",
+		"toChunk": 13
+	},
+		
+		{
+			"runtimeID": "005B12B990B5EFE7",
+			"comment": "Bench Press",
+			"toChunk": 13
+		},
+		{
+			"runtimeID": "0026C66173281008",
+			"comment": "Punching bag",
+			"toChunk": 13
+		},
+		{
+			"runtimeID": "007350C72CF8D8B7",
+			"comment": "Exercise bike mati",
+			"toChunk": 13
+		},
+		{
+			"runtimeID": "00F88ABD2464D4ED",
+			"comment": "Exercise bike",
+			"toChunk": 13
+		},
 		{
 			"runtimeID": "003BDE62B6F58E8A",
 			"comment": "Gloves dispenser",
