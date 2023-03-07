@@ -8,7 +8,21 @@
 		"Kercyx"
 	],
 	"dependencies": [
-		
+		{
+			"runtimeID": "006FFC570C3B6ED8",
+			"comment": "Poster gym 1",
+			"toChunk": 13
+		},
+		{
+			"runtimeID": "00247E4468812C82",
+			"comment": "Poster gym 2",
+			"toChunk": 13
+		},
+		{
+			"runtimeID": "001DB0136927CAB7",
+			"comment": "Poster gym 3",
+			"toChunk": 13
+		},
 		{
 			"runtimeID": "00FD8EB1CD96BF42",
 			"comment": "Beer coaster",
