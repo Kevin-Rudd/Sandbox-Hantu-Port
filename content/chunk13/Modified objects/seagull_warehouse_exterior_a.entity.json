@@ -3,6 +3,37 @@
 	"tbluHash": "00961EC1849D9325",
 	"rootEntity": "cf355ecd0cb024a2",
 	"entities": {
+		"e9e087ccad9e73f7": {
+			"parent": "cf355ecd0cb024a2",
+			"name": "seagull_warehouse_window_frame_a_02",
+			"template": "00DB0A779CD520C2",
+			"blueprint": "00F65698030FC95F",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -23.770999908447266,
+							"y": 0.28527799248695374,
+							"z": 6.348458766937256
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cf355ecd0cb024a2"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
 		"474d4aa7d2da08c7": {
 			"parent": "6db43fb1ec378364",
 			"name": "chinese_container_port_signage_a",
@@ -88,6 +119,37 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "6db43fb1ec378364"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"f2bb73ae1ac53173": {
+			"parent": "cf355ecd0cb024a2",
+			"name": "seagull_warehouse_window_frame_a_03",
+			"template": "00DB0A779CD520C2",
+			"blueprint": "00F65698030FC95F",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -19.760330200195313,
+							"y": 0.28527799248695374,
+							"z": 6.348458766937256
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cf355ecd0cb024a2"
 				}
 			},
 			"editorOnly": false,
@@ -214,6 +276,37 @@
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
 		},
+		"718d39db4318d0ef": {
+			"parent": "cf355ecd0cb024a2",
+			"name": "seagull_warehouse_window_frame_a_05",
+			"template": "00DB0A779CD520C2",
+			"blueprint": "00F65698030FC95F",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -11.764389991760254,
+							"y": 0.28527799248695374,
+							"z": 6.348458766937256
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cf355ecd0cb024a2"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
 		"27e1b229dafc8f26": {
 			"parent": "6db43fb1ec378364",
 			"name": "metal_painted_panel_a",
@@ -257,6 +350,37 @@
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
 		},
+		"915f4665725a6f06": {
+			"parent": "cf355ecd0cb024a2",
+			"name": "seagull_warehouse_window_frame_a_04",
+			"template": "00DB0A779CD520C2",
+			"blueprint": "00F65698030FC95F",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -15.759090423583984,
+							"y": 0.28527799248695374,
+							"z": 6.348458766937256
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cf355ecd0cb024a2"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
 		"f2d5392e23237724": {
 			"parent": "6db43fb1ec378364",
 			"name": "seagull_warehouse_sign_a",
@@ -283,6 +407,68 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "6db43fb1ec378364"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"ae02c28e8e8122af": {
+			"parent": "cf355ecd0cb024a2",
+			"name": "seagull_warehouse_window_frame_a_01",
+			"template": "00DB0A779CD520C2",
+			"blueprint": "00F65698030FC95F",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -39.76763916015625,
+							"y": 0.28527799248695374,
+							"z": 6.348458766937256
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cf355ecd0cb024a2"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"c284016382dbbfd7": {
+			"parent": "cf355ecd0cb024a2",
+			"name": "seagull_warehouse_window_frame_a_06",
+			"template": "00DB0A779CD520C2",
+			"blueprint": "00F65698030FC95F",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -12.433059692382813,
+							"y": 31.763370513916016,
+							"z": 6.348458766937256
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cf355ecd0cb024a2"
 				}
 			},
 			"editorOnly": false,
@@ -446,13 +632,43 @@
 			"postInitProperties": {
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["6db43fb1ec378364"]
+					"value": ["6db43fb1ec378364", "718d39db4318d0ef", "915f4665725a6f06", "f2bb73ae1ac53173", "e9e087ccad9e73f7", "ae02c28e8e8122af", "397b892a0f2a1dcf", "c284016382dbbfd7", "3415732e968ac93c"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "6db43fb1ec378364"
 				}
 			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"3415732e968ac93c": {
+			"parent": "cf355ecd0cb024a2",
+			"name": "seagull_warehouse_window_frame_a_07",
+			"template": "00DB0A779CD520C2",
+			"blueprint": "00F65698030FC95F",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -24.433870315551758,
+							"y": 31.763370513916016,
+							"z": 6.348458766937256
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cf355ecd0cb024a2"
+				}
+			},
+			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
 		},
@@ -637,6 +853,36 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "6db43fb1ec378364"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"397b892a0f2a1dcf": {
+			"parent": "cf355ecd0cb024a2",
+			"name": "seagull_warehouse_window_frame_a",
+			"template": "00DB0A779CD520C2",
+			"blueprint": "00F65698030FC95F",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -31.76272964477539,
+							"y": 0.28527799248695374,
+							"z": 6.348458766937256
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cf355ecd0cb024a2"
 				}
 			},
 			"postInitProperties": {},

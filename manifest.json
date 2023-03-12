@@ -1,5 +1,5 @@
 {
-	"version": "0.7.0",
+	"version": "0.8.0",
 	"id": "KevinRudd.SandboxHantu",
 	"name": "Hantu Port - Sandbox Mode",
 	"description": "WIP Mod converting The Pen and the Sword to a sandbox mission.",
@@ -7,198 +7,166 @@
 		"Kevin Rudd",
 		"Kercyx"
 	],
-	"dependencies": [
-		{
+	"dependencies": ["006E4EDFFCD96214","001269EBA23012F2",{
 			"runtimeID": "006FFC570C3B6ED8",
 			"comment": "Poster gym 1",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "00247E4468812C82",
 			"comment": "Poster gym 2",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "001DB0136927CAB7",
 			"comment": "Poster gym 3",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "00FD8EB1CD96BF42",
 			"comment": "Beer coaster",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "008F2C59E06043E7",
 			"comment": "VHS Player",
-			"toChunk": 13
-		},
-	{
+			"toChunk": 9
+		},{
 		"runtimeID": "00C0FA51F2559672",
 		"comment": "fridge",
-		"toChunk": 13
-	},
-		
-		{
-			"runtimeID": "005B12B990B5EFE7",
-			"comment": "Bench Press",
-			"toChunk": 13
-		},
-		{
-			"runtimeID": "0026C66173281008",
-			"comment": "Punching bag",
-			"toChunk": 13
-		},
-		{
+		"toChunk": 9
+	},{
+			"runtimeID": "00C0134D81848792",
+			"comment": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_hips_lie_pushups.entitytemplate].pc_entitytype",
+			"toChunk": 9
+		},{
+			"runtimeID": "00254A269F055331",
+			"comment": "[assembly:/_pro/design/setpieces/unique/setpiece_dugong_unique.template?/setpiece_dugong_hips_punchingbag.entitytemplate].pc_entitytype",
+			"toChunk": 9
+		},{
 			"runtimeID": "007350C72CF8D8B7",
 			"comment": "Exercise bike mati",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "00F88ABD2464D4ED",
 			"comment": "Exercise bike",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "003BDE62B6F58E8A",
 			"comment": "Gloves dispenser",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "00B80347AF88C514",
 			"comment": "Consulate Desk",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "005963EBB48C85E2",
 			"comment": "Cabinet Morgue",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "00A9713DE434A540",
 			"comment": "Morgue table",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "00D2AE2A202604C4",
 			"comment": "X-ray mi",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "008EA2DDC12C82CA",
 			"comment": "X-ray",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "001C7EFE78C71BEB",
 			"comment": "toilet",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "0004B230642E2D9C",
 			"comment": "miami office table",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "00C44B5A31BEB6F9",
 			"comment": "screen image",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "0045763D2ADB7CBC",
 			"comment": "screen image",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "00256FFAFA9ED755",
 			"comment": "screen image",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "001552169284A8BC",
 			"comment": "screen image",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "004B10AE15BB0713",
 			"comment": "screen image",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "0050664E32C50F44",
 			"comment": "screen image",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "000EE66B7C533417",
 			"comment": "screen image",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "00983AE75619983B",
 			"comment": "screen image",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "001552169284A8BC",
 			"comment": "screen image",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "00EF8CE55966ED8D",
 			"comment": "world map screen",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "000E34383A7CF837",
 			"comment": "submarine",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "00974DC022B3EE7A",
 			"comment": "submarine control panel",
-			"toChunk": 13
-		},
-		{
+			"toChunk": 9
+		},{
 			"runtimeID": "007985B6DF50DA78",
 			"comment": "security_camera_pole_a",
-			"toChunk": 13
+			"toChunk": 9
 		},{
 			"runtimeID": "002CF1B02A3EBA0E",
 			"comment": "colorado poster 1",
-			"toChunk": 13
+			"toChunk": 9
 		},{
 			"runtimeID": "006907D612C33E40",
 			"comment": "colorado poster 2",
-			"toChunk": 13
+			"toChunk": 9
 		},{
 			"runtimeID": "00D9533DC0FA6740",
 			"comment": "colorado poster 3",
-			"toChunk": 13
+			"toChunk": 9
 		},{
 			"runtimeID": "00FA28F8E6E05145",
 			"comment": "kitchen desk",
-			"toChunk": 13
+			"toChunk": 9
 		},{
 			"runtimeID": "002662B9942D950C",
 			"comment": "Boiling food",
-			"toChunk": 13
+			"toChunk": 9
 		},{
 			"runtimeID": "002A10E4E0CEF7AC",
 			"comment": "Colorado Fridge",
-			"toChunk": 13
+			"toChunk": 9
 		},{
 			"runtimeID": "00A2C1C13F32DC48",
 			"comment": "Pool Table",
-			"toChunk": 13
+			"toChunk": 9
 		},{
 			"runtimeID": "000DBE86C3F8D4A2",
 			"comment": "Colorado board",
-			"toChunk": 13
+			"toChunk": 9
 		},{
 			"runtimeID": "00471CB5D0039770",
 			"comment": "charset_dugong_worker_technician_m",
-			"toChunk": 13
+			"toChunk": 9
 		},{
 			"runtimeID": "005BF453E152342B",
 			"comment": "Dugong Backdrop stuff",
