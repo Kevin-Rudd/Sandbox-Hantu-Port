@@ -1495,7 +1495,7 @@
 				},
 				"m_eOutfitAICategory": {
 					"type": "EOutfitAICategory",
-					"value": "OAC_Fallback"
+					"value": "OAC_Worker"
 				}
 			},
 			"postInitProperties": {},
@@ -2241,6 +2241,160 @@
 					"value": ["abcda33c39b0e1dc"]
 				}
 			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd2d2e1c3a8ef5": {
+			"parent": "abcdf7590853cb19",
+			"name": "Seagull_Civilian_Office_M",
+			"template": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianeMale"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": true
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcdb53c370201c4"]
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_LEATHER"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "65f23b45-f5ab-4ede-82ec-46e4de38c0e9"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Seagull_Civilian_Dockworkers_M_PRO156333"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Office Staff"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_CIVMALECH01", "eAVV_CIVMALECH02"]
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Worker"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdb53c370201c4": {
+			"parent": "abcd2d2e1c3a8ef5",
+			"name": "CHARSET_Seagull_Worker_Office_M",
+			"template": "[assembly:/_pro/characters/templates/seagull/char_seagull_workers.template?/charset_seagull_worker_office_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/seagull/char_seagull_workers.template?/charset_seagull_worker_office_m.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdb156fafc8e6c": {
+			"parent": "abcd2d2e1c3a8ef5",
+			"name": "Keyword_Prof_Class_Default",
+			"template": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {},
+			"postInitProperties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcd2d2e1c3a8ef5"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd703b49360ef2": {
+			"parent": "abcd2d2e1c3a8ef5",
+			"name": "Prof_Greenland",
+			"template": "[assembly:/_pro/design/actor/profession.template?/prof_greenland.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcd2d2e1c3a8ef5", "b8058cbfb604be", "2d11b92eb9a70f62", "28f2abc8f9824aec"]
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd74639a2b4116": {
+			"parent": "abcd2d2e1c3a8ef5",
+			"name": "KeywordEntity_FOLEY_OUTFIT_SUIT47",
+			"template": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcd2d2e1c3a8ef5"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdcd529acb5a6c": {
+			"parent": "abcd2d2e1c3a8ef5",
+			"name": "Prof_Greenland_Worker",
+			"template": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_worker.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_worker.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcd2d2e1c3a8ef5"]
+				}
+			},
+			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
 		}
