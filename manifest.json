@@ -11,6 +11,16 @@
 			"runtimeID": "006FFC570C3B6ED8",
 			"comment": "Poster gym 1",
 			"toChunk": 9
+		},
+		{
+			"runtimeID": "00ED8BF99BDD2B22",
+			"comment": "Water tank rails",
+			"toChunk": 9
+		},
+		{
+			"runtimeID": "00AE2DE2A9FB9D96",
+			"comment": "Water tank",
+			"toChunk": 9
 		},{
 			"runtimeID": "00247E4468812C82",
 			"comment": "Poster gym 2",
