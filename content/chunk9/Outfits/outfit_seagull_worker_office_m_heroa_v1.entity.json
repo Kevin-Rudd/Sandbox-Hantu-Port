@@ -1,6 +1,6 @@
 {
-	"tempHash": "0055E2EDADA3A20D",
-	"tbluHash": "0043209531A3D9C8",
+	"tempHash": "00B78A5165C3E1DA",
+	"tbluHash": "005699AD91092FD0",
 	"rootEntity": "52295dcdf619f2d4",
 	"entities": {
 		"b388c68837ba226d": {
@@ -276,15 +276,10 @@
 		},
 		"7c6a8d8eaa365818": {
 			"parent": "52295dcdf619f2d4",
-			"name": "head_asian_30s_04",
-			"template": "000AFF9D3CEF5DE4",
-			"blueprint": "00199012C68A07F3",
-			"properties": {
-				"ConstantColorRGB_02_Value": {
-					"type": "SColorRGB",
-					"value": "#ffffff"
-				}
-			},
+			"name": "Head_47",
+			"template": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63",
+			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
@@ -325,7 +320,7 @@
 			"postInitProperties": {
 				"m_aBodyParts": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["a84639ef883bc7a3", "183c7bbe4a6377c6", "f3a865fb47202c06", "7c6a8d8eaa365818", "6dc1dd34bdf86a1a", "16f72d5cad516d8", "b388c68837ba226d", "f9feab73f73d70d8", "de9bea5795973ac6", "a315778286e78279"]
+					"value": ["183c7bbe4a6377c6", "f3a865fb47202c06", "7c6a8d8eaa365818", "6dc1dd34bdf86a1a", "16f72d5cad516d8", "b388c68837ba226d", "f9feab73f73d70d8", "de9bea5795973ac6", "a315778286e78279"]
 				}
 			},
 			"editorOnly": false,

@@ -92,7 +92,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["288abb48905c82f"]
+					"value": ["288abb48905c82f", "abcdf5e117834386"]
 				}
 			},
 			"postInitProperties": {},
@@ -217,6 +217,24 @@
 					"type": "ZRuntimeResourceID",
 					"value": {
 						"resource": "[assembly:/_pro/characters/templates/seagull/char_seagull_guards.template?/outfit_seagull_guard_bodyguard_m_actor_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdf5e117834386": {
+			"parent": "e1ae366dc489fb8",
+			"name": "Var1",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/seagull/char_seagull_workers.template?/outfit_seagull_worker_office_m_heroa_v1.entitytemplate].pc_entitytemplate",
 						"flag": "9F"
 					}
 				}
