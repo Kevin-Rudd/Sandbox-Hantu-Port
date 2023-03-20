@@ -2070,7 +2070,7 @@
 		},
 		"abcda33c39b0e1dc": {
 			"parent": "abcdf7590853cb19",
-			"name": "Greenland_Worker_YachtCrew_M_HPA1299",
+			"name": "Greenland_Worker_Sailor_M_HPA1299",
 			"template": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
 			"properties": {
@@ -2206,9 +2206,9 @@
 		},
 		"abcdfcd9a371cd22": {
 			"parent": "abcda33c39b0e1dc",
-			"name": "CHARSET_YachtCrew",
-			"template": "006F2965B7BEB5F1",
-			"blueprint": "00A0EEAC40FAB758",
+			"name": "CHARSET_Sailor",
+			"template": "[assembly:/_pro/characters/templates/seagull/char_seagull_workers.template?/charset_seagull_worker_sailor_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/seagull/char_seagull_workers.template?/charset_seagull_worker_sailor_m.entitytemplate].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
