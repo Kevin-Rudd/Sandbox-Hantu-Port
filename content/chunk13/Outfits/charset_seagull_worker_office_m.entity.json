@@ -27,7 +27,7 @@
 			"postInitProperties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["fe387a230a901c1c", "abcd3c21ff2ecf31", "abcd4becc4d87a2b", "abcdcce2da6549aa", "abcd8706f3c591d5", "abcd7892a2254069", "abcd450f07488e74"]
+					"value": ["fe387a230a901c1c", "abcd3c21ff2ecf31", "abcd4becc4d87a2b", "abcd450f07488e74"]
 				}
 			},
 			"editorOnly": false,
@@ -60,7 +60,7 @@
 			"postInitProperties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["b851941c4086d559", "abcddd281df19b19", "abcd2acf55530dde", "abcd9d961f8459f4", "abcd226b4ae3f224", "abcdcd0cf894702d", "abcd1f0bd9f59fa5"]
+					"value": ["b851941c4086d559", "abcddd281df19b19", "abcd2acf55530dde", "abcd9d961f8459f4"]
 				}
 			},
 			"editorOnly": false,
@@ -75,7 +75,7 @@
 				"m_Outfit": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/templates/seagull/char_seagull_guards.template?/outfit_seagull_guard_bodyguard_m_hero_v0.entitytemplate].pc_entitytemplate",
+						"resource": "[assembly:/_pro/characters/templates/seagull/char_seagull_workers.template?/outfit_seagull_worker_office_m_heroa_v0.entitytemplate].pc_entitytemplate",
 						"flag": "9F"
 					}
 				}
@@ -126,43 +126,7 @@
 				"m_Outfit": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/templates/seagull/char_seagull_guards.template?/outfit_seagull_guard_bodyguard_m_actor_v0.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
-				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
-		},
-		"abcdcce2da6549aa": {
-			"parent": "de1080f4156d7a73",
-			"name": "Var6",
-			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00E333E894410E9B",
-						"flag": "9F"
-					}
-				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
-		},
-		"abcd8706f3c591d5": {
-			"parent": "de1080f4156d7a73",
-			"name": "Var5",
-			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00CB4C67CC4A22D5",
+						"resource": "[assembly:/_pro/characters/templates/seagull/char_seagull_workers.template?/outfit_seagull_worker_office_m_actor_v1.entitytemplate].pc_entitytemplate",
 						"flag": "9F"
 					}
 				}
@@ -207,24 +171,6 @@
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
 		},
-		"abcd7892a2254069": {
-			"parent": "de1080f4156d7a73",
-			"name": "Var4",
-			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "001A9B232AE1202B",
-						"flag": "9F"
-					}
-				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
-		},
 		"abcd3c21ff2ecf31": {
 			"parent": "de1080f4156d7a73",
 			"name": "Var1",
@@ -261,63 +207,9 @@
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
 		},
-		"abcd226b4ae3f224": {
-			"parent": "57efe01694710680",
-			"name": "4",
-			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/seagull/char_seagull_guards.template?/outfit_seagull_guard_bodyguard_m_actor_v0.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
-				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
-		},
 		"abcd2acf55530dde": {
 			"parent": "57efe01694710680",
 			"name": "2",
-			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/seagull/char_seagull_guards.template?/outfit_seagull_guard_bodyguard_m_actor_v0.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
-				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
-		},
-		"abcdcd0cf894702d": {
-			"parent": "57efe01694710680",
-			"name": "5",
-			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/seagull/char_seagull_guards.template?/outfit_seagull_guard_bodyguard_m_actor_v0.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
-				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
-		},
-		"abcd1f0bd9f59fa5": {
-			"parent": "57efe01694710680",
-			"name": "6",
 			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
 			"properties": {
