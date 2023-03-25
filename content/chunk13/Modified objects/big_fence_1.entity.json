@@ -1,0 +1,82 @@
+{
+    "tempHash": "00D374B09EB495A9",
+    "tbluHash": "00902A15809E522F",
+    "rootEntity": "94ea53825488f588",
+    "entities": {
+        "94ea53825488f588": {
+            "parent": null,
+            "name": "chemical_plant_fence_fox_a",
+            "template": "[assembly:/_pro/environment/geometry/levels/fox/chemical_plant_fence_fox_a.wl2?/chemical_plant_fence_fox_a.prim].pc_entitytype",
+            "blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 90.0
+                        },
+                        "position": {
+                            "x": 2.9062790870666506,
+                            "y": -17.241619110107423,
+                            "z": -0.0000019999999949504856
+                        }
+                    }
+                }
+            },
+            "postInitProperties": {},
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "d1fc474a3e3d180": {
+            "parent": "94ea53825488f588",
+            "name": "CollisionBox01",
+            "template": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -90.0
+                        },
+                        "position": {
+                            "x": -3.0034990310668947,
+                            "y": -0.07215099781751633,
+                            "z": 2.996187925338745
+                        }
+                    }
+                },
+                "m_vBoxSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.5416799783706665,
+                        "y": 5.818270206451416,
+                        "z": 0.6162599921226502
+                    }
+                },
+                "m_bCollideCamera": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "94ea53825488f588"
+                }
+            },
+            "postInitProperties": {},
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        }
+    },
+    "overrideDeletes": [],
+    "pinConnectionOverrides": [],
+    "pinConnectionOverrideDeletes": [],
+    "propertyOverrides": [],
+    "externalScenes": [],
+    "subType": 0,
+    "quickEntityVersion": 2.1
+}
