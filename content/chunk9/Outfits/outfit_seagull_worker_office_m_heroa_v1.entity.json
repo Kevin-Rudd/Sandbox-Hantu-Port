@@ -1,6 +1,6 @@
 {
-	"tempHash": "00B78A5165C3E1DA",
-	"tbluHash": "005699AD91092FD0",
+	"tempHash": "0067F4F818A02A9F",
+	"tbluHash": "00E347B3CCB9930C",
 	"rootEntity": "52295dcdf619f2d4",
 	"entities": {
 		"b388c68837ba226d": {
@@ -286,7 +286,7 @@
 		},
 		"52295dcdf619f2d4": {
 			"parent": null,
-			"name": "OUTFIT_Seagull_Worker_Office_M_Actor_V1",
+			"name": "OUTFIT_Seagull_Worker_Office_M_Hero_V1",
 			"template": "00028BAEA86DD2FD",
 			"blueprint": "002045A6D2A25237",
 			"properties": {
