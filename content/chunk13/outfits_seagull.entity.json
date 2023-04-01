@@ -250,8 +250,8 @@
 		"4f11eb680d0788e6": {
 			"parent": "3c5050df996e02b2",
 			"name": "CHARSET_Seagull_Worker_Dockworker_M",
-			"template": "[assembly:/_pro/characters/templates/dugong/char_dugong_workers.template?/charset_dugong_worker_technician_m.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/templates/dugong/char_dugong_workers.template?/charset_dugong_worker_technician_m.entitytemplate].pc_entityblueprint",
+			"template": "[assembly:/_pro/characters/templates/seagull/char_seagull_workers.template?/charset_seagull_worker_dockworker_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/seagull/char_seagull_workers.template?/charset_seagull_worker_dockworker_m.entitytemplate].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
