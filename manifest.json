@@ -305,6 +305,14 @@
 			"runtimeID": "004B934C71A190BD",
 			"comment": "Chong Mask",
 			"toChunk": 1
+		},{
+			"runtimeID": "00E495B00562187A",
+			"comment": "Carlift activator",
+			"toChunk": 8
+		},{
+			"runtimeID": "00BE40A890B142A5",
+			"comment": "Carlift trap",
+			"toChunk": 8
 		}
 	],
 	"localisation": {
