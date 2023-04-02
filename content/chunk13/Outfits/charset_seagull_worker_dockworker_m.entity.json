@@ -8,7 +8,15 @@
 			"name": "Var0",
 			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {},
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/seagull/char_seagull_workers.template?/outfit_seagull_worker_dockworker_m_nude_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
@@ -22,7 +30,7 @@
 				"m_Outfit": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/templates/seagull/char_seagull_workers.template?/outfit_seagull_worker_dockworker_m_heroa_v0.entitytemplate].pc_entitytemplate",
+						"resource": "[assembly:/_pro/characters/templates/seagull/char_seagull_workers.template?/outfit_seagull_worker_dockworker_m_heroa_v2.entitytemplate].pc_entitytemplate",
 						"flag": "9F"
 					}
 				}
@@ -54,7 +62,15 @@
 			"name": "Var3",
 			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {},
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/seagull/char_seagull_workers.template?/outfit_seagull_worker_dockworker_m_nude_v3.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
@@ -145,7 +161,15 @@
 			"name": "Var2",
 			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {},
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/seagull/char_seagull_workers.template?/outfit_seagull_worker_dockworker_m_nude_v2.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
@@ -206,7 +230,15 @@
 			"name": "Var4",
 			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {},
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/seagull/char_seagull_workers.template?/outfit_seagull_worker_dockworker_m_nude_v4.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
@@ -234,7 +266,15 @@
 			"name": "Var1",
 			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {},
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/seagull/char_seagull_workers.template?/outfit_seagull_worker_dockworker_m_nude_v1.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
