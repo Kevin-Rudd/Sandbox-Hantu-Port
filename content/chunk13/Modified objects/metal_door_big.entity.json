@@ -1,0 +1,450 @@
+{
+    "tempHash": "00486B423AF878A7",
+    "tbluHash": "00DE9992AB6912AE",
+    "rootEntity": "7977a66e91c30a7b",
+    "entities": {
+        "52c716e86eff81b5": {
+            "parent": "7977a66e91c30a7b",
+            "name": "Door_Attic_Single_Frame_A_00",
+            "template": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/architecture/doors/door_bunker_a.wl2?/door_bunker_frame_a.prim].entitytype,[modules:/zworldmapmarkerentity.class].entitytype).pc_entitytype",
+            "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zworldmapmarkerentity.class].entitytype).pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "position": {
+                            "x": 0.3,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 1.6,
+                        "y": 1,
+                        "z": 1.4
+                    }
+                },
+                "m_bCastShadows": {
+                    "type": "bool",
+                    "value": true
+                }
+            },
+            "postInitProperties": {
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "7977a66e91c30a7b"
+                }
+            },
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "201e612e14ca567d": {
+            "parent": "7977a66e91c30a7b",
+            "name": "Access_Helper_SingleDoor_Normal",
+            "template": "00EBBF520278CA83",
+            "blueprint": "00BF51CC861D962B",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "position": {
+                            "x": 0.036591000854969028,
+                            "y": -0.12171100080013275,
+                            "z": 0.0
+                        }
+                    }
+                },
+                "m_OpenMode": {
+                    "type": "IHM5Door.EOpenMode",
+                    "value": "OM_TWO_WAY"
+                },
+                "m_OpenDir": {
+                    "type": "IHM5Door.EOpenDir",
+                    "value": "OD_IN"
+                },
+                "m_bAutoClose": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_fRotAngle": {
+                    "type": "float32",
+                    "value": 105
+                },
+                "m_InitialState": {
+                    "type": "IHM5Door.EInitialState",
+                    "value": "IS_CLOSED"
+                },
+                "NormalDoorRotationOrientation": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_rGateEntity": {
+                    "type": "SEntityTemplateReference",
+                    "value": null
+                },
+                "m_bIsLocked": {
+                    "type": "bool",
+                    "value": true
+                },
+                "RequireActivation": {
+                    "type": "bool",
+                    "value": false
+                },
+                "Reinforced": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bPathfindingObstacleEnabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bManualClose": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bEnabled": {
+                    "type": "bool",
+                    "value": false
+                },
+                "A_AudioOpenInitial": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "00C4340ECB9D2EB8",
+                        "flag": "5F"
+                    }
+                },
+                "B_AudioOpenMovement": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "008C7F26FA12C1A6",
+                        "flag": "5F"
+                    }
+                },
+                "A_AudioCloseInitial": {
+                    "type": "ZRuntimeResourceID",
+                    "value": null
+                },
+                "B_AudioCloseMovement": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "002B3FBD161A3774",
+                        "flag": "5F"
+                    }
+                },
+                "C_AudioCloseComplete": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "00EE18B3855E1328",
+                        "flag": "5F"
+                    }
+                }
+            },
+            "postInitProperties": {
+                "m_rDoorFrame1": {
+                    "type": "SEntityTemplateReference",
+                    "value": "cd2c4317dedec3c9"
+                },
+                "m_aUIHighlightGeom": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "cd2c4317dedec3c9"
+                    ]
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "7977a66e91c30a7b"
+                }
+            },
+            "editorOnly": false,
+            "platformSpecificPropertyValues": [],
+            "outputCopying": [
+                {
+                    "onEvent": "DoorOpen",
+                    "propagateEvent": "DoorOpen",
+                    "onEntity": "7977a66e91c30a7b"
+                },
+                {
+                    "onEvent": "DoorClose",
+                    "propagateEvent": "DoorClosed",
+                    "onEntity": "7977a66e91c30a7b"
+                }
+            ]
+        },
+        "cd2c4317dedec3c9": {
+            "parent": "7977a66e91c30a7b",
+            "name": "Door_Attic_Single_A_00",
+            "template": "[assembly:/_pro/environment/geometry/architecture/doors/door_bunker_a.wl2?/door_bunker_a.prim].pc_entitytype",
+            "blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "position": {
+                            "x": -0.5167620182037354,
+                            "y": -0.21817900240421296,
+                            "z": 0.0
+                        }
+                    }
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 1.6,
+                        "y": 1,
+                        "z": 1.4
+                    }
+                },
+                "m_bCastShadows": {
+                    "type": "bool",
+                    "value": true
+                }
+            },
+            "postInitProperties": {
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "7977a66e91c30a7b"
+                }
+            },
+            "editorOnly": false,
+            "platformSpecificPropertyValues": []
+        },
+        "7977a66e91c30a7b": {
+            "parent": null,
+            "name": "Door_Bunker_Heavy_A",
+            "template": "[modules:/zcompositeentity.class].pc_entitytype",
+            "blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "position": {
+                            "x": -1.7576099634170533,
+                            "y": -0.015336000360548497,
+                            "z": 0.0
+                        }
+                    }
+                }
+            },
+            "postInitProperties": {},
+            "editorOnly": false,
+            "platformSpecificPropertyValues": [],
+            "propertyAliases": [
+                {
+                    "exposeProperty": "SFX_OpenEvent",
+                    "onEntity": "201e612e14ca567d",
+                    "asProperty": "SFX_OpenEvent"
+                },
+                {
+                    "exposeProperty": "SFX_CloseEvent",
+                    "onEntity": "201e612e14ca567d",
+                    "asProperty": "SFX_CloseEvent"
+                },
+                {
+                    "exposeProperty": "m_rGateEntity",
+                    "onEntity": "201e612e14ca567d",
+                    "asProperty": "m_rGateEntity"
+                },
+                {
+                    "exposeProperty": "m_InitialState",
+                    "onEntity": "201e612e14ca567d",
+                    "asProperty": "m_InitialState"
+                },
+                {
+                    "exposeProperty": "m_CloseMode",
+                    "onEntity": "201e612e14ca567d",
+                    "asProperty": "m_CloseMode"
+                },
+                {
+                    "exposeProperty": "m_OpenDir",
+                    "onEntity": "201e612e14ca567d",
+                    "asProperty": "m_OpenDir"
+                },
+                {
+                    "exposeProperty": "m_fRotAngle",
+                    "onEntity": "201e612e14ca567d",
+                    "asProperty": "m_fRotAngle"
+                },
+                {
+                    "exposeProperty": "m_bIsLocked",
+                    "onEntity": "201e612e14ca567d",
+                    "asProperty": "m_bIsLocked"
+                },
+                {
+                    "exposeProperty": "RequireActivation",
+                    "onEntity": "201e612e14ca567d",
+                    "asProperty": "RequireActivation"
+                },
+                {
+                    "exposeProperty": "Reinforced",
+                    "onEntity": "201e612e14ca567d",
+                    "asProperty": "Reinforced"
+                },
+                {
+                    "exposeProperty": "m_bPathfindingObstacleEnabled",
+                    "onEntity": "201e612e14ca567d",
+                    "asProperty": "m_bPathfindingObstacleEnabled"
+                },
+                {
+                    "exposeProperty": "m_bAutoClose",
+                    "onEntity": "201e612e14ca567d",
+                    "asProperty": "m_bAutoClose"
+                },
+                {
+                    "exposeProperty": "m_bManualClose",
+                    "onEntity": "201e612e14ca567d",
+                    "asProperty": "m_bManualClose"
+                },
+                {
+                    "exposeProperty": "SOUND_Door_ChannelToken",
+                    "onEntity": "201e612e14ca567d",
+                    "asProperty": "SOUND_Door_ChannelToken"
+                },
+                {
+                    "exposeProperty": "m_bCastShadows",
+                    "onEntity": "52c716e86eff81b5",
+                    "asProperty": "LightCastShadows"
+                },
+                {
+                    "exposeProperty": "m_bCastShadows",
+                    "onEntity": "cd2c4317dedec3c9",
+                    "asProperty": "LightCastShadows"
+                },
+                {
+                    "exposeProperty": "A_AudioOpenInitial",
+                    "onEntity": "201e612e14ca567d",
+                    "asProperty": "m_pMainEvent1"
+                },
+                {
+                    "exposeProperty": "B_AudioOpenMovement",
+                    "onEntity": "201e612e14ca567d",
+                    "asProperty": "m_pMainEvent6"
+                },
+                {
+                    "exposeProperty": "A_AudioCloseInitial",
+                    "onEntity": "201e612e14ca567d",
+                    "asProperty": "m_pMainEvent3"
+                },
+                {
+                    "exposeProperty": "B_AudioCloseMovement",
+                    "onEntity": "201e612e14ca567d",
+                    "asProperty": "m_pMainEvent8"
+                },
+                {
+                    "exposeProperty": "C_AudioCloseComplete",
+                    "onEntity": "201e612e14ca567d",
+                    "asProperty": "m_pMainEvent10"
+                }
+            ],
+            "exposedEntities": [
+                {
+                    "name": "L08B_CP5_Terrace_Door_A",
+                    "isArray": false,
+                    "targets": [
+                        "cd2c4317dedec3c9"
+                    ]
+                },
+                {
+                    "name": "RequiredKey",
+                    "isArray": false,
+                    "targets": [
+                        {
+                            "ref": "201e612e14ca567d",
+                            "externalScene": null,
+                            "exposedEntity": "RequiredKey"
+                        }
+                    ]
+                },
+                {
+                    "name": "ValueBool_Simple_BrokenUp",
+                    "isArray": false,
+                    "targets": [
+                        {
+                            "ref": "201e612e14ca567d",
+                            "externalScene": null,
+                            "exposedEntity": "ValueBool_Simple_BrokenUp"
+                        }
+                    ]
+                },
+                {
+                    "name": "IsDoorLocked",
+                    "isArray": false,
+                    "targets": [
+                        {
+                            "ref": "201e612e14ca567d",
+                            "externalScene": null,
+                            "exposedEntity": "IsDoorLocked"
+                        }
+                    ]
+                },
+                {
+                    "name": "IsOpen",
+                    "isArray": false,
+                    "targets": [
+                        {
+                            "ref": "201e612e14ca567d",
+                            "externalScene": null,
+                            "exposedEntity": "IsOpen"
+                        }
+                    ]
+                }
+            ],
+            "exposedInterfaces": [
+                [
+                    "IHM5Door",
+                    "201e612e14ca567d"
+                ],
+                [
+                    "ISoundGateController",
+                    "201e612e14ca567d"
+                ]
+            ],
+            "entitySubsets": [
+                [
+                    "AudioEmitters",
+                    {
+                        "entities": [
+                            "201e612e14ca567d"
+                        ]
+                    }
+                ]
+            ],
+            "inputCopying": [
+                {
+                    "whenTriggered": "UnlockDoor",
+                    "alsoTrigger": "UnlockDoor",
+                    "onEntity": "201e612e14ca567d"
+                }
+            ]
+        }
+    },
+    "overrideDeletes": [],
+    "pinConnectionOverrides": [],
+    "pinConnectionOverrideDeletes": [],
+    "propertyOverrides": [],
+    "externalScenes": [],
+    "subType": 0,
+    "quickEntityVersion": 2.1
+}
