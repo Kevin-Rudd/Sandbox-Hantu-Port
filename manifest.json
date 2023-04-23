@@ -7,7 +7,39 @@
 		"Kevin Rudd",
 		"Kercyx"
 	],
-	"dependencies": ["006E4EDFFCD96214","001269EBA23012F2",{
+	"dependencies": [
+		{
+			"runtimeID": "00D7E8FDC5A2F2EC",
+			"comment": "computer screen image",
+			"toChunk": 9
+		},
+		{
+			"runtimeID": "00BB1D6304B03BB3",
+			"comment": "computer screen image",
+			"toChunk": 9
+		},
+		{
+			"runtimeID": "0011F7309375C865",
+			"comment": "computer screen image",
+			"toChunk": 9
+		},
+		{
+			"runtimeID": "006946156C8E321D",
+			"comment": "computer screen image",
+			"toChunk": 9
+		},
+		{
+			"runtimeID": "004F08DB6DFF0C85",
+			"comment": "computer screen image",
+			"toChunk": 9
+		},
+		{
+			"runtimeID": "00DD81A15B48D74F",
+			"comment": "computer screen image",
+			"toChunk": 9
+		},
+	
+		"006E4EDFFCD96214","001269EBA23012F2",{
 			"runtimeID": "006FFC570C3B6ED8",
 			"comment": "Poster gym 1",
 			"toChunk": 9
