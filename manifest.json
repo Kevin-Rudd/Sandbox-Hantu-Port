@@ -2,13 +2,12 @@
 	"version": "0.8.0",
 	"id": "KevinRudd.SandboxHantu",
 	"name": "Hantu Port - Sandbox Mode",
-	"description": "WIP Mod converting The Pen and the Sword to a sandbox mission.",
+	"description": "Converts The Pen and the Sword to a sandbox mission.",
 	"authors": [
 		"Kevin Rudd",
 		"Kercyx"
 	],
-	"dependencies": [
-		{
+	"dependencies": ["009D17D65711801C",{
 			"runtimeID": "00DD7A6662C47253",
 			"comment": "metal doors for cargo",
 			"toChunk": 9
@@ -335,7 +334,7 @@
 			"runtimeID": "00BE40A890B142A5",
 			"comment": "Carlift trap",
 			"toChunk": 8
-		}
+		}, "006DE711BF3AC4B8","0055E33191F7DB95","0033DFC23FB473E2","008306358FF17BBC","00EE60E188BC4DC9","003A7CF6E9A68E50","008D31A6DCAF94E4","00F5D3E795BE741E","00FEEC90835A7CDC","000359F8DC368ABE","005F52452076C6B8","00BF1E4639BBD032","008D31A6DCAF94E4","00A0176071F83778","003D9240F2DEA227","00E4E52DFBCF4383","00EC8E46D64E27F9","00ED4BDCF655BE0A","00D07EAE34D87B53","006590CEB8E849E1","00606B92D7512E30","002D35A6E9D65CFD","00B4CB373E73FDB8","00268B48317E6F09"
 	],
 	"localisation": {
 		"english": {
