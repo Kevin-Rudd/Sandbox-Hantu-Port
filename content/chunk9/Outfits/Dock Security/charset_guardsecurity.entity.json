@@ -80,7 +80,7 @@
 				"m_Outfit": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_heroa_v1.entitytemplate].pc_entitytemplate",
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_heroa_v6.entitytemplate].pc_entitytemplate",
 						"flag": "9F"
 					}
 				}
@@ -98,7 +98,7 @@
 				"m_Outfit": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_heroa_v4.entitytemplate].pc_entitytemplate",
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_heroa_v8.entitytemplate].pc_entitytemplate",
 						"flag": "9F"
 					}
 				}
@@ -294,7 +294,7 @@
 				"m_Outfit": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/templates/hokkaido/char_hokkaido_guards.template?/outfit_resortsecurity_m_nude_v2.entitytemplate].pc_entitytemplate",
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_nude_v6.entitytemplate].pc_entitytemplate",
 						"flag": "9F"
 					}
 				}
@@ -375,7 +375,7 @@
 				"m_Outfit": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/templates/hokkaido/char_hokkaido_guards.template?/outfit_hokkaido_bodyguard_nude_v0.entitytemplate].pc_entitytemplate",
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_nude_v5.entitytemplate].pc_entitytemplate",
 						"flag": "9F"
 					}
 				}
@@ -454,7 +454,7 @@
 				"m_Outfit": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_heroa_v3.entitytemplate].pc_entitytemplate",
+						"resource": "[assembly:/_pro/characters/templates/greenland/char_greenland_guard.template?/outfit_guardsecurity_heroa_v8.entitytemplate].pc_entitytemplate",
 						"flag": "9F"
 					}
 				}

@@ -144,7 +144,7 @@
 				"m_Outfit": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "007DA820C9C33155",
+						"resource": "[assembly:/_pro/characters/templates/seagull/char_seagull_workers.template?/outfit_seagull_worker_office_m_nude_v1.entitytemplate].pc_entitytemplate",
 						"flag": "9F"
 					}
 				}
