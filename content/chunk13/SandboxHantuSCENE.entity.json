@@ -9728,6 +9728,14 @@
 		"ref": "2bed1d2dd18a6fba",
 		"_comment": "Combat Positions",
 		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "2806507ddc45b928",
+		"_comment": "Bodyguard Escapes",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "db37817c4e55f052",
+		"_comment": "AI Tension State",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
 	}],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
