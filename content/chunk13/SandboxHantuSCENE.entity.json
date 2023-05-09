@@ -9724,6 +9724,10 @@
 		"ref": "b93509541fa18f9f",
 		"_comment": "Shipping_Container_Short_Open_Green_A_07",
 		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "2bed1d2dd18a6fba",
+		"_comment": "Combat Positions",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
 	}],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
