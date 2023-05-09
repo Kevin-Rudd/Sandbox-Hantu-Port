@@ -2214,21 +2214,6 @@
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
 		},
-		"abcdeeb29e7b5174": {
-			"parent": "abcda33c39b0e1dc",
-			"name": "Prof_Greenland_Worker",
-			"template": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_worker.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_worker.entitytemplate].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcda33c39b0e1dc"]
-				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
-		},
 		"abcd6b0f4cd0e28d": {
 			"parent": "abcda33c39b0e1dc",
 			"name": "Keyword_Prof_Class_Default",
@@ -2383,11 +2368,11 @@
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
 		},
-		"abcdcd529acb5a6c": {
+		"abcdbffa88ac6f5f": {
 			"parent": "abcd2d2e1c3a8ef5",
-			"name": "Prof_Greenland_Worker",
-			"template": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_worker.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_worker.entitytemplate].pc_entityblueprint",
+			"name": "Prof_Greenland_HangarMechanic",
+			"template": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_hangarmechanic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_hangarmechanic.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
