@@ -21,6 +21,10 @@
 			"runtimeID": "0020D01E084B5EBD",
 			"comment": "slum_building_workshop_hut_a",
 			"toChunk": 9
+		},{
+			"runtimeID": "0028527544040273",
+			"comment": "slum_building_workshop_hut_inside_a",
+			"toChunk": 9
 		},
 		{
 			"runtimeID": "00D7E8FDC5A2F2EC",
