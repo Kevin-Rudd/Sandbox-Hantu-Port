@@ -7,7 +7,13 @@
 		"Kevin Rudd",
 		"Kercyx"
 	],
-	"dependencies": ["009D17D65711801C",{
+	"dependencies": [
+		{
+			"runtimeID": "000B266D1D68E4AB",
+			"comment": "pipe to climb for warehouse",
+			"toChunk": 9
+		},
+		"009D17D65711801C",{
 			"runtimeID": "00DD7A6662C47253",
 			"comment": "metal doors for cargo",
 			"toChunk": 9
