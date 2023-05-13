@@ -9,6 +9,16 @@
 	],
 	"dependencies": [
 		{
+			"runtimeID": "004454C2F0FD963E",
+			"comment": "pipe to climb for warehouse up",
+			"toChunk": 9
+		},
+		{
+			"runtimeID": "00FD0570CD6F3435",
+			"comment": "pipe to climb for warehouse bottom corner",
+			"toChunk": 9
+		},
+		{
 			"runtimeID": "000B266D1D68E4AB",
 			"comment": "pipe to climb for warehouse",
 			"toChunk": 9
