@@ -9,6 +9,30 @@
 	],
 	"dependencies": [
 		{
+			"runtimeID": "00BDE9DCDEA7A32D",
+			"comment": "bayside_hut_a",
+			"toChunk": 9
+		},{
+			"runtimeID": "002BDCC7D03A7CC9",
+			"comment": "bayside_hut_a_interior",
+			"toChunk": 9
+		},{
+			"runtimeID": "0093EEFB7E29167F",
+			"comment": "",
+			"toChunk": 9
+		},{
+			"runtimeID": "008657748B1B8DF4",
+			"comment": "",
+			"toChunk": 9
+		},{
+			"runtimeID": "00B70F13E057D0BC",
+			"comment": "",
+			"toChunk": 9
+		},{
+			"runtimeID": "00D5DA12E38296A3",
+			"comment": "",
+			"toChunk": 9
+		},{
 			"runtimeID": "00D73AC25BF1DDA9",
 			"comment": "play_amb_3d_foghorn.wwiseevent",
 			"toChunk": 9
