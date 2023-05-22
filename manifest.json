@@ -9,6 +9,18 @@
 	],
 	"dependencies": [
 		{
+			"runtimeID": "00D73AC25BF1DDA9",
+			"comment": "play_amb_3d_foghorn.wwiseevent",
+			"toChunk": 9
+		},{
+			"runtimeID": "00A5F0DBA8EB9488",
+			"comment": "levelspecific/sapienza.wwisesoundbank",
+			"toChunk": 9
+		},{
+			"runtimeID": "006D8C805F858533",
+			"comment": "NY Investment Banker Fem04",
+			"toChunk": 9
+		},{
 			"runtimeID": "004454C2F0FD963E",
 			"comment": "pipe to climb for warehouse up",
 			"toChunk": 9

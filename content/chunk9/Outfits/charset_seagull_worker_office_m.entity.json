@@ -60,7 +60,7 @@
 			"postInitProperties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["b851941c4086d559", "abcddd281df19b19"]
+					"value": ["b851941c4086d559", "abcddd281df19b19", "abcdbcb1a689e00a"]
 				}
 			},
 			"editorOnly": false,
@@ -163,6 +163,24 @@
 					"type": "ZRuntimeResourceID",
 					"value": {
 						"resource": "[assembly:/_pro/characters/templates/seagull/char_seagull_workers.template?/outfit_seagull_worker_office_m_heroa_v1.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdbcb1a689e00a": {
+			"parent": "57efe01694710680",
+			"name": "2 FEMALE",
+			"template": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/seagull/char_seagull_workers.template?/outfit_seagull_worker_office_f_actor_v2.entitytemplate].pc_entitytemplate",
 						"flag": "9F"
 					}
 				}
