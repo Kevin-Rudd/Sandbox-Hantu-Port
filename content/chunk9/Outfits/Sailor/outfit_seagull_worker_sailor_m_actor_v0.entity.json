@@ -30,7 +30,7 @@
 				},
 				"ConstantVector1D_01_Value": {
 					"type": "float32",
-					"value": 1.2999999523162842
+					"value": 0.2999999523162842
 				}
 			},
 			"postInitProperties": {
@@ -865,7 +865,7 @@
 				},
 				"ConstantVector1D_01_Value": {
 					"type": "float32",
-					"value": 1.5499999523162842
+					"value": 0.5499999523162842
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",

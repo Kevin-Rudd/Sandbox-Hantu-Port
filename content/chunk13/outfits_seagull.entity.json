@@ -2382,6 +2382,163 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
+		},
+		"abcdbd0cec83f612": {
+			"parent": "abcdf7590853cb19",
+			"name": "Wet_Civilian_StreetCiv_M",
+			"template": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianeMale"
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_SNEAKERS"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "998b3a27-9b40-46b4-8d05-7a54493f209c"
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Wet_Civilian_Streets_M_"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Civ Street M"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_rat.sweetmenutext?/outfits_npcs_rat_civilians_streets_name.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_rat.sweetmenutext?/outfits_npcs_rat_civilians_streets_desc.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Fallback"
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_CIVMALECH01", "eAVV_CIVMALECH02"]
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcdbd3cbf230293"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd9d4a8b5624a2": {
+			"parent": "abcdbd0cec83f612",
+			"name": "Keyword_FOLEY_OUTFIT_CIV_CLOTH_LIGHT",
+			"template": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_civ_cloth_light.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_civ_cloth_light.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcdbd0cec83f612"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd566b9240e968": {
+			"parent": "abcdbd0cec83f612",
+			"name": "Prof_Greenland",
+			"template": "[assembly:/_pro/design/actor/profession.template?/prof_greenland.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcdbd0cec83f612"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd20ddf13e23b5": {
+			"parent": "abcdbd0cec83f612",
+			"name": "Keyword_Prof_Class_Default",
+			"template": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {},
+			"postInitProperties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcdbd0cec83f612"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdbd3cbf230293": {
+			"parent": "abcdbd0cec83f612",
+			"name": "CHARSET_Rat_Civilian_StreetCiv_M",
+			"template": "[assembly:/_pro/characters/templates/rat/char_rat_civilians.template?/charset_rat_civilian_streetciv_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/rat/char_rat_civilians.template?/charset_rat_civilian_streetciv_m.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdbdf1ee0fa4a5": {
+			"parent": "abcdbd0cec83f612",
+			"name": "prof_wet_worker_dumplingcook",
+			"template": "[assembly:/_pro/design/actor/profession.template?/prof_wet_worker_dumplingcook.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_wet_worker_dumplingcook.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcdbd0cec83f612"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
 		}
 	},
 	"overrideDeletes": [],
