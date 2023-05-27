@@ -1,0 +1,1326 @@
+{
+	"tempHash": "00DF61AA9DDF68A9",
+	"tbluHash": "00B53BC83FB81505",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"entitySubsets": [
+				["Activatable_NormalGameplay, IEntity", {
+					"entities": []
+				}],
+				["AudioEmitters", {
+					"entities": []
+				}],
+				["AudioVolumetricGeom", {
+					"entities": []
+				}],
+				["Gates", {
+					"entities": []
+				}],
+				["Replicable", {
+					"entities": []
+				}],
+				["Rooms", {
+					"entities": []
+				}]
+			]
+		},
+		"abcdc39c3d64d440": {
+			"parent": "fffffffffffffffe",
+			"name": "Rain",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [],
+			"inputCopying": [],
+			"outputCopying": []
+		},
+		"abcd047dc8dd9fd8": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For 003_roof_1",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 225
+						},
+						"position": {
+							"x": -37.0375,
+							"y": -17.6069,
+							"z": -12.9888
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.3,
+						"y": 1,
+						"z": 1.0886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd6b592d4fbe73": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For 003_roof_1",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": -44.4547,
+							"y": -5.98389,
+							"z": -17.0021
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 12.500700569099996,
+						"y": 6.0203994751,
+						"z": 11.0886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd13b3bb143f6d": {
+			"parent": "abcdc39c3d64d440",
+			"name": "FX_E_Rain",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/fx_e_rain.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/fx_e_rain.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						}
+					}
+				},
+				"RainWindMultiplier": {
+					"type": "float32",
+					"value": 1.2000000476837158
+				},
+				"GroundSplashAlpha": {
+					"type": "float32",
+					"value": 0
+				},
+				"RainMinimumSize": {
+					"type": "float32",
+					"value": 0.800000011920929
+				},
+				"RainMaximumSize": {
+					"type": "float32",
+					"value": 1.5
+				},
+				"RainMotionStretchFactor": {
+					"type": "float32",
+					"value": 5
+				},
+				"RainReflectivity": {
+					"type": "float32",
+					"value": 0.800000011920929
+				},
+				"m_fCameraFadeNearDistance": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fCameraFadeFarDistance": {
+					"type": "float32",
+					"value": 2
+				},
+				"RainParticlesPerSecond": {
+					"type": "float32",
+					"value": 4000
+				},
+				"RainRefraction": {
+					"type": "float32",
+					"value": 5
+				},
+				"m_fCameraFadeSizeFactor": {
+					"type": "float32",
+					"value": 100
+				},
+				"RainSplashesFlatGroundEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"InfinityRadius": {
+					"type": "float32",
+					"value": 10
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcddf4dcc857c69": {
+			"parent": "abcdc39c3d64d440",
+			"name": "HitmanRainWetLogic",
+			"template": "00FDB8565FFAA61A",
+			"blueprint": "00609605E8B31DA5",
+			"properties": {},
+			"postInitProperties": {
+				"DryVolumes": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [{
+						"ref": "abcde896f339a524",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcde896f339a524": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For 001_Warehouse_Interior",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 73.1579910278,
+							"y": 9.9616300583,
+							"z": -13.0
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.500700569099996,
+						"y": 41.1203994751,
+						"z": 20.0886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd3ca2cae2b0b8": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For 002_Shelter_Interior",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": -24.556,
+							"y": -6.18488,
+							"z": -12.9861
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 11.500700569099996,
+						"y": 5.5203994751,
+						"z": 7.0886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd7a334fdec270": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For 003_roof_1",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 81.3359,
+							"y": 32.2525,
+							"z": -13
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 12.500700569099996,
+						"y": 6.0203994751,
+						"z": 11.0886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdde4c925dcad1": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For 004_roof_2",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 76.2002,
+							"y": 49.8118,
+							"z": -13
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 25.00700569099996,
+						"y": 6.0203994751,
+						"z": 12.0886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd255050b50b69": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For 004_roof_3",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 81.3359,
+							"y": 32.2525,
+							"z": -13
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 12.500700569099996,
+						"y": 6.0203994751,
+						"z": 11.0886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdc5344f1a5568": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For 004_roof_4",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 10.2875,
+							"y": 46.5371,
+							"z": -13
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 12.500700569099996,
+						"y": 6.0203994751,
+						"z": 10.0886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd081ab7a5ca8d": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For 004_roof_5",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": -20.916,
+							"y": 46.5371,
+							"z": -13
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 12.500700569099996,
+						"y": 6.0203994751,
+						"z": 10.0886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd5686e264a5db": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For containers_1",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 58.7776,
+							"y": 48.7522,
+							"z": -12.7522
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 7.30700569099996,
+						"y": 3.0203994751,
+						"z": 7.0886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd5b584b1a3280": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For container on hostage container",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 54.377,
+							"y": -44.8596,
+							"z": 6.4842
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 7.30700569099996,
+						"y": 3.0203994751,
+						"z": 7.0886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcded3c21bd75c6": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For containers_2",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 4.0
+						},
+						"position": {
+							"x": 26.2823,
+							"y": 51.7761,
+							"z": -12.7522
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 7.30700569099996,
+						"y": 3.0203994751,
+						"z": 7.0886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd3d1fb22d9e7f": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For containers_3",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 4.0
+						},
+						"position": {
+							"x": -24.7006,
+							"y": 23.1918,
+							"z": -12.7367
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 7.30700569099996,
+						"y": 3.0203994751,
+						"z": 7.0886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd8ec54dadb909": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For containers_4",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 7.95204,
+							"y": 2.66433,
+							"z": -12.7522
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 7.30700569099996,
+						"y": 3.0203994751,
+						"z": 7.0886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd8f584a689342": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For containers_5",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 2.53563,
+							"y": 22.7254,
+							"z": -12.6146
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 7.30700569099996,
+						"y": 3.0203994751,
+						"z": 7.0886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdec68ce1bf747": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For containers_6",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 1.60489,
+							"y": 14.8384,
+							"z": -12.7545
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 7.30700569099996,
+						"y": 3.0203994751,
+						"z": 7.0886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd6a00d2e2afa7": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For Cargo 1",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": -2.60955,
+							"y": -44.7081,
+							"z": -0.331111
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.30700569099996,
+						"y": 41.0203994751,
+						"z": 13.5886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcda3c1c106685b": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For Cargo 2",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 14.3776,
+							"y": -44.7081,
+							"z": -0.331111
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.30700569099996,
+						"y": 41.0203994751,
+						"z": 13.5886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdaa2a9a61faa1": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For Cargo 3",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 31.7657,
+							"y": -44.7081,
+							"z": -0.331111
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.30700569099996,
+						"y": 41.0203994751,
+						"z": 13.5886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdef765d617311": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For Cargo 4",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 49.0575,
+							"y": -44.7081,
+							"z": -0.331111
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.30700569099996,
+						"y": 41.0203994751,
+						"z": 13.5886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd104f0f457633": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For Cargo 5",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 66.3573,
+							"y": -44.7081,
+							"z": -0.331111
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.30700569099996,
+						"y": 41.0203994751,
+						"z": 13.5886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd133d49379acf": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For Cargo 6",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 83.6654,
+							"y": -44.7081,
+							"z": -0.331111
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.30700569099996,
+						"y": 41.0203994751,
+						"z": 13.5886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdf48e914606ff": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For Cargo 7",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 100.997,
+							"y": -44.7081,
+							"z": -0.331111
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.30700569099996,
+						"y": 41.0203994751,
+						"z": 13.5886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdfbb7c8bf4c8a": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For Cargo 8",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 117.739,
+							"y": -44.7081,
+							"z": -0.331111
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.30700569099996,
+						"y": 41.0203994751,
+						"z": 13.5886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdcaa852397a9b": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For Cargo 9",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 149.5,
+							"y": -44.7081,
+							"z": -0.331111
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.30700569099996,
+						"y": 41.0203994751,
+						"z": 13.5886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcda21bba5b4ee3": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For Cargo 10",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 166.618,
+							"y": -44.7081,
+							"z": -0.331111
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.30700569099996,
+						"y": 41.0203994751,
+						"z": 13.5886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdfdee10b2d0a5": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For Cargo 11",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 183.956,
+							"y": -44.7081,
+							"z": -0.331111
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.30700569099996,
+						"y": 41.0203994751,
+						"z": 13.5886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd7bc1f79f4e5b": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For Cargo 12",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 123.323,
+							"y": -44.3523,
+							"z": 31.7572
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 14.30700569099996,
+						"y": 48.0203994751,
+						"z": 12.5886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd3db1bc148859": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For entrance_roof",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 90.0
+						},
+						"position": {
+							"x": 119.016,
+							"y": 37.7075,
+							"z": -13
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 16.0700569099996,
+						"y": 7.5203994751,
+						"z": 16.0886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd76bb1b6e7c97": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For 005_roof_warehouse",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 90.0
+						},
+						"position": {
+							"x": 56.9827,
+							"y": 20.0138,
+							"z": -11.9198
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 20.000700569099996,
+						"y": 3.0203994751,
+						"z": 10.0886189274
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd4dff03ac10ac": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For cargo_cleaning_room",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 90.0
+						},
+						"position": {
+							"x": -35.8204,
+							"y": -43.19934,
+							"z": -2.30074
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 11.4,
+						"y": 5.6,
+						"z": 6.8
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd9b69355be486": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For cargo_bathroom",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 132.494,
+							"y": -30.4823,
+							"z": 19.6381
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 5.5,
+						"y": 5.5,
+						"z": 8
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdbafbe370f0a5": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For cargo_break_room",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 140.6252,
+							"y": -56.0034,
+							"z": 2.09039
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 13,
+						"y": 8.66,
+						"z": 8
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd7152d6eac6ff": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For cargo_medic_room",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 132.2808,
+							"y": -58.9034,
+							"z": 19.6381
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 5.5,
+						"y": 5.5,
+						"z": 8
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"propertyOverrides": [
+		{
+            "entities": [
+                {
+                    "ref": "630f9164460de833",
+                    "externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_Tags": {
+                    "type": "ZString",
+                    "value": "RainA"
+                }
+            }
+        }
+
+	],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": ["[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"],
+	"subType": 2,
+	"quickEntityVersion": 2.1
+}

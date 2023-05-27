@@ -430,5 +430,12 @@
                 "ConsoleCmd OnlineResources_Disable 1"
             ]
         }
-]
+],
+"packagedefinition": [
+	{
+		"type": "entity",
+		"partition": "paris",
+		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/rain.brick].entitytype"
+	  }
+  ]
 }

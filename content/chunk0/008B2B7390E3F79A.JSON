@@ -1,6 +1,14 @@
 {
     "Data": {
         "EnableSaving": true,
+        "EnableExits": {
+            "$eq": [
+              "$80621eca-eddf-4167-a9fe-912e8f476b73",
+              "$0b6ae576-32d0-4d09-990a-ab16e9987bae",
+              "$dd100889-2a9e-4ed0-91c2-b780ae77e53f",
+              "Completed"
+            ]
+          },
         "Objectives": [{
                 "Comment": "--- Primary Target 1 ---",
                 "Id": "80621eca-eddf-4167-a9fe-912e8f476b73",
@@ -57,7 +65,7 @@
                                 "Transition": "Failure"
                             },
                             "AllTargetsDown": {
-                                "Transition": "Success"
+                                "Transition": "Start"
                             }
                         }
                     }
