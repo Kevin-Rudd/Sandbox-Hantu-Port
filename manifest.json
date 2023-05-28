@@ -9,6 +9,14 @@
 	],
 	"dependencies": [
 		{
+			"runtimeID": "002AE45C0B0E4778",
+			"comment": "Miami Satellite",
+			"toChunk": 9
+		},{
+			"runtimeID": "00949920F8E25F7A",
+			"comment": "Miami Satellite",
+			"toChunk": 9
+		},{
 			"runtimeID": "00BDE9DCDEA7A32D",
 			"comment": "bayside_hut_a",
 			"toChunk": 9
