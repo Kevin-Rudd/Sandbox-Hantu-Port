@@ -45,18 +45,18 @@
                 "Primary": true,
                 "ForceShowOnLoadingScreen": true,
                 "ObjectiveType": "custom",
-                "LongBriefingText": "$loc UI_CONTRACT_SEAGULL_DESC",
+                "LongBriefingText": "$loc UI_CONTRACT_SEAGULL_RESCUE_DESC",
                 "Image": "images/contracts/seagull/tile_hostages.jpg",
-                "BriefingName": "$loc UI_CONTRACT_SEAGULL_HOSTAGE_NAME",
-                "BriefingText": "$loc UI_CONTRACT_SEAGULL_HOSTAGE_OBJ",
+                "BriefingName": "$loc UI_CONTRACT_SEAGULL_RESCUE_NAME",
+                "BriefingText": "$loc UI_CONTRACT_SEAGULL_RESCUE_OBJ",
                 "HUDTemplate": {
-                    "display": "$loc UI_CONTRACT_SEAGULL_HOSTAGE_OBJ",
-                    "iconType": 8
+                    "display": "$loc UI_CONTRACT_SEAGULL_RESCUE_OBJ",
+                    "iconType": 17
                 },
                 "Type": "statemachine",
                 "Definition": {
                     "display": {
-                        "iconType": 8
+                        "iconType": 17
                     },
                     "Scope": "session",
                     "States": {
