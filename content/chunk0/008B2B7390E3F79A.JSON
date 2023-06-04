@@ -137,7 +137,7 @@
                 }
             }
         ],
-        "Bricks": ["assembly:/_pro/scenes/missions/Salty/mission_seagull/mission_seagull.brick"],
+        "Bricks": ["assembly:/_pro/scenes/missions/Salty/mission_seagull/mission_seagull.brick","assembly:/_pro/scenes/missions/salty/mission_seagull/rain.brick","assembly:/_pro/scenes/missions/salty/mission_seagull/night.brick"],
         "DevOnlyBricks": ["assembly:/_pro/scenes/missions/Salty/mission_seagull/dev_seagull.brick"],
         "GameDifficulties": [{
             "Difficulty": "easy",

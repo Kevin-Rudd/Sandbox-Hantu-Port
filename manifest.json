@@ -9,6 +9,11 @@
 	],
 	"dependencies": [
 		{
+			"runtimeID": "001AFC1CC558A815",
+			"comment": "Night brick : hokkaido clouds",
+			"toChunk": 9
+		},
+		{
 			"runtimeID": "002AE45C0B0E4778",
 			"comment": "Miami Satellite",
 			"toChunk": 9
@@ -480,8 +485,13 @@
 "packagedefinition": [
 	{
 		"type": "entity",
-		"partition": "paris",
+		"partition": "salty",
 		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/rain.brick].entitytype"
+	  },
+	  {
+		"type": "entity",
+		"partition": "salty",
+		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/night.brick].entitytype"
 	  }
   ]
 }
