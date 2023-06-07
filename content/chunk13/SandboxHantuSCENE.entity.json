@@ -9732,6 +9732,10 @@
 		"ref": "db37817c4e55f052",
 		"_comment": "AI Tension State",
 		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "91fd86af3d098cf2",
+		"_comment": "Foghorn Shotlistener",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
 	}],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
