@@ -1298,25 +1298,52 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
+		},
+		"abcd0d3fbfd8d373": {
+			"parent": "fffffffffffffffe",
+			"name": "Rat_Sounbank",
+			"template": "[modules:/zsoundbankentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsoundbankentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pBankResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/soundbanks/levelspecific/rat.wwisesoundbank].pc_wwisebank",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
 		}
 	},
-	"propertyOverrides": [
-		{
-            "entities": [
-                {
-                    "ref": "630f9164460de833",
-                    "externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
-                }
-            ],
-            "properties": {
-                "m_Tags": {
-                    "type": "ZString",
-                    "value": "RainA"
-                }
-            }
-        }
-
-	],
+	"propertyOverrides": [{
+		"entities": [{
+			"ref": "630f9164460de833",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_Tags": {
+				"type": "ZString",
+				"value": "RainA"
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "5f97b3e83bf738d",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_pMainEvent": {
+				"type": "ZRuntimeResourceID",
+				"value": {
+					"resource": "0018AB110B83E417",
+					"flag": "5F"
+				}
+			}
+		}
+	}],
 	"overrideDeletes": [],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],

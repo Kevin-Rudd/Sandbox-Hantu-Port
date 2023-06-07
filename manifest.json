@@ -9,6 +9,14 @@
 	],
 	"dependencies": [
 		{
+			"runtimeID": "002E85BC93584A8A",
+			"comment": "Chong Soundbank",
+			"toChunk": 1
+		},{
+			"runtimeID": "0018AB110B83E417",
+			"comment": "Chong Rain Sound",
+			"toChunk": 1
+		},{
 			"runtimeID": "0097320787B97F76",
 			"comment": "AgencyPickup NY Bin",
 			"toChunk": 9
