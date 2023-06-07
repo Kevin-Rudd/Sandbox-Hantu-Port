@@ -24,5 +24,24 @@
             "Equip": []
         },
         "Rarity": null
+    }, 
+    "AGENCYPICKUP_SALTY_SMALL_OFFICE": {
+        "Id": "AGENCYPICKUP_SALTY_SMALL_OFFICE",
+        "Guid": "d373d22b-8469-43e6-8b5a-2bb20de2c931",
+        "Type": "agencypickup",
+        "Subtype": "small",
+        "ImageId": null,
+        "RMTPrice": -1,
+        "GamePrice": -1,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "IsDroppable": false,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "RepositoryId": "384c9fcb-6f7f-41b9-9029-cc6b3f583355",
+            "UnlockOrder": 1
+        },
+        "Rarity": null
     }
 }

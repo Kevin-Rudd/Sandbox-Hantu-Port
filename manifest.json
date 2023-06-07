@@ -9,8 +9,12 @@
 	],
 	"dependencies": [
 		{
+			"runtimeID": "0097320787B97F76",
+			"comment": "AgencyPickup NY Bin",
+			"toChunk": 9
+		},{
 			"runtimeID": "001AFC1CC558A815",
-			"comment": "Night brick : hokkaido clouds",
+			"comment": "Helipad Geotag",
 			"toChunk": 9
 		},
 		{
@@ -424,50 +428,65 @@
 			"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
 			"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescue",
 			"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escort hostages to an exit",
-			"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission."
+			"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
+			"ui_salty_officepickup_name": "Warehouse Office"
 		},
 		"french": {
 			"ui_salty_entrance_name": "Ze Front Gate",
 			"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
 			"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescue",
 			"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escort hostages to an exit",
-			"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission."
+			"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
+			"ui_salty_officepickup_name": "Warehouse Office"
 		},
 		"italian": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
 		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescue",
 		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escort hostages to an exit",
-		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission."},
+		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
+		"ui_salty_officepickup_name": "Warehouse Office"
+	},
 		"german": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
 		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescue",
 		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escort hostages to an exit",
-		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission."},
+		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
+		"ui_salty_officepickup_name": "Warehouse Office"
+	},
 		"spanish": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
 		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescue",
 		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escort hostages to an exit",
-		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission."},
+		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
+		"ui_salty_officepickup_name": "Warehouse Office"
+	},
 		"russian": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
 		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescue",
 		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escort hostages to an exit",
-		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission."},
+		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
+		"ui_salty_officepickup_name": "Warehouse Office"
+	},
 		"chineseSimplified": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
 		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescue",
 		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escort hostages to an exit",
-		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission."},
+		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
+		"ui_salty_officepickup_name": "Warehouse Office"
+	},
 		"chineseTraditional": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
 		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescue",
 		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escort hostages to an exit",
-		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission."},
+		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
+		"ui_salty_officepickup_name": "Warehouse Office"
+	},
 		"japanese": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
 		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescue",
 		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escort hostages to an exit",
-		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission."}
+		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
+		"ui_salty_officepickup_name": "Warehouse Office"}
 	},
 	"frameworkVersion": "2.0.0",
 	"contentFolders": [
