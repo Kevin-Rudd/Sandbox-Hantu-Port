@@ -6,9 +6,9 @@
         "Name": "Hantu Port Front Gate"
     },
     "384c9fcb-6f7f-41b9-9029-cc6b3f583355": {
-        "Description": "ui_salty_officepickup_name",
+        "Description": "UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME",
         "Image": "images/salty_officepickup.jpg",
-        "Name_LOC": "ui_salty_officepickup_name",
+        "Name_LOC": "UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME",
         "Name": "Unknown"
     }
 }
