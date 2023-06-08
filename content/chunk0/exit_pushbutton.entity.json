@@ -1094,7 +1094,7 @@
 				"onEntity": "f3e34969b940562",
 				"asProperty": "m_bVRForceSwipeAnimation"
 			}, {
-				"exposeProperty": "m_bValue",
+				"exposeProperty": "m_rValueEntity",
 				"onEntity": "abcdc8aface515df",
 				"asProperty": "IsUsable"
 			}],
@@ -1116,12 +1116,12 @@
 		"abcdc8aface515df": {
 			"parent": "56b0fe18709c2d29",
 			"name": "IsUsable",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_bValue": {
-					"type": "bool",
-					"value": true
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": null
 				}
 			},
 			"postInitProperties": {},

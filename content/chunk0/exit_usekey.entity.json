@@ -1157,7 +1157,7 @@
 				"onEntity": "5869e09e594e7a06",
 				"asProperty": "Show3dExitSpatial"
 			}, {
-				"exposeProperty": "m_bValue",
+				"exposeProperty": "m_rValueEntity",
 				"onEntity": "abcd3de6f1d4d4b5",
 				"asProperty": "IsUsable"
 			}],
@@ -1175,12 +1175,12 @@
 		"abcd3de6f1d4d4b5": {
 			"parent": "c4a7c9289522ec92",
 			"name": "IsUsable",
-			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_bValue": {
-					"type": "bool",
-					"value": true
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": null
 				}
 			},
 			"postInitProperties": {},
