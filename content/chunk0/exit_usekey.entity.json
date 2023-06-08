@@ -670,7 +670,7 @@
 				},
 				"m_sPromptTextPassive": {
 					"type": "ZString",
-					"value": "Cannot exit without hostages"
+					"value": "Need Key and Hostages"
 				},
 				"m_bIsIllegal": {
 					"type": "bool",
@@ -713,10 +713,7 @@
 				},
 				"m_rPromptTextPassiveResource": {
 					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00B90AC1D6A3BA05",
-						"flag": "5F"
-					}
+					"value": null
 				},
 				"m_sPromptDescriptionText": {
 					"type": "ZString",
@@ -728,10 +725,7 @@
 				},
 				"m_rPromptDescriptionTextPassiveResource": {
 					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/setpieces.sweetmenutext?/setpieces_localization_prompt_missingkey.sweetline].pc_sweetline",
-						"flag": "5F"
-					}
+					"value": null
 				},
 				"m_bIgnoreEmptyPromptDescriptionText": {
 					"type": "bool",
