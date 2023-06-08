@@ -9677,10 +9677,6 @@
 		"_comment": "SetpieceHelper_Sniper_HideBody",
 		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
 	}, {
-		"ref": "fe163491ca671e74",
-		"_comment": "Setpiece_SC_Bodydump_Container_PlasticCurtain",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
-	}, {
 		"ref": "657a96ff5bdcaa1e",
 		"_comment": "Container Doors",
 		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
