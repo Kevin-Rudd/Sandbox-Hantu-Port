@@ -2314,6 +2314,10 @@
 		"ref": "8895c78ed73383cf",
 		"comment": "Wind",
 		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "959125eaca9ae64b",
+		"comment": "Moving Forklifts",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
 	}],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
