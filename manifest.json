@@ -9,6 +9,22 @@
 	],
 	"dependencies": [
 		{
+			"runtimeID": "009A56DDDFB5D0B9",
+			"comment": "Chong Rain Metal Sound",
+			"toChunk": 1
+		},{
+			"runtimeID": "001F0D4A8C3066C4",
+			"comment": "Chong Rain Sound Window",
+			"toChunk": 1
+		},{
+			"runtimeID": "00F6995C30E46A33",
+			"comment": "Chong Rain Sound",
+			"toChunk": 1
+		},{
+			"runtimeID": "002E74F8343F4A28",
+			"comment": "Chong Rain Sound",
+			"toChunk": 1
+		},{
 			"runtimeID": "002E85BC93584A8A",
 			"comment": "Chong Soundbank",
 			"toChunk": 1

@@ -1,0 +1,1 @@
+{"tempHash":"006BE5376066BC8B","tbluHash":"0004AE3F661E9F59","patch":[{"SubEntityOperation":["68766ca89492f1f0",{"AddPropertyAliasConnection":["IsInRainLevel",{"originalProperty":"IsInRainLevel","originalEntity":"ae0f04b4c3a78dfe"}]}]}],"patchVersion":6}

@@ -1354,6 +1354,38 @@
 	},
 	"propertyOverrides": [{
 		"entities": [{
+			"ref": "abcd2d8def98bb4a",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		}, {
+			"ref": "abcd84a7df75bf6f",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		}, {
+			"ref": "abcdc5ca94623a0c",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		}, {
+			"ref": "abcd6f18eea7d4b1",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		}, {
+			"ref": "abcd26d72b28ac85",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		}, {
+			"ref": "abcd59f737d05378",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		}, {
+			"ref": "abcd6507bf0c01de",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		}, {
+			"ref": "3a47125191640bd7",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		}],
+		"properties": {
+			"IsInRainLevel": {
+				"type": "bool",
+				"value": true
+			}
+		}
+	}, {
+		"entities": [{
 			"ref": "630f9164460de833",
 			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
 		}],
@@ -1366,6 +1398,7 @@
 	}, {
 		"entities": [{
 			"ref": "5f97b3e83bf738d",
+			"comment": "Global Outside",
 			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
 		}],
 		"properties": {
@@ -1373,6 +1406,66 @@
 				"type": "ZRuntimeResourceID",
 				"value": {
 					"resource": "0018AB110B83E417",
+					"flag": "5F"
+				}
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "abcdb77758e1e1c5",
+			"comment": "Roof",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_pMainEvent": {
+				"type": "ZRuntimeResourceID",
+				"value": {
+					"resource": "009A56DDDFB5D0B9",
+					"flag": "5F"
+				}
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "abcd3b288b3926a8",
+			"comment": "Parking Lot",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_pMainEvent": {
+				"type": "ZRuntimeResourceID",
+				"value": {
+					"resource": "00F6995C30E46A33",
+					"flag": "5F"
+				}
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "abcd2760b0b1ba04",
+			"comment": "Warehouse Entrance",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_pMainEvent": {
+				"type": "ZRuntimeResourceID",
+				"value": {
+					"resource": "001F0D4A8C3066C4",
+					"flag": "5F"
+				}
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "abcd890954350672",
+			"comment": "Office",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_pMainEvent": {
+				"type": "ZRuntimeResourceID",
+				"value": {
+					"resource": "002E74F8343F4A28",
 					"flag": "5F"
 				}
 			}
