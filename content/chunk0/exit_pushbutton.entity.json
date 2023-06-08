@@ -335,7 +335,7 @@
 				},
 				"m_sPromptTextPassive": {
 					"type": "ZString",
-					"value": "\n      "
+					"value": "Cannot exit without hostages"
 				},
 				"m_bIsIllegal": {
 					"type": "bool",
