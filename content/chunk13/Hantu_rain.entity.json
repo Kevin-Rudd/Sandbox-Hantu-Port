@@ -1350,6 +1350,40 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
+		},
+		"abcd93c08a8e92d2": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For parking lot roof",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 102.8579,
+							"y": -14.4223,
+							"z": -13
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 25.4,
+						"y": 6,
+						"z": 12.3
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
 		}
 	},
 	"propertyOverrides": [{
