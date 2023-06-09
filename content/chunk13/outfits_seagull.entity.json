@@ -357,16 +357,6 @@
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
 		},
-		"b2f1a2127295ad63": {
-			"parent": "28f2abc8f9824aec",
-			"name": "CHARSET_Hawk_Unique_Target_DorianLang_M",
-			"template": "[assembly:/_pro/characters/templates/sniperchallenge/char_hawk_unique.template?/charset_hawk_unique_target_dorianlang_m.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/templates/sniperchallenge/char_hawk_unique.template?/charset_hawk_unique_target_dorianlang_m.entitytemplate].pc_entityblueprint",
-			"properties": {},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
-		},
 		"f5ff2668e9f9e759": {
 			"parent": "d140e08ae9e1654a",
 			"name": "ItemKey__Pistol__NPC_ Bartoli 75R 1",
@@ -2537,6 +2527,96 @@
 					"value": ["abcdbd0cec83f612"]
 				}
 			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd714f007d8f76": {
+			"parent": "b8058cbfb604be",
+			"name": "Prof_Greenland",
+			"template": "[assembly:/_pro/design/actor/profession.template?/prof_greenland.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["b8058cbfb604be"]
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd2c2602fcbdf8": {
+			"parent": "2d11b92eb9a70f62",
+			"name": "Prof_Greenland",
+			"template": "[assembly:/_pro/design/actor/profession.template?/prof_greenland.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["2d11b92eb9a70f62"]
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd79f14ba142a6": {
+			"parent": "28f2abc8f9824aec",
+			"name": "Prof_Greenland",
+			"template": "[assembly:/_pro/design/actor/profession.template?/prof_greenland.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["28f2abc8f9824aec"]
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd5d4a0ec2ac26": {
+			"parent": "2d11b92eb9a70f62",
+			"name": "prof_mumbai_unique_vanyashah",
+			"template": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_unique_vanyashah.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_unique_vanyashah.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["2d11b92eb9a70f62"]
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd40cc111853d3": {
+			"parent": "28f2abc8f9824aec",
+			"name": "prof_mumbai_unique_vanyashah",
+			"template": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_unique_vanyashah.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_unique_vanyashah.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["28f2abc8f9824aec"]
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcde7757b25e28c": {
+			"parent": "b8058cbfb604be",
+			"name": "prof_mumbai_unique_vanyashah",
+			"template": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_unique_vanyashah.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_mumbai_unique_vanyashah.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["b8058cbfb604be"]
+				}
+			},
+			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
 		}
