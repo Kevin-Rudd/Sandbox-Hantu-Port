@@ -7,7 +7,7 @@
 		"Kevin Rudd",
 		"Kercyx"
 	],
-	"dependencies": [
+	"dependencies": ["002213FD7FFF2F57",
 		{
 			"runtimeID": "009A56DDDFB5D0B9",
 			"comment": "Chong Rain Metal Sound",
