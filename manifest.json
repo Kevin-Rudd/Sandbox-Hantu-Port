@@ -8,6 +8,26 @@
 		"Kercyx"
 	],
 	"dependencies": ["002213FD7FFF2F57",
+	{
+		"runtimeID": "002D42DD922C13CB",
+		"comment": "silencer gun props for Armory",
+		"toChunk": 9
+	},
+	{
+		"runtimeID": "00D3885CDCE79516",
+		"comment": "garage hook for Armory",
+		"toChunk": 9
+	},
+	{
+		"runtimeID": "00EEBBA389F45F77",
+		"comment": "metal_shelf_lab for Armory",
+		"toChunk": 9
+	},
+	{
+		"runtimeID": "00A1FAF8DEA16522",
+		"comment": "Gun table from Romania for Armory",
+		"toChunk": 9
+	},
 		{
 			"runtimeID": "009A56DDDFB5D0B9",
 			"comment": "Chong Rain Metal Sound",
