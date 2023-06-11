@@ -28,21 +28,13 @@
 		"comment": "Server for storage",
 		"toChunk": 9
 	},
-	{
-		"runtimeID": "0092A72248DD8A12",
-		"comment": "Plastic for storage",
-		"toChunk": 9
-	},
+
 	{
 		"runtimeID": "012D88D993FBCC0",
 		"comment": "Plastic for storage",
 		"toChunk": 9
 	},
-	{
-		"runtimeID": "009A681F9F583FE2",
-		"comment": "Ammo for storage",
-		"toChunk": 9
-	},
+
 	{
 		"runtimeID": "002D42DD922C13CB",
 		"comment": "silencer gun props for Armory",
