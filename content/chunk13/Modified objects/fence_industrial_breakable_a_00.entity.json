@@ -1,0 +1,276 @@
+{
+	"tempHash": "008BF60A64594501",
+	"tbluHash": "009B72190FC59EAF",
+	"rootEntity": "46282505df564f2d",
+	"entities": {
+		"5afa398cddf92954": {
+			"parent": "b640da6e6648681f",
+			"name": "Fence_Pillar_Industrial_A_01",
+			"template": "[assembly:/_pro/environment/geometry/props/industrial/fence_industrial_b.wl2?/fence_pillar_industrial_b_breakable.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bAffectedByExplosionEffectRadius": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bRespondToShots": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bRespondToExplosions": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "b640da6e6648681f"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"738d00cc542edb28": {
+			"parent": "b640da6e6648681f",
+			"name": "Fence_Pillar_Industrial_A_00_01",
+			"template": "[assembly:/_pro/environment/geometry/props/industrial/fence_industrial_b.wl2?/fence_pillar_industrial_b_breakable.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 0.0,
+							"y": -1.9415860176086426,
+							"z": 0.0
+						}
+					}
+				},
+				"m_bAffectedByExplosionEffectRadius": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bRespondToShots": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bRespondToExplosions": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "b640da6e6648681f"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"490beb66aa4a66ec": {
+			"parent": "b640da6e6648681f",
+			"name": "Fence_Pillar_Industrial_A_00",
+			"template": "[assembly:/_pro/environment/geometry/props/industrial/fence_industrial_b.wl2?/fence_pillar_industrial_b_breakable.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 0.0,
+							"y": 1.936508059501648,
+							"z": 0.0
+						}
+					}
+				},
+				"m_bAffectedByExplosionEffectRadius": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bRespondToShots": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bRespondToExplosions": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "b640da6e6648681f"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"24fe7dbd435b4692": {
+			"parent": "46282505df564f2d",
+			"name": "PFObstacle",
+			"template": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": -0.000007999999979801942,
+							"y": -0.03543400019407272,
+							"z": 0.25817298889160159
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 4.181489944458008,
+						"z": 1.516350030899048
+					}
+				},
+				"m_fPenaltyMultiplier": {
+					"type": "float32",
+					"value": -1
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "46282505df564f2d"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"b640da6e6648681f": {
+			"parent": "46282505df564f2d",
+			"name": "Fence_Industrial_A_00",
+			"template": "[assembly:/_pro/environment/geometry/props/industrial/fence_industrial_b.wl2?/fence_industrial_b_breakable.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bAffectedByExplosionEffectRadius": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bRespondToExplosions": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bRespondToShots": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fLODScale": {
+					"type": "float32",
+					"value": 1
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "46282505df564f2d"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "OnFracture",
+				"shouldTrigger": "In",
+				"onEntity": "9f81a68ce9737e2c"
+			}],
+			"outputCopying": [{
+				"onEvent": "OnFracture",
+				"propagateEvent": "OnFracture",
+				"onEntity": "46282505df564f2d"
+			}]
+		},
+		"46282505df564f2d": {
+			"parent": null,
+			"name": "Fence_Industrial_Breakable_A_00",
+			"template": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": -0.8934469819068909,
+							"y": 0.0,
+							"z": 0.0
+						}
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"propertyAliases": [{
+				"exposeProperty": "m_fLODScale",
+				"onEntity": "b640da6e6648681f",
+				"asProperty": "m_fLODScale"
+			}]
+		},
+		"9f81a68ce9737e2c": {
+			"parent": "46282505df564f2d",
+			"name": "PinSignalSync",
+			"template": "[modules:/zpinsignalsync.class].pc_entitytype",
+			"blueprint": "[modules:/zpinsignalsync.class].pc_entityblueprint",
+			"properties": {
+				"m_bSendFromHost": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bSignalOnClient": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bPassthroughOnHost": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "Out",
+				"shouldTrigger": "Disable",
+				"onEntity": "24fe7dbd435b4692"
+			}]
+		}
+	},
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"propertyOverrides": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}
