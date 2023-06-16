@@ -9,6 +9,11 @@
 	],
 	"dependencies": ["002213FD7FFF2F57",
 	{
+		"runtimeID": "008027305D878A5E",
+		"comment": "Miami buildings lights",
+		"toChunk": 9
+	},
+	{
 		"runtimeID": "00E410380F2F36AA",
 		"comment": "Folded table for storage",
 		"toChunk": 9
