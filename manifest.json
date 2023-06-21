@@ -7,8 +7,8 @@
 		"Kevin Rudd",
 		"Kercyx"
 	],
-	"dependencies": ["002213FD7FFF2F57",
-	{
+	"dependencies": [
+		"002213FD7FFF2F57",{
 		"runtimeID": "00CB93E8EC14AD89",
 		"comment": "Barber chairs for command room",
 		"toChunk": 9
@@ -534,7 +534,9 @@
 			"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescue",
 			"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escort hostages to an exit",
 			"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
-			"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "Warehouse Office"
+			"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "Warehouse Office",
+			"UI_CREWMEMBER": "as a crew member",
+			"UI_HEAVENLYGUARD": "as Heavenly Guard"
 		},
 		"french": {
 			"ui_salty_entrance_name": "Ze Front Gate",
@@ -542,56 +544,76 @@
 			"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescue",
 			"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escort hostages to an exit",
 			"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
-			"ui_salty_officepickup_name": "Warehouse Office"
+			"ui_salty_officepickup_name": "Warehouse Office",
+			"UI_CREWMEMBER": "as a crew member",
+			"UI_HEAVENLYGUARD": "as Heavenly Guard"
 		},
 		"italian": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
 		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescue",
 		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escort hostages to an exit",
 		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
-		"ui_salty_officepickup_name": "Warehouse Office"
+		"ui_salty_officepickup_name": "Warehouse Office",
+		"UI_CREWMEMBER": "as a crew member",
+		"UI_HEAVENLYGUARD": "as Heavenly Guard"
 	},
 		"german": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
 		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescue",
 		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escort hostages to an exit",
 		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
-		"ui_salty_officepickup_name": "Warehouse Office"
+		"ui_salty_officepickup_name": "Warehouse Office",
+		"UI_CREWMEMBER": "as a crew member",
+		"UI_HEAVENLYGUARD": "as Heavenly Guard"
 	},
 		"spanish": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
 		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescue",
 		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escort hostages to an exit",
 		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
-		"ui_salty_officepickup_name": "Warehouse Office"
+		"ui_salty_officepickup_name": "Warehouse Office",
+		"UI_CREWMEMBER": "as a crew member",
+		"UI_HEAVENLYGUARD": "as Heavenly Guard"
 	},
 		"russian": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
 		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescue",
 		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escort hostages to an exit",
 		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
-		"ui_salty_officepickup_name": "Warehouse Office"
+		"ui_salty_officepickup_name": "Warehouse Office",
+		"UI_CREWMEMBER": "as a crew member",
+		"UI_HEAVENLYGUARD": "as Heavenly Guard"
 	},
 		"chineseSimplified": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
 		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescue",
 		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escort hostages to an exit",
 		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
-		"ui_salty_officepickup_name": "Warehouse Office"
+		"ui_salty_officepickup_name": "Warehouse Office",
+		"UI_CREWMEMBER": "as a crew member",
+		"UI_HEAVENLYGUARD": "as Heavenly Guard"
 	},
 		"chineseTraditional": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
 		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescue",
 		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escort hostages to an exit",
 		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
-		"ui_salty_officepickup_name": "Warehouse Office"
+		"ui_salty_officepickup_name": "Warehouse Office",
+		"UI_CREWMEMBER": "as a crew member",
+		"UI_HEAVENLYGUARD": "as Heavenly Guard"
 	},
 		"japanese": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
 		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescue",
 		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escort hostages to an exit",
 		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
-		"ui_salty_officepickup_name": "Warehouse Office"}
+		"ui_salty_officepickup_name": "Warehouse Office",
+		"UI_CREWMEMBER": "as a crew member",
+		"UI_HEAVENLYGUARD": "as Heavenly Guard"}
+	},
+	"localisedLines": {
+		"00C021BBA3818C7A": "UI_CREWMEMBER",
+		"00C021BBA3818C7C": "UI_HEAVENLYGUARD"
 	},
 	"frameworkVersion": "2.0.0",
 	"contentFolders": [
