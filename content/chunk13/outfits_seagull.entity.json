@@ -60,13 +60,13 @@
 		},
 		"245909101f272f2b": {
 			"parent": "d140e08ae9e1654a",
-			"name": "ItemKey__SMG_ _NPC_ HX_01",
+			"name": "ItemKey__SMG_ _NPC_ TAC SMG NEEDLE",
 			"template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
-					"value": "e206ed81-0559-4289-9fec-e6a3e9d4ee7c"
+					"value": "ebc561b5-b368-4583-b5fe-bc961b4ad4e3"
 				}
 			},
 			"postInitProperties": {},
@@ -334,13 +334,13 @@
 		},
 		"3cf9b391f4189ee5": {
 			"parent": "d140e08ae9e1654a",
-			"name": "ItemKey__Shotgun_ _NPC_ Tactical Bartoli 12G 1",
+			"name": "ItemKey__Shotgun_ _NPC_ Bartoli 12G H",
 			"template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
-					"value": "901a3b51-51a0-4236-bdf2-23d20696b358"
+					"value": "eca66732-a356-4c13-8e33-d0f7e87b5860"
 				}
 			},
 			"postInitProperties": {},
@@ -359,13 +359,13 @@
 		},
 		"f5ff2668e9f9e759": {
 			"parent": "d140e08ae9e1654a",
-			"name": "ItemKey__Pistol__NPC_ Bartoli 75R 1",
+			"name": "ItemKey__Pistol__NPC_ Hackl9S",
 			"template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
-					"value": "55ed7196-2303-4af6-9fa3-45b691134561"
+					"value": "1e11fbea-cd51-48bf-8316-a050772d613"
 				}
 			},
 			"postInitProperties": {},
@@ -1845,13 +1845,6 @@
 					"type": "EOutfitAICategory",
 					"value": "OAC_Security"
 				},
-				"m_rNameTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_greenland.sweetmenutext?/outfits_greenland_guard_genericsecurity_m_hpa752_name_8f928c7a-99dd-43db-a027-1310cf49f3ad.sweetline].pc_sweetline",
-						"flag": "5F"
-					}
-				},
 				"m_rDescriptionTextResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
@@ -1882,7 +1875,7 @@
 				},
 				"m_aWeaponsAllowedExceptionKeywords": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcd73bf0e1698e0"]
+					"value": ["abcd73bf0e1698e0", "abcdcd5c0136f6f6", "abcde899f38afae5"]
 				}
 			},
 			"editorOnly": false,
@@ -2005,9 +1998,9 @@
 		},
 		"abcd73bf0e1698e0": {
 			"parent": "abcde010518bd9a7",
-			"name": "Keyword_ITEM_SNIPER_RIFLE",
-			"template": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entityblueprint",
+			"name": "keyword_weapon_rifle",
+			"template": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_rifle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_rifle.entitytemplate].pc_entityblueprint",
 			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
@@ -2616,6 +2609,41 @@
 					"value": ["b8058cbfb604be"]
 				}
 			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd7fd0a51c4a5c": {
+			"parent": "abcde010518bd9a7",
+			"name": "Keyword_ActorIdentifier_Guard",
+			"template": "[assembly:/_pro/design/actor/actoridentifierkeywords.template?/keyword_actoridentifier_guard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/actoridentifierkeywords.template?/keyword_actoridentifier_guard.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcde010518bd9a7"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcde899f38afae5": {
+			"parent": "abcde010518bd9a7",
+			"name": "Keyword_ITEM_SNIPER_RIFLE",
+			"template": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdcd5c0136f6f6": {
+			"parent": "abcde010518bd9a7",
+			"name": "keyword_weapon_smg",
+			"template": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_smg.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_smg.entitytemplate].pc_entityblueprint",
+			"properties": {},
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
