@@ -536,7 +536,9 @@
 			"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
 			"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "Warehouse Office",
 			"UI_CREWMEMBER": "as a crew member",
-			"UI_HEAVENLYGUARD": "as Heavenly Guard"
+			"UI_HEAVENLYGUARD": "as Heavenly Guard",
+			"UI_KEYPADCLUE_NAME": "Soldier's Laptop",
+			"UI_KEYPADCLUE_DESC": "'An internal memo visible only to Heavenly Guard personnel. Armory key code updated to 1912. Remember this number (your Eternal Leader's year of birth) and discard this message immediately!\r\rDeath to the west, glory to our leader'\r\r[Translated by Joogle]"
 		},
 		"french": {
 			"ui_salty_entrance_name": "Ze Front Gate",
@@ -546,7 +548,9 @@
 			"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
 			"ui_salty_officepickup_name": "Warehouse Office",
 			"UI_CREWMEMBER": "as a crew member",
-			"UI_HEAVENLYGUARD": "as Heavenly Guard"
+			"UI_HEAVENLYGUARD": "as Heavenly Guard",
+			"UI_KEYPADCLUE_NAME": "Soldier's Laptop",
+			"UI_KEYPADCLUE_DESC": "'An internal memo visible only to Heavenly Guard personnel. Armory key code updated to 1912. Remember this number (your Eternal Leader's year of birth) and discard this message immediately!\r\rDeath to the west, glory to our leader'\r\r[Translated by Joogle]"
 		},
 		"italian": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
@@ -555,7 +559,9 @@
 		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
 		"ui_salty_officepickup_name": "Warehouse Office",
 		"UI_CREWMEMBER": "as a crew member",
-		"UI_HEAVENLYGUARD": "as Heavenly Guard"
+		"UI_HEAVENLYGUARD": "as Heavenly Guard",
+		"UI_KEYPADCLUE_NAME": "Soldier's Laptop",
+		"UI_KEYPADCLUE_DESC": "'Un promemoria interno visibile solo al personale della Guardia Celeste. Codice chiave armeria aggiornato al 1912. Ricorda questo numero (l'anno di nascita del tuo Leader Eterno) e scarta immediatamente questo messaggio!\r\rMorte all'occidente, gloria al nostro capo'\r\r[Tradotto da Joogle]"
 	},
 		"german": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
@@ -564,7 +570,9 @@
 		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
 		"ui_salty_officepickup_name": "Warehouse Office",
 		"UI_CREWMEMBER": "as a crew member",
-		"UI_HEAVENLYGUARD": "as Heavenly Guard"
+		"UI_HEAVENLYGUARD": "as Heavenly Guard",
+		"UI_KEYPADCLUE_NAME": "Soldier's Laptop",
+		"UI_KEYPADCLUE_DESC": "'Ein internes Memo, das nur für das Personal der Himmlischen Wache sichtbar ist. Schlüsselcode der Waffenkammer auf 1912 aktualisiert. Merken Sie sich diese Nummer (das Geburtsjahr Ihres Ewigen Anführers) und verwerfen Sie diese Nachricht sofort!\r\rTod im Westen, Ruhm unserem Anführer'\r\r[Übersetzt von Joogle]"
 	},
 		"spanish": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
@@ -573,7 +581,9 @@
 		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
 		"ui_salty_officepickup_name": "Warehouse Office",
 		"UI_CREWMEMBER": "as a crew member",
-		"UI_HEAVENLYGUARD": "as Heavenly Guard"
+		"UI_HEAVENLYGUARD": "as Heavenly Guard",
+		"UI_KEYPADCLUE_NAME": "Soldier's Laptop",
+		"UI_KEYPADCLUE_DESC": "'Una nota interna visible solo para el personal de la Guardia Celestial. Código de llave de la armería actualizado a 1912. ¡Recuerde este número (el año de nacimiento de su Líder Eterno) y descarte este mensaje inmediatamente!\r\rMuerte al oeste, gloria a nuestro líder'\r\r[Traducido por Joogle]"
 	},
 		"russian": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
@@ -582,7 +592,9 @@
 		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
 		"ui_salty_officepickup_name": "Warehouse Office",
 		"UI_CREWMEMBER": "as a crew member",
-		"UI_HEAVENLYGUARD": "as Heavenly Guard"
+		"UI_HEAVENLYGUARD": "as Heavenly Guard",
+		"UI_KEYPADCLUE_NAME": "Soldier's Laptop",
+		"UI_KEYPADCLUE_DESC": "'Внутренний меморандум, видимый только сотрудникам Небесной Стражи. Код ключа Оружейной палаты обновлен до 1912 года. Запомните это число (год рождения вашего Вечного Лидера) и немедленно выбросьте это сообщение!\r\rСмерть западу, слава нашему лидеру'\r\r[Переведено Джуглом]"
 	},
 		"chineseSimplified": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
@@ -591,7 +603,9 @@
 		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
 		"ui_salty_officepickup_name": "Warehouse Office",
 		"UI_CREWMEMBER": "as a crew member",
-		"UI_HEAVENLYGUARD": "as Heavenly Guard"
+		"UI_HEAVENLYGUARD": "as Heavenly Guard",
+		"UI_KEYPADCLUE_NAME": "Soldier's Laptop",
+		"UI_KEYPADCLUE_DESC": "'只有天卫人员可见的内部备忘录。军械库密钥代码更新为 1912。记住这个数字（你永恒领袖的出生年份）并立即丢弃此消息！\r\r死亡归于西方，荣耀归于我们的领袖'\r\r[中文谷歌翻译]"
 	},
 		"chineseTraditional": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
@@ -600,7 +614,9 @@
 		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
 		"ui_salty_officepickup_name": "Warehouse Office",
 		"UI_CREWMEMBER": "as a crew member",
-		"UI_HEAVENLYGUARD": "as Heavenly Guard"
+		"UI_HEAVENLYGUARD": "as Heavenly Guard",
+		"UI_KEYPADCLUE_NAME": "Soldier's Laptop",
+		"UI_KEYPADCLUE_DESC": "'只有天衛人員可見的內部備忘錄。軍械庫密鑰代碼更新為 1912。記住這個數字（你永恆領袖的出生年份）並立即丟棄此消息！\r\r死亡歸西方，榮耀歸我們的領袖'\r\r[中文谷歌翻譯]"
 	},
 		"japanese": {"ui_salty_entrance_name": "Front Gate",
 		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
@@ -609,11 +625,15 @@
 		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
 		"ui_salty_officepickup_name": "Warehouse Office",
 		"UI_CREWMEMBER": "as a crew member",
-		"UI_HEAVENLYGUARD": "as Heavenly Guard"}
+		"UI_HEAVENLYGUARD": "as Heavenly Guard",
+		"UI_KEYPADCLUE_NAME": "Soldier's Laptop",
+		"UI_KEYPADCLUE_DESC": "'ヘブンリーガードの人員だけが見られる内部メモ。武器庫のキーコードが1912に更新されました。この番号（永遠の指導者の誕生年）を覚えて、すぐにこのメッセージを破棄してください！\r\r西に死を、私たちの指導者に栄光を'\r\r[翻訳：Joogle]"}
 	},
 	"localisedLines": {
 		"00C021BBA3818C7A": "UI_CREWMEMBER",
-		"00C021BBA3818C7C": "UI_HEAVENLYGUARD"
+		"00C021BBA3818C7C": "UI_HEAVENLYGUARD",
+		"01C021BBA3818C7A": "UI_KEYPADCLUE_NAME",
+		"01C021BBA3818C7B": "UI_KEYPADCLUE_DESC"
 	},
 	"frameworkVersion": "2.0.0",
 	"contentFolders": [
