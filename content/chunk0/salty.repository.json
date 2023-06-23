@@ -3,10 +3,23 @@
         "Description": "ui_salty_entrance_desc",
         "Image": "images/salty_entrance1.jpg",
         "Name_LOC": "083a6cdd-668b-479a-9257-c3b10e0758d5__name",
-        "Name": "Hantu Port Front Gate"
+        "Name": "Hantu Port Main Entrance"
+    },  "e690549c-d035-46fe-b175-2b73e1c048d1": {
+        "ID_": "e690549c-d035-46fe-b175-2b73e1c048d1",
+        "Description": "ui_salty_pier_desc",
+        "Image": "images/salty_pier.jpg",
+        "Name_LOC": "MAP_AREADISCOVERED_MAGPIE_PIER",
+        "Name": "Hantu Port Pier Entrance"
+    },  "e690549c-d035-46fe-b175-2b73e1c048d2": {
+        "ID_": "e690549c-d035-46fe-b175-2b73e1c048d2",
+        "Description": "ui_salty_cargo_desc",
+        "Image": "images/salty_cargo.jpg",
+        "Name_LOC": "ui_salty_cargo_name",
+        "Name": "Hantu Port Cargo Entrance"
     },
     "384c9fcb-6f7f-41b9-9029-cc6b3f583355": {
-        "Description": "UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME",
+        "ID_": "384c9fcb-6f7f-41b9-9029-cc6b3f583355",
+        "Description": "UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC",
         "Image": "images/salty_officepickup.jpg",
         "Name_LOC": "UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME",
         "Name": "Unknown"

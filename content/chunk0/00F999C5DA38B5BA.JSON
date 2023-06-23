@@ -5,6 +5,16 @@
         {
             "id": "e690549c-d035-46fe-b175-2b73e1c048d3",
             "isDefaultSpawn": true,
+            "isPreferredSpawn": true,
+            "WorldTransform": "-0.719752, 0.694231, 0, -0.694231, -0.719752, 0, 0, 0, 1, 145.9, 35.238, -13"
+        },{
+            "id": "e690549c-d035-46fe-b175-2b73e1c048d2",
+            "isDefaultSpawn": true,
+            "isPreferredSpawn": false,
+            "WorldTransform": "-0.719752, 0.694231, 0, -0.694231, -0.719752, 0, 0, 0, 1, 145.9, 35.238, -13"
+        },{
+            "id": "e690549c-d035-46fe-b175-2b73e1c048d1",
+            "isDefaultSpawn": true,
             "isPreferredSpawn": false,
             "WorldTransform": "-0.719752, 0.694231, 0, -0.694231, -0.719752, 0, 0, 0, 1, 145.9, 35.238, -13"
         }

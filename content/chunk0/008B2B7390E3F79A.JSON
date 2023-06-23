@@ -9,7 +9,8 @@
               "Completed"
             ]
           },
-        "Objectives": [{
+        "Objectives": [
+            {
                 "Comment": "--- Primary Target 1 ---",
                 "Id": "80621eca-eddf-4167-a9fe-912e8f476b73",
                 "Primary": true,
@@ -137,7 +138,7 @@
                 }
             }
         ],
-        "Bricks": ["assembly:/_pro/scenes/missions/Salty/mission_seagull/mission_seagull.brick","assembly:/_pro/scenes/missions/salty/mission_seagull/rain.brick","assembly:/_pro/scenes/missions/salty/mission_seagull/night.brick"],
+        "Bricks": ["assembly:/_pro/scenes/missions/Salty/mission_seagull/mission_seagull.brick"],
         "DevOnlyBricks": ["assembly:/_pro/scenes/missions/Salty/mission_seagull/dev_seagull.brick"],
         "GameDifficulties": [{
             "Difficulty": "easy",
