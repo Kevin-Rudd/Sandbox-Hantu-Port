@@ -8,7 +8,7 @@
 		"Kercyx"
 	],
 	"dependencies": [
-		"002213FD7FFF2F57",{
+		"00DB172CC3764A58","002213FD7FFF2F57",{
 		"runtimeID": "00CB93E8EC14AD89",
 		"comment": "Barber chairs for command room",
 		"toChunk": 9
