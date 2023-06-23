@@ -60,13 +60,13 @@
 		},
 		"245909101f272f2b": {
 			"parent": "d140e08ae9e1654a",
-			"name": "ItemKey__SMG_ _NPC_ TAC SMG NEEDLE",
+			"name": "ItemKey__SMG_ _NPC_ HX-7",
 			"template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
-					"value": "ebc561b5-b368-4583-b5fe-bc961b4ad4e3"
+					"value": "3fd9825d-8aa5-48e0-97a9-ec8f541f871a"
 				}
 			},
 			"postInitProperties": {},
@@ -365,7 +365,7 @@
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
-					"value": "1e11fbea-cd51-48bf-8316-a050772d613"
+					"value": "1e11fbea-cd51-48bf-8316-a050772d6135"
 				}
 			},
 			"postInitProperties": {},
@@ -675,13 +675,13 @@
 		},
 		"652a6fb41c1e78f9": {
 			"parent": "d140e08ae9e1654a",
-			"name": "ItemKey__AR_ _NPC_ Fusil G1_4_C",
+			"name": "ItemKey__AR_ 3 Fusil X2000",
 			"template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
-					"value": "6b93848c-8f1d-42eb-816f-bab61b56d8a5"
+					"value": "bd461ad3-8498-4d59-87d7-208744ac5066"
 				}
 			},
 			"postInitProperties": {},
@@ -1607,7 +1607,7 @@
 		},
 		"abcdb85fb2e4d2ef": {
 			"parent": "d140e08ae9e1654a",
-			"name": "ItemKey__Grenade",
+			"name": "ItemKey__Grenade Molotov",
 			"template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
 			"properties": {
@@ -2038,13 +2038,13 @@
 		},
 		"abcdc848d42f87c8": {
 			"parent": "abcde010518bd9a7",
-			"name": "ItemKey_Pistol02 NPC",
+			"name": "ItemKey_Pistol02 Bartoli 75R (Black)",
 			"template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
-					"value": "2953e9ac-e25b-41ae-afbf-4a47f86c4f54"
+					"value": "55ed7196-2303-4af6-9fa3-45b691134561"
 				}
 			},
 			"postInitProperties": {},
