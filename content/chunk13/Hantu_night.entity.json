@@ -70,7 +70,7 @@
 				},
 				"m_fSunIntensityScale": {
 					"type": "float32",
-					"value": 300
+					"value": 50
 				},
 				"m_fRayleighHeightScale": {
 					"type": "float32",
@@ -82,7 +82,7 @@
 				},
 				"m_fMieHeightScale": {
 					"type": "float32",
-					"value": 1200
+					"value": 200
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -130,7 +130,11 @@
 				},
 				"m_fWaterPlaneHeight": {
 					"type": "float32",
-					"value": -8
+					"value": -20
+				},
+				"m_fHeightAboveSeaLevel": {
+					"type": "float32",
+					"value": 1
 				}
 			},
 			"postInitProperties": {},
@@ -919,6 +923,44 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
+		},
+		"abcd1a7449d2e9f9": {
+			"parent": "fffffffffffffffe",
+			"name": "Trigger stuff upon game start",
+			"template": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eEvent": {
+					"type": "EGameEventType",
+					"value": "GET_GameplayStart"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"events": [{
+				"onEvent": "EventOccurred",
+				"shouldTrigger": "GetIndex",
+				"onEntity": "abcd5f1d53b88630"
+			}],
+			"platformSpecificPropertyValues": []
+		},
+		"abcd5f1d53b88630": {
+			"parent": "abcd1a7449d2e9f9",
+			"name": "zmultiparentspatialentity",
+			"template": "[modules:/zmultiparentspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zmultiparentspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aParents": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcdff43a666847a"]
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [],
+			"inputCopying": [],
+			"outputCopying": []
 		}
 	},
 	"propertyOverrides": [{
