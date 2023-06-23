@@ -1481,7 +1481,7 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": ["eAVV_CIVMALECH01", "eAVV_CIVMALECH02"]
+					"value": ["eAVV_CIVMALECH01", "eAVV_CIVMALECH02", "eAVV_CIVMALEHI01", "eAVV_CIVMALEHI03"]
 				},
 				"m_eOutfitAICategory": {
 					"type": "EOutfitAICategory",
@@ -1839,7 +1839,7 @@
 				},
 				"m_sTitle": {
 					"type": "ZString",
-					"value": "Dock Security"
+					"value": "Port Security"
 				},
 				"m_eOutfitAICategory": {
 					"type": "EOutfitAICategory",
@@ -2113,7 +2113,7 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": ["eAVV_CIVMALECH01", "eAVV_CIVMALECH02", "eAVV_CIVMALEHI01"]
+					"value": ["eAVV_CIVMALECH01", "eAVV_CIVMALECH02"]
 				},
 				"m_pParentOutfit": {
 					"type": "SEntityTemplateReference",
