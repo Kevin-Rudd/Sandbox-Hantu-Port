@@ -162,7 +162,7 @@
 			"comment": "pipe to climb for warehouse",
 			"toChunk": 9
 		},
-		"009D17D65711801C",{
+		{
 			"runtimeID": "00DD7A6662C47253",
 			"comment": "metal doors for cargo",
 			"toChunk": 9
@@ -678,7 +678,13 @@
             "thumbs": [
                 "ConsoleCmd OnlineResources_Disable 1"
             ]
-        }
+        },{
+			"name": "AOM Content",
+			"type": "conditional",
+			"condition": "\"KevinRudd.AccentOverhaul\" not in config.loadOrder",
+			"contentFolders": ["AOM"],
+			"dependencies": ["009D17D65711801C"]
+		}
 ],
 "packagedefinition": [
 	{
