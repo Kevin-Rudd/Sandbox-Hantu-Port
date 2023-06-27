@@ -1,0 +1,29 @@
+{
+    "hash_value": "00069A00D9CFD92E",
+    "hash_offset": 29284784,
+    "hash_size": 2147498740,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 40,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 40720,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/panels/container_ship_floor_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/weld_decals_a_normal_only.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_worn_white.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/mechanical/diamond_pattern_a.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}

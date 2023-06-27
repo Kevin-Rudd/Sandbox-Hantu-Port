@@ -1,0 +1,21 @@
+{
+    "hash_value": "00ED430325BD975C",
+    "hash_offset": 135320622,
+    "hash_size": 2147486689,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 22,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 7120,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/mechanical/diamond_pattern_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}
