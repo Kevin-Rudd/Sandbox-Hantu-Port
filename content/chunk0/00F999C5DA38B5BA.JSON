@@ -35,6 +35,6 @@
         "WorldTransform": "-1, 0, 0, 0, -1, 0, 0, 0, 1, 69.75161, 27.541344, -7.811443",
         "AllowOutfits": true,
         "AllowLargerItems": true,
-        "UnlockedByDefault": true
+        "UnlockedByDefault": false
     }]
 }

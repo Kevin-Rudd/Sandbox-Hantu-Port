@@ -4,6 +4,11 @@
             "Order": 160,
             "HideProgression": false
         }
+    }, 
+    "LOCATION_SALTY_SEAGULL": {
+        "Properties": {
+            "HideProgression": false
+        }
     },
     "STARTING_LOCATION_SALTY_SEAGULL_FRONT": {
         "Id": "STARTING_LOCATION_SALTY_SEAGULL_FRONT",
@@ -40,7 +45,8 @@
         "Properties": {
             "Location": "LOCATION_PARENT_SALTY",
             "RepositoryId": "60462da-cacc-4fc4-b25b-6d103c512241",
-            "Equip": []
+            "Equip": [],
+            "UnlockOrder": 1
         },
         "Rarity": null
     }, "STARTING_LOCATION_SALTY_SEAGULL_CARGO": {
@@ -59,7 +65,8 @@
         "Properties": {
             "Location": "LOCATION_PARENT_SALTY",
             "RepositoryId": "60462da-cacc-4fc4-b25b-6d103c512242",
-            "Equip": []
+            "Equip": [],
+            "UnlockOrder": 2
         },
         "Rarity": null
     }, 
