@@ -81,5 +81,24 @@
             "UnlockOrder": 1
         },
         "Rarity": null
+    }, 
+    "AGENCYPICKUP_SALTY_LARGE_HELIPAD": {
+        "Id": "AGENCYPICKUP_SALTY_SMALL_OFFICE",
+        "Guid": "d373d22b-8469-43e6-8b5a-2bb20de2c930",
+        "Type": "agencypickup",
+        "Subtype": "large",
+        "ImageId": null,
+        "RMTPrice": -1,
+        "GamePrice": -1,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "IsDroppable": false,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "RepositoryId": "384c9fcb-6f7f-41b9-9029-cc6b3f583353",
+            "UnlockOrder": 2
+        },
+        "Rarity": null
     }
 }

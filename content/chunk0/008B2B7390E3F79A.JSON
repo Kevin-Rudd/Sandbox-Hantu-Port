@@ -168,7 +168,7 @@
         "Release": "2.20.x",
         "CreatorUserId": "ae4a3efe-63c9-43e9-8f57-67678b9f95e2",
         "IsPublished": true,
-        "TileImage": "images/contracts/seagull/tile_hostages.jpg",
+        "TileImage": "images/sandbox_tile.jpg",
         "BriefingVideo": "briefing_seagull",
         "BackgroundImage": "images/contracts/seagull/tile_background.jpg",
         "Entitlements": ["H2_LEGACY_EXPANSION"]

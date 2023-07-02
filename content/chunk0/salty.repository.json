@@ -23,5 +23,12 @@
         "Image": "images/salty_officepickup.jpg",
         "Name_LOC": "UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME",
         "Name": "Unknown"
+    },
+    "384c9fcb-6f7f-41b9-9029-cc6b3f583353": {
+        "ID_": "384c9fcb-6f7f-41b9-9029-cc6b3f583353",
+        "Description": "UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC",
+        "Image": "images/salty_helipadpickup.jpg",
+        "Name_LOC": "map_areadiscovered_hippo_helipad",
+        "Name": "Unknown"
     }
 }
