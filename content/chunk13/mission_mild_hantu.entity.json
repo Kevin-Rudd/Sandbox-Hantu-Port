@@ -1,0 +1,731 @@
+{
+	"tempHash": "006DF5F5A3B2D643",
+	"tbluHash": "00EAC14286DCD720",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"7958a188d34ae0d6": {
+			"parent": "433a009fba09b3af",
+			"name": "EventToken_Evergreen_Persistent_Suppliers",
+			"template": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_suppliers.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_suppliers.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"a359febb819e3567": {
+			"parent": "433a009fba09b3af",
+			"name": "Supplier value changed",
+			"template": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fa370b764646bed1",
+						"externalScene": null,
+						"exposedEntity": "Vendors"
+					}
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "OnValue",
+				"shouldTrigger": "TransmitEvent",
+				"onEntity": "366ef280d347d1f6"
+			}]
+		},
+		"e6ad7a2e40893c19": {
+			"parent": "433a009fba09b3af",
+			"name": "EventToken_Evergreen_Persistent_Stashes",
+			"template": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_stashes.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_stashes.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"726ad6907f8e0430": {
+			"parent": "d9aaf61db7e1abe0",
+			"name": "EventToken_Sound_Evergreen_Evergreen_Active",
+			"template": "[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_evergreen_active.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_evergreen_active.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"168a706a62140975": {
+			"parent": "433a009fba09b3af",
+			"name": "Money Mules value changed",
+			"template": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fa370b764646bed1",
+						"externalScene": null,
+						"exposedEntity": "MoneyMules"
+					}
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "OnValue",
+				"shouldTrigger": "TransmitEvent",
+				"onEntity": "f8960b6e75885433"
+			}]
+		},
+		"366ef280d347d1f6": {
+			"parent": "433a009fba09b3af",
+			"name": "EventChannelTransmitter_int32_04",
+			"template": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "7958a188d34ae0d6"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"7909d82eee2353b1": {
+			"parent": "433a009fba09b3af",
+			"name": "Stashes value changed",
+			"template": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fa370b764646bed1",
+						"externalScene": null,
+						"exposedEntity": "Stashes"
+					}
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "OnValue",
+				"shouldTrigger": "TransmitEvent",
+				"onEntity": "5151fe2c9301b627"
+			}]
+		},
+		"9fdebcf91f94dcf1": {
+			"parent": "433a009fba09b3af",
+			"name": "EventToken_Evergreen_Persistent_Mules",
+			"template": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_mules.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_mules.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"entitySubsets": [
+				["Activatable_NormalGameplay, IEntity", {
+					"entities": []
+				}],
+				["AudioEmitters", {
+					"entities": []
+				}],
+				["AudioVolumetricGeom", {
+					"entities": []
+				}],
+				["Gates", {
+					"entities": []
+				}],
+				["Replicable", {
+					"entities": []
+				}],
+				["Rooms", {
+					"entities": []
+				}]
+			]
+		},
+		"d9aaf61db7e1abe0": {
+			"parent": "23cd193c46b02b27",
+			"name": "Sound",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"23cd193c46b02b27": {
+			"parent": "fffffffffffffffe",
+			"name": "Mission Mild Hantu Whist",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"8b3aa1ba18464731": {
+			"parent": "23cd193c46b02b27",
+			"name": "Helper_Evergreen_Spawn_Targets",
+			"template": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/helper_evergreen_spawn_targets.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/helper_evergreen_spawn_targets.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rSeed": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "b73d9349324f8074",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [{
+						"ref": "abcd4f1ea041cf97",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "abcd0b6c939061cc",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "abcd169b0731b956",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "abcdd1f03bdbc084",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "abcdeedad909d839",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "abcd5a8f76071f30",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "abcd494cd89904e2",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "abcdfcda12b8beed",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "abcdba62ed5b4986",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "abcd8a932b93ee8e",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "abcdb86881224ebb",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "abcdbaf412719a3b",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "abcdba09d30a1e38",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "abcd5121b353ed21",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "abcd95c5cb0fdfbe",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "abcde3877813c657",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "abcd66ae0accb0b0",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "abcd751747d8a3ab",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "abcd304719371658",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "875ccab533e8d161",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "eddcf2e3b3cceb24",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "849ea2a96291e58",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "42f446699187f19e",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "e01a38cf06952dcf",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "e7c0b06f0effcd36",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "8425f558e0060ac3",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "6e0157218032fb35",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "146f96e93146921f",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "b2c67cf238242e45",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "72fa56b9de54e2d",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "9d96ce3a13012bf1",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "2072769e1dcf08ba",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "3ede72c1e374886d",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "359c9f93608d9e33",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "c22a1aa8549d2bbb",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "2523d67b214d8ab6",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "1398322b450122f6",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "b1ecac0e1513cd33",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "8988b3c1d0f04729",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "72cef2dee19a0e67",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "3097a1da53386bf3",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "18324171a19bffbd",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "f91aa8723c0e1be6",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "86ae96aefa0edad5",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "85747ebdb12f9990",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "bea75c4c9ea0d527",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "12f3b27633a86f1a",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "37567e9fa60f4f0e",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "eb34da54b0f80d93",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "14e6e640ed0adaf9",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "9bcd6f24224f30a2",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "a89a9b02cf893cf3",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}, {
+						"ref": "736aec4f6443f293",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+					}]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"5151fe2c9301b627": {
+			"parent": "433a009fba09b3af",
+			"name": "EventChannelTransmitter_int32_03",
+			"template": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "e6ad7a2e40893c19"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"d380ff798cad4b3c": {
+			"parent": "d9aaf61db7e1abe0",
+			"name": "GameEventListener",
+			"template": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "EventOccurred",
+				"shouldTrigger": "InsideMildMission",
+				"onEntity": "6af2f24522989aa"
+			}, {
+				"onEvent": "EventOccurred",
+				"shouldTrigger": "TransmitEvent",
+				"onEntity": "5fe3b84ae22bebae"
+			}]
+		},
+		"fa370b764646bed1": {
+			"parent": "23cd193c46b02b27",
+			"name": "Setpiece_Evergreen_SyndicateMissionGenerator_Unique",
+			"template": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_syndicatemissiongenerator_unique.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_syndicatemissiongenerator_unique.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"ClientReq03": {
+					"type": "ZString",
+					"value": "MildWhist_ClientReq03"
+				},
+				"ClientReq02": {
+					"type": "ZString",
+					"value": "MildWhist_ClientReq02"
+				},
+				"MildTargets_ID": {
+					"type": "ZString",
+					"value": "MildWhist_Targets"
+				},
+				"ClientReq01": {
+					"type": "ZString",
+					"value": "MildWhist_ClientReq01"
+				},
+				"Safes_ID": {
+					"type": "ZString",
+					"value": "MildWhist_Safes"
+				},
+				"Vendors_ID": {
+					"type": "ZString",
+					"value": "MildWhist_Vendors"
+				},
+				"MoneyMules_ID": {
+					"type": "ZString",
+					"value": "MildWhist_MoneyMules"
+				},
+				"ClientReqsFailed_ID": {
+					"type": "ZString",
+					"value": "MildWhist_ClientReqsFailed"
+				},
+				"Completed_ID": {
+					"type": "ZString",
+					"value": "MildWhist_MissionCompleted"
+				},
+				"Failed_ID": {
+					"type": "ZString",
+					"value": "MildWhist_MissionFailed"
+				},
+				"Stashes_ID": {
+					"type": "ZString",
+					"value": "MildWhist_Stashes"
+				},
+				"Active_ID": {
+					"type": "ZString",
+					"value": "MildWhist_Active"
+				},
+				"PrimaryObjective": {
+					"type": "ZGuid",
+					"value": "b05e008a-6140-41ec-a933-155207587146"
+				},
+				"MyPayout": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "dace50c4615269ff",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"ClientReq04": {
+					"type": "ZString",
+					"value": "MildWhist_ClientReq04"
+				},
+				"ClientReq05": {
+					"type": "ZString",
+					"value": "MildWhist_ClientReq05"
+				},
+				"ClientReq06": {
+					"type": "ZString",
+					"value": "MildWhist_ClientReq06"
+				},
+				"ClientReq07": {
+					"type": "ZString",
+					"value": "MildWhist_ClientReq07"
+				},
+				"ClientReq08": {
+					"type": "ZString",
+					"value": "MildWhist_ClientReq08"
+				},
+				"Alerted_ID": {
+					"type": "ZString",
+					"value": "MildWhist_Alerted"
+				},
+				"MissionFlowIndex": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "8b7ec53cdb27b412",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"difficultyRank": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "f93db2efce3612cf",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"isHardcore": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "8923ff8900a05b8e",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"MildBasePayout_ID": {
+					"type": "ZString",
+					"value": "MildWhist_BasePayout"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"5fe3b84ae22bebae": {
+			"parent": "d9aaf61db7e1abe0",
+			"name": "EventChannelTransmitter_void",
+			"template": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "726ad6907f8e0430"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"a139c3ad0c94d53f": {
+			"parent": "433a009fba09b3af",
+			"name": "EventChannelTransmitter_int32_02",
+			"template": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "ec36e945f70792f5"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"9fa70258851f15d8": {
+			"parent": "23cd193c46b02b27",
+			"name": "Any exit used",
+			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [{
+						"ref": "3b98fd686f33955e",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/override_hantu.brick].pc_entitytype",
+						"exposedEntity": "exitActivated"
+					}, {
+						"ref": "4bc5435a8cf12c3c",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/override_hantu.brick].pc_entitytype",
+						"exposedEntity": "exitActivated"
+					}, {
+						"ref": "64c007aaf8738129",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/override_hantu.brick].pc_entitytype",
+						"exposedEntity": "exitActivated"
+					}]
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "OnTrue",
+				"shouldTrigger": "ExitTriggered",
+				"onEntity": "fa370b764646bed1"
+			}]
+		},
+		"f8960b6e75885433": {
+			"parent": "433a009fba09b3af",
+			"name": "EventChannelTransmitter_int32",
+			"template": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "9fdebcf91f94dcf1"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"6af2f24522989aa": {
+			"parent": "d9aaf61db7e1abe0",
+			"name": "evergreen_mission_specific_mix",
+			"template": "[assembly:/sound/wwise/exportedwwisedata/states/levelspecific_states/evergreen/evergreen_mission_specific_mix.wwisestategroup].pc_entitytype",
+			"blueprint": "[assembly:/sound/wwise/exportedwwisedata/states/levelspecific_states/evergreen/evergreen_mission_specific_mix.wwisestategroup].pc_entityblueprint",
+			"properties": {
+				"m_sDefaultState": {
+					"type": "ZString",
+					"value": "InsideMildMission"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"d03b432b633a50ae": {
+			"parent": "433a009fba09b3af",
+			"name": "Safes value changed",
+			"template": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fa370b764646bed1",
+						"externalScene": null,
+						"exposedEntity": "Safes"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "OnValue",
+				"shouldTrigger": "TransmitEvent",
+				"onEntity": "a139c3ad0c94d53f"
+			}]
+		},
+		"433a009fba09b3af": {
+			"parent": "23cd193c46b02b27",
+			"name": "Stash mule and safe transfers",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fa370b764646bed1",
+						"externalScene": null,
+						"exposedEntity": "Stashes"
+					}
+				},
+				"m_rValueEntity2": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fa370b764646bed1",
+						"externalScene": null,
+						"exposedEntity": "Safes"
+					}
+				},
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fa370b764646bed1",
+						"externalScene": null,
+						"exposedEntity": "MoneyMules"
+					}
+				},
+				"m_rValueEntity4": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fa370b764646bed1",
+						"externalScene": null,
+						"exposedEntity": "Vendors"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"propertyAliases": [{
+				"exposeProperty": "m_rValueEntity",
+				"onEntity": "168a706a62140975",
+				"asProperty": "m_rValueEntity"
+			}, {
+				"exposeProperty": "m_rValueEntity",
+				"onEntity": "d03b432b633a50ae",
+				"asProperty": "m_rValueEntity2"
+			}, {
+				"exposeProperty": "m_rValueEntity",
+				"onEntity": "7909d82eee2353b1",
+				"asProperty": "m_rValueEntity3"
+			}, {
+				"exposeProperty": "m_rValueEntity",
+				"onEntity": "a359febb819e3567",
+				"asProperty": "m_rValueEntity4"
+			}]
+		},
+		"ec36e945f70792f5": {
+			"parent": "433a009fba09b3af",
+			"name": "EventToken_Evergreen_Persistent_Safes",
+			"template": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_safes.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_safes.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd525e4fb87eff": {
+			"parent": "fffffffffffffffe",
+			"name": "ItemKey_Poisonable_Water Bottle",
+			"template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "e1f1be10-ace7-43d6-a673-2314e3403a2e"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"propertyOverrides": [],
+	"externalScenes": ["[assembly:/_pro/scenes/missions/salty/override_hantu.brick].pc_entitytype", "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype", "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"],
+	"subType": 2,
+	"quickEntityVersion": 2.1
+}
