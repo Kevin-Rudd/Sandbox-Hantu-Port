@@ -430,14 +430,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 2.772765874862671
+							"x": -0,
+							"y": 0,
+							"z": -87.11753973132772
 						},
 						"position": {
-							"x": -6.66653299331665,
-							"y": 70.50254821777344,
-							"z": 38.00040054321289
+							"x": 116.64073,
+							"y": 11.314803,
+							"z": -13
 						}
 					}
 				}
@@ -1233,14 +1233,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 87.55226135253906
+							"x": -0,
+							"y": 0,
+							"z": -1.1623060976657635
 						},
 						"position": {
-							"x": 53.09199905395508,
-							"y": 59.77614974975586,
-							"z": 14.0
+							"x": 38.649834,
+							"y": 26.894745,
+							"z": 10.0917015
 						}
 					}
 				}
@@ -1281,14 +1281,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -24.15258026123047
+							"x": -0,
+							"y": 0,
+							"z": -91.23405376295939
 						},
 						"position": {
-							"x": -15.051360130310059,
-							"y": 58.5555305480957,
-							"z": 38.01729965209961
+							"x": 84.752785,
+							"y": -54.704445,
+							"z": 6.4456844
 						}
 					}
 				}
@@ -1915,7 +1915,7 @@
 				},
 				"forcedVoiceVar": {
 					"type": "int32",
-					"value": 1
+					"value": 5
 				},
 				"muleTalking": {
 					"type": "bool",
@@ -2250,9 +2250,9 @@
 		},
 		"979ad28594db7f1c": {
 			"parent": "5bd716ade00d2659",
-			"name": "Act_FR_Stand_ArmsBack_Cult",
-			"template": "000C3C83C1DF65BF",
-			"blueprint": "007FDB23EFEBC137",
+			"name": "act_mr_guard_stand_armsback_cult",
+			"template": "00F32603F577554F",
+			"blueprint": "009C2B7F72AF6BCB",
 			"properties": {
 				"m_fActTimeout": {
 					"type": "float32",
@@ -2262,14 +2262,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 31.497941970825197
+							"x": -0,
+							"y": 0,
+							"z": 86.90210873471635
 						},
 						"position": {
-							"x": 41.06637954711914,
-							"y": 13.40491008758545,
-							"z": 26.155820846557618
+							"x": 56.706097,
+							"y": 19.938776,
+							"z": -11.919791
 						}
 					}
 				}
@@ -3050,14 +3050,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 91.10157775878906
+							"x": -0,
+							"y": 0,
+							"z": 118.87531706981325
 						},
 						"position": {
-							"x": -6.3037309646606449,
-							"y": 76.197509765625,
-							"z": 38.00040054321289
+							"x": 65.23841,
+							"y": 28.24757,
+							"z": -12.998401
 						}
 					}
 				},
@@ -3076,13 +3076,13 @@
 					"type": "bool",
 					"value": true
 				},
-				"forcedVoiceVar": {
-					"type": "int32",
-					"value": 2
-				},
 				"m_bStartEnabled": {
 					"type": "bool",
 					"value": true
+				},
+				"forcedVoiceVar": {
+					"type": "int32",
+					"value": 5
 				}
 			},
 			"postInitProperties": {
@@ -3189,20 +3189,20 @@
 			"properties": {
 				"m_fActTimeout": {
 					"type": "float32",
-					"value": 10
+					"value": 40
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -157.95584106445313
+							"x": -0,
+							"y": 0,
+							"z": 72.75333771808909
 						},
 						"position": {
-							"x": 4.549022197723389,
-							"y": 78.01583099365235,
-							"z": 55.99991989135742
+							"x": 56.299427,
+							"y": 19.353657,
+							"z": -11.919792
 						}
 					}
 				}
@@ -3231,9 +3231,9 @@
 		},
 		"381e114ec31122cc": {
 			"parent": "fe5a42b0cfa3f1c1",
-			"name": "Act_FR_Stand_Phone_Text_Pacing",
-			"template": "003386392E1086F4",
-			"blueprint": "00A61DCF875B24DF",
+			"name": "act_mr_stand_phone_text_pace",
+			"template": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_text_pace.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_text_pace.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_fActTimeout": {
 					"type": "float32",
@@ -3243,14 +3243,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 89.53211975097656
+							"x": -0,
+							"y": 0,
+							"z": 177.29281855028677
 						},
 						"position": {
-							"x": -32.35231018066406,
-							"y": 58.98830032348633,
-							"z": 38.0
+							"x": 17.766876,
+							"y": -15.380958,
+							"z": -12.999992
 						}
 					}
 				}
@@ -3396,9 +3396,9 @@
 							"z": 104.32044219970703
 						},
 						"position": {
-							"x": -31.886110305786134,
-							"y": 58.77098846435547,
-							"z": 38.0
+							"x": 9.28508,
+							"y": -5.40166,
+							"z": -13
 						}
 					}
 				},
@@ -3409,10 +3409,6 @@
 						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
 					}
 				},
-				"m_nOutfitCharset": {
-					"type": "int32",
-					"value": 1
-				},
 				"m_nOutfitVariation": {
 					"type": "int32",
 					"value": 4
@@ -3421,13 +3417,13 @@
 					"type": "bool",
 					"value": true
 				},
-				"forcedVoiceVar": {
-					"type": "int32",
-					"value": 4
-				},
 				"m_bStartEnabled": {
 					"type": "bool",
 					"value": true
+				},
+				"forcedVoiceVar": {
+					"type": "int32",
+					"value": 5
 				}
 			},
 			"postInitProperties": {
@@ -3675,14 +3671,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -89.38090515136719
+							"x": -0,
+							"y": 0,
+							"z": 30
 						},
 						"position": {
-							"x": 4.066762924194336,
-							"y": 79.25511932373047,
-							"z": 26.016260147094728
+							"x": -25.518368,
+							"y": -57.41113,
+							"z": -2.518076
 						}
 					}
 				}
@@ -3857,9 +3853,9 @@
 							"z": -1.0185433626174927
 						},
 						"position": {
-							"x": 37.35993957519531,
-							"y": 23.65196990966797,
-							"z": 26.000080108642579
+							"x": 56.7061,
+							"y": 19.9388,
+							"z": -11.9198
 						}
 					}
 				},
@@ -3878,13 +3874,13 @@
 					"type": "bool",
 					"value": true
 				},
-				"forcedVoiceVar": {
-					"type": "int32",
-					"value": 3
-				},
 				"m_bStartEnabled": {
 					"type": "bool",
 					"value": true
+				},
+				"forcedVoiceVar": {
+					"type": "int32",
+					"value": 5
 				}
 			},
 			"postInitProperties": {
@@ -3952,6 +3948,10 @@
 				"m_bStartEnabled": {
 					"type": "bool",
 					"value": true
+				},
+				"forcedVoiceVar": {
+					"type": "int32",
+					"value": 5
 				}
 			},
 			"postInitProperties": {
@@ -4286,20 +4286,20 @@
 			"properties": {
 				"m_fActTimeout": {
 					"type": "float32",
-					"value": 10
+					"value": 25
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -84.7040023803711
+							"x": -0,
+							"y": 0,
+							"z": -89.9627779735016
 						},
 						"position": {
-							"x": -14.526220321655274,
-							"y": 63.54927062988281,
-							"z": 55.99991989135742
+							"x": 65.04175,
+							"y": 26.250029,
+							"z": -12.9984
 						}
 					}
 				}
@@ -4408,14 +4408,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 87.88529968261719
+							"x": -0,
+							"y": 0,
+							"z": -88.36330476423552
 						},
 						"position": {
-							"x": -27.964500427246095,
-							"y": 51.26615905761719,
-							"z": 38.0
+							"x": 83.85641,
+							"y": -42.879295,
+							"z": -0.33111125
 						}
 					}
 				}
@@ -4544,14 +4544,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -75.79546356201172
+							"x": -0,
+							"y": 0,
+							"z": -20
 						},
 						"position": {
-							"x": -2.727386951446533,
-							"y": 72.8941879272461,
-							"z": 50.0
+							"x": 81.6,
+							"y": 24.5,
+							"z": -12.9996
 						}
 					}
 				}
@@ -5267,14 +5267,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -152.72705078125
+							"x": -0,
+							"y": 0,
+							"z": 49.95513615544867
 						},
 						"position": {
-							"x": 17.78183937072754,
-							"y": 70.93302917480469,
-							"z": 26.016260147094728
+							"x": -3.6634808,
+							"y": -64.13005,
+							"z": 3.112352
 						}
 					}
 				}
@@ -5319,14 +5319,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 86.67508697509766
+							"x": -0,
+							"y": 0,
+							"z": 119.2704161925418
 						},
 						"position": {
-							"x": 62.644989013671878,
-							"y": 55.76557159423828,
-							"z": 14.0
+							"x": 35.053707,
+							"y": -10.386246,
+							"z": 4.3937035
 						}
 					}
 				},
@@ -5349,13 +5349,13 @@
 					"type": "bool",
 					"value": true
 				},
-				"forcedVoiceVar": {
-					"type": "int32",
-					"value": 2
-				},
 				"m_bStartEnabled": {
 					"type": "bool",
 					"value": true
+				},
+				"forcedVoiceVar": {
+					"type": "int32",
+					"value": 5
 				}
 			},
 			"postInitProperties": {
@@ -5692,14 +5692,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 69.44293975830078
+							"x": -0,
+							"y": 0,
+							"z": 84.8978170435328
 						},
 						"position": {
-							"x": 50.780540466308597,
-							"y": 40.30255889892578,
-							"z": 13.996359825134278
+							"x": 31.438328,
+							"y": 37.22467,
+							"z": 7.992812
 						}
 					}
 				},
@@ -5934,9 +5934,9 @@
 		},
 		"10e4e788906a4b12": {
 			"parent": "5bd716ade00d2659",
-			"name": "Act_FR_Stand_Smoke_v01",
-			"template": "00E33C8ADB54C79A",
-			"blueprint": "000A33DFCC04158E",
+			"name": "act_mr_stand_smoke_armhip",
+			"template": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_armhip.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_armhip.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_fActTimeout": {
 					"type": "float32",
@@ -5946,14 +5946,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 2.594736337661743,
-							"y": 1.4360398054122925,
-							"z": 93.93814849853516
+							"x": -0,
+							"y": 0,
+							"z": 71.93239679117775
 						},
 						"position": {
-							"x": 26.536380767822267,
-							"y": 34.93975067138672,
-							"z": 25.961139678955079
+							"x": 4.1771665,
+							"y": 4.807388,
+							"z": -13
 						}
 					}
 				}
@@ -6003,15 +6003,15 @@
 							"z": -173.59796142578126
 						},
 						"position": {
-							"x": 16.579269409179689,
-							"y": 67.8533706665039,
-							"z": 26.016260147094728
+							"x": 16.489,
+							"y": -45.9264,
+							"z": -0.331111
 						}
 					}
 				},
 				"m_nOutfitVariation": {
 					"type": "int32",
-					"value": 4
+					"value": 0
 				},
 				"seed": {
 					"type": "SEntityTemplateReference",
@@ -6028,13 +6028,13 @@
 					"type": "bool",
 					"value": true
 				},
-				"forcedVoiceVar": {
-					"type": "int32",
-					"value": 1
-				},
 				"m_bStartEnabled": {
 					"type": "bool",
 					"value": true
+				},
+				"forcedVoiceVar": {
+					"type": "int32",
+					"value": 5
 				}
 			},
 			"postInitProperties": {
@@ -6396,14 +6396,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 93.31187438964844
+							"x": -0,
+							"y": 0,
+							"z": -90.35954366238764
 						},
 						"position": {
-							"x": -0.5915859937667847,
-							"y": 91.48433685302735,
-							"z": 26.00486946105957
+							"x": 67.3,
+							"y": -43.7,
+							"z": 6.445684
 						}
 					}
 				}
@@ -6916,14 +6916,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 109.54364776611328
+							"x": -0,
+							"y": 0,
+							"z": -73.31414406027133
 						},
 						"position": {
-							"x": 63.1693000793457,
-							"y": 54.964988708496097,
-							"z": 14.0
+							"x": 64.22907,
+							"y": 47.868164,
+							"z": -13.000001
 						}
 					}
 				}
@@ -7066,20 +7066,20 @@
 			"properties": {
 				"m_fActTimeout": {
 					"type": "float32",
-					"value": 10
+					"value": 30
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 3.5749974250793459
+							"x": -0,
+							"y": 0,
+							"z": 24
 						},
 						"position": {
-							"x": -6.053009033203125,
-							"y": 77.17549896240235,
-							"z": 38.0
+							"x": 85.79886,
+							"y": 23.78399,
+							"z": -12.999572
 						}
 					}
 				},
@@ -7147,9 +7147,9 @@
 		},
 		"2b413734ef10a98e": {
 			"parent": "5bd716ade00d2659",
-			"name": "Act_FR_Stand_Phone_Talk",
-			"template": "00E25BB931D46874",
-			"blueprint": "00A94A5D943DD46E",
+			"name": "act_mr_stand_phone_nervous",
+			"template": "00E27675F4BC061B",
+			"blueprint": "0003FD91231C6910",
 			"properties": {
 				"m_fActTimeout": {
 					"type": "float32",
@@ -7159,14 +7159,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 89.5169906616211
+							"x": -0,
+							"y": 0,
+							"z": 75.84336310992705
 						},
 						"position": {
-							"x": 14.33948040008545,
-							"y": 24.092540740966798,
-							"z": 26.0
+							"x": 7.4553003,
+							"y": 46.866325,
+							"z": -13
 						}
 					}
 				},
@@ -7266,9 +7266,9 @@
 							"z": -40.939300537109378
 						},
 						"position": {
-							"x": 4.026138782501221,
-							"y": 63.2784309387207,
-							"z": 55.99991989135742
+							"x": 8.42804,
+							"y": 30.0482,
+							"z": -12.9428
 						}
 					}
 				},
@@ -7291,13 +7291,13 @@
 					"type": "bool",
 					"value": true
 				},
-				"forcedVoiceVar": {
-					"type": "int32",
-					"value": 2
-				},
 				"m_bStartEnabled": {
 					"type": "bool",
 					"value": true
+				},
+				"forcedVoiceVar": {
+					"type": "int32",
+					"value": 5
 				}
 			},
 			"postInitProperties": {},
@@ -7331,14 +7331,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -29.377071380615236
+							"x": -0,
+							"y": 0,
+							"z": 92.40407199797174
 						},
 						"position": {
-							"x": 0.9181939959526062,
-							"y": 62.23548126220703,
-							"z": 38.00123977661133
+							"x": 90.68413,
+							"y": 32.43564,
+							"z": -13
 						}
 					}
 				}
