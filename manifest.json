@@ -546,7 +546,8 @@
 			"UI_CREWMEMBER": "as a crew member",
 			"UI_HEAVENLYGUARD": "as Heavenly Guard",
 			"UI_KEYPADCLUE_NAME": "Soldier's Laptop",
-			"UI_KEYPADCLUE_DESC": "'An internal memo visible only to Heavenly Guard personnel. Armory key code updated to 1912. Remember this number (your Eternal Leader's year of birth) and discard this message immediately!\r\rDeath to the west, glory to our leader'\r\r[Translated by Joogle]"
+			"UI_KEYPADCLUE_DESC": "'An internal memo visible only to Heavenly Guard personnel. Armory key code updated to 1912. Remember this number (your Eternal Leader's year of birth) and discard this message immediately!\r\rDeath to the west, glory to our leader'\r\r[Translated by Joogle]",
+			"UI_HANTUFREELANCE": "Hantu Port, Singapore"
 		},
 		"french": {
 			"ui_salty_cargo_name": "Le Cargo",
@@ -562,7 +563,8 @@
 			"UI_CREWMEMBER": "en tant que membre d'équipage",
 			"UI_HEAVENLYGUARD": "en tant que Garde Céleste",
 			"UI_KEYPADCLUE_NAME": "Ordinateur portable du soldat",
-			"UI_KEYPADCLUE_DESC": "'Une note interne visible uniquement par le personnel de la Garde Céleste. Code clé de l'armurerie mis à jour : 1912. Souvenez-vous de ce numéro (l'année de naissance de votre chef éternel) et effacez ce message immédiatement !\r\rMort à l'ouest, gloire à notre chef'\r\r[Traduit par Joogle]"
+			"UI_KEYPADCLUE_DESC": "'Une note interne visible uniquement par le personnel de la Garde Céleste. Code clé de l'armurerie mis à jour : 1912. Souvenez-vous de ce numéro (l'année de naissance de votre chef éternel) et effacez ce message immédiatement !\r\rMort à l'ouest, gloire à notre chef'\r\r[Traduit par Joogle]",
+			"UI_HANTUFREELANCE": "Port de Hantu, Singapour"
 		},
 		"italian": {"ui_salty_cargo_name": "Cargo Ship",
 		"ui_salty_cargo_desc": "You've managed to smuggle yourself aboard the Khandanyang cargo ship",
@@ -577,7 +579,8 @@
 		"UI_CREWMEMBER": "as a crew member",
 		"UI_HEAVENLYGUARD": "as Heavenly Guard",
 		"UI_KEYPADCLUE_NAME": "Soldier's Laptop",
-		"UI_KEYPADCLUE_DESC": "'Un promemoria interno visibile solo al personale della Guardia Celeste. Codice chiave armeria aggiornato al 1912. Ricorda questo numero (l'anno di nascita del tuo Leader Eterno) e scarta immediatamente questo messaggio!\r\rMorte all'occidente, gloria al nostro capo'\r\r[Tradotto da Joogle]"
+		"UI_KEYPADCLUE_DESC": "'Un promemoria interno visibile solo al personale della Guardia Celeste. Codice chiave armeria aggiornato al 1912. Ricorda questo numero (l'anno di nascita del tuo Leader Eterno) e scarta immediatamente questo messaggio!\r\rMorte all'occidente, gloria al nostro capo'\r\r[Tradotto da Joogle]",
+		"UI_HANTUFREELANCE": "Porto di Hantu, Singapore"
 	},
 		"german": {"ui_salty_cargo_name": "Cargo Ship",
 		"ui_salty_cargo_desc": "You've managed to smuggle yourself aboard the Khandanyang cargo ship",
@@ -592,7 +595,8 @@
 		"UI_CREWMEMBER": "as a crew member",
 		"UI_HEAVENLYGUARD": "as Heavenly Guard",
 		"UI_KEYPADCLUE_NAME": "Soldier's Laptop",
-		"UI_KEYPADCLUE_DESC": "'Ein internes Memo, das nur für das Personal der Himmlischen Wache sichtbar ist. Schlüsselcode der Waffenkammer auf 1912 aktualisiert. Merken Sie sich diese Nummer (das Geburtsjahr Ihres Ewigen Anführers) und verwerfen Sie diese Nachricht sofort!\r\rTod im Westen, Ruhm unserem Anführer'\r\r[Übersetzt von Joogle]"
+		"UI_KEYPADCLUE_DESC": "'Ein internes Memo, das nur für das Personal der Himmlischen Wache sichtbar ist. Schlüsselcode der Waffenkammer auf 1912 aktualisiert. Merken Sie sich diese Nummer (das Geburtsjahr Ihres Ewigen Anführers) und verwerfen Sie diese Nachricht sofort!\r\rTod im Westen, Ruhm unserem Anführer'\r\r[Übersetzt von Joogle]",
+		"UI_HANTUFREELANCE": "Hantu-Hafen, Singapur"
 	},
 		"spanish": {"ui_salty_cargo_name": "Cargo Ship",
 		"ui_salty_cargo_desc": "You've managed to smuggle yourself aboard the Khandanyang cargo ship",
@@ -607,7 +611,8 @@
 		"UI_CREWMEMBER": "as a crew member",
 		"UI_HEAVENLYGUARD": "as Heavenly Guard",
 		"UI_KEYPADCLUE_NAME": "Soldier's Laptop",
-		"UI_KEYPADCLUE_DESC": "'Una nota interna visible solo para el personal de la Guardia Celestial. Código de llave de la armería actualizado a 1912. ¡Recuerde este número (el año de nacimiento de su Líder Eterno) y descarte este mensaje inmediatamente!\r\rMuerte al oeste, gloria a nuestro líder'\r\r[Traducido por Joogle]"
+		"UI_KEYPADCLUE_DESC": "'Una nota interna visible solo para el personal de la Guardia Celestial. Código de llave de la armería actualizado a 1912. ¡Recuerde este número (el año de nacimiento de su Líder Eterno) y descarte este mensaje inmediatamente!\r\rMuerte al oeste, gloria a nuestro líder'\r\r[Traducido por Joogle]",
+		"UI_HANTUFREELANCE": "Puerto de Hantu, Singapur"
 	},
 		"russian": {"ui_salty_cargo_name": "Cargo Ship",
 		"ui_salty_cargo_desc": "You've managed to smuggle yourself aboard the Khandanyang cargo ship",
@@ -622,7 +627,8 @@
 		"UI_CREWMEMBER": "as a crew member",
 		"UI_HEAVENLYGUARD": "as Heavenly Guard",
 		"UI_KEYPADCLUE_NAME": "Soldier's Laptop",
-		"UI_KEYPADCLUE_DESC": "'Внутренний меморандум, видимый только сотрудникам Небесной Стражи. Код ключа Оружейной палаты обновлен до 1912 года. Запомните это число (год рождения вашего Вечного Лидера) и немедленно выбросьте это сообщение!\r\rСмерть западу, слава нашему лидеру'\r\r[Переведено Джуглом]"
+		"UI_KEYPADCLUE_DESC": "'Внутренний меморандум, видимый только сотрудникам Небесной Стражи. Код ключа Оружейной палаты обновлен до 1912 года. Запомните это число (год рождения вашего Вечного Лидера) и немедленно выбросьте это сообщение!\r\rСмерть западу, слава нашему лидеру'\r\r[Переведено Джуглом]",
+		"UI_HANTUFREELANCE": "Ханту-Порт, Сингапур"
 	},
 		"chineseSimplified": {"ui_salty_cargo_name": "Cargo Ship",
 		"ui_salty_cargo_desc": "You've managed to smuggle yourself aboard the Khandanyang cargo ship",
@@ -637,7 +643,8 @@
 		"UI_CREWMEMBER": "as a crew member",
 		"UI_HEAVENLYGUARD": "as Heavenly Guard",
 		"UI_KEYPADCLUE_NAME": "Soldier's Laptop",
-		"UI_KEYPADCLUE_DESC": "'只有天卫人员可见的内部备忘录。军械库密钥代码更新为 1912。记住这个数字（你永恒领袖的出生年份）并立即丢弃此消息！\r\r死亡归于西方，荣耀归于我们的领袖'\r\r[中文谷歌翻译]"
+		"UI_KEYPADCLUE_DESC": "'只有天卫人员可见的内部备忘录。军械库密钥代码更新为 1912。记住这个数字（你永恒领袖的出生年份）并立即丢弃此消息！\r\r死亡归于西方，荣耀归于我们的领袖'\r\r[中文谷歌翻译]",
+		"UI_HANTUFREELANCE": "鬼港，新加坡"
 	},
 		"chineseTraditional": {"ui_salty_cargo_name": "Cargo Ship",
 		"ui_salty_cargo_desc": "You've managed to smuggle yourself aboard the Khandanyang cargo ship",
@@ -652,7 +659,8 @@
 		"UI_CREWMEMBER": "as a crew member",
 		"UI_HEAVENLYGUARD": "as Heavenly Guard",
 		"UI_KEYPADCLUE_NAME": "Soldier's Laptop",
-		"UI_KEYPADCLUE_DESC": "'只有天衛人員可見的內部備忘錄。軍械庫密鑰代碼更新為 1912。記住這個數字（你永恆領袖的出生年份）並立即丟棄此消息！\r\r死亡歸西方，榮耀歸我們的領袖'\r\r[中文谷歌翻譯]"
+		"UI_KEYPADCLUE_DESC": "'只有天衛人員可見的內部備忘錄。軍械庫密鑰代碼更新為 1912。記住這個數字（你永恆領袖的出生年份）並立即丟棄此消息！\r\r死亡歸西方，榮耀歸我們的領袖'\r\r[中文谷歌翻譯]",
+		"UI_HANTUFREELANCE": "新加坡韓都港"
 	},
 		"japanese": {"ui_salty_cargo_name": "Cargo Ship",
 		"ui_salty_cargo_desc": "You've managed to smuggle yourself aboard the Khandanyang cargo ship",
@@ -667,13 +675,15 @@
 		"UI_CREWMEMBER": "as a crew member",
 		"UI_HEAVENLYGUARD": "as Heavenly Guard",
 		"UI_KEYPADCLUE_NAME": "Soldier's Laptop",
-		"UI_KEYPADCLUE_DESC": "'ヘブンリーガードの人員だけが見られる内部メモ。武器庫のキーコードが1912に更新されました。この番号（永遠の指導者の誕生年）を覚えて、すぐにこのメッセージを破棄してください！\r\r西に死を、私たちの指導者に栄光を'\r\r[翻訳：Joogle]"}
+		"UI_KEYPADCLUE_DESC": "'ヘブンリーガードの人員だけが見られる内部メモ。武器庫のキーコードが1912に更新されました。この番号（永遠の指導者の誕生年）を覚えて、すぐにこのメッセージを破棄してください！\r\r西に死を、私たちの指導者に栄光を'\r\r[翻訳：Joogle]",
+		"UI_HANTUFREELANCE": "シンガポール、ハンツ港"}
 	},
 	"localisedLines": {
 		"00C021BBA3818C7A": "UI_CREWMEMBER",
 		"00C021BBA3818C7C": "UI_HEAVENLYGUARD",
 		"01C021BBA3818C7A": "UI_KEYPADCLUE_NAME",
-		"01C021BBA3818C7B": "UI_KEYPADCLUE_DESC"
+		"01C021BBA3818C7B": "UI_KEYPADCLUE_DESC",
+		"01C021BBA3818C70": "UI_HANTUFREELANCE"
 	},
 	"frameworkVersion": "2.0.0",
 	"contentFolders": [
@@ -709,6 +719,10 @@
 		"type": "entity",
 		"partition": "salty",
 		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/night.brick].entitytype"
+	  },{
+		"type": "entity",
+		"partition": "salty",
+		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scene_test_mild_whist.entity].entitytemplate"
 	  }
   ]
 }

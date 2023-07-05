@@ -175,7 +175,12 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "Started",
+				"shouldTrigger": "Trigger",
+				"onEntity": "3b98fd686f33955e"
+			}]
 		},
 		"769db846926d9e01": {
 			"parent": "b9d0856e7d1d0cbc",
@@ -202,14 +207,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -166.0936737060547
+							"x": -0,
+							"y": 0,
+							"z": -166.09365789654032
 						},
 						"position": {
 							"x": 80.3034,
-							"y": 16.684,
-							"z": -7.80392
+							"y": 16.04741,
+							"z": -6.8025484
 						}
 					}
 				},
@@ -271,10 +276,6 @@
 				"m_nOutfitCharset": {
 					"type": "int32",
 					"value": 0
-				},
-				"m_bStartEnabled": {
-					"type": "bool",
-					"value": true
 				}
 			},
 			"postInitProperties": {
@@ -406,6 +407,10 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe"
+				},
+				"m_bStartEnabled": {
+					"type": "bool",
+					"value": false
 				}
 			},
 			"editorOnly": false,
@@ -561,14 +566,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 4.553963661193848
+							"x": -0,
+							"y": 0,
+							"z": 46.71743865866045
 						},
 						"position": {
-							"x": 123.588,
-							"y": -62.6114,
-							"z": 31.7014
+							"x": 124.21302,
+							"y": -63.46267,
+							"z": 32.708454
 						}
 					}
 				},
@@ -947,14 +952,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -36.42757034301758
+							"x": -0,
+							"y": 0,
+							"z": -36.42756742873948
 						},
 						"position": {
-							"x": 87.4881,
-							"y": 28.8438,
-							"z": -7.79526
+							"x": 87.52953,
+							"y": 29.590204,
+							"z": -6.9301605
 						}
 					}
 				},
@@ -1325,14 +1330,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -77.2873764038086
+							"x": -0,
+							"y": 0,
+							"z": 42.511059828118924
 						},
 						"position": {
-							"x": 64.2345,
+							"x": 64.878784,
 							"y": 19.5141,
-							"z": -7.61062
+							"z": -7.1751976
 						}
 					}
 				},
@@ -1396,6 +1401,10 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe"
+				},
+				"m_bStartEnabled": {
+					"type": "bool",
+					"value": false
 				}
 			},
 			"editorOnly": false,
@@ -1502,14 +1511,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 21.962587356567384
+							"x": -0,
+							"y": 0,
+							"z": 21.96258938939189
 						},
 						"position": {
 							"x": 123.714,
-							"y": -66.5771,
-							"z": 31.7014
+							"y": -67.18476,
+							"z": 32.73629
 						}
 					}
 				},
@@ -1541,14 +1550,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -36.42757034301758
+							"x": -0,
+							"y": 0,
+							"z": -36.42756742873948
 						},
 						"position": {
-							"x": 73.6201,
-							"y": 28.7959,
-							"z": -7.80158
+							"x": 66.15246,
+							"y": 25.03543,
+							"z": -6.386621
 						}
 					}
 				},
@@ -1590,14 +1599,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -26.589801788330079
+							"x": -0,
+							"y": 0,
+							"z": -26.589800080359993
 						},
 						"position": {
-							"x": 78.9789,
+							"x": 79.63226,
 							"y": 23.9219,
-							"z": -7.80392
+							"z": -6.8047643
 						}
 					}
 				},
@@ -1679,12 +1688,12 @@
 						"rotation": {
 							"x": 0.0,
 							"y": 0.0,
-							"z": 129.93804931640626
+							"z": 0
 						},
 						"position": {
 							"x": -28.1786,
-							"y": -6.90876,
-							"z": -12.9721
+							"y": -7.5,
+							"z": -11.99
 						}
 					}
 				},
@@ -1840,13 +1849,13 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -26.589801788330079
+							"x": -0,
+							"y": 0,
+							"z": -26.589800080359993
 						},
 						"position": {
-							"x": 59.6539,
-							"y": 4.5614,
+							"x": 59.794144,
+							"y": 5.166519,
 							"z": -6.80392
 						}
 					}
@@ -1918,10 +1927,6 @@
 					"value": 5
 				},
 				"muleTalking": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bStartEnabled": {
 					"type": "bool",
 					"value": true
 				}
@@ -2306,14 +2311,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -166.0936737060547
+							"x": -0,
+							"y": 0,
+							"z": -166.09365789654032
 						},
 						"position": {
-							"x": 87.5489,
+							"x": 88.200066,
 							"y": 20.0085,
-							"z": -7.80392
+							"z": -7.0580397
 						}
 					}
 				},
@@ -2654,14 +2659,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -110.70832061767578
+							"x": -0,
+							"y": 0,
+							"z": -110.70833010563477
 						},
 						"position": {
-							"x": 58.724,
-							"y": 14.7547,
-							"z": -7.80392
+							"x": 58.035828,
+							"y": 15.079432,
+							"z": -6.261471
 						}
 					}
 				},
@@ -2755,14 +2760,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -53.034507751464847
+							"x": -0,
+							"y": 0,
+							"z": -53.03450303708682
 						},
 						"position": {
-							"x": -8.02461,
-							"y": -3.97067,
-							"z": -12.765
+							"x": -7.683187,
+							"y": -4.624213,
+							"z": -11.780069
 						}
 					}
 				},
@@ -2968,9 +2973,9 @@
 							"z": -20.67502212524414
 						},
 						"position": {
-							"x": 73.6201,
-							"y": 28.7959,
-							"z": -7.80158
+							"x": 73.5,
+							"y": 29.4,
+							"z": -6.8
 						}
 					}
 				},
@@ -3078,7 +3083,7 @@
 				},
 				"m_bStartEnabled": {
 					"type": "bool",
-					"value": true
+					"value": false
 				},
 				"forcedVoiceVar": {
 					"type": "int32",
@@ -3117,14 +3122,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 9.72352123260498
+							"x": -0,
+							"y": 0,
+							"z": 9.723524750548206
 						},
 						"position": {
-							"x": 119.982,
-							"y": -42.3125,
-							"z": 31.7519
+							"x": 119.43181,
+							"y": -42.121655,
+							"z": 32.7499
 						}
 					}
 				},
@@ -3344,14 +3349,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 146.6042938232422
+							"x": -0,
+							"y": 0,
+							"z": 146.60430049617756
 						},
 						"position": {
-							"x": -24.8224,
-							"y": -4.7618,
-							"z": -12.9714
+							"x": -24.458838,
+							"y": -5.1820335,
+							"z": -11.988292
 						}
 					}
 				},
@@ -3419,7 +3424,7 @@
 				},
 				"m_bStartEnabled": {
 					"type": "bool",
-					"value": true
+					"value": false
 				},
 				"forcedVoiceVar": {
 					"type": "int32",
@@ -3488,10 +3493,6 @@
 				"m_nOutfitCharset": {
 					"type": "int32",
 					"value": 0
-				},
-				"m_bStartEnabled": {
-					"type": "bool",
-					"value": true
 				}
 			},
 			"postInitProperties": {
@@ -3535,12 +3536,12 @@
 						"rotation": {
 							"x": 0.0,
 							"y": 0.0,
-							"z": 33.338619232177737
+							"z": -110
 						},
 						"position": {
-							"x": 81.735,
+							"x": 82.3,
 							"y": 24.0473,
-							"z": -12
+							"z": -12.25
 						}
 					}
 				},
@@ -3876,7 +3877,7 @@
 				},
 				"m_bStartEnabled": {
 					"type": "bool",
-					"value": true
+					"value": false
 				},
 				"forcedVoiceVar": {
 					"type": "int32",
@@ -3947,7 +3948,7 @@
 				},
 				"m_bStartEnabled": {
 					"type": "bool",
-					"value": true
+					"value": false
 				},
 				"forcedVoiceVar": {
 					"type": "int32",
@@ -4110,7 +4111,17 @@
 			},
 			"postInitProperties": {},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "Exit",
+				"shouldTrigger": "Trigger",
+				"onEntity": "4bc5435a8cf12c3c"
+			}],
+			"outputCopying": [{
+				"onEvent": "Exit",
+				"propagateEvent": "Trigger",
+				"onEntity": "4bc5435a8cf12c3c"
+			}]
 		},
 		"72d941b7ae43d0d4": {
 			"parent": "200f93ee418e43d8",
@@ -4507,9 +4518,9 @@
 							"z": -91.64713287353516
 						},
 						"position": {
-							"x": 73.2001,
+							"x": 73.7,
 							"y": 14.645,
-							"z": -7.80392
+							"z": -6.8
 						}
 					}
 				},
@@ -4653,14 +4664,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -26.589801788330079
+							"x": -0,
+							"y": 0,
+							"z": -26.589800080359993
 						},
 						"position": {
-							"x": 62.3512,
-							"y": 26.8327,
-							"z": -7.61062
+							"x": 62.087738,
+							"y": 26.218874,
+							"z": -6.615738
 						}
 					}
 				},
@@ -5351,7 +5362,7 @@
 				},
 				"m_bStartEnabled": {
 					"type": "bool",
-					"value": true
+					"value": false
 				},
 				"forcedVoiceVar": {
 					"type": "int32",
@@ -5904,14 +5915,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -26.589801788330079
+							"x": -0,
+							"y": 0,
+							"z": -26.589800080359993
 						},
 						"position": {
-							"x": 133.253,
-							"y": -54.4613,
-							"z": 31.6345
+							"x": 131.031,
+							"y": -51.854656,
+							"z": 33.00261
 						}
 					}
 				},
@@ -6030,7 +6041,7 @@
 				},
 				"m_bStartEnabled": {
 					"type": "bool",
-					"value": true
+					"value": false
 				},
 				"forcedVoiceVar": {
 					"type": "int32",
@@ -6069,14 +6080,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -110.70832061767578
+							"x": -0,
+							"y": 0,
+							"z": -110.70833010563477
 						},
 						"position": {
 							"x": 59.6574,
-							"y": 18.5338,
-							"z": -7.61062
+							"y": 17.643976,
+							"z": -6.6514115
 						}
 					}
 				},
@@ -6191,10 +6202,6 @@
 						"externalScene": null,
 						"exposedEntity": "VBB_Spawn"
 					}]
-				},
-				"m_bValue": {
-					"type": "bool",
-					"value": true
 				}
 			},
 			"editorOnly": false,
@@ -6495,9 +6502,9 @@
 							"z": -91.47720166722267
 						},
 						"position": {
-							"x": -1.230019,
+							"x": -0.7,
 							"y": 14.625072,
-							"z": -12.752228
+							"z": -12.37
 						}
 					}
 				},
@@ -6680,14 +6687,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -123.72406005859375
+							"x": -0,
+							"y": 0,
+							"z": -123.72406836160529
 						},
 						"position": {
-							"x": 71.7694,
+							"x": 71.09783,
 							"y": 23.7372,
-							"z": -7.80392
+							"z": -7.0539365
 						}
 					}
 				},
@@ -7293,7 +7300,7 @@
 				},
 				"m_bStartEnabled": {
 					"type": "bool",
-					"value": true
+					"value": false
 				},
 				"forcedVoiceVar": {
 					"type": "int32",
@@ -7518,14 +7525,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -103.76050567626953
+							"x": -0,
+							"y": 0,
+							"z": -103.76050458754689
 						},
 						"position": {
-							"x": 133.327,
+							"x": 133.84798,
 							"y": -35.8134,
-							"z": 31.6345
+							"z": 32.615005
 						}
 					}
 				},
@@ -7563,10 +7570,6 @@
 				"onEvent": "EventOccurred",
 				"shouldTrigger": "GetIndex",
 				"onEntity": "abcda341d5a5d816"
-			}, {
-				"onEvent": "EventOccurred",
-				"shouldTrigger": "SetTrue",
-				"onEntity": "57d7103559535b6c"
 			}],
 			"platformSpecificPropertyValues": []
 		},
@@ -7589,7 +7592,74 @@
 			"outputCopying": []
 		}
 	},
-	"propertyOverrides": [],
+	"propertyOverrides": [{
+		"entities": [{
+			"ref": "abcd0e6a901ac369",
+			"comment": "Car Spawn",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_sId": {
+				"type": "ZGuid",
+				"value": "9c35b39c-53ca-4d5c-8ec4-90d1fc5a4bb0"
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "abcd36021db4f2aa",
+			"comment": "Pier Spawn",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_sId": {
+				"type": "ZGuid",
+				"value": "42bfbe45-85c8-4555-b1fb-256b7006ee06"
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "abcdb261a482910c",
+			"comment": "Cargo Spawn",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_sId": {
+				"type": "ZGuid",
+				"value": "5e30a7b9-7e06-464e-b2eb-1aa23635f500"
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "cc8191cbac13775f",
+			"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_pEventResource": {
+				"type": "ZRuntimeResourceID",
+				"value": {
+					"resource": "00A54816A96A08FE",
+					"flag": "5F"
+				}
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "d084cb2f43284295",
+			"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+		}, {
+			"ref": "778f98fb6c9f8394",
+			"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_pTitleResource": {
+				"type": "ZRuntimeResourceID",
+				"value": {
+					"resource": "01C021BBA3818C70",
+					"flag": "5F"
+				}
+			}
+		}
+	}],
 	"overrideDeletes": [{
 		"ref": "abcd7f9fa6e68ec2",
 		"comment": "exits",
@@ -7602,8 +7672,124 @@
 		"ref": "abcde82ebc00f7ee",
 		"comment": "exits",
 		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "6d15ac44bf496c32",
+		"_comment": "Floating Crane Wire",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "eeb28ce533b1cc04",
+		"_comment": "Sniper Challenge Properties",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "c4bca6349166c58d",
+		"_comment": "Body Containers",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "112d56688e14615a",
+		"_comment": "LightingHitman",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "edac44b3e4ad05c2",
+		"_comment": "Vital Info Messages",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "d8b34f455f473311",
+		"_comment": "Rubber Ducks",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "9aab2aa6c6678caa",
+		"_comment": "Sniper Nest",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "aff1312a3445d764",
+		"_comment": "Traps - Explosives",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "54032181a0d49205",
+		"_comment": "Rats",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "abcd83cc94db0b7d",
+		"_comment": "Fake Lights for Night Deletion",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "2568a2a3059522d5",
+		"_comment": "Flight case in hut",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "2bff79c96c925e6f",
+		"_comment": "SetpieceHelper_Sniper_HideBody",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "657a96ff5bdcaa1e",
+		"_comment": "Container Doors",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "8431b00da4881f71",
+		"_comment": "Setpiece_SC_Bodydump_Container_PlasticCurtain",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "2f5b9e59865540e7",
+		"_comment": "Setpiece_SC_Bodydump_Container_PlasticCurtain",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "97c7a589b60627a6",
+		"_comment": "Setpiece_SC_Bodydump_Container_PlasticCurtain",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "b5275bd21d3a2ae3",
+		"_comment": "Setpiece_SC_Bodydump_Container_PlasticCurtain",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "a5c86559aacaea0d",
+		"_comment": "Setpiece_SC_ContainerDoors_Shootable",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "7c3315f0bf468d0e",
+		"_comment": "Setpiece_SC_ContainerDoors_Shootable",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "5c897c4a6953b527",
+		"_comment": "Setpiece_SC_ContainerDoors_Shootable",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "81e4afdbb6e1f5b3",
+		"_comment": "Setpiece_SC_ContainerDoors_Shootable",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "3bb836c1506b4617",
+		"_comment": "Setpiece_SC_ContainerDoors_Shootable",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "2bed1d2dd18a6fba",
+		"_comment": "Combat Positions",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "2806507ddc45b928",
+		"_comment": "Bodyguard Escapes",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "db37817c4e55f052",
+		"_comment": "AI Tension State",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "91fd86af3d098cf2",
+		"_comment": "Foghorn Shotlistener",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
 	}],
 	"pinConnectionOverrides": [{
+		"fromEntity": "4bc5435a8cf12c3c",
+		"toEntity": {
+			"ref": "abcd80554e43c80a",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		},
+		"fromPinName": "Exit",
+		"toPinName": "TransmitEvent",
+		"constantPinValue": {
+			"$type": "void",
+			"$val": null
+		}
+	}, {
 		"fromEntity": "64c007aaf8738129",
 		"toEntity": {
 			"ref": "abcd408a01d18810",
