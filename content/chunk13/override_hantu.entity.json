@@ -7594,6 +7594,22 @@
 	},
 	"propertyOverrides": [{
 		"entities": [{
+			"ref": "c22a1aa8549d2bbb",
+			"comment": "Hostages",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		}, {
+			"ref": "2523d67b214d8ab6",
+			"comment": "Hostages",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_eGlowOverride": {
+				"type": "ERenderGlowTypes",
+				"value": "ERENDERGLOWTYPE_CIVILIAN"
+			}
+		}
+	}, {
+		"entities": [{
 			"ref": "abcd0e6a901ac369",
 			"comment": "Car Spawn",
 			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
@@ -7661,6 +7677,18 @@
 		}
 	}],
 	"overrideDeletes": [{
+		"ref": "abcd4f5c999e7169",
+		"comment": "2kpr Logic",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "abcd3664396ed160",
+		"comment": "2kpr Logic",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
+		"ref": "abcd340b3ec560e3",
+		"comment": "2kpr Logic",
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+	}, {
 		"ref": "abcd7e1a8646eb22",
 		"comment": "Helipad Hut Laptop",
 		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
