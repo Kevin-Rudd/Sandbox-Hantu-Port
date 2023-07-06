@@ -237,7 +237,7 @@
 				},
 				"m_AvailableGrenadeKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["abcdb85fb2e4d2ef"]
+					"value": ["abcd467a0f4f56ca", "abcdb85fb2e4d2ef"]
 				},
 				"m_aWeaponsAllowedExceptionKeywords": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -675,13 +675,13 @@
 		},
 		"652a6fb41c1e78f9": {
 			"parent": "d140e08ae9e1654a",
-			"name": "ItemKey__AR_ 3 Fusil X2000",
+			"name": "ItemKey__AR_ 3 Fusil G1-4",
 			"template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
-					"value": "f6f525d2-a28c-4548-825b-f7ce93f6577c"
+					"value": "16edb112-58cc-4069-a7dd-ebd258b14044"
 				}
 			},
 			"postInitProperties": {},
@@ -2644,6 +2644,21 @@
 			"template": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_smg.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_smg.entitytemplate].pc_entityblueprint",
 			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd467a0f4f56ca": {
+			"parent": "d140e08ae9e1654a",
+			"name": "ItemKey__Grenade_ Flash 1",
+			"template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "042fae7b-fe9e-4a83-ac7b-5c914a71b2ca"
+				}
+			},
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
