@@ -1806,7 +1806,7 @@
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "8f928c7a-99dd-43db-a027-1310cf49f3ad"
+					"value": "88f1516f-f81d-4a7b-a593-0674e4091d36"
 				},
 				"m_nOutfitVariation": {
 					"type": "int32",
@@ -2070,7 +2070,7 @@
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "8f928c7a-99dd-43db-a027-1310cf49f3ad"
+					"value": "88f1516f-f81d-4a7b-a593-0674e4091d36"
 				},
 				"m_nOutfitVariation": {
 					"type": "int32",
