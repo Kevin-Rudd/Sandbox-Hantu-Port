@@ -7570,6 +7570,10 @@
 				"onEvent": "EventOccurred",
 				"shouldTrigger": "GetIndex",
 				"onEntity": "abcda341d5a5d816"
+			}, {
+				"onEvent": "EventOccurred",
+				"shouldTrigger": "TransmitEvent",
+				"onEntity": "abcda2a3d23a6abb"
 			}],
 			"platformSpecificPropertyValues": []
 		},
@@ -7779,6 +7783,36 @@
 				"shouldTrigger": "Start",
 				"onEntity": "abcdc954ff57bc7e"
 			}]
+		},
+		"abcda2a3d23a6abb": {
+			"parent": "fffffffffffffffe",
+			"name": "EventChannelTransmitter_void_01",
+			"template": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "abcd87616b0e0870"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd87616b0e0870": {
+			"parent": "abcda2a3d23a6abb",
+			"name": "IsHantu",
+			"template": "[modules:/ztokenidentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sName": {
+					"type": "ZString",
+					"value": "IsHantu"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
 		}
 	},
 	"propertyOverrides": [{
