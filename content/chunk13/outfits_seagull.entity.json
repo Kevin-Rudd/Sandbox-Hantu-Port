@@ -1973,13 +1973,13 @@
 		},
 		"abcd8fb38eb640d2": {
 			"parent": "abcde010518bd9a7",
-			"name": "ItemKey_Shotgun02 NPC",
+			"name": "ItemKey_Shotgun02 NPC Tactical Bartoli",
 			"template": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
-					"value": "7f31d897-a62f-448c-be0d-79d565e2faa7"
+					"value": "901a3b51-51a0-4236-bdf2-23d20696b358"
 				}
 			},
 			"postInitProperties": {},
