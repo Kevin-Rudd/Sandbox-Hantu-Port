@@ -713,6 +713,21 @@
 	{
 		"type": "entity",
 		"partition": "salty",
+		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].entitytype"
+	  },
+	  {
+		"type": "entity",
+		"partition": "salty",
+		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scene_seagull_sandbox.entity].entitytemplate"
+	  },
+	  {
+		"type": "entity",
+		"partition": "salty",
+		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/mission_seagull_sandbox.brick].entitytype"
+	  },
+	{
+		"type": "entity",
+		"partition": "salty",
 		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/rain.brick].entitytype"
 	  },
 	  {

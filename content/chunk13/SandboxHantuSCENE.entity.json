@@ -1,6 +1,6 @@
 {
-	"tempHash": "00D0EA44F6999F2B",
-	"tbluHash": "003CE705029D3125",
+	"tempHash": "007B5F9B5429924B",
+	"tbluHash": "00EB19712A29B186",
 	"rootEntity": "fffffffffffffffe",
 	"entities": {
 		"2ad668f91a1684be": {
@@ -13,7 +13,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "9eee1f8415042ebb",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				}
 			},
@@ -91,13 +91,13 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "5eddcf34363a6189",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "55142c370fd67cd2",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"TimeOut": {
@@ -210,7 +210,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "2082e5683babaa66",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				}
 			},
@@ -269,10 +269,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"TimeOut": {
@@ -414,13 +414,13 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "5eddcf34363a6189",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "735afa1ee990e352",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"TimeOut": {
@@ -715,7 +715,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "85862ba82bd419ab",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				},
 				"m_nOnlyOnZoomLevel": {
@@ -788,10 +788,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"GlobalCooldown": {
@@ -914,10 +914,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"TimeOut": {
@@ -1162,10 +1162,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"GlobalCooldown": {
@@ -1228,13 +1228,13 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "196bea17f34a4d4c",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "b357be7758427537",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"GlobalCooldown": {
@@ -1314,7 +1314,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "92878cb3a3575932",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				}
 			},
@@ -1337,7 +1337,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "a524802a01c9b694",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				}
 			},
@@ -1432,7 +1432,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "b5c5b5af33e4313b",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				}
 			},
@@ -1463,7 +1463,7 @@
 		"1836a547f444769d": {
 			"parent": {
 				"ref": "92d5f7cd5d84ad4c",
-				"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+				"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 			},
 			"name": "Singleplayer Setups",
 			"template": "[modules:/zentity.class].pc_entitytype",
@@ -1578,7 +1578,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"GlobalCooldown": {
@@ -1832,10 +1832,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"GlobalCooldown": {
@@ -1887,7 +1887,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "5341064f81c6ff59",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				},
 				"m_nInterval": {
@@ -1924,10 +1924,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"GlobalCooldown": {
@@ -2000,10 +2000,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"GlobalCooldown": {
@@ -2055,7 +2055,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "180b897e58830e20",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				}
 			},
@@ -2109,10 +2109,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"GlobalCooldown": {
@@ -2175,10 +2175,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "5341064f81c6ff59",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"TimeOut": {
@@ -2237,13 +2237,13 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "196bea17f34a4d4c",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "b357be7758427537",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"GlobalCooldown": {
@@ -2327,7 +2327,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "735afa1ee990e352",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				},
 				"m_nInterval": {
@@ -2484,13 +2484,13 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "5eddcf34363a6189",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "5341064f81c6ff59",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"TimeOut": {
@@ -2577,10 +2577,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"TimeOut": {
@@ -2632,7 +2632,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "b5c5b5af33e4313b",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				}
 			},
@@ -2697,7 +2697,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "951be7866fa8e42e",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				}
 			},
@@ -2792,7 +2792,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "8a2ffb78b09907d2",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				}
 			},
@@ -2974,16 +2974,16 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "180b897e58830e20",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "7fbb1e1a20eedf7b",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"StartDelay": {
@@ -3257,10 +3257,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"GlobalCooldown": {
@@ -3370,7 +3370,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "2a27ed3c503d3fbe",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, "ae021b1199d2ab10", "c6d42281a0d2b5d2"]
 				}
 			},
@@ -3392,7 +3392,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "c00103bd18f5a807",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				}
 			},
@@ -3410,7 +3410,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "b4a6168055d4f48",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				}
 			},
@@ -3468,10 +3468,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"GlobalCooldown": {
@@ -3559,7 +3559,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "d990bfb1d5849a44",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				}
 			},
@@ -3773,7 +3773,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"TimeOut": {
@@ -3974,10 +3974,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, "964d25bedbab2020", {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				}
 			},
@@ -3999,7 +3999,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "88b9568377773f47",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				}
 			},
@@ -4022,7 +4022,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "e2159c39fb8a394d",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				}
 			},
@@ -4165,7 +4165,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "b5c5b5af33e4313b",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				}
 			},
@@ -4488,7 +4488,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "aee9fb2c9628ed39",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				}
 			},
@@ -4694,10 +4694,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"GlobalCooldown": {
@@ -4847,10 +4847,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"TimeOut": {
@@ -4916,10 +4916,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, "ac8ae4e7538fd664", {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"GlobalCooldown": {
@@ -5022,7 +5022,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "4e29f27ec84782bf",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				}
 			},
@@ -5100,7 +5100,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "2082e5683babaa66",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				},
 				"m_bNeedCollisionCheck": {
@@ -5198,7 +5198,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "52e0337d1a222185",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				}
 			},
@@ -5381,10 +5381,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "e43d6b9118bdf8f3",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "6b792179fa8c6e13",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"m_eEvaluation": {
@@ -5551,7 +5551,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "aff8a5f986277730",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype",
 						"exposedEntity": "isMoving"
 					}]
 				}
@@ -5601,7 +5601,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"TimeOut": {
@@ -5749,7 +5749,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "e81bd3a741b3bda6",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				}
 			},
@@ -5807,7 +5807,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"StartDelay": {
@@ -5964,13 +5964,13 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "196bea17f34a4d4c",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "b357be7758427537",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"GlobalCooldown": {
@@ -6082,7 +6082,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "f0d05858191827e9",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				}
 			},
@@ -6195,10 +6195,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"GlobalCooldown": {
@@ -6324,10 +6324,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"TimeOut": {
@@ -6532,7 +6532,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "c9894a4f6d4f50ef",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				}
 			},
@@ -6602,7 +6602,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "9994f4adce29a0c1",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				}
 			},
@@ -6648,7 +6648,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "e62d92156c664ddc",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				}
 			},
@@ -6705,7 +6705,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "be998e569ba7373f",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, "48a649291e95d75f", "3bf54ccbda46efce"]
 				}
 			},
@@ -6728,7 +6728,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "55a51643f6236744",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				},
 				"m_aTracksAndGroups": {
@@ -6797,7 +6797,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "d3ed4e47890f43ef",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				},
 				"m_aTracksAndGroups": {
@@ -6942,7 +6942,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "c00103bd18f5a807",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				}
 			},
@@ -6975,10 +6975,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, "8c2e81d8e1a3ea86", {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"GlobalCooldown": {
@@ -7395,10 +7395,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"TimeOut": {
@@ -7566,7 +7566,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "c9894a4f6d4f50ef",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				},
 				"m_nOnlyOnZoomLevel": {
@@ -7603,10 +7603,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"m_nPriority": {
@@ -7840,16 +7840,16 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "180b897e58830e20",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "7fbb1e1a20eedf7b",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"StartDelay": {
@@ -8209,16 +8209,16 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "180b897e58830e20",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "7fbb1e1a20eedf7b",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"StartDelay": {
@@ -8592,7 +8592,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"TimeOut": {
@@ -8691,7 +8691,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "3e0bf174ffb72592",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				}
 			},
@@ -8818,7 +8818,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "36975cf7a017e7f8",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				}
 			},
@@ -9052,7 +9052,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				}
 			},
@@ -9070,7 +9070,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "85862ba82bd419ab",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				}
 			},
@@ -9088,7 +9088,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "55142c370fd67cd2",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				},
 				"m_nInterval": {
@@ -9211,7 +9211,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "abcd34938e7772bd",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				}
 			},
@@ -9278,7 +9278,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "c01dbf86b921c188",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				}
 			},
@@ -9316,10 +9316,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "cdc69d43f4a63f85",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "91ec9701916e0252",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				},
 				"GlobalCooldown": {
@@ -9533,7 +9533,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "31f065e80086cba3",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}]
 				}
 			},
@@ -9551,10 +9551,10 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "b8c06e8565c5928a",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}, {
 						"ref": "c2ba94498429a21a",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype",
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype",
 						"exposedEntity": "DoorIsOpen"
 					}]
 				}
@@ -9631,111 +9631,111 @@
 	"overrideDeletes": [{
 		"ref": "6d15ac44bf496c32",
 		"_comment": "Floating Crane Wire",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "eeb28ce533b1cc04",
 		"_comment": "Sniper Challenge Properties",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "c4bca6349166c58d",
 		"_comment": "Body Containers",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "112d56688e14615a",
 		"_comment": "LightingHitman",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "edac44b3e4ad05c2",
 		"_comment": "Vital Info Messages",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "d8b34f455f473311",
 		"_comment": "Rubber Ducks",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "9aab2aa6c6678caa",
 		"_comment": "Sniper Nest",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "aff1312a3445d764",
 		"_comment": "Traps - Explosives",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "54032181a0d49205",
 		"_comment": "Rats",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "abcd83cc94db0b7d",
 		"_comment": "Fake Lights for Night Deletion",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "2568a2a3059522d5",
 		"_comment": "Flight case in hut",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "2bff79c96c925e6f",
 		"_comment": "SetpieceHelper_Sniper_HideBody",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "657a96ff5bdcaa1e",
 		"_comment": "Container Doors",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "8431b00da4881f71",
 		"_comment": "Setpiece_SC_Bodydump_Container_PlasticCurtain",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "2f5b9e59865540e7",
 		"_comment": "Setpiece_SC_Bodydump_Container_PlasticCurtain",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "97c7a589b60627a6",
 		"_comment": "Setpiece_SC_Bodydump_Container_PlasticCurtain",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "b5275bd21d3a2ae3",
 		"_comment": "Setpiece_SC_Bodydump_Container_PlasticCurtain",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "a5c86559aacaea0d",
 		"_comment": "Setpiece_SC_ContainerDoors_Shootable",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "7c3315f0bf468d0e",
 		"_comment": "Setpiece_SC_ContainerDoors_Shootable",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "5c897c4a6953b527",
 		"_comment": "Setpiece_SC_ContainerDoors_Shootable",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "81e4afdbb6e1f5b3",
 		"_comment": "Setpiece_SC_ContainerDoors_Shootable",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "3bb836c1506b4617",
 		"_comment": "Setpiece_SC_ContainerDoors_Shootable",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "2bed1d2dd18a6fba",
 		"_comment": "Combat Positions",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "2806507ddc45b928",
 		"_comment": "Bodyguard Escapes",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "db37817c4e55f052",
 		"_comment": "AI Tension State",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "91fd86af3d098cf2",
 		"_comment": "Foghorn Shotlistener",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
-	"externalScenes": ["[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype", "[assembly:/_pro/scenes/missions/salty/mission_seagull/mission_seagull.brick].pc_entitytype", "[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype", "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype", "[assembly:/_pro/scenes/missions/salty/mission_seagull/outfits_seagull.brick].pc_entitytype"],
+	"externalScenes": ["[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype", "[assembly:/_pro/scenes/missions/salty/mission_seagull/mission_seagull_sandbox.brick].pc_entitytype", "[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype", "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype", "[assembly:/_pro/scenes/missions/salty/mission_seagull/outfits_seagull.brick].pc_entitytype"],
 	"subType": 2,
 	"quickEntityVersion": 2.1
 }

@@ -138,8 +138,7 @@
                 }
             }
         ],
-        "Bricks": ["assembly:/_pro/scenes/missions/Salty/mission_seagull/mission_seagull.brick"],
-        "DevOnlyBricks": ["assembly:/_pro/scenes/missions/Salty/mission_seagull/dev_seagull.brick"],
+        "Bricks": ["assembly:/_pro/scenes/missions/Salty/mission_seagull/mission_seagull_sandbox.brick"],
         "GameDifficulties": [{
             "Difficulty": "easy",
             "Bricks": []
@@ -158,7 +157,7 @@
         "Location": "LOCATION_SALTY_SEAGULL",
         "Title": "UI_CONTRACT_SEAGULL_TITLE",
         "CodeName_Hint": "SC_Seagull",
-        "ScenePath": "assembly:/_pro/scenes/missions/Salty/mission_seagull/scene_seagull.entity",
+        "ScenePath": "assembly:/_pro/scenes/missions/salty/mission_seagull/scene_seagull_sandbox.entity",
         "Description": "UI_CONTRACT_SEAGULL_DESC",
         "Id": "00e57709-e049-44c9-a2c3-7655e19884fb",
         "CreationTimestamp": "2014-04-04T09:41:25.473Z",

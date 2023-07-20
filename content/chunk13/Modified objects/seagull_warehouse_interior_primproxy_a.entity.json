@@ -1,6 +1,6 @@
 {
-	"tempHash": "00B7AEBA6014CF52",
-	"tbluHash": "002929E51698CC4F",
+	"tempHash": "00FDCE9716F20D50",
+	"tbluHash": "0072B614030DC58C",
 	"rootEntity": "53d9bf32fff0474c",
 	"entities": {
 		"536d6f35718ddf1d": {
@@ -84,8 +84,8 @@
 		"1d6fe17749d0a0ef": {
 			"parent": "4ced56167294eff0",
 			"name": "Setpiece_SC_Bodydump_StorageDooor",
-			"template": "[assembly:/_pro/design/setpieces/unique/setpiece_sniperchallenge_unique.template?/setpiece_sc_bodydump_storagedooor.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_sniperchallenge_unique.template?/setpiece_sc_bodydump_storagedooor.entitytemplate].pc_entityblueprint",
+			"template": "[assembly:/_pro/design/setpieces/unique/setpiece_sniperchallenge_unique.template?/setpiece_sc_bodydump_storagedooor_sandbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_sniperchallenge_unique.template?/setpiece_sc_bodydump_storagedooor_sandbox.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -477,8 +477,8 @@
 		"33cdd7329ab5b951": {
 			"parent": "4ced56167294eff0",
 			"name": "Setpiece_SC_Bodydump_StorageDooor_01",
-			"template": "[assembly:/_pro/design/setpieces/unique/setpiece_sniperchallenge_unique.template?/setpiece_sc_bodydump_storagedooor.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_sniperchallenge_unique.template?/setpiece_sc_bodydump_storagedooor.entitytemplate].pc_entityblueprint",
+			"template": "[assembly:/_pro/design/setpieces/unique/setpiece_sniperchallenge_unique.template?/setpiece_sc_bodydump_storagedooor_sandbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_sniperchallenge_unique.template?/setpiece_sc_bodydump_storagedooor_sandbox.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",

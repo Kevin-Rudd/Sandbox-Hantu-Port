@@ -1,1 +1,2888 @@
-{"tempHash":"00136F4EA308B89F","tbluHash":"001DAC7496ACB67C","rootEntity":"85d562630fe64160","entities":{"3d41c724299578ef":{"parent":"85d562630fe64160","name":"w","factory":"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/levels/miami/medical_container_plastic_curtain_a.wl2?/medical_container_plastic_curtain_seagull_a.prim].entitytype,[modules:/zclothcustommeshentity.class].entitytype).pc_entitytype","blueprint":"[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zclothcustommeshentity.class].entitytype).pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":89.76886823410331},"position":{"x":1.2973710298538208,"y":0.7844370007514954,"z":0.8126149773597717}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.822484016418457,"y":1,"z":1}},"m_bGlobalCollidersEnabled":{"type":"bool","value":true},"m_fWindConstant":{"type":"float32","value":0.125},"m_fFrustumFarDistanceProperty":{"type":"float32","value":250},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"b4b264336ef3ff7b":{"parent":"85d562630fe64160","name":"ParticleModifierCollisionBox","factory":"[modules:/zparticlemodifiercollisionboxentity.class].pc_entitytype","blueprint":"[modules:/zparticlemodifiercollisionboxentity.class].pc_entityblueprint","properties":{"m_bKillParticlesOnCollision":{"type":"bool","value":true},"m_fKillOnCollisionChance":{"type":"float32","value":1},"m_eCollisionResponse":{"type":"ECollisionResponse","value":"CUSTOM"},"m_bInverted":{"type":"bool","value":false},"m_fCoefficientOfRestitution":{"type":"float32","value":1},"m_fDirectionCoefficient":{"type":"float32","value":1},"m_CollisionEntities":{"type":"TArray<SEntityTemplateReference>","value":["90bdc251f120cb60"],"postInit":true}}},"822dac5f7dc568b2":{"parent":"85d562630fe64160","name":"ValueBool_Delayed","factory":"[assembly:/_pro/design/logic/valuebool2.template?/valuebool_delayed.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool2.template?/valuebool_delayed.entitytemplate].pc_entityblueprint","properties":{"m_nDelayOnTrue":{"type":"float32","value":0.20000000298023224},"m_rValueEntity":{"type":"SEntityTemplateReference","value":"960ece7fb2fff84d","postInit":true}}},"cc819356ecfb30c7":{"parent":"85d562630fe64160","name":"concrete_painted_a_01_04","factory":"00FD38AA8BD06936","blueprint":"009FC0F951C7BEBF","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-90,"y":0,"z":90.79804139573845},"position":{"x":3.9397239685058594,"y":1.6219229698181152,"z":4.274217128753662}}},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1.100000023841858,"y":1,"z":1.2217600345611572}},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"960ece7fb2fff84d":{"parent":"85d562630fe64160","name":"Closed","factory":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint","properties":{"m_eEvaluation":{"type":"ZValueBool_Operation_Signal.EEvaluationType","value":"NONE"},"m_aValues":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"4bae913fd5583770","externalScene":null,"exposedEntity":"IsOpen"},{"ref":"4bae913fd5583770","externalScene":null,"exposedEntity":"IsDoorMoving"}],"postInit":true}}},"a40de5408ff0bc18":{"parent":"85d562630fe64160","name":"VolumeBox09","factory":"[modules:/zboxvolumeentity.class].pc_entitytype","blueprint":"[modules:/zboxvolumeentity.class].pc_entityblueprint","properties":{"m_vGlobalSize":{"type":"SVector3","value":{"x":3.625469923019409,"y":2.749340057373047,"z":3.064539909362793}},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":90,"y":-0.016386591534881215,"z":-179.18665886172005},"position":{"x":2.1066510677337646,"y":-0.01758600026369095,"z":1.8869019746780396}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"5ddf3bd8079c910b":{"parent":"ec59d83c37c6c889","name":"StaticDecalController","factory":"[modules:/zstaticdecalcontrollerentity.class].pc_entitytype","blueprint":"[modules:/zstaticdecalcontrollerentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":93.27681300209156},"position":{"x":0.852088987827301,"y":-0.3575510084629059,"z":0.7338150143623352}}},"m_pDecalMesh":{"type":"ZRuntimeResourceID","value":{"resource":"00540FD7332E28CE","flag":"5F"}},"m_Targets":{"type":"TArray<SEntityTemplateReference>","value":["d589bf83cec6ad35","8827f52e6c66f4fb","34ddd33b743300a2"],"postInit":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"90bdc251f120cb60":{"parent":"85d562630fe64160","name":"entrance_building_a_truckdoor_separate_a","factory":"[assembly:/_pro/environment/templates/architecture/doors/doors_miami_a.template?/entrance_building_a_truckdoor_separate_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/architecture/doors/doors_miami_a.template?/entrance_building_a_truckdoor_separate_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.12852460145950317,"y":0,"z":0.7462273240089417}}},"m_bEnableCollision":{"type":"bool","value":true},"m_bRemovePhysics":{"type":"bool","value":false},"m_bKinematic":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"1bef6b20f12465c3":{"parent":"ec59d83c37c6c889","name":"StaticDecal 15","factory":"[modules:/zstaticdecalentity.class].pc_entitytype","blueprint":"[modules:/zstaticdecalentity.class].pc_entityblueprint","editorOnly":true,"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-89.96178371988411},"position":{"x":2.087963104248047,"y":-0.7438330054283142,"z":0.75}}},"m_MaterialID":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/environment/materials/decals/markings/road_markings_d.mi].pc_mi","flag":"5F"}},"m_pController":{"type":"SEntityTemplateReference","value":"5ddf3bd8079c910b"},"m_vTiling":{"type":"SVector2","value":{"x":0.1043270006775856,"y":0.4809359908103943}},"m_vUVOffset":{"type":"SVector2","value":{"x":0.8956729769706726,"y":0.5190640091896057}},"m_vGlobalSize":{"type":"SVector3","value":{"x":0.8009120225906372,"y":1.6593199968338013,"z":0.125}},"m_fAlpha":{"type":"float32","value":65},"m_Color":{"type":"SColorRGB","value":"#ffffff"},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"56db00d5fb6af112":{"parent":"85d562630fe64160","name":"ParticleModifierMotion","factory":"[modules:/zparticlemodifiermotionentity.class].pc_entitytype","blueprint":"[modules:/zparticlemodifiermotionentity.class].pc_entityblueprint","properties":{"m_vGravity":{"type":"SVector3","value":{"x":0,"y":0,"z":-0.10000000149011612}}}},"940e8df6ead5636d":{"parent":"ec59d83c37c6c889","name":"StaticDecal 6","factory":"[modules:/zstaticdecalentity.class].pc_entitytype","blueprint":"[modules:/zstaticdecalentity.class].pc_entityblueprint","editorOnly":true,"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90.0382162801159},"position":{"x":0.7472310066223145,"y":1.4095230102539063,"z":0.7593569755554199}}},"m_MaterialID":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/environment/materials/decals/markings/road_markings_d.mi].pc_mi","flag":"5F"}},"m_pController":{"type":"SEntityTemplateReference","value":"5ddf3bd8079c910b"},"m_vTiling":{"type":"SVector2","value":{"x":0.3431049883365631,"y":0.5078690052032471}},"m_vUVOffset":{"type":"SVector2","value":{"x":0.6568949818611145,"y":0}},"m_vGlobalSize":{"type":"SVector3","value":{"x":0.3431049883365631,"y":0.5078690052032471,"z":0.125}},"m_fAlpha":{"type":"float32","value":65},"m_Color":{"type":"SColorRGB","value":"#cacc66"},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"a097d7030e684219":{"parent":"1e5a553bf422ae68","name":"BounceLight","factory":"[modules:/zlightentity.class].pc_entitytype","blueprint":"[modules:/zlightentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-90.73897394462261,"y":-9.747004381980194,"z":93.25195347851589},"position":{"x":-3.892880916595459,"y":-0.16147799789905548,"z":2.317742109298706}}},"m_eLightType":{"type":"ILightEntity.ELightType","value":"LT_OMNI"},"m_bCastShadows":{"type":"bool","value":false},"m_vFarAttenuation":{"type":"SVector2","value":{"x":1.0499999523162842,"y":7.119999885559082}},"m_fDiffusePower":{"type":"float32","value":0.44999998807907104},"m_bVisible":{"type":"bool","value":false},"m_bEnableLightFade":{"type":"bool","value":true},"m_fLightFadeDistance":{"type":"float32","value":10},"m_fLightFadeLength":{"type":"float32","value":5},"m_MasterLight":{"type":"SEntityTemplateReference","value":{"ref":"1e5a553bf422ae68","externalScene":null,"exposedEntity":"MasterLight"},"postInit":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"1e5a553bf422ae68","postInit":true}}},"d589bf83cec6ad35":{"parent":"85d562630fe64160","name":"concrete_painted_a_01_02","factory":"005CA8CD2166410E","blueprint":"[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":0.18754200637340546,"y":1.6544450521469116,"z":0.733797013759613}}},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.9350510239601135,"y":0.10984399914741516,"z":0.8959050178527832}},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"bbea9b742611476f":{"parent":"85d562630fe64160","name":"FX_PR_Smoke_Wispy_Generic_4t_8x4","factory":"[assembly:/_pro/effects/templates/particlerenderers/fx_pr_smoke.template?/fx_pr_smoke_wispy_generic_4t_8x4.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/effects/templates/particlerenderers/fx_pr_smoke.template?/fx_pr_smoke_wispy_generic_4t_8x4.entitytemplate].pc_entityblueprint","properties":{"Diffusion":{"type":"float32","value":0},"AlphaErosion":{"type":"float32","value":0}}},"ec59d83c37c6c889":{"parent":"85d562630fe64160","name":"Decals","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint"},"1d9d7ee763d0ac11":{"parent":"ec59d83c37c6c889","name":"StaticDecal 2","factory":"[modules:/zstaticdecalentity.class].pc_entitytype","blueprint":"[modules:/zstaticdecalentity.class].pc_entityblueprint","editorOnly":true,"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90.0382162801159},"position":{"x":0.7463529706001282,"y":-0.7829790115356445,"z":0.7593569755554199}}},"m_MaterialID":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/environment/materials/decals/markings/road_markings_d.mi].pc_mi","flag":"5F"}},"m_pController":{"type":"SEntityTemplateReference","value":"5ddf3bd8079c910b"},"m_vTiling":{"type":"SVector2","value":{"x":0.4975059926509857,"y":0.5078690052032471}},"m_vUVOffset":{"type":"SVector2","value":{"x":0.5024939775466919,"y":0}},"m_vGlobalSize":{"type":"SVector3","value":{"x":0.4975059926509857,"y":0.5078690052032471,"z":0.125}},"m_fAlpha":{"type":"float32","value":65},"m_Color":{"type":"SColorRGB","value":"#cacc66"},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"34ddd33b743300a2":{"parent":"85d562630fe64160","name":"seagull_warehouse_1x1_concrete_floor_zmapped_a_01","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x1_concrete_floor_zmapped_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x1_concrete_floor_zmapped_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-179.97203966235674},"position":{"x":4.05532693862915,"y":1.8838310241699219,"z":0.7338569760322571}}},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},"m_PrimitiveScale":{"type":"SVector3","value":{"x":3.814810037612915,"y":3.668459892272949,"z":99.98500061035156}},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"8827f52e6c66f4fb":{"parent":"85d562630fe64160","name":"concrete_painted_a_01","factory":"005CA8CD2166410E","blueprint":"[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":3.931324005126953,"y":-1.711603045463562,"z":0.733797013759613}}},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.9376029968261719,"y":0.2601320147514343,"z":0.8957129716873169}},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"f28cbafa13255db4":{"parent":"85d562630fe64160","name":"DarkLight","factory":"[modules:/zdarklightentity.class].pc_entitytype","blueprint":"[modules:/zdarklightentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":2.150554895401001,"y":0.001766999950632453,"z":2.449867010116577}}},"m_eLightType":{"type":"ILightEntity.ELightType","value":"LT_ENVIRONMENT"},"m_vBoxSize":{"type":"SVector3","value":{"x":3.593179941177368,"y":3.5032598972320557,"z":3.969899892807007}},"m_vBoxFadePos":{"type":"SVector3","value":{"x":0.2114740014076233,"y":1.4462800025939941,"z":0.25953999161720276}},"m_vBoxFadeNeg":{"type":"SVector3","value":{"x":0.14268000423908234,"y":-0.050030000507831573,"z":0}},"m_bVisible":{"type":"bool","value":true},"m_fDiffusePower":{"type":"float32","value":1},"m_bEnableLightFade":{"type":"bool","value":true},"m_fLightFadeDistance":{"type":"float32","value":350},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"c096afa3c3a3e72":{"parent":"85d562630fe64160","name":"NotMoving","factory":"[modules:/zinvertedcondition.class].pc_entitytype","blueprint":"[modules:/zinvertedcondition.class].pc_entityblueprint","properties":{"m_rCondition":{"type":"SEntityTemplateReference","value":{"ref":"4bae913fd5583770","externalScene":null,"exposedEntity":"IsDoorMoving"},"postInit":true}}},"8925e581626f9588":{"parent":"ec59d83c37c6c889","name":"StaticDecal 10","factory":"[modules:/zstaticdecalentity.class].pc_entitytype","blueprint":"[modules:/zstaticdecalentity.class].pc_entityblueprint","editorOnly":true,"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-90.00005729577937,"y":-0.000057295779368319325,"z":3.254432106691158},"position":{"x":0.35591500997543335,"y":1.6744680404663086,"z":2.2308340072631836}}},"m_MaterialID":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/environment/materials/decals/dirt/decal_dirt_facade_d.mi].pc_mi","flag":"5F"}},"m_pController":{"type":"SEntityTemplateReference","value":"5ddf3bd8079c910b"},"m_vTiling":{"type":"SVector2","value":{"x":0.23389500379562378,"y":1}},"m_vUVOffset":{"type":"SVector2","value":{"x":0.7661060094833374,"y":0}},"m_vGlobalSize":{"type":"SVector3","value":{"x":0.8732110261917114,"y":4.160379886627197,"z":0.125}},"m_fAlpha":{"type":"float32","value":50},"m_Color":{"type":"SColorRGB","value":"#ffffff"},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"4bae913fd5583770":{"parent":"85d562630fe64160","name":"Access_Helper_Singledoor","factory":"[assembly:/_pro/design/gamecore/accesshelpers.template?/access_helper_singledoor.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/gamecore/accesshelpers.template?/access_helper_singledoor.entitytemplate].pc_entityblueprint","properties":{"m_bIsLocked":{"type":"bool","value":true},"m_bManualClose":{"type":"bool","value":false},"m_bValueUnlockIfOpened":{"type":"bool","value":false},"m_rPromptDescriptionTextResource":{"type":"ZRuntimeResourceID","value":{"resource":"006D554305540A74","flag":"5F"}},"RequireActivation":{"type":"bool","value":true},"m_fCloseTime":{"type":"float32","value":2},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-89.32526950434595},"position":{"x":0.12455400079488754,"y":0.025769999250769615,"z":0}}},"m_bNPCUseEnable":{"type":"bool","value":false},"m_bVisible":{"type":"bool","value":true},"m_InitialState":{"type":"IHM5Door.EInitialState","value":"IS_CLOSED"},"m_bValueOpenFromInside":{"type":"bool","value":false},"m_bEnabled":{"type":"bool","value":false},"m_bIgnoreCovers":{"type":"bool","value":true},"CrowbarOpen":{"type":"ZRuntimeResourceID","value":null},"m_pMainEvent54":{"type":"ZRuntimeResourceID","value":null},"m_pMainEvent12":{"type":"ZRuntimeResourceID","value":null},"m_pMainEvent13":{"type":"ZRuntimeResourceID","value":null},"A_AudioOpenInitial":{"type":"ZRuntimeResourceID","value":null},"B_AudioOpenMovement":{"type":"ZRuntimeResourceID","value":{"resource":"00048DA4962787B8","flag":"5F"}},"C_AudioOpenComplete":{"type":"ZRuntimeResourceID","value":{"resource":"00ED239BFC017356","flag":"5F"}},"A_AudioCloseInitial":{"type":"ZRuntimeResourceID","value":null},"B_AudioCloseMovement":{"type":"ZRuntimeResourceID","value":{"resource":"00EF927105160C5E","flag":"5F"}},"C_AudioCloseComplete":{"type":"ZRuntimeResourceID","value":{"resource":"004B51671BE8B969","flag":"5F"}},"m_rDoorFrame1":{"type":"SEntityTemplateReference","value":"90bdc251f120cb60","postInit":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}},"subsets":{"AudioEmitters":["85d562630fe64160"]}},"25abe1f62c4e2e89":{"parent":"ec59d83c37c6c889","name":"StaticDecal 13","factory":"[modules:/zstaticdecalentity.class].pc_entitytype","blueprint":"[modules:/zstaticdecalentity.class].pc_entityblueprint","editorOnly":true,"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-0.2719840247845809},"position":{"x":0.4525179862976074,"y":-0.034967999905347824,"z":0.7352610230445862}}},"m_MaterialID":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/environment/materials/decals/dirt/decal_dirt_facade_d.mi].pc_mi","flag":"5F"}},"m_pController":{"type":"SEntityTemplateReference","value":"5ddf3bd8079c910b"},"m_vTiling":{"type":"SVector2","value":{"x":0.23389500379562378,"y":1}},"m_vUVOffset":{"type":"SVector2","value":{"x":0.7661060094833374,"y":0}},"m_vGlobalSize":{"type":"SVector3","value":{"x":0.8732110261917114,"y":4.160379886627197,"z":0.125}},"m_fAlpha":{"type":"float32","value":75},"m_Color":{"type":"SColorRGB","value":"#ffffff"},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"b8e9a30991f35f3":{"parent":"85d562630fe64160","name":"PFObstacle","factory":"[modules:/zpfobstacleentity.class].pc_entitytype","blueprint":"[modules:/zpfobstacleentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":1.8410840034484863,"y":0.013523000292479992,"z":2.193164110183716}}},"m_bEnabled":{"type":"bool","value":true},"m_vGlobalSize":{"type":"SVector3","value":{"x":4.2188401222229,"y":3.1992900371551514,"z":3.401789903640747}},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"d36b30a5313b4cf3":{"parent":"ec59d83c37c6c889","name":"StaticDecal 3","factory":"[modules:/zstaticdecalentity.class].pc_entitytype","blueprint":"[modules:/zstaticdecalentity.class].pc_entityblueprint","editorOnly":true,"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90.0382162801159},"position":{"x":0.7465400099754333,"y":-0.21247300505638123,"z":0.7593569755554199}}},"m_MaterialID":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/environment/materials/decals/markings/road_markings_d.mi].pc_mi","flag":"5F"}},"m_pController":{"type":"SEntityTemplateReference","value":"5ddf3bd8079c910b"},"m_vTiling":{"type":"SVector2","value":{"x":0.4975059926509857,"y":0.5078690052032471}},"m_vUVOffset":{"type":"SVector2","value":{"x":0.5024939775466919,"y":0}},"m_vGlobalSize":{"type":"SVector3","value":{"x":0.4975059926509857,"y":0.5078690052032471,"z":0.125}},"m_fAlpha":{"type":"float32","value":65},"m_Color":{"type":"SColorRGB","value":"#cacc66"},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"399fef54fa5b7438":{"parent":"ec59d83c37c6c889","name":"StaticDecal","factory":"[modules:/zstaticdecalentity.class].pc_entitytype","blueprint":"[modules:/zstaticdecalentity.class].pc_entityblueprint","editorOnly":true,"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90.0382162801159},"position":{"x":0.7455899715423584,"y":-1.3448100090026855,"z":0.7593569755554199}}},"m_MaterialID":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/environment/materials/decals/markings/road_markings_d.mi].pc_mi","flag":"5F"}},"m_pController":{"type":"SEntityTemplateReference","value":"5ddf3bd8079c910b"},"m_vTiling":{"type":"SVector2","value":{"x":0.4975059926509857,"y":0.5078690052032471}},"m_vUVOffset":{"type":"SVector2","value":{"x":0.5024939775466919,"y":0}},"m_vGlobalSize":{"type":"SVector3","value":{"x":0.4975059926509857,"y":0.5078690052032471,"z":0.125}},"m_fAlpha":{"type":"float32","value":65},"m_Color":{"type":"SColorRGB","value":"#cacc66"},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"ba475f0a9e825a12":{"parent":"85d562630fe64160","name":"SizeCurve","factory":"[modules:/zfloatcurveentity.class].pc_entitytype","blueprint":"[modules:/zfloatcurveentity.class].pc_entityblueprint","properties":{"m_Value":{"type":"ZCurve","value":{"data":[[0,0.75,0,0,-0.05365045741200447,0.17865045368671417,1.2022544943769286e-17,0.75],[0.5,0.875,0,0,-0.05365045741200447,-0.01769908145070076,0.19634954631328583,0.875],[1,1,0,0,0,0,0,1]]}}}},"da7ac572cd0f8fe9":{"parent":"ec59d83c37c6c889","name":"StaticDecal 9","factory":"[modules:/zstaticdecalentity.class].pc_entitytype","blueprint":"[modules:/zstaticdecalentity.class].pc_entityblueprint","editorOnly":true,"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":90.00005729577937,"y":-0.0001145915587363522,"z":3.2636139937413806},"position":{"x":0.29861798882484436,"y":-1.667999029159546,"z":2.2308340072631836}}},"m_MaterialID":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/environment/materials/decals/dirt/decal_dirt_facade_d.mi].pc_mi","flag":"5F"}},"m_pController":{"type":"SEntityTemplateReference","value":"5ddf3bd8079c910b"},"m_vTiling":{"type":"SVector2","value":{"x":0.23389500379562378,"y":1}},"m_vUVOffset":{"type":"SVector2","value":{"x":0.7661060094833374,"y":0}},"m_vGlobalSize":{"type":"SVector3","value":{"x":0.8732110261917114,"y":4.160379886627197,"z":0.125}},"m_fAlpha":{"type":"float32","value":50},"m_Color":{"type":"SColorRGB","value":"#ffffff"},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"a8c89c19884322f1":{"parent":"85d562630fe64160","name":"DONTUSE_ConditionalTimerEntity","factory":"[modules:/zconditionaltimerentity.class].pc_entitytype","blueprint":"[modules:/zconditionaltimerentity.class].pc_entityblueprint","properties":{"m_nInterval":{"type":"int32","value":1500},"m_bResetWhenStopped":{"type":"bool","value":true},"m_pCondition":{"type":"SEntityTemplateReference","value":"ff0cb7ade34647c7","postInit":true}},"events":{"TimeOut":{"CloseDoor":["4bae913fd5583770"]}}},"5b1f132045330810":{"parent":"85d562630fe64160","name":"Body inside while door closed","factory":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint","properties":{"m_aValues":{"type":"TArray<SEntityTemplateReference>","value":["822dac5f7dc568b2"],"postInit":true}}},"53a57dbb5ecc987e":{"parent":"85d562630fe64160","name":"entrance_building_a_truckdoor_frame_a","factory":"[assembly:/_pro/environment/templates/architecture/doors/doors_miami_a.template?/entrance_building_a_truckdoor_frame_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/architecture/doors/doors_miami_a.template?/entrance_building_a_truckdoor_frame_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"e6318c13a8cb2c39":{"parent":"ec59d83c37c6c889","name":"StaticDecal 16","factory":"[modules:/zstaticdecalentity.class].pc_entitytype","blueprint":"[modules:/zstaticdecalentity.class].pc_entityblueprint","editorOnly":true,"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-89.96178371988411},"position":{"x":2.071013927459717,"y":0.7095119953155518,"z":0.75}}},"m_MaterialID":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/environment/materials/decals/markings/road_markings_d.mi].pc_mi","flag":"5F"}},"m_pController":{"type":"SEntityTemplateReference","value":"5ddf3bd8079c910b"},"m_vTiling":{"type":"SVector2","value":{"x":0.1043270006775856,"y":0.4809359908103943}},"m_vUVOffset":{"type":"SVector2","value":{"x":0.8956729769706726,"y":0.5190640091896057}},"m_vGlobalSize":{"type":"SVector3","value":{"x":0.8009120225906372,"y":1.6593199968338013,"z":0.125}},"m_fAlpha":{"type":"float32","value":65},"m_Color":{"type":"SColorRGB","value":"#ffffff"},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"5941ff66ef8db6ac":{"parent":"ec59d83c37c6c889","name":"StaticDecal 7","factory":"[modules:/zstaticdecalentity.class].pc_entitytype","blueprint":"[modules:/zstaticdecalentity.class].pc_entityblueprint","editorOnly":true,"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":1.064663052558899,"y":-0.02340400032699108,"z":0.75}}},"m_MaterialID":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/environment/materials/decals/markings/road_markings_d.mi].pc_mi","flag":"5F"}},"m_pController":{"type":"SEntityTemplateReference","value":"5ddf3bd8079c910b"},"m_vTiling":{"type":"SVector2","value":{"x":0.06356920301914215,"y":2.568969964981079}},"m_vUVOffset":{"type":"SVector2","value":{"x":0.18432800471782684,"y":0}},"m_vGlobalSize":{"type":"SVector3","value":{"x":0.0804286003112793,"y":3.1095900535583496,"z":0.125}},"m_fAlpha":{"type":"float32","value":65},"m_Color":{"type":"SColorRGB","value":"#cacc66"},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"48a3a90a0545e14d":{"parent":"ec59d83c37c6c889","name":"StaticDecal 8","factory":"[modules:/zstaticdecalentity.class].pc_entitytype","blueprint":"[modules:/zstaticdecalentity.class].pc_entityblueprint","editorOnly":true,"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.43162500858306885,"y":0.004695999901741743,"z":0.75}}},"m_MaterialID":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/environment/materials/decals/markings/road_markings_d.mi].pc_mi","flag":"5F"}},"m_pController":{"type":"SEntityTemplateReference","value":"5ddf3bd8079c910b"},"m_vTiling":{"type":"SVector2","value":{"x":0.06356920301914215,"y":2.568969964981079}},"m_vUVOffset":{"type":"SVector2","value":{"x":0.18432800471782684,"y":0}},"m_vGlobalSize":{"type":"SVector3","value":{"x":0.0804286003112793,"y":3.1095900535583496,"z":0.125}},"m_fAlpha":{"type":"float32","value":65},"m_Color":{"type":"SColorRGB","value":"#cacc66"},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}}},"1e5a553bf422ae68":{"parent":"85d562630fe64160","name":"Lamp_Bunker_A_01","factory":"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/props/lamps/facility_indoor_a.template?/lamp_bunker_a.entitytemplate].entitytype,[modules:/zprojectedareacullingaspect.class].entitytype).pc_entitytype","blueprint":"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/props/lamps/facility_indoor_a.template?/lamp_bunker_a.entitytemplate].entitytype,[modules:/zprojectedareacullingaspect.class].entitytype).pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":180,"y":-89.99959485764097,"z":0},"position":{"x":-0.00029399999766610563,"y":-2.344597101211548,"z":2.8535358905792236}}},"m_vFarAttenuation":{"type":"SVector2","value":{"x":1.753999948501587,"y":11.1899995803833}},"GlowPower":{"type":"float32","value":800},"DiffusePower":{"type":"float32","value":50},"DiffuseColor":{"type":"SColorRGB","value":"#ff0000"},"m_vAngularAttenuation":{"type":"SVector2","value":{"x":0.2471970021724701,"y":1.1870399713516235}},"m_fLODOffset":{"type":"float32","value":-0.009999999776482582},"LightTransform":{"type":"SMatrix43","value":{"rotation":{"x":-179.869380536186,"y":-1.9985908934471677,"z":-92.99670368534575},"position":{"x":0.01115300040692091,"y":-0.01005799975246191,"z":0.43870100378990173}}},"Flickering":{"type":"bool","value":false},"LightOn":{"type":"bool","value":true},"cablem_bVisible":{"type":"bool","value":false},"LightCastShadows":{"type":"bool","value":false},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1.75,"y":1.75,"z":1.75}},"GlowPlaneOn":{"type":"bool","value":false},"OmniLightVisible":{"type":"bool","value":true},"m_fLightFadeDistance":{"type":"float32","value":100},"m_bDisablePAC":{"type":"bool","value":true},"OmniFarAttenuation":{"type":"SVector2","value":{"x":0.32588499784469604,"y":6.500380039215088}},"m_fLODScale":{"type":"float32","value":1},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160","postInit":true}},"subsets":{"AudioEmitters":["85d562630fe64160"]}},"85d562630fe64160":{"parent":null,"name":"Setpiece_SC_Bodydump_StorageDooor","factory":"[modules:/zcompositeentity.class].pc_entitytype","blueprint":"[modules:/zcompositeentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-93.27681300209156},"position":{"x":-26.523269653320312,"y":-49.777069091796875,"z":0}}},"m_bDisablePAC":{"type":"bool","value":true}},"propertyAliases":{"DiffuseColor":[{"originalProperty":"DiffuseColor","originalEntity":"1e5a553bf422ae68"}],"m_vFarAttenuation":[{"originalProperty":"m_vFarAttenuation","originalEntity":"1e5a553bf422ae68"}],"m_fLightFadeDistance":[{"originalProperty":"m_fLightFadeDistance","originalEntity":"1e5a553bf422ae68"}],"m_bDisablePAC":[{"originalProperty":"m_bDisablePAC","originalEntity":"1e5a553bf422ae68"}],"m_vAngularAttenuation":[{"originalProperty":"m_vAngularAttenuation","originalEntity":"1e5a553bf422ae68"}],"OmniFarAttenuation":[{"originalProperty":"OmniFarAttenuation","originalEntity":"1e5a553bf422ae68"}],"LightTransform":[{"originalProperty":"LightTransform","originalEntity":"1e5a553bf422ae68"}],"OmniLightVisible":[{"originalProperty":"OmniLightVisible","originalEntity":"1e5a553bf422ae68"}],"m_fLODScale":[{"originalProperty":"m_fLODScale","originalEntity":"1e5a553bf422ae68"}]}},"a836d5c608652f1f":{"parent":"85d562630fe64160","name":"Is open","factory":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entityblueprint","properties":{"m_bFireOnLevelStart":{"type":"bool","value":true},"m_rValueEntity":{"type":"SEntityTemplateReference","value":"3fe2d9514eb70fb8","postInit":true}},"events":{"OnFalse":{"DiffuseColor":[{"ref":"1e5a553bf422ae68","value":{"type":"SColorRGB","value":{"r":1,"g":0,"b":0}}}]},"OnTrue":{"DiffuseColor":[{"ref":"1e5a553bf422ae68","value":{"type":"SColorRGB","value":{"r":0.24705882370471954,"g":0.8117647171020508,"b":0.19607843458652496}}}]}}},"a4292bd95aadb07e":{"parent":"85d562630fe64160","name":"FX_PB_Impact_Debris_Cheap_01","factory":"[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_debris_cheap.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_debris_cheap.entitytemplate].pc_entityblueprint","properties":{"m_fParticleSizeMax":{"type":"float32","value":20},"m_fParticleSizeMin":{"type":"float32","value":5},"m_fFriction":{"type":"float32","value":200},"m_ParticleColorRangeStart":{"type":"SColorRGB","value":"#d6d2cb"},"m_ParticleColorRangeEnd":{"type":"SColorRGB","value":"#8f8d8d"},"m_fArrayIndexMax":{"type":"float32","value":16},"m_fRotationSpeedMin":{"type":"float32","value":-0.4000000059604645},"m_fRotationSpeedMax":{"type":"float32","value":0.4000000059604645},"m_fTimeToLiveSecondsMax":{"type":"float32","value":1.5},"m_vModulation":{"type":"SVector3","value":{"x":0.019999999552965164,"y":0.019999999552965164,"z":0.009999999776482582}}}},"2c7379fc58c6ecd":{"parent":"85d562630fe64160","name":"ParticleModifierSizeCurve","factory":"[modules:/zparticlemodifiersizecurveentity.class].pc_entitytype","blueprint":"[modules:/zparticlemodifiersizecurveentity.class].pc_entityblueprint","properties":{"m_eUpdateStrategy":{"type":"EValueUpdateStrategy","value":"UPDATE_STRATEGY_REPLACE"},"m_CurveEntity":{"type":"SEntityTemplateReference","value":"ba475f0a9e825a12"},"m_fCurveMultiplier":{"type":"float32","value":350}}},"a4b90e678e37b6cb":{"parent":"ec59d83c37c6c889","name":"StaticDecal 12","factory":"[modules:/zstaticdecalentity.class].pc_entitytype","blueprint":"[modules:/zstaticdecalentity.class].pc_entityblueprint","editorOnly":true,"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":89.99959892953792,"y":-0.00005729577936556915,"z":3.2616051212243145},"position":{"x":1.3319469690322876,"y":-1.702186942100525,"z":2.25}}},"m_MaterialID":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/environment/materials/decals/dirt/decal_dirt_facade_d.mi].pc_mi","flag":"5F"}},"m_pController":{"type":"SEntityTemplateReference","value":"5ddf3bd8079c910b"},"m_vTiling":{"type":"SVector2","value":{"x":0.23389500379562378,"y":1}},"m_vUVOffset":{"type":"SVector2","value":{"x":0.7661060094833374,"y":0}},"m_vGlobalSize":{"type":"SVector3","value":{"x":0.8732110261917114,"y":4.160379886627197,"z":0.125}},"m_fAlpha":{"type":"float32","value":50},"m_Color":{"type":"SColorRGB","value":"#ffffff"},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160"}}},"32c3f8fd62e88c0e":{"parent":"ec59d83c37c6c889","name":"StaticDecal 4","factory":"[modules:/zstaticdecalentity.class].pc_entitytype","blueprint":"[modules:/zstaticdecalentity.class].pc_entityblueprint","editorOnly":true,"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90.0382162801159},"position":{"x":0.747310996055603,"y":0.349588006734848,"z":0.7593569755554199}}},"m_MaterialID":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/environment/materials/decals/markings/road_markings_d.mi].pc_mi","flag":"5F"}},"m_pController":{"type":"SEntityTemplateReference","value":"5ddf3bd8079c910b"},"m_vTiling":{"type":"SVector2","value":{"x":0.4975059926509857,"y":0.5078690052032471}},"m_vUVOffset":{"type":"SVector2","value":{"x":0.5024939775466919,"y":0}},"m_vGlobalSize":{"type":"SVector3","value":{"x":0.4975059926509857,"y":0.5078690052032471,"z":0.125}},"m_fAlpha":{"type":"float32","value":65},"m_Color":{"type":"SColorRGB","value":"#cacc66"},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160"}}},"d575a6370bb9b204":{"parent":"85d562630fe64160","name":"FX_PR_Debris_Paper_4x4_01","factory":"[assembly:/_pro/effects/templates/particlerenderers/fx_pr_debris.template?/fx_pr_debris_paper_4x4_01.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/effects/templates/particlerenderers/fx_pr_debris.template?/fx_pr_debris_paper_4x4_01.entitytemplate].pc_entityblueprint"},"5f6ad2dfbdb31071":{"parent":"85d562630fe64160","name":"ParticlesEmitter_Paper","factory":"[modules:/zparticleemitterboxentity.class].pc_entitytype","blueprint":"[modules:/zparticleemitterboxentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":24.999853230762184,"y":0.017647092586651474,"z":0.07964113038510115},"position":{"x":0,"y":0,"z":0}}},"m_ParticleController":{"type":"SEntityTemplateReference","value":"a4292bd95aadb07e"},"m_ParticleRender":{"type":"SEntityTemplateReference","value":"d575a6370bb9b204"},"m_vGlobalSize":{"type":"SVector3","value":{"x":2.3188700675964355,"y":1.7468600273132324,"z":0.5425050258636475}},"m_eSpawnMode":{"type":"eParticleEmitterBoxEntity_SpawnModes","value":"BOX_SPAWNMODE_ELLIPSOID_INSIDE"},"m_fSpeedMax":{"type":"float32","value":12},"m_fSpeedMin":{"type":"float32","value":4},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},"m_fEmissionTimeSeconds":{"type":"float32","value":0.10000000149011612},"m_fParticlesPerSecondMax":{"type":"float32","value":0},"m_fOuterConeAngle":{"type":"float32","value":45},"m_fInnerConeAngle":{"type":"float32","value":25},"m_bEnabled":{"type":"bool","value":false},"m_fParticlesPerSecond":{"type":"float32","value":0},"m_fFixedEmissionCount":{"type":"float32","value":15},"m_eidParent":{"type":"SEntityTemplateReference","value":"ebed911a6daf91f1","postInit":true}}},"808f60cd7fb7147b":{"parent":"ec59d83c37c6c889","name":"StaticDecal 5","factory":"[modules:/zstaticdecalentity.class].pc_entitytype","blueprint":"[modules:/zstaticdecalentity.class].pc_entityblueprint","editorOnly":true,"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90.0382162801159},"position":{"x":0.7462649941444397,"y":0.9245849847793579,"z":0.7593569755554199}}},"m_MaterialID":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/environment/materials/decals/markings/road_markings_d.mi].pc_mi","flag":"5F"}},"m_pController":{"type":"SEntityTemplateReference","value":"5ddf3bd8079c910b"},"m_vTiling":{"type":"SVector2","value":{"x":0.4975059926509857,"y":0.5078690052032471}},"m_vUVOffset":{"type":"SVector2","value":{"x":0.5024939775466919,"y":0}},"m_vGlobalSize":{"type":"SVector3","value":{"x":0.4975059926509857,"y":0.5078690052032471,"z":0.125}},"m_fAlpha":{"type":"float32","value":65},"m_Color":{"type":"SColorRGB","value":"#cacc66"},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160"}}},"9e054bc8372e353b":{"parent":"85d562630fe64160","name":"AlphaCurve","factory":"[modules:/zfloatcurveentity.class].pc_entitytype","blueprint":"[modules:/zfloatcurveentity.class].pc_entityblueprint","properties":{"m_Value":{"type":"ZCurve","value":{"data":[[0,0.20000000298023224,0,0,0.04292036592960358,-0.1429203599691391,-9.618035955015429e-18,0.20000000298023224],[0.5,0.10000000149011612,0,0,0.04292036592960358,0.014159264974296093,-0.15707963705062866,0.10000000149011612],[1,0,0,0,0,0,0,0]]}}}},"43042c8d13b4fb4e":{"parent":"85d562630fe64160","name":"ParticleModifierColorAlphaCurve","factory":"[modules:/zparticlemodifiercoloralphacurveentity.class].pc_entitytype","blueprint":"[modules:/zparticlemodifiercoloralphacurveentity.class].pc_entityblueprint","properties":{"m_AlphaCurveEntity":{"type":"SEntityTemplateReference","value":"9e054bc8372e353b"},"m_FixedColor":{"type":"SColorRGB","value":"#c4c0bc"}}},"6d323bc92f9374e":{"parent":"85d562630fe64160","name":"ParticleController","factory":"[modules:/zparticlecontrollerentity.class].pc_entitytype","blueprint":"[modules:/zparticlecontrollerentity.class].pc_entityblueprint","properties":{"m_fTimeToLiveSecondsMax":{"type":"float32","value":2},"m_fTimeToLiveSecondsMin":{"type":"float32","value":1.5},"m_fParticleSizeMax":{"type":"float32","value":200},"m_fParticleSizeMin":{"type":"float32","value":120},"m_fRotationSpeedMax":{"type":"float32","value":0.05000000074505806},"m_fRotationSpeedMin":{"type":"float32","value":-0.05000000074505806},"m_ParticleModifiers":{"type":"TArray<SEntityTemplateReference>","value":["43042c8d13b4fb4e","56db00d5fb6af112","2c7379fc58c6ecd","b4b264336ef3ff7b"]},"m_ParticleColorRangeEnd":{"type":"SColorRGB","value":"#777a7d"},"m_bRandomRotation":{"type":"bool","value":true},"m_ParticleColorRangeStart":{"type":"SColorRGB","value":"#759694"},"m_bRandomFlipU":{"type":"bool","value":true},"m_bRandomFlipV":{"type":"bool","value":true}}},"ebed911a6daf91f1":{"parent":"85d562630fe64160","name":"ParticleEmitterBox_Smoke","factory":"[modules:/zparticleemitterboxentity.class].pc_entitytype","blueprint":"[modules:/zparticleemitterboxentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-89.99994270422063,"y":0,"z":93.27681300208828},"position":{"x":2.764354944229126,"y":-0.15820500254631042,"z":1.8734350204467773}}},"m_ParticleRender":{"type":"SEntityTemplateReference","value":"bbea9b742611476f"},"m_ParticleShaderParameters":{"type":"SEntityTemplateReference","value":{"ref":"bbea9b742611476f","externalScene":null,"exposedEntity":"FX_PSP_Smoke_Generic"}},"m_ParticleController":{"type":"SEntityTemplateReference","value":"6d323bc92f9374e"},"m_fParticlesPerSecond":{"type":"float32","value":0},"m_fSpeedMax":{"type":"float32","value":3},"m_fFixedEmissionCount":{"type":"float32","value":8},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_vGlobalSize":{"type":"SVector3","value":{"x":1,"y":1,"z":1.5}},"m_eSpawnMode":{"type":"eParticleEmitterBoxEntity_SpawnModes","value":"BOX_SPAWNMODE_ELLIPSOID"},"m_bOutwardEmission":{"type":"bool","value":false},"m_fSpeedMin":{"type":"float32","value":1.5},"m_fOuterConeAngle":{"type":"float32","value":0},"m_fInnerConeAngle":{"type":"float32","value":0},"m_bUseTrackSequence":{"type":"bool","value":false},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160"}}},"44648212c625c1db":{"parent":"ec59d83c37c6c889","name":"StaticDecal 11","factory":"[modules:/zstaticdecalentity.class].pc_entitytype","blueprint":"[modules:/zstaticdecalentity.class].pc_entityblueprint","editorOnly":true,"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-90.00011459155874,"y":-0.00005729577936814745,"z":3.2491498303443502},"position":{"x":1.3168870210647583,"y":1.619452953338623,"z":2.2308340072631836}}},"m_MaterialID":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/environment/materials/decals/dirt/decal_dirt_facade_d.mi].pc_mi","flag":"5F"}},"m_pController":{"type":"SEntityTemplateReference","value":"5ddf3bd8079c910b"},"m_vTiling":{"type":"SVector2","value":{"x":0.23389500379562378,"y":1}},"m_vUVOffset":{"type":"SVector2","value":{"x":0.7661060094833374,"y":0}},"m_vGlobalSize":{"type":"SVector3","value":{"x":0.8732110261917114,"y":4.160379886627197,"z":0.125}},"m_fAlpha":{"type":"float32","value":50},"m_Color":{"type":"SColorRGB","value":"#ffffff"},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160"}}},"f3069b47aacc6305":{"parent":"ec59d83c37c6c889","name":"StaticDecal 14","factory":"[modules:/zstaticdecalentity.class].pc_entitytype","blueprint":"[modules:/zstaticdecalentity.class].pc_entityblueprint","editorOnly":true,"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-0.23067339995371966},"position":{"x":1.3450130224227905,"y":-0.08606400340795517,"z":0.7352610230445862}}},"m_MaterialID":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/environment/materials/decals/dirt/decal_dirt_facade_d.mi].pc_mi","flag":"5F"}},"m_pController":{"type":"SEntityTemplateReference","value":"5ddf3bd8079c910b"},"m_vTiling":{"type":"SVector2","value":{"x":0.23389500379562378,"y":1}},"m_vUVOffset":{"type":"SVector2","value":{"x":0.7661060094833374,"y":0}},"m_vGlobalSize":{"type":"SVector3","value":{"x":0.8732110261917114,"y":4.160379886627197,"z":0.125}},"m_fAlpha":{"type":"float32","value":50},"m_Color":{"type":"SColorRGB","value":"#ffffff"},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160"}}},"c144916af229a35d":{"parent":"85d562630fe64160","name":"medical_container_plastic_curtain_seagull_a","factory":"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/levels/miami/medical_container_plastic_curtain_a.wl2?/medical_container_plastic_curtain_seagull_a.prim].entitytype,[modules:/zclothcustommeshentity.class].entitytype).pc_entitytype","blueprint":"[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zclothcustommeshentity.class].entitytype).pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":89.76886823410331},"position":{"x":1.3016400337219238,"y":-0.858144998550415,"z":0.8126149773597717}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.822484016418457,"y":1,"z":1}},"m_bGlobalCollidersEnabled":{"type":"bool","value":true},"m_fWindConstant":{"type":"float32","value":0.125},"m_fFrustumFarDistanceProperty":{"type":"float32","value":250},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160"}}},"ff0cb7ade34647c7":{"parent":"85d562630fe64160","name":"CompletlyOpen","factory":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint","properties":{"m_aValues":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"4bae913fd5583770","externalScene":null,"exposedEntity":"IsOpen"},"c096afa3c3a3e72"]}}},"14a4d498480a0174":{"parent":"85d562630fe64160","name":"concrete_painted_a_01_03","factory":"005CA8CD2166410E","blueprint":"[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":3.9026780128479004,"y":1.6512949466705322,"z":0.733797013759613}}},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.841277003288269,"y":0.13368700444698334,"z":0.8954330086708069}},"m_eidParent":{"type":"SEntityTemplateReference","value":"85d562630fe64160"}}},"3fe2d9514eb70fb8":{"parent":"85d562630fe64160","name":"Open","factory":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint","properties":{"m_aValues":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"4bae913fd5583770","externalScene":null,"exposedEntity":"IsOpen"}]}}},"8184f7ee4684f7bb":{"parent":"85d562630fe64160","name":"ValueBool_Poll","factory":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint","properties":{"m_rValueEntity":{"type":"SEntityTemplateReference","value":"3fe2d9514eb70fb8"}},"events":{"PollTrue":{"CloseDoor":["4bae913fd5583770"]},"PollFalse":{"OpenDoorIn":["4bae913fd5583770"]}}}},"propertyOverrides":[],"overrideDeletes":[],"pinConnectionOverrides":[],"pinConnectionOverrideDeletes":[],"externalScenes":[],"subType":"template","quickEntityVersion":3.1,"extraFactoryDependencies":[{"resource":"[assembly:/_pro/environment/geometry/levels/miami/entrance_building_a.wl2?/entrance_building_a_truckdoor_frame_a.prim].pc_prim","flag":"5F"},{"resource":"[assembly:/_pro/environment/geometry/levels/miami/entrance_building_a.wl2?/entrance_building_a_truckdoor_frame_a.prim].pc_coll","flag":"5F"},{"resource":"[assembly:/_pro/environment/geometry/levels/miami/entrance_building_a.wl2?/entrance_building_a_truckdoor_separate_a.prim].pc_prim","flag":"5F"},{"resource":"[assembly:/_pro/environment/geometry/levels/miami/entrance_building_a.wl2?/entrance_building_a_truckdoor_separate_a.prim].pc_coll","flag":"5F"},{"resource":"[assembly:/geometry/g2/gizmos.wl2?/gizmo_trigger_01.prim].pc_prim","flag":"5F"},{"resource":"0015590213A6606C","flag":"5F"},{"resource":"[assembly:/_pro/environment/geometry/props/lamps/lamp_bunker_a.wl2?/lamp_bunker_a.prim].pc_prim","flag":"5F"},{"resource":"[assembly:/_pro/environment/geometry/props/lamps/lamp_bunker_a.wl2?/lamp_bunker_a.prim].pc_coll","flag":"5F"},{"resource":"00C6738C8570AB9D","flag":"5F"},{"resource":"00743DD48B982133","flag":"5F"},{"resource":"[assembly:/_pro/environment/geometry/levels/seagull/seagull_warehouse_a.wl2?/seagull_warehouse_1x1_concrete_floor_zmapped_a.prim].pc_prim","flag":"5F"},{"resource":"[assembly:/_pro/environment/geometry/levels/seagull/seagull_warehouse_a.wl2?/seagull_warehouse_1x1_concrete_floor_zmapped_a.prim].pc_coll","flag":"5F"},{"resource":"[assembly:/_pro/environment/geometry/levels/miami/medical_container_plastic_curtain_a.wl2?/medical_container_plastic_curtain_seagull_a.prim].pc_prim","flag":"5F"}],"extraBlueprintDependencies":[],"comments":[]}
+{
+    "tempHash": "0098DBCBF7146984",
+    "tbluHash": "00ECE4982292BF31",
+    "rootEntity": "85d562630fe64160",
+    "entities": {
+        "3d41c724299578ef": {
+            "parent": "85d562630fe64160",
+            "name": "w",
+            "factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/levels/miami/medical_container_plastic_curtain_a.wl2?/medical_container_plastic_curtain_seagull_a.prim].entitytype,[modules:/zclothcustommeshentity.class].entitytype).pc_entitytype",
+            "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zclothcustommeshentity.class].entitytype).pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 89.76886823410331
+                        },
+                        "position": {
+                            "x": 1.2973710298538208,
+                            "y": 0.7844370007514954,
+                            "z": 0.8126149773597717
+                        }
+                    }
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.822484016418457,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "m_bGlobalCollidersEnabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_fWindConstant": {
+                    "type": "float32",
+                    "value": 0.125
+                },
+                "m_fFrustumFarDistanceProperty": {
+                    "type": "float32",
+                    "value": 250
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "b4b264336ef3ff7b": {
+            "parent": "85d562630fe64160",
+            "name": "ParticleModifierCollisionBox",
+            "factory": "[modules:/zparticlemodifiercollisionboxentity.class].pc_entitytype",
+            "blueprint": "[modules:/zparticlemodifiercollisionboxentity.class].pc_entityblueprint",
+            "properties": {
+                "m_bKillParticlesOnCollision": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_fKillOnCollisionChance": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "m_eCollisionResponse": {
+                    "type": "ECollisionResponse",
+                    "value": "CUSTOM"
+                },
+                "m_bInverted": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_fCoefficientOfRestitution": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "m_fDirectionCoefficient": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "m_CollisionEntities": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "90bdc251f120cb60"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "822dac5f7dc568b2": {
+            "parent": "85d562630fe64160",
+            "name": "ValueBool_Delayed",
+            "factory": "[assembly:/_pro/design/logic/valuebool2.template?/valuebool_delayed.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/logic/valuebool2.template?/valuebool_delayed.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_nDelayOnTrue": {
+                    "type": "float32",
+                    "value": 0.20000000298023224
+                },
+                "m_rValueEntity": {
+                    "type": "SEntityTemplateReference",
+                    "value": "960ece7fb2fff84d",
+                    "postInit": true
+                }
+            }
+        },
+        "cc819356ecfb30c7": {
+            "parent": "85d562630fe64160",
+            "name": "concrete_painted_a_01_04",
+            "factory": "00FD38AA8BD06936",
+            "blueprint": "009FC0F951C7BEBF",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90,
+                            "y": 0,
+                            "z": 90.79804139573845
+                        },
+                        "position": {
+                            "x": 3.9397239685058594,
+                            "y": 1.6219229698181152,
+                            "z": 4.274217128753662
+                        }
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_DYNAMIC"
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 1.100000023841858,
+                        "y": 1,
+                        "z": 1.2217600345611572
+                    }
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "960ece7fb2fff84d": {
+            "parent": "85d562630fe64160",
+            "name": "Closed",
+            "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_eEvaluation": {
+                    "type": "ZValueBool_Operation_Signal.EEvaluationType",
+                    "value": "NONE"
+                },
+                "m_aValues": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        {
+                            "ref": "4bae913fd5583770",
+                            "externalScene": null,
+                            "exposedEntity": "IsOpen"
+                        },
+                        {
+                            "ref": "4bae913fd5583770",
+                            "externalScene": null,
+                            "exposedEntity": "IsDoorMoving"
+                        }
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "a40de5408ff0bc18": {
+            "parent": "85d562630fe64160",
+            "name": "VolumeBox09",
+            "factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+            "blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+            "properties": {
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 3.625469923019409,
+                        "y": 2.749340057373047,
+                        "z": 3.064539909362793
+                    }
+                },
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 90,
+                            "y": -0.016386591534881215,
+                            "z": -179.18665886172005
+                        },
+                        "position": {
+                            "x": 2.1066510677337646,
+                            "y": -0.01758600026369095,
+                            "z": 1.8869019746780396
+                        }
+                    }
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "5ddf3bd8079c910b": {
+            "parent": "ec59d83c37c6c889",
+            "name": "StaticDecalController",
+            "factory": "[modules:/zstaticdecalcontrollerentity.class].pc_entitytype",
+            "blueprint": "[modules:/zstaticdecalcontrollerentity.class].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 93.27681300209156
+                        },
+                        "position": {
+                            "x": 0.852088987827301,
+                            "y": -0.3575510084629059,
+                            "z": 0.7338150143623352
+                        }
+                    }
+                },
+                "m_pDecalMesh": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "00540FD7332E28CE",
+                        "flag": "5F"
+                    }
+                },
+                "m_Targets": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "d589bf83cec6ad35",
+                        "8827f52e6c66f4fb",
+                        "34ddd33b743300a2"
+                    ],
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "90bdc251f120cb60": {
+            "parent": "85d562630fe64160",
+            "name": "entrance_building_a_truckdoor_separate_a",
+            "factory": "[assembly:/_pro/environment/templates/architecture/doors/doors_miami_a.template?/entrance_building_a_truckdoor_separate_a.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/environment/templates/architecture/doors/doors_miami_a.template?/entrance_building_a_truckdoor_separate_a.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": 0.12852460145950317,
+                            "y": 0,
+                            "z": 0.7462273240089417
+                        }
+                    }
+                },
+                "m_bEnableCollision": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bRemovePhysics": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bKinematic": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "1bef6b20f12465c3": {
+            "parent": "ec59d83c37c6c889",
+            "name": "StaticDecal 15",
+            "factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+            "blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+            "editorOnly": true,
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -89.96178371988411
+                        },
+                        "position": {
+                            "x": 2.087963104248047,
+                            "y": -0.7438330054283142,
+                            "z": 0.75
+                        }
+                    }
+                },
+                "m_MaterialID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "[assembly:/_pro/environment/materials/decals/markings/road_markings_d.mi].pc_mi",
+                        "flag": "5F"
+                    }
+                },
+                "m_pController": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5ddf3bd8079c910b"
+                },
+                "m_vTiling": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.1043270006775856,
+                        "y": 0.4809359908103943
+                    }
+                },
+                "m_vUVOffset": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.8956729769706726,
+                        "y": 0.5190640091896057
+                    }
+                },
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.8009120225906372,
+                        "y": 1.6593199968338013,
+                        "z": 0.125
+                    }
+                },
+                "m_fAlpha": {
+                    "type": "float32",
+                    "value": 65
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#ffffff"
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "56db00d5fb6af112": {
+            "parent": "85d562630fe64160",
+            "name": "ParticleModifierMotion",
+            "factory": "[modules:/zparticlemodifiermotionentity.class].pc_entitytype",
+            "blueprint": "[modules:/zparticlemodifiermotionentity.class].pc_entityblueprint",
+            "properties": {
+                "m_vGravity": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0,
+                        "y": 0,
+                        "z": -0.10000000149011612
+                    }
+                }
+            }
+        },
+        "940e8df6ead5636d": {
+            "parent": "ec59d83c37c6c889",
+            "name": "StaticDecal 6",
+            "factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+            "blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+            "editorOnly": true,
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 90.0382162801159
+                        },
+                        "position": {
+                            "x": 0.7472310066223145,
+                            "y": 1.4095230102539063,
+                            "z": 0.7593569755554199
+                        }
+                    }
+                },
+                "m_MaterialID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "[assembly:/_pro/environment/materials/decals/markings/road_markings_d.mi].pc_mi",
+                        "flag": "5F"
+                    }
+                },
+                "m_pController": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5ddf3bd8079c910b"
+                },
+                "m_vTiling": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.3431049883365631,
+                        "y": 0.5078690052032471
+                    }
+                },
+                "m_vUVOffset": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.6568949818611145,
+                        "y": 0
+                    }
+                },
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.3431049883365631,
+                        "y": 0.5078690052032471,
+                        "z": 0.125
+                    }
+                },
+                "m_fAlpha": {
+                    "type": "float32",
+                    "value": 65
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#cacc66"
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "a097d7030e684219": {
+            "parent": "1e5a553bf422ae68",
+            "name": "BounceLight",
+            "factory": "[modules:/zlightentity.class].pc_entitytype",
+            "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90.73897394462261,
+                            "y": -9.747004381980194,
+                            "z": 93.25195347851589
+                        },
+                        "position": {
+                            "x": -3.892880916595459,
+                            "y": -0.16147799789905548,
+                            "z": 2.317742109298706
+                        }
+                    }
+                },
+                "m_eLightType": {
+                    "type": "ILightEntity.ELightType",
+                    "value": "LT_OMNI"
+                },
+                "m_bCastShadows": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_vFarAttenuation": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 1.0499999523162842,
+                        "y": 7.119999885559082
+                    }
+                },
+                "m_fDiffusePower": {
+                    "type": "float32",
+                    "value": 0.44999998807907104
+                },
+                "m_bVisible": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bEnableLightFade": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_fLightFadeDistance": {
+                    "type": "float32",
+                    "value": 10
+                },
+                "m_fLightFadeLength": {
+                    "type": "float32",
+                    "value": 5
+                },
+                "m_MasterLight": {
+                    "type": "SEntityTemplateReference",
+                    "value": {
+                        "ref": "1e5a553bf422ae68",
+                        "externalScene": null,
+                        "exposedEntity": "MasterLight"
+                    },
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "1e5a553bf422ae68",
+                    "postInit": true
+                }
+            }
+        },
+        "d589bf83cec6ad35": {
+            "parent": "85d562630fe64160",
+            "name": "concrete_painted_a_01_02",
+            "factory": "005CA8CD2166410E",
+            "blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -180
+                        },
+                        "position": {
+                            "x": 0.18754200637340546,
+                            "y": 1.6544450521469116,
+                            "z": 0.733797013759613
+                        }
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_DYNAMIC"
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.9350510239601135,
+                        "y": 0.10984399914741516,
+                        "z": 0.8959050178527832
+                    }
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "bbea9b742611476f": {
+            "parent": "85d562630fe64160",
+            "name": "FX_PR_Smoke_Wispy_Generic_4t_8x4",
+            "factory": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_smoke.template?/fx_pr_smoke_wispy_generic_4t_8x4.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_smoke.template?/fx_pr_smoke_wispy_generic_4t_8x4.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "Diffusion": {
+                    "type": "float32",
+                    "value": 0
+                },
+                "AlphaErosion": {
+                    "type": "float32",
+                    "value": 0
+                }
+            }
+        },
+        "ec59d83c37c6c889": {
+            "parent": "85d562630fe64160",
+            "name": "Decals",
+            "factory": "[modules:/zentity.class].pc_entitytype",
+            "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+        },
+        "1d9d7ee763d0ac11": {
+            "parent": "ec59d83c37c6c889",
+            "name": "StaticDecal 2",
+            "factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+            "blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+            "editorOnly": true,
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 90.0382162801159
+                        },
+                        "position": {
+                            "x": 0.7463529706001282,
+                            "y": -0.7829790115356445,
+                            "z": 0.7593569755554199
+                        }
+                    }
+                },
+                "m_MaterialID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "[assembly:/_pro/environment/materials/decals/markings/road_markings_d.mi].pc_mi",
+                        "flag": "5F"
+                    }
+                },
+                "m_pController": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5ddf3bd8079c910b"
+                },
+                "m_vTiling": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.4975059926509857,
+                        "y": 0.5078690052032471
+                    }
+                },
+                "m_vUVOffset": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.5024939775466919,
+                        "y": 0
+                    }
+                },
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.4975059926509857,
+                        "y": 0.5078690052032471,
+                        "z": 0.125
+                    }
+                },
+                "m_fAlpha": {
+                    "type": "float32",
+                    "value": 65
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#cacc66"
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "34ddd33b743300a2": {
+            "parent": "85d562630fe64160",
+            "name": "seagull_warehouse_1x1_concrete_floor_zmapped_a_01",
+            "factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x1_concrete_floor_zmapped_a.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x1_concrete_floor_zmapped_a.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -179.97203966235674
+                        },
+                        "position": {
+                            "x": 4.05532693862915,
+                            "y": 1.8838310241699219,
+                            "z": 0.7338569760322571
+                        }
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_DYNAMIC"
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 3.814810037612915,
+                        "y": 3.668459892272949,
+                        "z": 99.98500061035156
+                    }
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "8827f52e6c66f4fb": {
+            "parent": "85d562630fe64160",
+            "name": "concrete_painted_a_01",
+            "factory": "005CA8CD2166410E",
+            "blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": 3.931324005126953,
+                            "y": -1.711603045463562,
+                            "z": 0.733797013759613
+                        }
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_DYNAMIC"
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.9376029968261719,
+                        "y": 0.2601320147514343,
+                        "z": 0.8957129716873169
+                    }
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "f28cbafa13255db4": {
+            "parent": "85d562630fe64160",
+            "name": "DarkLight",
+            "factory": "[modules:/zdarklightentity.class].pc_entitytype",
+            "blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -90
+                        },
+                        "position": {
+                            "x": 2.150554895401001,
+                            "y": 0.001766999950632453,
+                            "z": 2.449867010116577
+                        }
+                    }
+                },
+                "m_eLightType": {
+                    "type": "ILightEntity.ELightType",
+                    "value": "LT_ENVIRONMENT"
+                },
+                "m_vBoxSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 3.593179941177368,
+                        "y": 3.5032598972320557,
+                        "z": 3.969899892807007
+                    }
+                },
+                "m_vBoxFadePos": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.2114740014076233,
+                        "y": 1.4462800025939941,
+                        "z": 0.25953999161720276
+                    }
+                },
+                "m_vBoxFadeNeg": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.14268000423908234,
+                        "y": -0.050030000507831573,
+                        "z": 0
+                    }
+                },
+                "m_bVisible": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_fDiffusePower": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "m_bEnableLightFade": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_fLightFadeDistance": {
+                    "type": "float32",
+                    "value": 350
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "c096afa3c3a3e72": {
+            "parent": "85d562630fe64160",
+            "name": "NotMoving",
+            "factory": "[modules:/zinvertedcondition.class].pc_entitytype",
+            "blueprint": "[modules:/zinvertedcondition.class].pc_entityblueprint",
+            "properties": {
+                "m_rCondition": {
+                    "type": "SEntityTemplateReference",
+                    "value": {
+                        "ref": "4bae913fd5583770",
+                        "externalScene": null,
+                        "exposedEntity": "IsDoorMoving"
+                    },
+                    "postInit": true
+                }
+            }
+        },
+        "8925e581626f9588": {
+            "parent": "ec59d83c37c6c889",
+            "name": "StaticDecal 10",
+            "factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+            "blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+            "editorOnly": true,
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90.00005729577937,
+                            "y": -0.000057295779368319325,
+                            "z": 3.254432106691158
+                        },
+                        "position": {
+                            "x": 0.35591500997543335,
+                            "y": 1.6744680404663086,
+                            "z": 2.2308340072631836
+                        }
+                    }
+                },
+                "m_MaterialID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "[assembly:/_pro/environment/materials/decals/dirt/decal_dirt_facade_d.mi].pc_mi",
+                        "flag": "5F"
+                    }
+                },
+                "m_pController": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5ddf3bd8079c910b"
+                },
+                "m_vTiling": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.23389500379562378,
+                        "y": 1
+                    }
+                },
+                "m_vUVOffset": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.7661060094833374,
+                        "y": 0
+                    }
+                },
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.8732110261917114,
+                        "y": 4.160379886627197,
+                        "z": 0.125
+                    }
+                },
+                "m_fAlpha": {
+                    "type": "float32",
+                    "value": 50
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#ffffff"
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "4bae913fd5583770": {
+            "parent": "85d562630fe64160",
+            "name": "Access_Helper_Singledoor",
+            "factory": "[assembly:/_pro/design/gamecore/accesshelpers.template?/access_helper_singledoor.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/gamecore/accesshelpers.template?/access_helper_singledoor.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_bIsLocked": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bManualClose": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bValueUnlockIfOpened": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_rPromptDescriptionTextResource": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "006D554305540A74",
+                        "flag": "5F"
+                    }
+                },
+                "RequireActivation": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_fCloseTime": {
+                    "type": "float32",
+                    "value": 2
+                },
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -89.32526950434595
+                        },
+                        "position": {
+                            "x": 0.12455400079488754,
+                            "y": 0.025769999250769615,
+                            "z": 0
+                        }
+                    }
+                },
+                "m_bNPCUseEnable": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bVisible": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_InitialState": {
+                    "type": "IHM5Door.EInitialState",
+                    "value": "IS_CLOSED"
+                },
+                "m_bValueOpenFromInside": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bEnabled": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bIgnoreCovers": {
+                    "type": "bool",
+                    "value": true
+                },
+                "CrowbarOpen": {
+                    "type": "ZRuntimeResourceID",
+                    "value": null
+                },
+                "m_pMainEvent54": {
+                    "type": "ZRuntimeResourceID",
+                    "value": null
+                },
+                "m_pMainEvent12": {
+                    "type": "ZRuntimeResourceID",
+                    "value": null
+                },
+                "m_pMainEvent13": {
+                    "type": "ZRuntimeResourceID",
+                    "value": null
+                },
+                "A_AudioOpenInitial": {
+                    "type": "ZRuntimeResourceID",
+                    "value": null
+                },
+                "B_AudioOpenMovement": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "00048DA4962787B8",
+                        "flag": "5F"
+                    }
+                },
+                "C_AudioOpenComplete": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "00ED239BFC017356",
+                        "flag": "5F"
+                    }
+                },
+                "A_AudioCloseInitial": {
+                    "type": "ZRuntimeResourceID",
+                    "value": null
+                },
+                "B_AudioCloseMovement": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "00EF927105160C5E",
+                        "flag": "5F"
+                    }
+                },
+                "C_AudioCloseComplete": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "004B51671BE8B969",
+                        "flag": "5F"
+                    }
+                },
+                "m_rDoorFrame1": {
+                    "type": "SEntityTemplateReference",
+                    "value": "90bdc251f120cb60",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            },
+            "subsets": {
+                "AudioEmitters": [
+                    "85d562630fe64160"
+                ]
+            }
+        },
+        "25abe1f62c4e2e89": {
+            "parent": "ec59d83c37c6c889",
+            "name": "StaticDecal 13",
+            "factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+            "blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+            "editorOnly": true,
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -0.2719840247845809
+                        },
+                        "position": {
+                            "x": 0.4525179862976074,
+                            "y": -0.034967999905347824,
+                            "z": 0.7352610230445862
+                        }
+                    }
+                },
+                "m_MaterialID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "[assembly:/_pro/environment/materials/decals/dirt/decal_dirt_facade_d.mi].pc_mi",
+                        "flag": "5F"
+                    }
+                },
+                "m_pController": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5ddf3bd8079c910b"
+                },
+                "m_vTiling": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.23389500379562378,
+                        "y": 1
+                    }
+                },
+                "m_vUVOffset": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.7661060094833374,
+                        "y": 0
+                    }
+                },
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.8732110261917114,
+                        "y": 4.160379886627197,
+                        "z": 0.125
+                    }
+                },
+                "m_fAlpha": {
+                    "type": "float32",
+                    "value": 75
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#ffffff"
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "b8e9a30991f35f3": {
+            "parent": "85d562630fe64160",
+            "name": "PFObstacle",
+            "factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+            "blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": 1.8410840034484863,
+                            "y": 0.013523000292479992,
+                            "z": 2.193164110183716
+                        }
+                    }
+                },
+                "m_bEnabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 4.2188401222229,
+                        "y": 3.1992900371551514,
+                        "z": 3.401789903640747
+                    }
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "d36b30a5313b4cf3": {
+            "parent": "ec59d83c37c6c889",
+            "name": "StaticDecal 3",
+            "factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+            "blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+            "editorOnly": true,
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 90.0382162801159
+                        },
+                        "position": {
+                            "x": 0.7465400099754333,
+                            "y": -0.21247300505638123,
+                            "z": 0.7593569755554199
+                        }
+                    }
+                },
+                "m_MaterialID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "[assembly:/_pro/environment/materials/decals/markings/road_markings_d.mi].pc_mi",
+                        "flag": "5F"
+                    }
+                },
+                "m_pController": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5ddf3bd8079c910b"
+                },
+                "m_vTiling": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.4975059926509857,
+                        "y": 0.5078690052032471
+                    }
+                },
+                "m_vUVOffset": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.5024939775466919,
+                        "y": 0
+                    }
+                },
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.4975059926509857,
+                        "y": 0.5078690052032471,
+                        "z": 0.125
+                    }
+                },
+                "m_fAlpha": {
+                    "type": "float32",
+                    "value": 65
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#cacc66"
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "399fef54fa5b7438": {
+            "parent": "ec59d83c37c6c889",
+            "name": "StaticDecal",
+            "factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+            "blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+            "editorOnly": true,
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 90.0382162801159
+                        },
+                        "position": {
+                            "x": 0.7455899715423584,
+                            "y": -1.3448100090026855,
+                            "z": 0.7593569755554199
+                        }
+                    }
+                },
+                "m_MaterialID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "[assembly:/_pro/environment/materials/decals/markings/road_markings_d.mi].pc_mi",
+                        "flag": "5F"
+                    }
+                },
+                "m_pController": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5ddf3bd8079c910b"
+                },
+                "m_vTiling": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.4975059926509857,
+                        "y": 0.5078690052032471
+                    }
+                },
+                "m_vUVOffset": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.5024939775466919,
+                        "y": 0
+                    }
+                },
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.4975059926509857,
+                        "y": 0.5078690052032471,
+                        "z": 0.125
+                    }
+                },
+                "m_fAlpha": {
+                    "type": "float32",
+                    "value": 65
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#cacc66"
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "ba475f0a9e825a12": {
+            "parent": "85d562630fe64160",
+            "name": "SizeCurve",
+            "factory": "[modules:/zfloatcurveentity.class].pc_entitytype",
+            "blueprint": "[modules:/zfloatcurveentity.class].pc_entityblueprint",
+            "properties": {
+                "m_Value": {
+                    "type": "ZCurve",
+                    "value": {
+                        "data": [
+                            [
+                                0,
+                                0.75,
+                                0,
+                                0,
+                                -0.05365045741200447,
+                                0.17865045368671417,
+                                1.2022544943769286e-17,
+                                0.75
+                            ],
+                            [
+                                0.5,
+                                0.875,
+                                0,
+                                0,
+                                -0.05365045741200447,
+                                -0.01769908145070076,
+                                0.19634954631328583,
+                                0.875
+                            ],
+                            [
+                                1,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0,
+                                1
+                            ]
+                        ]
+                    }
+                }
+            }
+        },
+        "da7ac572cd0f8fe9": {
+            "parent": "ec59d83c37c6c889",
+            "name": "StaticDecal 9",
+            "factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+            "blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+            "editorOnly": true,
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 90.00005729577937,
+                            "y": -0.0001145915587363522,
+                            "z": 3.2636139937413806
+                        },
+                        "position": {
+                            "x": 0.29861798882484436,
+                            "y": -1.667999029159546,
+                            "z": 2.2308340072631836
+                        }
+                    }
+                },
+                "m_MaterialID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "[assembly:/_pro/environment/materials/decals/dirt/decal_dirt_facade_d.mi].pc_mi",
+                        "flag": "5F"
+                    }
+                },
+                "m_pController": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5ddf3bd8079c910b"
+                },
+                "m_vTiling": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.23389500379562378,
+                        "y": 1
+                    }
+                },
+                "m_vUVOffset": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.7661060094833374,
+                        "y": 0
+                    }
+                },
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.8732110261917114,
+                        "y": 4.160379886627197,
+                        "z": 0.125
+                    }
+                },
+                "m_fAlpha": {
+                    "type": "float32",
+                    "value": 50
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#ffffff"
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "a8c89c19884322f1": {
+            "parent": "85d562630fe64160",
+            "name": "DONTUSE_ConditionalTimerEntity",
+            "factory": "[modules:/zconditionaltimerentity.class].pc_entitytype",
+            "blueprint": "[modules:/zconditionaltimerentity.class].pc_entityblueprint",
+            "properties": {
+                "m_nInterval": {
+                    "type": "int32",
+                    "value": 1500
+                },
+                "m_bResetWhenStopped": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_pCondition": {
+                    "type": "SEntityTemplateReference",
+                    "value": "ff0cb7ade34647c7",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "TimeOut": {
+                    "CloseDoor": [
+                        "4bae913fd5583770"
+                    ]
+                }
+            }
+        },
+        "5b1f132045330810": {
+            "parent": "85d562630fe64160",
+            "name": "Body inside while door closed",
+            "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aValues": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "822dac5f7dc568b2"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "53a57dbb5ecc987e": {
+            "parent": "85d562630fe64160",
+            "name": "entrance_building_a_truckdoor_frame_a",
+            "factory": "[assembly:/_pro/environment/templates/architecture/doors/doors_miami_a.template?/entrance_building_a_truckdoor_frame_a.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/environment/templates/architecture/doors/doors_miami_a.template?/entrance_building_a_truckdoor_frame_a.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_DYNAMIC"
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "e6318c13a8cb2c39": {
+            "parent": "ec59d83c37c6c889",
+            "name": "StaticDecal 16",
+            "factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+            "blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+            "editorOnly": true,
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -89.96178371988411
+                        },
+                        "position": {
+                            "x": 2.071013927459717,
+                            "y": 0.7095119953155518,
+                            "z": 0.75
+                        }
+                    }
+                },
+                "m_MaterialID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "[assembly:/_pro/environment/materials/decals/markings/road_markings_d.mi].pc_mi",
+                        "flag": "5F"
+                    }
+                },
+                "m_pController": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5ddf3bd8079c910b"
+                },
+                "m_vTiling": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.1043270006775856,
+                        "y": 0.4809359908103943
+                    }
+                },
+                "m_vUVOffset": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.8956729769706726,
+                        "y": 0.5190640091896057
+                    }
+                },
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.8009120225906372,
+                        "y": 1.6593199968338013,
+                        "z": 0.125
+                    }
+                },
+                "m_fAlpha": {
+                    "type": "float32",
+                    "value": 65
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#ffffff"
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "5941ff66ef8db6ac": {
+            "parent": "ec59d83c37c6c889",
+            "name": "StaticDecal 7",
+            "factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+            "blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+            "editorOnly": true,
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": 1.064663052558899,
+                            "y": -0.02340400032699108,
+                            "z": 0.75
+                        }
+                    }
+                },
+                "m_MaterialID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "[assembly:/_pro/environment/materials/decals/markings/road_markings_d.mi].pc_mi",
+                        "flag": "5F"
+                    }
+                },
+                "m_pController": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5ddf3bd8079c910b"
+                },
+                "m_vTiling": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.06356920301914215,
+                        "y": 2.568969964981079
+                    }
+                },
+                "m_vUVOffset": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.18432800471782684,
+                        "y": 0
+                    }
+                },
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.0804286003112793,
+                        "y": 3.1095900535583496,
+                        "z": 0.125
+                    }
+                },
+                "m_fAlpha": {
+                    "type": "float32",
+                    "value": 65
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#cacc66"
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "48a3a90a0545e14d": {
+            "parent": "ec59d83c37c6c889",
+            "name": "StaticDecal 8",
+            "factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+            "blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+            "editorOnly": true,
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": 0.43162500858306885,
+                            "y": 0.004695999901741743,
+                            "z": 0.75
+                        }
+                    }
+                },
+                "m_MaterialID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "[assembly:/_pro/environment/materials/decals/markings/road_markings_d.mi].pc_mi",
+                        "flag": "5F"
+                    }
+                },
+                "m_pController": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5ddf3bd8079c910b"
+                },
+                "m_vTiling": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.06356920301914215,
+                        "y": 2.568969964981079
+                    }
+                },
+                "m_vUVOffset": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.18432800471782684,
+                        "y": 0
+                    }
+                },
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.0804286003112793,
+                        "y": 3.1095900535583496,
+                        "z": 0.125
+                    }
+                },
+                "m_fAlpha": {
+                    "type": "float32",
+                    "value": 65
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#cacc66"
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            }
+        },
+        "1e5a553bf422ae68": {
+            "parent": "85d562630fe64160",
+            "name": "Lamp_Bunker_A_01",
+            "factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/props/lamps/facility_indoor_a.template?/lamp_bunker_a.entitytemplate].entitytype,[modules:/zprojectedareacullingaspect.class].entitytype).pc_entitytype",
+            "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/props/lamps/facility_indoor_a.template?/lamp_bunker_a.entitytemplate].entitytype,[modules:/zprojectedareacullingaspect.class].entitytype).pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 180,
+                            "y": -89.99959485764097,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": -0.00029399999766610563,
+                            "y": -2.344597101211548,
+                            "z": 2.8535358905792236
+                        }
+                    }
+                },
+                "m_vFarAttenuation": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 1.753999948501587,
+                        "y": 11.1899995803833
+                    }
+                },
+                "GlowPower": {
+                    "type": "float32",
+                    "value": 800
+                },
+                "DiffusePower": {
+                    "type": "float32",
+                    "value": 50
+                },
+                "DiffuseColor": {
+                    "type": "SColorRGB",
+                    "value": "#ff0000"
+                },
+                "m_vAngularAttenuation": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.2471970021724701,
+                        "y": 1.1870399713516235
+                    }
+                },
+                "m_fLODOffset": {
+                    "type": "float32",
+                    "value": -0.009999999776482582
+                },
+                "LightTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -179.869380536186,
+                            "y": -1.9985908934471677,
+                            "z": -92.99670368534575
+                        },
+                        "position": {
+                            "x": 0.01115300040692091,
+                            "y": -0.01005799975246191,
+                            "z": 0.43870100378990173
+                        }
+                    }
+                },
+                "Flickering": {
+                    "type": "bool",
+                    "value": false
+                },
+                "LightOn": {
+                    "type": "bool",
+                    "value": true
+                },
+                "cablem_bVisible": {
+                    "type": "bool",
+                    "value": false
+                },
+                "LightCastShadows": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_DYNAMIC"
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 1.75,
+                        "y": 1.75,
+                        "z": 1.75
+                    }
+                },
+                "GlowPlaneOn": {
+                    "type": "bool",
+                    "value": false
+                },
+                "OmniLightVisible": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_fLightFadeDistance": {
+                    "type": "float32",
+                    "value": 100
+                },
+                "m_bDisablePAC": {
+                    "type": "bool",
+                    "value": true
+                },
+                "OmniFarAttenuation": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.32588499784469604,
+                        "y": 6.500380039215088
+                    }
+                },
+                "m_fLODScale": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160",
+                    "postInit": true
+                }
+            },
+            "subsets": {
+                "AudioEmitters": [
+                    "85d562630fe64160"
+                ]
+            }
+        },
+        "85d562630fe64160": {
+            "parent": null,
+            "name": "Setpiece_SC_Bodydump_StorageDooor",
+            "factory": "[modules:/zcompositeentity.class].pc_entitytype",
+            "blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -93.27681300209156
+                        },
+                        "position": {
+                            "x": -26.523269653320312,
+                            "y": -49.777069091796875,
+                            "z": 0
+                        }
+                    }
+                },
+                "m_bDisablePAC": {
+                    "type": "bool",
+                    "value": true
+                }
+            },
+            "propertyAliases": {
+                "DiffuseColor": [
+                    {
+                        "originalProperty": "DiffuseColor",
+                        "originalEntity": "1e5a553bf422ae68"
+                    }
+                ],
+                "m_vFarAttenuation": [
+                    {
+                        "originalProperty": "m_vFarAttenuation",
+                        "originalEntity": "1e5a553bf422ae68"
+                    }
+                ],
+                "m_fLightFadeDistance": [
+                    {
+                        "originalProperty": "m_fLightFadeDistance",
+                        "originalEntity": "1e5a553bf422ae68"
+                    }
+                ],
+                "m_bDisablePAC": [
+                    {
+                        "originalProperty": "m_bDisablePAC",
+                        "originalEntity": "1e5a553bf422ae68"
+                    }
+                ],
+                "m_vAngularAttenuation": [
+                    {
+                        "originalProperty": "m_vAngularAttenuation",
+                        "originalEntity": "1e5a553bf422ae68"
+                    }
+                ],
+                "OmniFarAttenuation": [
+                    {
+                        "originalProperty": "OmniFarAttenuation",
+                        "originalEntity": "1e5a553bf422ae68"
+                    }
+                ],
+                "LightTransform": [
+                    {
+                        "originalProperty": "LightTransform",
+                        "originalEntity": "1e5a553bf422ae68"
+                    }
+                ],
+                "OmniLightVisible": [
+                    {
+                        "originalProperty": "OmniLightVisible",
+                        "originalEntity": "1e5a553bf422ae68"
+                    }
+                ],
+                "m_fLODScale": [
+                    {
+                        "originalProperty": "m_fLODScale",
+                        "originalEntity": "1e5a553bf422ae68"
+                    }
+                ]
+            }
+        },
+        "a836d5c608652f1f": {
+            "parent": "85d562630fe64160",
+            "name": "Is open",
+            "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_bFireOnLevelStart": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_rValueEntity": {
+                    "type": "SEntityTemplateReference",
+                    "value": "3fe2d9514eb70fb8",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnFalse": {
+                    "DiffuseColor": [
+                        {
+                            "ref": "1e5a553bf422ae68",
+                            "value": {
+                                "type": "SColorRGB",
+                                "value": {
+                                    "r": 1,
+                                    "g": 0,
+                                    "b": 0
+                                }
+                            }
+                        }
+                    ]
+                },
+                "OnTrue": {
+                    "DiffuseColor": [
+                        {
+                            "ref": "1e5a553bf422ae68",
+                            "value": {
+                                "type": "SColorRGB",
+                                "value": {
+                                    "r": 0.24705882370471954,
+                                    "g": 0.8117647171020508,
+                                    "b": 0.19607843458652496
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "a4292bd95aadb07e": {
+            "parent": "85d562630fe64160",
+            "name": "FX_PB_Impact_Debris_Cheap_01",
+            "factory": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_debris_cheap.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_debris_cheap.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_fParticleSizeMax": {
+                    "type": "float32",
+                    "value": 20
+                },
+                "m_fParticleSizeMin": {
+                    "type": "float32",
+                    "value": 5
+                },
+                "m_fFriction": {
+                    "type": "float32",
+                    "value": 200
+                },
+                "m_ParticleColorRangeStart": {
+                    "type": "SColorRGB",
+                    "value": "#d6d2cb"
+                },
+                "m_ParticleColorRangeEnd": {
+                    "type": "SColorRGB",
+                    "value": "#8f8d8d"
+                },
+                "m_fArrayIndexMax": {
+                    "type": "float32",
+                    "value": 16
+                },
+                "m_fRotationSpeedMin": {
+                    "type": "float32",
+                    "value": -0.4000000059604645
+                },
+                "m_fRotationSpeedMax": {
+                    "type": "float32",
+                    "value": 0.4000000059604645
+                },
+                "m_fTimeToLiveSecondsMax": {
+                    "type": "float32",
+                    "value": 1.5
+                },
+                "m_vModulation": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.019999999552965164,
+                        "y": 0.019999999552965164,
+                        "z": 0.009999999776482582
+                    }
+                }
+            }
+        },
+        "2c7379fc58c6ecd": {
+            "parent": "85d562630fe64160",
+            "name": "ParticleModifierSizeCurve",
+            "factory": "[modules:/zparticlemodifiersizecurveentity.class].pc_entitytype",
+            "blueprint": "[modules:/zparticlemodifiersizecurveentity.class].pc_entityblueprint",
+            "properties": {
+                "m_eUpdateStrategy": {
+                    "type": "EValueUpdateStrategy",
+                    "value": "UPDATE_STRATEGY_REPLACE"
+                },
+                "m_CurveEntity": {
+                    "type": "SEntityTemplateReference",
+                    "value": "ba475f0a9e825a12"
+                },
+                "m_fCurveMultiplier": {
+                    "type": "float32",
+                    "value": 350
+                }
+            }
+        },
+        "a4b90e678e37b6cb": {
+            "parent": "ec59d83c37c6c889",
+            "name": "StaticDecal 12",
+            "factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+            "blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+            "editorOnly": true,
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 89.99959892953792,
+                            "y": -0.00005729577936556915,
+                            "z": 3.2616051212243145
+                        },
+                        "position": {
+                            "x": 1.3319469690322876,
+                            "y": -1.702186942100525,
+                            "z": 2.25
+                        }
+                    }
+                },
+                "m_MaterialID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "[assembly:/_pro/environment/materials/decals/dirt/decal_dirt_facade_d.mi].pc_mi",
+                        "flag": "5F"
+                    }
+                },
+                "m_pController": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5ddf3bd8079c910b"
+                },
+                "m_vTiling": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.23389500379562378,
+                        "y": 1
+                    }
+                },
+                "m_vUVOffset": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.7661060094833374,
+                        "y": 0
+                    }
+                },
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.8732110261917114,
+                        "y": 4.160379886627197,
+                        "z": 0.125
+                    }
+                },
+                "m_fAlpha": {
+                    "type": "float32",
+                    "value": 50
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#ffffff"
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160"
+                }
+            }
+        },
+        "32c3f8fd62e88c0e": {
+            "parent": "ec59d83c37c6c889",
+            "name": "StaticDecal 4",
+            "factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+            "blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+            "editorOnly": true,
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 90.0382162801159
+                        },
+                        "position": {
+                            "x": 0.747310996055603,
+                            "y": 0.349588006734848,
+                            "z": 0.7593569755554199
+                        }
+                    }
+                },
+                "m_MaterialID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "[assembly:/_pro/environment/materials/decals/markings/road_markings_d.mi].pc_mi",
+                        "flag": "5F"
+                    }
+                },
+                "m_pController": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5ddf3bd8079c910b"
+                },
+                "m_vTiling": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.4975059926509857,
+                        "y": 0.5078690052032471
+                    }
+                },
+                "m_vUVOffset": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.5024939775466919,
+                        "y": 0
+                    }
+                },
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.4975059926509857,
+                        "y": 0.5078690052032471,
+                        "z": 0.125
+                    }
+                },
+                "m_fAlpha": {
+                    "type": "float32",
+                    "value": 65
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#cacc66"
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160"
+                }
+            }
+        },
+        "d575a6370bb9b204": {
+            "parent": "85d562630fe64160",
+            "name": "FX_PR_Debris_Paper_4x4_01",
+            "factory": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_debris.template?/fx_pr_debris_paper_4x4_01.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/effects/templates/particlerenderers/fx_pr_debris.template?/fx_pr_debris_paper_4x4_01.entitytemplate].pc_entityblueprint"
+        },
+        "5f6ad2dfbdb31071": {
+            "parent": "85d562630fe64160",
+            "name": "ParticlesEmitter_Paper",
+            "factory": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
+            "blueprint": "[modules:/zparticleemitterboxentity.class].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 24.999853230762184,
+                            "y": 0.017647092586651474,
+                            "z": 0.07964113038510115
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    }
+                },
+                "m_ParticleController": {
+                    "type": "SEntityTemplateReference",
+                    "value": "a4292bd95aadb07e"
+                },
+                "m_ParticleRender": {
+                    "type": "SEntityTemplateReference",
+                    "value": "d575a6370bb9b204"
+                },
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 2.3188700675964355,
+                        "y": 1.7468600273132324,
+                        "z": 0.5425050258636475
+                    }
+                },
+                "m_eSpawnMode": {
+                    "type": "eParticleEmitterBoxEntity_SpawnModes",
+                    "value": "BOX_SPAWNMODE_ELLIPSOID_INSIDE"
+                },
+                "m_fSpeedMax": {
+                    "type": "float32",
+                    "value": 12
+                },
+                "m_fSpeedMin": {
+                    "type": "float32",
+                    "value": 4
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_DYNAMIC"
+                },
+                "m_fEmissionTimeSeconds": {
+                    "type": "float32",
+                    "value": 0.10000000149011612
+                },
+                "m_fParticlesPerSecondMax": {
+                    "type": "float32",
+                    "value": 0
+                },
+                "m_fOuterConeAngle": {
+                    "type": "float32",
+                    "value": 45
+                },
+                "m_fInnerConeAngle": {
+                    "type": "float32",
+                    "value": 25
+                },
+                "m_bEnabled": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_fParticlesPerSecond": {
+                    "type": "float32",
+                    "value": 0
+                },
+                "m_fFixedEmissionCount": {
+                    "type": "float32",
+                    "value": 15
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "ebed911a6daf91f1",
+                    "postInit": true
+                }
+            }
+        },
+        "808f60cd7fb7147b": {
+            "parent": "ec59d83c37c6c889",
+            "name": "StaticDecal 5",
+            "factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+            "blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+            "editorOnly": true,
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 90.0382162801159
+                        },
+                        "position": {
+                            "x": 0.7462649941444397,
+                            "y": 0.9245849847793579,
+                            "z": 0.7593569755554199
+                        }
+                    }
+                },
+                "m_MaterialID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "[assembly:/_pro/environment/materials/decals/markings/road_markings_d.mi].pc_mi",
+                        "flag": "5F"
+                    }
+                },
+                "m_pController": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5ddf3bd8079c910b"
+                },
+                "m_vTiling": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.4975059926509857,
+                        "y": 0.5078690052032471
+                    }
+                },
+                "m_vUVOffset": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.5024939775466919,
+                        "y": 0
+                    }
+                },
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.4975059926509857,
+                        "y": 0.5078690052032471,
+                        "z": 0.125
+                    }
+                },
+                "m_fAlpha": {
+                    "type": "float32",
+                    "value": 65
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#cacc66"
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160"
+                }
+            }
+        },
+        "9e054bc8372e353b": {
+            "parent": "85d562630fe64160",
+            "name": "AlphaCurve",
+            "factory": "[modules:/zfloatcurveentity.class].pc_entitytype",
+            "blueprint": "[modules:/zfloatcurveentity.class].pc_entityblueprint",
+            "properties": {
+                "m_Value": {
+                    "type": "ZCurve",
+                    "value": {
+                        "data": [
+                            [
+                                0,
+                                0.20000000298023224,
+                                0,
+                                0,
+                                0.04292036592960358,
+                                -0.1429203599691391,
+                                -9.618035955015429e-18,
+                                0.20000000298023224
+                            ],
+                            [
+                                0.5,
+                                0.10000000149011612,
+                                0,
+                                0,
+                                0.04292036592960358,
+                                0.014159264974296093,
+                                -0.15707963705062866,
+                                0.10000000149011612
+                            ],
+                            [
+                                1,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        ]
+                    }
+                }
+            }
+        },
+        "43042c8d13b4fb4e": {
+            "parent": "85d562630fe64160",
+            "name": "ParticleModifierColorAlphaCurve",
+            "factory": "[modules:/zparticlemodifiercoloralphacurveentity.class].pc_entitytype",
+            "blueprint": "[modules:/zparticlemodifiercoloralphacurveentity.class].pc_entityblueprint",
+            "properties": {
+                "m_AlphaCurveEntity": {
+                    "type": "SEntityTemplateReference",
+                    "value": "9e054bc8372e353b"
+                },
+                "m_FixedColor": {
+                    "type": "SColorRGB",
+                    "value": "#c4c0bc"
+                }
+            }
+        },
+        "6d323bc92f9374e": {
+            "parent": "85d562630fe64160",
+            "name": "ParticleController",
+            "factory": "[modules:/zparticlecontrollerentity.class].pc_entitytype",
+            "blueprint": "[modules:/zparticlecontrollerentity.class].pc_entityblueprint",
+            "properties": {
+                "m_fTimeToLiveSecondsMax": {
+                    "type": "float32",
+                    "value": 2
+                },
+                "m_fTimeToLiveSecondsMin": {
+                    "type": "float32",
+                    "value": 1.5
+                },
+                "m_fParticleSizeMax": {
+                    "type": "float32",
+                    "value": 200
+                },
+                "m_fParticleSizeMin": {
+                    "type": "float32",
+                    "value": 120
+                },
+                "m_fRotationSpeedMax": {
+                    "type": "float32",
+                    "value": 0.05000000074505806
+                },
+                "m_fRotationSpeedMin": {
+                    "type": "float32",
+                    "value": -0.05000000074505806
+                },
+                "m_ParticleModifiers": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "43042c8d13b4fb4e",
+                        "56db00d5fb6af112",
+                        "2c7379fc58c6ecd",
+                        "b4b264336ef3ff7b"
+                    ]
+                },
+                "m_ParticleColorRangeEnd": {
+                    "type": "SColorRGB",
+                    "value": "#777a7d"
+                },
+                "m_bRandomRotation": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_ParticleColorRangeStart": {
+                    "type": "SColorRGB",
+                    "value": "#759694"
+                },
+                "m_bRandomFlipU": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bRandomFlipV": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },
+        "ebed911a6daf91f1": {
+            "parent": "85d562630fe64160",
+            "name": "ParticleEmitterBox_Smoke",
+            "factory": "[modules:/zparticleemitterboxentity.class].pc_entitytype",
+            "blueprint": "[modules:/zparticleemitterboxentity.class].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -89.99994270422063,
+                            "y": 0,
+                            "z": 93.27681300208828
+                        },
+                        "position": {
+                            "x": 2.764354944229126,
+                            "y": -0.15820500254631042,
+                            "z": 1.8734350204467773
+                        }
+                    }
+                },
+                "m_ParticleRender": {
+                    "type": "SEntityTemplateReference",
+                    "value": "bbea9b742611476f"
+                },
+                "m_ParticleShaderParameters": {
+                    "type": "SEntityTemplateReference",
+                    "value": {
+                        "ref": "bbea9b742611476f",
+                        "externalScene": null,
+                        "exposedEntity": "FX_PSP_Smoke_Generic"
+                    }
+                },
+                "m_ParticleController": {
+                    "type": "SEntityTemplateReference",
+                    "value": "6d323bc92f9374e"
+                },
+                "m_fParticlesPerSecond": {
+                    "type": "float32",
+                    "value": 0
+                },
+                "m_fSpeedMax": {
+                    "type": "float32",
+                    "value": 3
+                },
+                "m_fFixedEmissionCount": {
+                    "type": "float32",
+                    "value": 8
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_STATIC"
+                },
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1.5
+                    }
+                },
+                "m_eSpawnMode": {
+                    "type": "eParticleEmitterBoxEntity_SpawnModes",
+                    "value": "BOX_SPAWNMODE_ELLIPSOID"
+                },
+                "m_bOutwardEmission": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_fSpeedMin": {
+                    "type": "float32",
+                    "value": 1.5
+                },
+                "m_fOuterConeAngle": {
+                    "type": "float32",
+                    "value": 0
+                },
+                "m_fInnerConeAngle": {
+                    "type": "float32",
+                    "value": 0
+                },
+                "m_bUseTrackSequence": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160"
+                }
+            }
+        },
+        "44648212c625c1db": {
+            "parent": "ec59d83c37c6c889",
+            "name": "StaticDecal 11",
+            "factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+            "blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+            "editorOnly": true,
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90.00011459155874,
+                            "y": -0.00005729577936814745,
+                            "z": 3.2491498303443502
+                        },
+                        "position": {
+                            "x": 1.3168870210647583,
+                            "y": 1.619452953338623,
+                            "z": 2.2308340072631836
+                        }
+                    }
+                },
+                "m_MaterialID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "[assembly:/_pro/environment/materials/decals/dirt/decal_dirt_facade_d.mi].pc_mi",
+                        "flag": "5F"
+                    }
+                },
+                "m_pController": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5ddf3bd8079c910b"
+                },
+                "m_vTiling": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.23389500379562378,
+                        "y": 1
+                    }
+                },
+                "m_vUVOffset": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.7661060094833374,
+                        "y": 0
+                    }
+                },
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.8732110261917114,
+                        "y": 4.160379886627197,
+                        "z": 0.125
+                    }
+                },
+                "m_fAlpha": {
+                    "type": "float32",
+                    "value": 50
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#ffffff"
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160"
+                }
+            }
+        },
+        "f3069b47aacc6305": {
+            "parent": "ec59d83c37c6c889",
+            "name": "StaticDecal 14",
+            "factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+            "blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+            "editorOnly": true,
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -0.23067339995371966
+                        },
+                        "position": {
+                            "x": 1.3450130224227905,
+                            "y": -0.08606400340795517,
+                            "z": 0.7352610230445862
+                        }
+                    }
+                },
+                "m_MaterialID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "[assembly:/_pro/environment/materials/decals/dirt/decal_dirt_facade_d.mi].pc_mi",
+                        "flag": "5F"
+                    }
+                },
+                "m_pController": {
+                    "type": "SEntityTemplateReference",
+                    "value": "5ddf3bd8079c910b"
+                },
+                "m_vTiling": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.23389500379562378,
+                        "y": 1
+                    }
+                },
+                "m_vUVOffset": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.7661060094833374,
+                        "y": 0
+                    }
+                },
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.8732110261917114,
+                        "y": 4.160379886627197,
+                        "z": 0.125
+                    }
+                },
+                "m_fAlpha": {
+                    "type": "float32",
+                    "value": 50
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#ffffff"
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160"
+                }
+            }
+        },
+        "c144916af229a35d": {
+            "parent": "85d562630fe64160",
+            "name": "medical_container_plastic_curtain_seagull_a",
+            "factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/levels/miami/medical_container_plastic_curtain_a.wl2?/medical_container_plastic_curtain_seagull_a.prim].entitytype,[modules:/zclothcustommeshentity.class].entitytype).pc_entitytype",
+            "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zclothcustommeshentity.class].entitytype).pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 89.76886823410331
+                        },
+                        "position": {
+                            "x": 1.3016400337219238,
+                            "y": -0.858144998550415,
+                            "z": 0.8126149773597717
+                        }
+                    }
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.822484016418457,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "m_bGlobalCollidersEnabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_fWindConstant": {
+                    "type": "float32",
+                    "value": 0.125
+                },
+                "m_fFrustumFarDistanceProperty": {
+                    "type": "float32",
+                    "value": 250
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160"
+                }
+            }
+        },
+        "ff0cb7ade34647c7": {
+            "parent": "85d562630fe64160",
+            "name": "CompletlyOpen",
+            "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aValues": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        {
+                            "ref": "4bae913fd5583770",
+                            "externalScene": null,
+                            "exposedEntity": "IsOpen"
+                        },
+                        "c096afa3c3a3e72"
+                    ]
+                }
+            }
+        },
+        "14a4d498480a0174": {
+            "parent": "85d562630fe64160",
+            "name": "concrete_painted_a_01_03",
+            "factory": "005CA8CD2166410E",
+            "blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -90
+                        },
+                        "position": {
+                            "x": 3.9026780128479004,
+                            "y": 1.6512949466705322,
+                            "z": 0.733797013759613
+                        }
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_DYNAMIC"
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.841277003288269,
+                        "y": 0.13368700444698334,
+                        "z": 0.8954330086708069
+                    }
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "85d562630fe64160"
+                }
+            }
+        },
+        "3fe2d9514eb70fb8": {
+            "parent": "85d562630fe64160",
+            "name": "Open",
+            "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aValues": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        {
+                            "ref": "4bae913fd5583770",
+                            "externalScene": null,
+                            "exposedEntity": "IsOpen"
+                        }
+                    ]
+                }
+            }
+        },
+        "8184f7ee4684f7bb": {
+            "parent": "85d562630fe64160",
+            "name": "ValueBool_Poll",
+            "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_rValueEntity": {
+                    "type": "SEntityTemplateReference",
+                    "value": "3fe2d9514eb70fb8"
+                }
+            },
+            "events": {
+                "PollTrue": {
+                    "CloseDoor": [
+                        "4bae913fd5583770"
+                    ]
+                },
+                "PollFalse": {
+                    "OpenDoorIn": [
+                        "4bae913fd5583770"
+                    ]
+                }
+            }
+        }
+    },
+    "propertyOverrides": [],
+    "overrideDeletes": [],
+    "pinConnectionOverrides": [],
+    "pinConnectionOverrideDeletes": [],
+    "externalScenes": [],
+    "subType": "template",
+    "quickEntityVersion": 3.1,
+    "extraFactoryDependencies": [
+        {
+            "resource": "[assembly:/_pro/environment/geometry/levels/miami/entrance_building_a.wl2?/entrance_building_a_truckdoor_frame_a.prim].pc_prim",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/geometry/levels/miami/entrance_building_a.wl2?/entrance_building_a_truckdoor_frame_a.prim].pc_coll",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/geometry/levels/miami/entrance_building_a.wl2?/entrance_building_a_truckdoor_separate_a.prim].pc_prim",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/geometry/levels/miami/entrance_building_a.wl2?/entrance_building_a_truckdoor_separate_a.prim].pc_coll",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/geometry/g2/gizmos.wl2?/gizmo_trigger_01.prim].pc_prim",
+            "flag": "5F"
+        },
+        {
+            "resource": "0015590213A6606C",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/geometry/props/lamps/lamp_bunker_a.wl2?/lamp_bunker_a.prim].pc_prim",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/geometry/props/lamps/lamp_bunker_a.wl2?/lamp_bunker_a.prim].pc_coll",
+            "flag": "5F"
+        },
+        {
+            "resource": "00C6738C8570AB9D",
+            "flag": "5F"
+        },
+        {
+            "resource": "00743DD48B982133",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/geometry/levels/seagull/seagull_warehouse_a.wl2?/seagull_warehouse_1x1_concrete_floor_zmapped_a.prim].pc_prim",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/geometry/levels/seagull/seagull_warehouse_a.wl2?/seagull_warehouse_1x1_concrete_floor_zmapped_a.prim].pc_coll",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/geometry/levels/miami/medical_container_plastic_curtain_a.wl2?/medical_container_plastic_curtain_seagull_a.prim].pc_prim",
+            "flag": "5F"
+        }
+    ],
+    "extraBlueprintDependencies": [],
+    "comments": []
+}
