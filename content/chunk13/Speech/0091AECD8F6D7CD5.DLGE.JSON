@@ -1,13 +1,13 @@
 {
     "$schema": "https://tonytools.win/schemas/dlge.schema.json",
-    "hash": "0091AECD8F6D7CD4",
+    "hash": "0091AECD8F6D7CD5",
     "DITL": "00B7E83B2B5BFE20",
     "CLNG": "00E3CBB0725ED16C",
     "rootContainer": {
         "type": "WavFile",
         "wavName": "ds32010_sp_missionsuccess_diana_001",
         "soundtag": "Voiceover_Handler",
-        "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/salty/32000_seagull/ds32010_sp_missionsuccess_diana_001.wav].pc_wes",
+        "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/salty/32000_seagull/ds32010_sp_missionsuccess_sandbox_diana_001.wav].pc_wes",
         "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/salty/32000_seagull/ds32010_sp_missionsuccess_diana_001.animset].pc_animset",
         "languages": {
             "en": "//(0,2.758)\\\\The Heavenly Guard has been taken care of.//(2.758,5.675)\\\\Now, secure the hostages.",
