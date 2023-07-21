@@ -138,7 +138,7 @@
                 }
             }
         ],
-        "Bricks": ["assembly:/_pro/scenes/missions/Salty/mission_seagull/mission_seagull_sandbox.brick"],
+        "Bricks": ["assembly:/_pro/scenes/missions/Salty/mission_seagull/mission_seagull_sandbox.brick","assembly:/_pro/scenes/missions/salty/mission_seagull/rain.brick"],
         "GameDifficulties": [{
             "Difficulty": "easy",
             "Bricks": []
