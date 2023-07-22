@@ -1239,6 +1239,190 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
+		},
+		"abcdd256ba55cdcf": {
+			"parent": "9d5f8d9948930b52",
+			"name": "FX_Hitman_Wet_Logic_Character",
+			"template": "0067CFB703A80787",
+			"blueprint": "00AA88C960CD2080",
+			"properties": {
+				"HeadMaterialToOverride": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "000258D6799ED687",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {
+				"HeadMaterialOverride": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["9d5f8d9948930b52"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "HitmanWetness",
+				"shouldTrigger": "T",
+				"onEntity": "abcd93ece141fd00"
+			}, {
+				"onEvent": "HitmanWetness",
+				"shouldTrigger": "T",
+				"onEntity": "abcd713dacae17c6"
+			}, {
+				"onEvent": "HitmanWetness",
+				"shouldTrigger": "T",
+				"onEntity": "abcd393b393dabc1"
+			}, {
+				"onEvent": "HitmanWetness",
+				"shouldTrigger": "T",
+				"onEntity": "abcd94e5317d8c8a"
+			}, {
+				"onEvent": "HitmanWetness",
+				"shouldTrigger": "T",
+				"onEntity": "abcd4c9783a7d81c"
+			}]
+		},
+		"abcd713dacae17c6": {
+			"parent": "abcdd256ba55cdcf",
+			"name": "Norml",
+			"template": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_B": {
+					"type": "float32",
+					"value": 1.2000000476837158
+				},
+				"m_fT": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_A": {
+					"type": "float32",
+					"value": 1
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "Lerp",
+				"shouldTrigger": "ConstantVector1D_03_Value",
+				"onEntity": "81970e4e310d2de2"
+			}, {
+				"onEvent": "Lerp",
+				"shouldTrigger": "ConstantVector1D_03_Value",
+				"onEntity": "315beb126a328f59"
+			}]
+		},
+		"abcd393b393dabc1": {
+			"parent": "abcdd256ba55cdcf",
+			"name": "Albedo",
+			"template": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_B": {
+					"type": "float32",
+					"value": 0.25
+				},
+				"m_fT": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_A": {
+					"type": "float32",
+					"value": 0.5
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "Lerp",
+				"shouldTrigger": "ConstantVector1D_01_Value",
+				"onEntity": "81970e4e310d2de2"
+			}, {
+				"onEvent": "Lerp",
+				"shouldTrigger": "ConstantVector1D_01_Value",
+				"onEntity": "f4cf4cf02b110579"
+			}]
+		},
+		"abcd94e5317d8c8a": {
+			"parent": "abcdd256ba55cdcf",
+			"name": "roough",
+			"template": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_B": {
+					"type": "float32",
+					"value": 1.1799999475479126
+				},
+				"m_fT": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_A": {
+					"type": "float32",
+					"value": 0.5
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": []
+		},
+		"abcd4c9783a7d81c": {
+			"parent": "abcdd256ba55cdcf",
+			"name": "Albedo 2",
+			"template": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_B": {
+					"type": "float32",
+					"value": 0.079999998211860657
+				},
+				"m_fT": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_A": {
+					"type": "float32",
+					"value": 0.14000000059604645
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "Lerp",
+				"shouldTrigger": "ConstantVector1D_01_Value",
+				"onEntity": "315beb126a328f59"
+			}]
+		},
+		"abcd93ece141fd00": {
+			"parent": "abcdd256ba55cdcf",
+			"name": "baseRough",
+			"template": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_B": {
+					"type": "float32",
+					"value": 0.34999999403953552
+				},
+				"m_fT": {
+					"type": "float32",
+					"value": 0
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "Lerp",
+				"shouldTrigger": "ConstantVector1D_14_Value",
+				"onEntity": "81970e4e310d2de2"
+			}]
 		}
 	},
 	"overrideDeletes": [],
