@@ -35,7 +35,24 @@
 				}
 			},
 			"editorOnly": false,
-			"platformSpecificPropertyValues": []
+			"platformSpecificPropertyValues": [],
+			"inputCopying": [{
+				"whenTriggered": "ConstantVector1D_06_Value",
+				"alsoTrigger": "ConstantVector1D_06_Value",
+				"onEntity": "b888bb607913a365"
+			}, {
+				"whenTriggered": "ConstantVector1D_14_Value",
+				"alsoTrigger": "ConstantVector1D_14_Value",
+				"onEntity": "b888bb607913a365"
+			}, {
+				"whenTriggered": "ConstantVector1D_05_Value",
+				"alsoTrigger": "ConstantVector1D_05_Value",
+				"onEntity": "b888bb607913a365"
+			}, {
+				"whenTriggered": "ConstantVector1D_01_Value",
+				"alsoTrigger": "ConstantVector1D_01_Value",
+				"onEntity": "b888bb607913a365"
+			}]
 		},
 		"456cc0a4e5a5a9d9": {
 			"parent": "695ca501c56b8e9a",
@@ -327,7 +344,7 @@
 				"HeadMaterialToOverride": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "00478D7A62EF9561",
+						"resource": "009F7978C601815A",
 						"flag": "5F"
 					}
 				}
@@ -335,7 +352,7 @@
 			"postInitProperties": {
 				"HeadMaterialOverride": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": []
+					"value": ["695ca501c56b8e9a"]
 				}
 			},
 			"editorOnly": false,
@@ -386,7 +403,7 @@
 			"platformSpecificPropertyValues": [],
 			"events": [{
 				"onEvent": "Lerp",
-				"shouldTrigger": "ConstantVector1D_06_Value",
+				"shouldTrigger": "ConstantVector1D_05_Value",
 				"onEntity": "49c391ddc8b68477"
 			}, {
 				"onEvent": "Lerp",
@@ -394,7 +411,7 @@
 				"onEntity": "ace36cc6660f6963"
 			}, {
 				"onEvent": "Lerp",
-				"shouldTrigger": "ConstantVector1D_06_Value",
+				"shouldTrigger": "ConstantVector1D_03_Value",
 				"onEntity": "456cc0a4e5a5a9d9"
 			}]
 		},
@@ -428,6 +445,14 @@
 				"onEvent": "Lerp",
 				"shouldTrigger": "ConstantVector1D_01_Value",
 				"onEntity": "49c391ddc8b68477"
+			}, {
+				"onEvent": "Lerp",
+				"shouldTrigger": "ConstantVector1D_01_Value",
+				"onEntity": "456cc0a4e5a5a9d9"
+			}, {
+				"onEvent": "Lerp",
+				"shouldTrigger": "ConstantVector1D_01_Value",
+				"onEntity": "ace36cc6660f6963"
 			}]
 		},
 		"abcd4924c297f565": {
@@ -483,7 +508,7 @@
 			"events": [{
 				"onEvent": "Lerp",
 				"shouldTrigger": "ConstantVector1D_01_Value",
-				"onEntity": "456cc0a4e5a5a9d9"
+				"onEntity": "13c35a074dfe7d63"
 			}]
 		},
 		"abcd770dacf73777": {
@@ -516,10 +541,6 @@
 				"onEvent": "Lerp",
 				"shouldTrigger": "ConstantVector1D_14_Value",
 				"onEntity": "ace36cc6660f6963"
-			}, {
-				"onEvent": "Lerp",
-				"shouldTrigger": "ConstantVector1D_04_Value",
-				"onEntity": "456cc0a4e5a5a9d9"
 			}]
 		}
 	},
