@@ -1,691 +1,16 @@
 {
 	"version": "0.9.0",
 	"id": "KevinRudd.SandboxHantu",
-	"name": "Hantu Port - Sandbox Mode",
-	"description": "Converts The Pen and the Sword to a sandbox mission.",
+	"name": "Sandbox Hantu Port",
+	"description": "Converts Hantu Port into a sandbox map",
+	"scripts": [
+        "script/CopyHantu.ts"
+    ],
 	"authors": [
 		"Kevin Rudd",
 		"Kercyx",
 		"2kpr"
 	],
-	"dependencies": [
-		"00AFD8E95E30F785","003D556A7AFD9477","00CD71F8CDECA951","0031F8F30FC5E66E","008CA97D92CDD2E8","00B495F42C5FE8A6","00DB0752E110BAB0","00F2AD5972271786","00A943762C7307AE","00EA95F297A7E3C5","00C824C3C86FD60D","00923BF7048EB387","0036423BE3AC46C6","00EC5169AA13A101","0013AFCBD7BABC73","00A06AD2E8B53AF7","00CB7C98B353E3AE","00DB172CC3764A58","002213FD7FFF2F57",{
-			"runtimeID": "00CB93E8EC14AD89",
-			"comment": "Barber chairs for command room",
-			"toChunk": 9
-		},{
-			"runtimeID": "00F3C164F5342E71",
-			"comment": "act_mr_guard_aimpistol_vidal",
-			"toChunk": 9
-		},
-	{
-		"runtimeID": "008027305D878A5E",
-		"comment": "Miami buildings lights",
-		"toChunk": 9
-	},
-	{
-		"runtimeID": "00E410380F2F36AA",
-		"comment": "Folded table for storage",
-		"toChunk": 9
-	},
-	{
-		"runtimeID": "005A023DEC1BDD5F",
-		"comment": "Server 3 for storage",
-		"toChunk": 9
-	},
-	{
-		"runtimeID": "00D3153F300A054F",
-		"comment": "Server 2 for storage",
-		"toChunk": 9
-	},
-	{
-		"runtimeID": "0021C521104D0DA7",
-		"comment": "Server for storage",
-		"toChunk": 9
-	},
-
-	{
-		"runtimeID": "012D88D993FBCC0",
-		"comment": "Plastic for storage",
-		"toChunk": 9
-	},
-
-	{
-		"runtimeID": "002D42DD922C13CB",
-		"comment": "silencer gun props for Armory",
-		"toChunk": 9
-	},
-	{
-		"runtimeID": "00D3885CDCE79516",
-		"comment": "garage hook for Armory",
-		"toChunk": 9
-	},
-	{
-		"runtimeID": "00EEBBA389F45F77",
-		"comment": "metal_shelf_lab for Armory",
-		"toChunk": 9
-	},
-	{
-		"runtimeID": "00A1FAF8DEA16522",
-		"comment": "Gun table from Romania for Armory",
-		"toChunk": 9
-	},
-		{
-			"runtimeID": "009A56DDDFB5D0B9",
-			"comment": "Chong Rain Metal Sound",
-			"toChunk": 1
-		},{
-			"runtimeID": "001F0D4A8C3066C4",
-			"comment": "Chong Rain Sound Window",
-			"toChunk": 1
-		},{
-			"runtimeID": "00F6995C30E46A33",
-			"comment": "Chong Rain Sound",
-			"toChunk": 1
-		},{
-			"runtimeID": "002E74F8343F4A28",
-			"comment": "Chong Rain Sound",
-			"toChunk": 1
-		},{
-			"runtimeID": "002E85BC93584A8A",
-			"comment": "Chong Soundbank",
-			"toChunk": 1
-		},{
-			"runtimeID": "0018AB110B83E417",
-			"comment": "Chong Rain Sound",
-			"toChunk": 1
-		},{
-			"runtimeID": "0097320787B97F76",
-			"comment": "AgencyPickup NY Bin",
-			"toChunk": 9
-		},{
-			"runtimeID": "001AFC1CC558A815",
-			"comment": "Helipad Geotag",
-			"toChunk": 9
-		},
-		{
-			"runtimeID": "00907BCED9E107EB",
-			"comment": "Sgail Lights for Cargo",
-			"toChunk": 9
-		},
-		{
-			"runtimeID": "002AE45C0B0E4778",
-			"comment": "Miami Satellite",
-			"toChunk": 9
-		},{
-			"runtimeID": "00949920F8E25F7A",
-			"comment": "Miami Satellite",
-			"toChunk": 9
-		},{
-			"runtimeID": "00BDE9DCDEA7A32D",
-			"comment": "bayside_hut_a",
-			"toChunk": 9
-		},{
-			"runtimeID": "002BDCC7D03A7CC9",
-			"comment": "bayside_hut_a_interior",
-			"toChunk": 9
-		},{
-			"runtimeID": "0093EEFB7E29167F",
-			"comment": "",
-			"toChunk": 9
-		},{
-			"runtimeID": "008657748B1B8DF4",
-			"comment": "",
-			"toChunk": 9
-		},{
-			"runtimeID": "00B70F13E057D0BC",
-			"comment": "",
-			"toChunk": 9
-		},{
-			"runtimeID": "00D5DA12E38296A3",
-			"comment": "",
-			"toChunk": 9
-		},{
-			"runtimeID": "00D73AC25BF1DDA9",
-			"comment": "play_amb_3d_foghorn.wwiseevent",
-			"toChunk": 9
-		},{
-			"runtimeID": "00A5F0DBA8EB9488",
-			"comment": "levelspecific/sapienza.wwisesoundbank",
-			"toChunk": 9
-		},{
-			"runtimeID": "006D8C805F858533",
-			"comment": "NY Investment Banker Fem04",
-			"toChunk": 9
-		},{
-			"runtimeID": "004454C2F0FD963E",
-			"comment": "pipe to climb for warehouse up",
-			"toChunk": 9
-		},
-		{
-			"runtimeID": "00FD0570CD6F3435",
-			"comment": "pipe to climb for warehouse bottom corner",
-			"toChunk": 9
-		},
-		{
-			"runtimeID": "000B266D1D68E4AB",
-			"comment": "pipe to climb for warehouse",
-			"toChunk": 9
-		},
-		{
-			"runtimeID": "00DD7A6662C47253",
-			"comment": "metal doors for cargo",
-			"toChunk": 9
-		},{
-			"runtimeID": "0020D01E084B5EBD",
-			"comment": "slum_building_workshop_hut_a",
-			"toChunk": 9
-		},{
-			"runtimeID": "0028527544040273",
-			"comment": "slum_building_workshop_hut_inside_a",
-			"toChunk": 9
-		},
-		{
-			"runtimeID": "00D7E8FDC5A2F2EC",
-			"comment": "computer screen image",
-			"toChunk": 9
-		},
-		{
-			"runtimeID": "00BB1D6304B03BB3",
-			"comment": "computer screen image",
-			"toChunk": 9
-		},
-		{
-			"runtimeID": "006946156C8E321D",
-			"comment": "computer screen image",
-			"toChunk": 9
-		},
-	
-		"006E4EDFFCD96214","001269EBA23012F2",{
-			"runtimeID": "006FFC570C3B6ED8",
-			"comment": "Poster gym 1",
-			"toChunk": 9
-		},
-		{
-			"runtimeID": "00ED8BF99BDD2B22",
-			"comment": "Water tank rails",
-			"toChunk": 9
-		},
-		{
-			"runtimeID": "00AE2DE2A9FB9D96",
-			"comment": "Water tank",
-			"toChunk": 9
-		},{
-			"runtimeID": "00247E4468812C82",
-			"comment": "Poster gym 2",
-			"toChunk": 9
-		},{
-			"runtimeID": "001DB0136927CAB7",
-			"comment": "Poster gym 3",
-			"toChunk": 9
-		},{
-			"runtimeID": "00FD8EB1CD96BF42",
-			"comment": "Beer coaster",
-			"toChunk": 9
-		},{
-			"runtimeID": "008F2C59E06043E7",
-			"comment": "VHS Player",
-			"toChunk": 9
-		},{
-		"runtimeID": "00C0FA51F2559672",
-		"comment": "fridge",
-		"toChunk": 9
-	},{
-			"runtimeID": "00C0134D81848792",
-			"comment": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_hips_lie_pushups.entitytemplate].pc_entitytype",
-			"toChunk": 9
-		},{
-			"runtimeID": "00254A269F055331",
-			"comment": "[assembly:/_pro/design/setpieces/unique/setpiece_dugong_unique.template?/setpiece_dugong_hips_punchingbag.entitytemplate].pc_entitytype",
-			"toChunk": 9
-		},{
-			"runtimeID": "007350C72CF8D8B7",
-			"comment": "Exercise bike mati",
-			"toChunk": 9
-		},{
-			"runtimeID": "00F88ABD2464D4ED",
-			"comment": "Exercise bike",
-			"toChunk": 9
-		},{
-			"runtimeID": "003BDE62B6F58E8A",
-			"comment": "Gloves dispenser",
-			"toChunk": 9
-		},{
-			"runtimeID": "00B80347AF88C514",
-			"comment": "Consulate Desk",
-			"toChunk": 9
-		},{
-			"runtimeID": "005963EBB48C85E2",
-			"comment": "Cabinet Morgue",
-			"toChunk": 9
-		},{
-			"runtimeID": "00A9713DE434A540",
-			"comment": "Morgue table",
-			"toChunk": 9
-		},{
-			"runtimeID": "00D2AE2A202604C4",
-			"comment": "X-ray mi",
-			"toChunk": 9
-		},{
-			"runtimeID": "008EA2DDC12C82CA",
-			"comment": "X-ray",
-			"toChunk": 9
-		},{
-			"runtimeID": "001C7EFE78C71BEB",
-			"comment": "toilet",
-			"toChunk": 9
-		},{
-			"runtimeID": "0004B230642E2D9C",
-			"comment": "miami office table",
-			"toChunk": 9
-		},{
-			"runtimeID": "00C44B5A31BEB6F9",
-			"comment": "screen image",
-			"toChunk": 9
-		},{
-			"runtimeID": "0045763D2ADB7CBC",
-			"comment": "screen image",
-			"toChunk": 9
-		},{
-			"runtimeID": "00256FFAFA9ED755",
-			"comment": "screen image",
-			"toChunk": 9
-		},{
-			"runtimeID": "001552169284A8BC",
-			"comment": "screen image",
-			"toChunk": 9
-		},{
-			"runtimeID": "004B10AE15BB0713",
-			"comment": "screen image",
-			"toChunk": 9
-		},{
-			"runtimeID": "0050664E32C50F44",
-			"comment": "screen image",
-			"toChunk": 9
-		},{
-			"runtimeID": "000EE66B7C533417",
-			"comment": "screen image",
-			"toChunk": 9
-		},{
-			"runtimeID": "00983AE75619983B",
-			"comment": "screen image",
-			"toChunk": 9
-		},{
-			"runtimeID": "001552169284A8BC",
-			"comment": "screen image",
-			"toChunk": 9
-		},{
-			"runtimeID": "00EF8CE55966ED8D",
-			"comment": "world map screen",
-			"toChunk": 9
-		},{
-			"runtimeID": "000E34383A7CF837",
-			"comment": "submarine",
-			"toChunk": 9
-		},{
-			"runtimeID": "00974DC022B3EE7A",
-			"comment": "submarine control panel",
-			"toChunk": 9
-		},{
-			"runtimeID": "007985B6DF50DA78",
-			"comment": "security_camera_pole_a",
-			"toChunk": 9
-		},{
-			"runtimeID": "002CF1B02A3EBA0E",
-			"comment": "colorado poster 1",
-			"toChunk": 9
-		},{
-			"runtimeID": "006907D612C33E40",
-			"comment": "colorado poster 2",
-			"toChunk": 9
-		},{
-			"runtimeID": "00D9533DC0FA6740",
-			"comment": "colorado poster 3",
-			"toChunk": 9
-		},{
-			"runtimeID": "00FA28F8E6E05145",
-			"comment": "kitchen desk",
-			"toChunk": 9
-		},{
-			"runtimeID": "002662B9942D950C",
-			"comment": "Boiling food",
-			"toChunk": 9
-		},{
-			"runtimeID": "002A10E4E0CEF7AC",
-			"comment": "Colorado Fridge",
-			"toChunk": 9
-		},{
-			"runtimeID": "00A2C1C13F32DC48",
-			"comment": "Pool Table",
-			"toChunk": 9
-		},{
-			"runtimeID": "000DBE86C3F8D4A2",
-			"comment": "Colorado board",
-			"toChunk": 9
-		},{
-			"runtimeID": "005BF453E152342B",
-			"comment": "Dugong Backdrop stuff",
-			"toChunk": 1
-		},{
-			"runtimeID": "0016D60F4F6A0509",
-			"comment": "Dugong Backdrop stuff",
-			"toChunk": 1
-		},{
-			"runtimeID": "006E140D067AB3A8",
-			"comment": "Dugong Backdrop stuff",
-			"toChunk": 1
-		},{
-			"runtimeID": "00A569187571C49D",
-			"comment": "Dugong Backdrop stuff",
-			"toChunk": 1
-		},{
-			"runtimeID": "0094779243B229C8",
-			"comment": "Dugong Backdrop stuff",
-			"toChunk": 1
-		},{
-			"runtimeID": "006D867907261266",
-			"comment": "Dugong Backdrop stuff",
-			"toChunk": 1
-		},{
-			"runtimeID": "0099C80B6E1131EA",
-			"comment": "Dugong Backdrop stuff",
-			"toChunk": 1
-		},{
-			"runtimeID": "006A281554C53AAC",
-			"comment": "Dugong Backdrop stuff",
-			"toChunk": 1
-		},{
-			"runtimeID": "00EB96B21395FCC8",
-			"comment": "Dugong Backdrop stuff",
-			"toChunk": 1
-		},{
-			"runtimeID": "00E06D455F0A6A53",
-			"comment": "Dugong Backdrop stuff",
-			"toChunk": 1
-		},{
-			"runtimeID": "00FF5D20BB022A70",
-			"comment": "Dugong Backdrop stuff",
-			"toChunk": 1
-		},{
-			"runtimeID": "009BED9A5E00669E",
-			"comment": "Dugong Backdrop stuff",
-			"toChunk": 1
-		},{
-			"runtimeID": "004404583CB3B147",
-			"comment": "Nude Hokkaido Bodyguard",
-			"toChunk": 1
-		},{
-			"runtimeID": "007DA820C9C33155",
-			"comment": "Nude Hokkaido Bodyguard",
-			"toChunk": 1
-		},{
-			"runtimeID": "00D266E2CEEE1E59",
-			"comment": "Nude Hokkaido Bodyguard",
-			"toChunk": 1
-		},{
-			"runtimeID": "00E333E894410E9B",
-			"comment": "Nude Bangcock Guard",
-			"toChunk": 1
-		},{
-			"runtimeID": "001A9B232AE1202B",
-			"comment": "Nude Hokkaido Bodyguard",
-			"toChunk": 1
-		},{
-			"runtimeID": "00CB4C67CC4A22D5",
-			"comment": "Nude Hokkaido Bodyguard",
-			"toChunk": 1
-		},{
-			"runtimeID": "007DAF4ACF2F0320",
-			"comment": "Nude Hokkaido Bodyguard",
-			"toChunk": 1
-		},{
-			"runtimeID": "00C1D9EA1821B076",
-			"comment": "[assembly:/_pro/characters/templates/hokkaido/char_hokkaido_guards.template?/outfit_resortsecurity_m_nude_v2.entitytemplate].pc_entitytemplate",
-			"toChunk": 1
-		},{
-			"runtimeID": "0082D36455D5BB12",
-			"comment": "[assembly:/_pro/characters/templates/bangkok/char_bangkok_guards.template?/outfit_hotelsecurity_m02_nude_v4.entitytemplate].pc_entitytemplate",
-			"toChunk": 1
-		},{
-			"runtimeID": "00F7CFFCECC4C227",
-			"comment": "[assembly:/_pro/characters/templates/bangkok/char_bangkok_guards.template?/outfit_hotelsecurity_m01_nude_v6.entitytemplate].pc_entitytemplate",
-			"toChunk": 1
-		},{
-			"runtimeID": "004E5BC8375F7D23",
-			"comment": "Mendozer Desk Divider",
-			"toChunk": 1
-		},{
-			"runtimeID": "00D167B329091046",
-			"comment": "fx_e_rain",
-			"toChunk": 1
-		},{
-			"runtimeID": "00FDB8565FFAA61A",
-			"comment": "hitmanrainwetlogic",
-			"toChunk": 1
-		},{
-			"runtimeID": "008DA82DE27F8837",
-			"comment": "rainkillbox",
-			"toChunk": 1
-		},{
-			"runtimeID": "00FBD8C29E0FA1A7",
-			"comment": "Miami container room stuff",
-			"toChunk": 9
-		},{
-			"runtimeID": "00DB9AF607BDF567",
-			"comment": "Miami container room stuff",
-			"toChunk": 9
-		},{
-			"runtimeID": "0041227DA924D3F3",
-			"comment": "Intern",
-			"toChunk": 9
-		},{
-			"runtimeID": "002AA67743D46945",
-			"comment": "Berlin Exterior Wall Stuff",
-			"toChunk": 1
-		},{
-			"runtimeID": "002394AC1C37709D",
-			"comment": "Berlin Exterior Wall Stuff",
-			"toChunk": 1
-		},{
-			"runtimeID": "000F6695ABA4C22D",
-			"comment": "Berlin Exterior Wall Stuff",
-			"toChunk": 1
-		},{
-			"runtimeID": "004B934C71A190BD",
-			"comment": "Chong Mask",
-			"toChunk": 1
-		},{
-			"runtimeID": "00E495B00562187A",
-			"comment": "Carlift activator",
-			"toChunk": 8
-		},{
-			"runtimeID": "00BE40A890B142A5",
-			"comment": "Carlift trap",
-			"toChunk": 8
-		},{
-			"runtimeID": "0050925C8FE03967",
-			"comment": "Follow Me Come With Me",
-			"toChunk": 0
-		}, "006DE711BF3AC4B8","0055E33191F7DB95","0033DFC23FB473E2","008306358FF17BBC","00EE60E188BC4DC9","003A7CF6E9A68E50","008D31A6DCAF94E4","00F5D3E795BE741E","00FEEC90835A7CDC","000359F8DC368ABE","005F52452076C6B8","00BF1E4639BBD032","008D31A6DCAF94E4","00A0176071F83778","003D9240F2DEA227","00E4E52DFBCF4383","00EC8E46D64E27F9","00ED4BDCF655BE0A","00D07EAE34D87B53","006590CEB8E849E1","00606B92D7512E30","002D35A6E9D65CFD","00B4CB373E73FDB8","00268B48317E6F09"
-	],
-	"localisationOverrides": {
-		"007E8DBFCE7BCF37": {
-			"english": {
-				"820894190": "Attach silencer"
-			},
-			"french": {
-				"820894190": "Attacher le silencieux"
-			},
-			"italian": {
-				"820894190": "Attach silencer"},
-			"german": {
-				"820894190": "Schalldämpfer anbringen"},
-			"spanish": {
-				"820894190": "Adjuntar silenciador"},
-			"russian": {
-				"820894190": "Прикрепить глушитель"},
-			"chineseSimplified": {
-				"820894190": "安装消音器"},
-			"chineseTraditional": {
-				"820894190": "安裝消音器"},
-			"japanese": {
-				"820894190": "サイレンサーを取り付ける"}
-		}
-	},
-	"localisation": {
-		"english": {
-			"ui_salty_cargo_name": "Cargo Ship",
-			"ui_salty_cargo_desc": "You've managed to smuggle yourself aboard the Khandanyang cargo ship",
-			"ui_salty_pier_desc": "You arrive at the pier at Hantu Port via boat",
-			"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC": "A contact can smuggle an item into the office within the Hantu Port warehouse. You'd think with all the boxes around they wouldn't need to put it in the bin, but who are we to judge.",
-			"UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC": "A contact can smuggle an item into the hut near the helipad of the Khandanyang vessel.",
-			"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
-			"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescue",
-			"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escort hostages to an exit",
-			"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
-			"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "Warehouse Office",
-			"UI_CREWMEMBER": "as a crew member",
-			"UI_HEAVENLYGUARD": "as Heavenly Guard",
-			"UI_KEYPADCLUE_NAME": "Soldier's Laptop",
-			"UI_KEYPADCLUE_DESC": "'An internal memo visible only to Heavenly Guard personnel. Armory key code updated to 1912. Remember this number (your Eternal Leader's year of birth) and discard this message immediately!\r\rDeath to the west, glory to our leader'\r\r[Translated by Joogle]",
-			"UI_HANTUFREELANCE": "Hantu Port, Singapore"
-		},
-		"french": {
-			"ui_salty_cargo_name": "Le Cargo",
-			"ui_salty_cargo_desc": "Vous avez réussi à vous infiltrer clandestinement à bord du cargo Khandanyang",
-			"ui_salty_pier_desc": "Vous arrivez à l'embarcadère du port de Hantu par bateau",
-			"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC": "Un contact peut introduire clandestinement un objet dans le bureau de l'entrepôt du port de Hantu. On pourrait penser qu'avec toutes les boîtes autour, ils n'auraient pas besoin de le mettre à la poubelle, mais qui sommes-nous pour en juger.",
-			"UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC": "Un contact peut introduire clandestinement un objet dans la hutte près de l'héliport du navire Khandanyang.",
-			"ui_salty_entrance_desc": "Vous arrivez à la porte d'entrée du port de Hantu",
-			"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Sauvetage",
-			"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escortez les otages vers la sortie",
-			"UI_CONTRACT_SEAGULL_RESCUE_DESC": "Vous devez extraire les otages en toute sécurité des installations du port de Hantu. Utilisez n'importe quelle sortie possible. S'ils meurent, vous échouerez à la mission.",
-			"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "Bureau de l'entrepôt",
-			"UI_CREWMEMBER": "en tant que membre d'équipage",
-			"UI_HEAVENLYGUARD": "en tant que Garde Céleste",
-			"UI_KEYPADCLUE_NAME": "Ordinateur portable du soldat",
-			"UI_KEYPADCLUE_DESC": "'Une note interne visible uniquement par le personnel de la Garde Céleste. Code clé de l'armurerie mis à jour : 1912. Souvenez-vous de ce numéro (l'année de naissance de votre chef éternel) et effacez ce message immédiatement !\r\rMort à l'ouest, gloire à notre chef'\r\r[Traduit par Joogle]",
-			"UI_HANTUFREELANCE": "Port de Hantu, Singapour"
-		},
-		"italian": {"ui_salty_cargo_name": "Nave da carico",
-		"ui_salty_cargo_desc": "Sei riuscito a imbarcarti di nascosto a bordo della nave da carico Khandanyang",
-		"ui_salty_pier_desc": "Si arriva al molo del porto di Hantu in barca",
-		"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC": "Un contatto può contrabbandare un oggetto nell'ufficio all'interno del magazzino del porto di Hantu. Penseresti che con tutte le scatole in giro non avrebbero bisogno di metterlo nella spazzatura, ma chi siamo noi per giudicare.",
-		"UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC": "Un contatto può contrabbandare un oggetto nella capanna vicino all'eliporto della nave Khandanyang.",
-		"ui_salty_entrance_desc": "Arrivi al cancello principale della struttura del porto di Hantu",
-		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Salvare",
-		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Scorta gli ostaggi a un'uscita",
-		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "Devi estrarre gli ostaggi in sicurezza dalla struttura del porto di Hantu. Usa qualsiasi uscita possibile. Se muoiono fallirai la missione.",
-		"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "Ufficio Magazzino",
-		"UI_CREWMEMBER": "come membro dell'equipaggio",
-		"UI_HEAVENLYGUARD": "come Guardia Celeste",
-		"UI_KEYPADCLUE_NAME": "Il computer portatile del soldato",
-		"UI_KEYPADCLUE_DESC": "'Un promemoria interno visibile solo al personale della Guardia Celeste. Codice chiave armeria aggiornato al 1912. Ricorda questo numero (l'anno di nascita del tuo Leader Eterno) e scarta immediatamente questo messaggio!\r\rMorte all'occidente, gloria al nostro capo'\r\r[Tradotto da Joogle]",
-		"UI_HANTUFREELANCE": "Porto di Hantu, Singapore"
-	},
-		"german": {"ui_salty_cargo_name": "Frachtschiff",
-		"ui_salty_cargo_desc": "Es ist Ihnen gelungen, sich an Bord des Frachtschiffs Khandanyang zu schmuggeln",
-		"ui_salty_pier_desc": "Sie erreichen den Pier im Hafen von Hantu mit dem Boot",
-		"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC": "Ein Kontakt kann einen Artikel in das Büro im Hantu Port-Lager schmuggeln. Man könnte meinen, mit all den Kartons, die herumliegen, müssten sie es nicht in den Mülleimer werfen, aber wer sind wir, das können wir beurteilen?",
-		"UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC": "Ein Kontakt kann einen Gegenstand in die Hütte in der Nähe des Hubschrauberlandeplatzes des Khandanyang-Schiffes schmuggeln.",
-		"ui_salty_entrance_desc": "Sie erreichen das Eingangstor der Hantu-Hafenanlage",
-		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rettung",
-		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Begleiten Sie Geiseln zu einem Ausgang",
-		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "Sie müssen die Geiseln sicher aus der Hantu-Hafenanlage befreien. Benutzen Sie jeden möglichen Ausgang. Wenn sie sterben, scheitern Sie an der Mission.",
-		"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "Lagerbüro",
-		"UI_CREWMEMBER": "als Besatzungsmitglied",
-		"UI_HEAVENLYGUARD": "als Himmlischer Wächter",
-		"UI_KEYPADCLUE_NAME": "Soldaten-Laptop",
-		"UI_KEYPADCLUE_DESC": "'Ein internes Memo, das nur für das Personal der Himmlischen Wache sichtbar ist. Schlüsselcode der Waffenkammer auf 1912 aktualisiert. Merken Sie sich diese Nummer (das Geburtsjahr Ihres Ewigen Anführers) und verwerfen Sie diese Nachricht sofort!\r\rTod im Westen, Ruhm unserem Anführer'\r\r[Übersetzt von Joogle]",
-		"UI_HANTUFREELANCE": "Hantu-Hafen, Singapur"
-	},
-		"spanish": {"ui_salty_cargo_name": "Barco de carga",
-		"ui_salty_cargo_desc": "Te las has arreglado para pasar de contrabando a bordo del carguero de Khandanyang.",
-		"ui_salty_pier_desc": "Llegas al muelle del puerto de Hantu en barco.",
-		"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC": "Un contacto puede pasar de contrabando un artículo a la oficina dentro del almacén del puerto de Hantu. Uno pensaría que con todas las cajas alrededor no necesitarían tirarlo a la basura, pero quiénes somos nosotros para juzgar.",
-		"UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC": "Un contacto puede pasar de contrabando un artículo a la cabaña cerca del helipuerto del buque Khandanyang.",
-		"ui_salty_entrance_desc": "Llegas a la puerta principal de las instalaciones del puerto de Hantu.",
-		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescate",
-		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escoltar a los rehenes a una salida.",
-		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "Debes sacar a los rehenes de forma segura de las instalaciones del puerto de Hantu. Usa cualquier salida que puedas. Si mueren, fallarás en la misión.",
-		"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "Oficina de Almacén",
-		"UI_CREWMEMBER": "como miembro de la tripulación",
-		"UI_HEAVENLYGUARD": "como Guardia Celestial",
-		"UI_KEYPADCLUE_NAME": "Laptop del soldado",
-		"UI_KEYPADCLUE_DESC": "'Una nota interna visible solo para el personal de la Guardia Celestial. Código de llave de la armería actualizado a 1912. ¡Recuerde este número (el año de nacimiento de su Líder Eterno) y descarte este mensaje inmediatamente!\r\rMuerte al oeste, gloria a nuestro líder'\r\r[Traducido por Joogle]",
-		"UI_HANTUFREELANCE": "Puerto de Hantu, Singapur"
-	},
-		"russian": {"ui_salty_cargo_name": "Грузовое судно",
-		"ui_salty_cargo_desc": "Вам удалось пробраться на борт грузового корабля Кханданьянг.",
-		"ui_salty_pier_desc": "Вы прибываете на пирс в порту Ханту на лодке.",
-		"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC": "Свой человек может пронести предмет в офис на складе порта Ханту. Можно было бы подумать, что со всеми коробками вокруг им не нужно было бы выбрасывать его в мусорное ведро, но кто мы такие, чтобы судить.",
-		"UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC": "Свой человек может пронести предмет в хижину рядом с вертолетной площадкой корабля Ханданьянг.",
-		"ui_salty_entrance_desc": "Вы прибываете к главным воротам порта Ханту.",
-		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Освободить",
-		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Сопроводить заложников к выходу",
-		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "Вы должны безопасно вывести заложников из порта Ханту. Используйте любой выход, который вы можете. Если они умрут, вы провалите миссию.",
-		"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "Складской офис",
-		"UI_CREWMEMBER": "как член экипажа",
-		"UI_HEAVENLYGUARD": "как Небесный страж",
-		"UI_KEYPADCLUE_NAME": "Ноутбук солдат",
-		"UI_KEYPADCLUE_DESC": "'Внутренний меморандум, видимый только сотрудникам Небесной Стражи. Код ключа Оружейной палаты обновлен до 1912 года. Запомните это число (год рождения вашего Вечного Лидера) и немедленно выбросьте это сообщение!\r\rСмерть западу, слава нашему лидеру'\r\r[Переведено Джуглом]",
-		"UI_HANTUFREELANCE": "Ханту-Порт, Сингапур"
-	},
-		"chineseSimplified": {"ui_salty_cargo_name": "货船",
-		"ui_salty_cargo_desc": "你已经成功偷偷登上了 Khandanyang 货船",
-		"ui_salty_pier_desc": "乘船抵达汉图港码头",
-		"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC": "联系人可以将物品走私到汉图港仓库内的办公室。你可能会认为周围有这么多盒子，他们不需要把它放进垃圾箱，但我们有什么资格评判。",
-		"UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC": "联系人可以将物品走私到 Khandanyang 船只直升机停机坪附近的小屋中。",
-		"ui_salty_entrance_desc": "您到达汉图港设施的正门",
-		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "救援",
-		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "护送人质至出口",
-		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "您必须将人质安全地从汉图港设施中解救出来。使用任何可以使用的出口。如果他们死了，你的任务就会失败。",
-		"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "仓库办公室",
-		"UI_CREWMEMBER": "作为一名船员",
-		"UI_HEAVENLYGUARD": "作为天卫",
-		"UI_KEYPADCLUE_NAME": "士兵的笔记本电脑",
-		"UI_KEYPADCLUE_DESC": "'只有天卫人员可见的内部备忘录。军械库密钥代码更新为 1912。记住这个数字（你永恒领袖的出生年份）并立即丢弃此消息！\r\r死亡归于西方，荣耀归于我们的领袖'\r\r[中文谷歌翻译]",
-		"UI_HANTUFREELANCE": "鬼港，新加坡"
-	},
-		"chineseTraditional": {"ui_salty_cargo_name": "貨船",
-		"ui_salty_cargo_desc": "你已經成功偷偷登上了 Khandanyang 貨船",
-		"ui_salty_pier_desc": "乘船抵達漢圖港碼頭",
-		"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC": "聯繫人可以將物品走私到漢圖港倉庫內的辦公室。你可能會認為周圍有這麼多盒子，他們不需要把它放進垃圾箱，但我們有什麼資格評判。",
-		"UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC": "聯繫人可以將物品走私到 Khandanyang 船隻直升機停機坪附近的小屋中。",
-		"ui_salty_entrance_desc": "您到達漢圖港設施的正門",
-		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "救援",
-		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "護送人質至出口",
-		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "您必須將人質安全地從漢圖港設施中解救出來。使用任何可以使用的出口。如果他們死了，你的任務就會失敗。",
-		"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "倉庫辦公室",
-		"UI_CREWMEMBER": "作為一名船員",
-		"UI_HEAVENLYGUARD": "作為天衛",
-		"UI_KEYPADCLUE_NAME": "士兵的筆記本電腦",
-		"UI_KEYPADCLUE_DESC": "'只有天衛人員可見的內部備忘錄。軍械庫密鑰代碼更新為 1912。記住這個數字（你永恆領袖的出生年份）並立即丟棄此消息！\r\r死亡歸西方，榮耀歸我們的領袖'\r\r[中文谷歌翻譯]",
-		"UI_HANTUFREELANCE": "新加坡韓都港"
-	},
-		"japanese": {"ui_salty_cargo_name": "貨物船",
-		"ui_salty_cargo_desc": "あなたはカンダニャン貨物船に密航することに成功しました",
-		"ui_salty_pier_desc": "ボートで漢図港の桟橋に到着します",
-		"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC": "連絡先は漢図港倉庫内の事務所に品物を密輸することができます。周りに箱がたくさんあるのなら、ゴミ箱に入れる必要はないだろうと思うかもしれないが、それを私たちは誰が判断するのだろうか。",
-		"UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC": "連絡先は、カンダヤン船のヘリポート近くの小屋に物品を密輸することができます。",
-		"ui_salty_entrance_desc": "漢図港施設の正門に到着します",
-		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "救援",
-		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "人質を出口まで護送する",
-		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "人質をハントゥ港施設から安全に救出する必要があります。可能な限り出口を使用してください。彼らが死んだ場合、ミッションは失敗します。",
-		"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "倉庫事務所",
-		"UI_CREWMEMBER": "乗組員として",
-		"UI_HEAVENLYGUARD": "天の守護者として",
-		"UI_KEYPADCLUE_NAME": "兵士のラップトップ",
-		"UI_KEYPADCLUE_DESC": "'ヘブンリーガードの人員だけが見られる内部メモ。武器庫のキーコードが1912に更新されました。この番号（永遠の指導者の誕生年）を覚えて、すぐにこのメッセージを破棄してください！\r\r西に死を、私たちの指導者に栄光を'\r\r[翻訳：Joogle]",
-		"UI_HANTUFREELANCE": "シンガポール、ハンツ港"}
-	},
-	"localisedLines": {
-		"00C021BBA3818C7A": "UI_CREWMEMBER",
-		"00C021BBA3818C7C": "UI_HEAVENLYGUARD",
-		"01C021BBA3818C7A": "UI_KEYPADCLUE_NAME",
-		"01C021BBA3818C7B": "UI_KEYPADCLUE_DESC",
-		"01C021BBA3818C70": "UI_HANTUFREELANCE"
-	},
 	"frameworkVersion": "2.0.0",
 	"contentFolders": [
 		"content"
@@ -713,42 +38,720 @@
 "packagedefinition": [
 	{
 		"type": "entity",
-		"partition": "salty",
+		"partition": "season2",
 		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].entitytype"
 	  },
 	  {
 		"type": "entity",
-		"partition": "salty",
+		"partition": "season2",
 		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scene_seagull_sandbox.entity].entitytemplate"
 	  },
 	  {
 		"type": "entity",
-		"partition": "salty",
+		"partition": "season2",
 		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/mission_seagull_sandbox.brick].entitytype"
 	  },
 	{
 		"type": "entity",
-		"partition": "salty",
+		"partition": "season2",
 		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/rain.brick].entitytype"
 	  },
 	  {
 		"type": "entity",
-		"partition": "salty",
+		"partition": "season2",
 		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/night.brick].entitytype"
 	  },{
 		"type": "entity",
-		"partition": "salty",
+		"partition": "season2",
 		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scene_test_mild_whist.entity].entitytemplate"
 	  },
 	  {
 		"type": "entity",
-		"partition": "salty",
+		"partition": "season2",
 		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/mission_hot_hantu.brick].pc_entitytype"
 	  },
 	  {
 		"type": "entity",
-		"partition": "salty",
+		"partition": "season2",
 		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/mission_mild_hantu.brick].pc_entitytype"
 	  }
-  ]
+  ],
+  "dependencies": [
+	"00AFD8E95E30F785","003D556A7AFD9477","00CD71F8CDECA951","0031F8F30FC5E66E","008CA97D92CDD2E8","00B495F42C5FE8A6","00DB0752E110BAB0","00F2AD5972271786","00A943762C7307AE","00EA95F297A7E3C5","00C824C3C86FD60D","00923BF7048EB387","0036423BE3AC46C6","00EC5169AA13A101","0013AFCBD7BABC73","00A06AD2E8B53AF7","00CB7C98B353E3AE","00DB172CC3764A58","002213FD7FFF2F57",{
+		"runtimeID": "00CB93E8EC14AD89",
+		"comment": "Barber chairs for command room",
+		"toChunk": 9
+	},{
+		"runtimeID": "00F3C164F5342E71",
+		"comment": "act_mr_guard_aimpistol_vidal",
+		"toChunk": 9
+	},
+{
+	"runtimeID": "008027305D878A5E",
+	"comment": "Miami buildings lights",
+	"toChunk": 9
+},
+{
+	"runtimeID": "00E410380F2F36AA",
+	"comment": "Folded table for storage",
+	"toChunk": 9
+},
+{
+	"runtimeID": "005A023DEC1BDD5F",
+	"comment": "Server 3 for storage",
+	"toChunk": 9
+},
+{
+	"runtimeID": "00D3153F300A054F",
+	"comment": "Server 2 for storage",
+	"toChunk": 9
+},
+{
+	"runtimeID": "0021C521104D0DA7",
+	"comment": "Server for storage",
+	"toChunk": 9
+},
+
+{
+	"runtimeID": "012D88D993FBCC0",
+	"comment": "Plastic for storage",
+	"toChunk": 9
+},
+
+{
+	"runtimeID": "002D42DD922C13CB",
+	"comment": "silencer gun props for Armory",
+	"toChunk": 9
+},
+{
+	"runtimeID": "00D3885CDCE79516",
+	"comment": "garage hook for Armory",
+	"toChunk": 9
+},
+{
+	"runtimeID": "00EEBBA389F45F77",
+	"comment": "metal_shelf_lab for Armory",
+	"toChunk": 9
+},
+{
+	"runtimeID": "00A1FAF8DEA16522",
+	"comment": "Gun table from Romania for Armory",
+	"toChunk": 9
+},
+	{
+		"runtimeID": "009A56DDDFB5D0B9",
+		"comment": "Chong Rain Metal Sound",
+		"toChunk": 1
+	},{
+		"runtimeID": "001F0D4A8C3066C4",
+		"comment": "Chong Rain Sound Window",
+		"toChunk": 1
+	},{
+		"runtimeID": "00F6995C30E46A33",
+		"comment": "Chong Rain Sound",
+		"toChunk": 1
+	},{
+		"runtimeID": "002E74F8343F4A28",
+		"comment": "Chong Rain Sound",
+		"toChunk": 1
+	},{
+		"runtimeID": "002E85BC93584A8A",
+		"comment": "Chong Soundbank",
+		"toChunk": 1
+	},{
+		"runtimeID": "0018AB110B83E417",
+		"comment": "Chong Rain Sound",
+		"toChunk": 1
+	},{
+		"runtimeID": "0097320787B97F76",
+		"comment": "AgencyPickup NY Bin",
+		"toChunk": 9
+	},{
+		"runtimeID": "001AFC1CC558A815",
+		"comment": "Helipad Geotag",
+		"toChunk": 9
+	},
+	{
+		"runtimeID": "00907BCED9E107EB",
+		"comment": "Sgail Lights for Cargo",
+		"toChunk": 9
+	},
+	{
+		"runtimeID": "002AE45C0B0E4778",
+		"comment": "Miami Satellite",
+		"toChunk": 9
+	},{
+		"runtimeID": "00949920F8E25F7A",
+		"comment": "Miami Satellite",
+		"toChunk": 9
+	},{
+		"runtimeID": "00BDE9DCDEA7A32D",
+		"comment": "bayside_hut_a",
+		"toChunk": 9
+	},{
+		"runtimeID": "002BDCC7D03A7CC9",
+		"comment": "bayside_hut_a_interior",
+		"toChunk": 9
+	},{
+		"runtimeID": "0093EEFB7E29167F",
+		"comment": "",
+		"toChunk": 9
+	},{
+		"runtimeID": "008657748B1B8DF4",
+		"comment": "",
+		"toChunk": 9
+	},{
+		"runtimeID": "00B70F13E057D0BC",
+		"comment": "",
+		"toChunk": 9
+	},{
+		"runtimeID": "00D5DA12E38296A3",
+		"comment": "",
+		"toChunk": 9
+	},{
+		"runtimeID": "00D73AC25BF1DDA9",
+		"comment": "play_amb_3d_foghorn.wwiseevent",
+		"toChunk": 9
+	},{
+		"runtimeID": "00A5F0DBA8EB9488",
+		"comment": "levelspecific/sapienza.wwisesoundbank",
+		"toChunk": 9
+	},{
+		"runtimeID": "006D8C805F858533",
+		"comment": "NY Investment Banker Fem04",
+		"toChunk": 9
+	},{
+		"runtimeID": "004454C2F0FD963E",
+		"comment": "pipe to climb for warehouse up",
+		"toChunk": 9
+	},
+	{
+		"runtimeID": "00FD0570CD6F3435",
+		"comment": "pipe to climb for warehouse bottom corner",
+		"toChunk": 9
+	},
+	{
+		"runtimeID": "000B266D1D68E4AB",
+		"comment": "pipe to climb for warehouse",
+		"toChunk": 9
+	},
+	{
+		"runtimeID": "00DD7A6662C47253",
+		"comment": "metal doors for cargo",
+		"toChunk": 9
+	},{
+		"runtimeID": "0020D01E084B5EBD",
+		"comment": "slum_building_workshop_hut_a",
+		"toChunk": 9
+	},{
+		"runtimeID": "0028527544040273",
+		"comment": "slum_building_workshop_hut_inside_a",
+		"toChunk": 9
+	},
+	{
+		"runtimeID": "00D7E8FDC5A2F2EC",
+		"comment": "computer screen image",
+		"toChunk": 9
+	},
+	{
+		"runtimeID": "00BB1D6304B03BB3",
+		"comment": "computer screen image",
+		"toChunk": 9
+	},
+	{
+		"runtimeID": "006946156C8E321D",
+		"comment": "computer screen image",
+		"toChunk": 9
+	},
+
+	"006E4EDFFCD96214","001269EBA23012F2",{
+		"runtimeID": "006FFC570C3B6ED8",
+		"comment": "Poster gym 1",
+		"toChunk": 9
+	},
+	{
+		"runtimeID": "00ED8BF99BDD2B22",
+		"comment": "Water tank rails",
+		"toChunk": 9
+	},
+	{
+		"runtimeID": "00AE2DE2A9FB9D96",
+		"comment": "Water tank",
+		"toChunk": 9
+	},{
+		"runtimeID": "00247E4468812C82",
+		"comment": "Poster gym 2",
+		"toChunk": 9
+	},{
+		"runtimeID": "001DB0136927CAB7",
+		"comment": "Poster gym 3",
+		"toChunk": 9
+	},{
+		"runtimeID": "00FD8EB1CD96BF42",
+		"comment": "Beer coaster",
+		"toChunk": 9
+	},{
+		"runtimeID": "008F2C59E06043E7",
+		"comment": "VHS Player",
+		"toChunk": 9
+	},{
+	"runtimeID": "00C0FA51F2559672",
+	"comment": "fridge",
+	"toChunk": 9
+},{
+		"runtimeID": "00C0134D81848792",
+		"comment": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_hips_lie_pushups.entitytemplate].pc_entitytype",
+		"toChunk": 9
+	},{
+		"runtimeID": "00254A269F055331",
+		"comment": "[assembly:/_pro/design/setpieces/unique/setpiece_dugong_unique.template?/setpiece_dugong_hips_punchingbag.entitytemplate].pc_entitytype",
+		"toChunk": 9
+	},{
+		"runtimeID": "007350C72CF8D8B7",
+		"comment": "Exercise bike mati",
+		"toChunk": 9
+	},{
+		"runtimeID": "00F88ABD2464D4ED",
+		"comment": "Exercise bike",
+		"toChunk": 9
+	},{
+		"runtimeID": "003BDE62B6F58E8A",
+		"comment": "Gloves dispenser",
+		"toChunk": 9
+	},{
+		"runtimeID": "00B80347AF88C514",
+		"comment": "Consulate Desk",
+		"toChunk": 9
+	},{
+		"runtimeID": "005963EBB48C85E2",
+		"comment": "Cabinet Morgue",
+		"toChunk": 9
+	},{
+		"runtimeID": "00A9713DE434A540",
+		"comment": "Morgue table",
+		"toChunk": 9
+	},{
+		"runtimeID": "00D2AE2A202604C4",
+		"comment": "X-ray mi",
+		"toChunk": 9
+	},{
+		"runtimeID": "008EA2DDC12C82CA",
+		"comment": "X-ray",
+		"toChunk": 9
+	},{
+		"runtimeID": "001C7EFE78C71BEB",
+		"comment": "toilet",
+		"toChunk": 9
+	},{
+		"runtimeID": "0004B230642E2D9C",
+		"comment": "miami office table",
+		"toChunk": 9
+	},{
+		"runtimeID": "00C44B5A31BEB6F9",
+		"comment": "screen image",
+		"toChunk": 9
+	},{
+		"runtimeID": "0045763D2ADB7CBC",
+		"comment": "screen image",
+		"toChunk": 9
+	},{
+		"runtimeID": "00256FFAFA9ED755",
+		"comment": "screen image",
+		"toChunk": 9
+	},{
+		"runtimeID": "001552169284A8BC",
+		"comment": "screen image",
+		"toChunk": 9
+	},{
+		"runtimeID": "004B10AE15BB0713",
+		"comment": "screen image",
+		"toChunk": 9
+	},{
+		"runtimeID": "0050664E32C50F44",
+		"comment": "screen image",
+		"toChunk": 9
+	},{
+		"runtimeID": "000EE66B7C533417",
+		"comment": "screen image",
+		"toChunk": 9
+	},{
+		"runtimeID": "00983AE75619983B",
+		"comment": "screen image",
+		"toChunk": 9
+	},{
+		"runtimeID": "001552169284A8BC",
+		"comment": "screen image",
+		"toChunk": 9
+	},{
+		"runtimeID": "00EF8CE55966ED8D",
+		"comment": "world map screen",
+		"toChunk": 9
+	},{
+		"runtimeID": "000E34383A7CF837",
+		"comment": "submarine",
+		"toChunk": 9
+	},{
+		"runtimeID": "00974DC022B3EE7A",
+		"comment": "submarine control panel",
+		"toChunk": 9
+	},{
+		"runtimeID": "007985B6DF50DA78",
+		"comment": "security_camera_pole_a",
+		"toChunk": 9
+	},{
+		"runtimeID": "002CF1B02A3EBA0E",
+		"comment": "colorado poster 1",
+		"toChunk": 9
+	},{
+		"runtimeID": "006907D612C33E40",
+		"comment": "colorado poster 2",
+		"toChunk": 9
+	},{
+		"runtimeID": "00D9533DC0FA6740",
+		"comment": "colorado poster 3",
+		"toChunk": 9
+	},{
+		"runtimeID": "00FA28F8E6E05145",
+		"comment": "kitchen desk",
+		"toChunk": 9
+	},{
+		"runtimeID": "002662B9942D950C",
+		"comment": "Boiling food",
+		"toChunk": 9
+	},{
+		"runtimeID": "002A10E4E0CEF7AC",
+		"comment": "Colorado Fridge",
+		"toChunk": 9
+	},{
+		"runtimeID": "00A2C1C13F32DC48",
+		"comment": "Pool Table",
+		"toChunk": 9
+	},{
+		"runtimeID": "000DBE86C3F8D4A2",
+		"comment": "Colorado board",
+		"toChunk": 9
+	},{
+		"runtimeID": "005BF453E152342B",
+		"comment": "Dugong Backdrop stuff",
+		"toChunk": 1
+	},{
+		"runtimeID": "0016D60F4F6A0509",
+		"comment": "Dugong Backdrop stuff",
+		"toChunk": 1
+	},{
+		"runtimeID": "006E140D067AB3A8",
+		"comment": "Dugong Backdrop stuff",
+		"toChunk": 1
+	},{
+		"runtimeID": "00A569187571C49D",
+		"comment": "Dugong Backdrop stuff",
+		"toChunk": 1
+	},{
+		"runtimeID": "0094779243B229C8",
+		"comment": "Dugong Backdrop stuff",
+		"toChunk": 1
+	},{
+		"runtimeID": "006D867907261266",
+		"comment": "Dugong Backdrop stuff",
+		"toChunk": 1
+	},{
+		"runtimeID": "0099C80B6E1131EA",
+		"comment": "Dugong Backdrop stuff",
+		"toChunk": 1
+	},{
+		"runtimeID": "006A281554C53AAC",
+		"comment": "Dugong Backdrop stuff",
+		"toChunk": 1
+	},{
+		"runtimeID": "00EB96B21395FCC8",
+		"comment": "Dugong Backdrop stuff",
+		"toChunk": 1
+	},{
+		"runtimeID": "00E06D455F0A6A53",
+		"comment": "Dugong Backdrop stuff",
+		"toChunk": 1
+	},{
+		"runtimeID": "00FF5D20BB022A70",
+		"comment": "Dugong Backdrop stuff",
+		"toChunk": 1
+	},{
+		"runtimeID": "009BED9A5E00669E",
+		"comment": "Dugong Backdrop stuff",
+		"toChunk": 1
+	},{
+		"runtimeID": "004404583CB3B147",
+		"comment": "Nude Hokkaido Bodyguard",
+		"toChunk": 1
+	},{
+		"runtimeID": "007DA820C9C33155",
+		"comment": "Nude Hokkaido Bodyguard",
+		"toChunk": 1
+	},{
+		"runtimeID": "00D266E2CEEE1E59",
+		"comment": "Nude Hokkaido Bodyguard",
+		"toChunk": 1
+	},{
+		"runtimeID": "00E333E894410E9B",
+		"comment": "Nude Bangcock Guard",
+		"toChunk": 1
+	},{
+		"runtimeID": "001A9B232AE1202B",
+		"comment": "Nude Hokkaido Bodyguard",
+		"toChunk": 1
+	},{
+		"runtimeID": "00CB4C67CC4A22D5",
+		"comment": "Nude Hokkaido Bodyguard",
+		"toChunk": 1
+	},{
+		"runtimeID": "007DAF4ACF2F0320",
+		"comment": "Nude Hokkaido Bodyguard",
+		"toChunk": 1
+	},{
+		"runtimeID": "00C1D9EA1821B076",
+		"comment": "[assembly:/_pro/characters/templates/hokkaido/char_hokkaido_guards.template?/outfit_resortsecurity_m_nude_v2.entitytemplate].pc_entitytemplate",
+		"toChunk": 1
+	},{
+		"runtimeID": "0082D36455D5BB12",
+		"comment": "[assembly:/_pro/characters/templates/bangkok/char_bangkok_guards.template?/outfit_hotelsecurity_m02_nude_v4.entitytemplate].pc_entitytemplate",
+		"toChunk": 1
+	},{
+		"runtimeID": "00F7CFFCECC4C227",
+		"comment": "[assembly:/_pro/characters/templates/bangkok/char_bangkok_guards.template?/outfit_hotelsecurity_m01_nude_v6.entitytemplate].pc_entitytemplate",
+		"toChunk": 1
+	},{
+		"runtimeID": "004E5BC8375F7D23",
+		"comment": "Mendozer Desk Divider",
+		"toChunk": 1
+	},{
+		"runtimeID": "00D167B329091046",
+		"comment": "fx_e_rain",
+		"toChunk": 1
+	},{
+		"runtimeID": "00FDB8565FFAA61A",
+		"comment": "hitmanrainwetlogic",
+		"toChunk": 1
+	},{
+		"runtimeID": "008DA82DE27F8837",
+		"comment": "rainkillbox",
+		"toChunk": 1
+	},{
+		"runtimeID": "00FBD8C29E0FA1A7",
+		"comment": "Miami container room stuff",
+		"toChunk": 9
+	},{
+		"runtimeID": "00DB9AF607BDF567",
+		"comment": "Miami container room stuff",
+		"toChunk": 9
+	},{
+		"runtimeID": "0041227DA924D3F3",
+		"comment": "Intern",
+		"toChunk": 9
+	},{
+		"runtimeID": "002AA67743D46945",
+		"comment": "Berlin Exterior Wall Stuff",
+		"toChunk": 1
+	},{
+		"runtimeID": "002394AC1C37709D",
+		"comment": "Berlin Exterior Wall Stuff",
+		"toChunk": 1
+	},{
+		"runtimeID": "000F6695ABA4C22D",
+		"comment": "Berlin Exterior Wall Stuff",
+		"toChunk": 1
+	},{
+		"runtimeID": "004B934C71A190BD",
+		"comment": "Chong Mask",
+		"toChunk": 1
+	},{
+		"runtimeID": "00E495B00562187A",
+		"comment": "Carlift activator",
+		"toChunk": 8
+	},{
+		"runtimeID": "00BE40A890B142A5",
+		"comment": "Carlift trap",
+		"toChunk": 8
+	},{
+		"runtimeID": "0050925C8FE03967",
+		"comment": "Follow Me Come With Me",
+		"toChunk": 0
+	}, "006DE711BF3AC4B8","0055E33191F7DB95","0033DFC23FB473E2","008306358FF17BBC","00EE60E188BC4DC9","003A7CF6E9A68E50","008D31A6DCAF94E4","00F5D3E795BE741E","00FEEC90835A7CDC","000359F8DC368ABE","005F52452076C6B8","00BF1E4639BBD032","008D31A6DCAF94E4","00A0176071F83778","003D9240F2DEA227","00E4E52DFBCF4383","00EC8E46D64E27F9","00ED4BDCF655BE0A","00D07EAE34D87B53","006590CEB8E849E1","00606B92D7512E30","002D35A6E9D65CFD","00B4CB373E73FDB8","00268B48317E6F09"
+],
+"localisationOverrides": {
+	"007E8DBFCE7BCF37": {
+		"english": {
+			"820894190": "Attach silencer"
+		},
+		"french": {
+			"820894190": "Attacher le silencieux"
+		},
+		"italian": {
+			"820894190": "Attach silencer"},
+		"german": {
+			"820894190": "Schalldämpfer anbringen"},
+		"spanish": {
+			"820894190": "Adjuntar silenciador"},
+		"russian": {
+			"820894190": "Прикрепить глушитель"},
+		"chineseSimplified": {
+			"820894190": "安装消音器"},
+		"chineseTraditional": {
+			"820894190": "安裝消音器"},
+		"japanese": {
+			"820894190": "サイレンサーを取り付ける"}
+	}
+},
+"localisation": {
+	"english": {
+		"ui_salty_cargo_name": "Cargo Ship",
+		"ui_salty_cargo_desc": "You've managed to smuggle yourself aboard the Khandanyang cargo ship",
+		"ui_salty_pier_desc": "You arrive at the pier at Hantu Port via boat",
+		"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC": "A contact can smuggle an item into the office within the Hantu Port warehouse. You'd think with all the boxes around they wouldn't need to put it in the bin, but who are we to judge.",
+		"UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC": "A contact can smuggle an item into the hut near the helipad of the Khandanyang vessel.",
+		"ui_salty_entrance_desc": "You arrive at the front gate of the Hantu Port facility",
+		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescue",
+		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escort hostages to an exit",
+		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "You must extract the hostages safely from the Hantu Port facility. Use any exit you can. If they die you will fail the mission.",
+		"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "Warehouse Office",
+		"UI_CREWMEMBER": "as a crew member",
+		"UI_HEAVENLYGUARD": "as Heavenly Guard",
+		"UI_KEYPADCLUE_NAME": "Soldier's Laptop",
+		"UI_KEYPADCLUE_DESC": "'An internal memo visible only to Heavenly Guard personnel. Armory key code updated to 1912. Remember this number (your Eternal Leader's year of birth) and discard this message immediately!\r\rDeath to the west, glory to our leader'\r\r[Translated by Joogle]",
+		"UI_HANTUFREELANCE": "Hantu Port, Singapore"
+	},
+	"french": {
+		"ui_salty_cargo_name": "Le Cargo",
+		"ui_salty_cargo_desc": "Vous avez réussi à vous infiltrer clandestinement à bord du cargo Khandanyang",
+		"ui_salty_pier_desc": "Vous arrivez à l'embarcadère du port de Hantu par bateau",
+		"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC": "Un contact peut introduire clandestinement un objet dans le bureau de l'entrepôt du port de Hantu. On pourrait penser qu'avec toutes les boîtes autour, ils n'auraient pas besoin de le mettre à la poubelle, mais qui sommes-nous pour en juger.",
+		"UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC": "Un contact peut introduire clandestinement un objet dans la hutte près de l'héliport du navire Khandanyang.",
+		"ui_salty_entrance_desc": "Vous arrivez à la porte d'entrée du port de Hantu",
+		"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Sauvetage",
+		"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escortez les otages vers la sortie",
+		"UI_CONTRACT_SEAGULL_RESCUE_DESC": "Vous devez extraire les otages en toute sécurité des installations du port de Hantu. Utilisez n'importe quelle sortie possible. S'ils meurent, vous échouerez à la mission.",
+		"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "Bureau de l'entrepôt",
+		"UI_CREWMEMBER": "en tant que membre d'équipage",
+		"UI_HEAVENLYGUARD": "en tant que Garde Céleste",
+		"UI_KEYPADCLUE_NAME": "Ordinateur portable du soldat",
+		"UI_KEYPADCLUE_DESC": "'Une note interne visible uniquement par le personnel de la Garde Céleste. Code clé de l'armurerie mis à jour : 1912. Souvenez-vous de ce numéro (l'année de naissance de votre chef éternel) et effacez ce message immédiatement !\r\rMort à l'ouest, gloire à notre chef'\r\r[Traduit par Joogle]",
+		"UI_HANTUFREELANCE": "Port de Hantu, Singapour"
+	},
+	"italian": {"ui_salty_cargo_name": "Nave da carico",
+	"ui_salty_cargo_desc": "Sei riuscito a imbarcarti di nascosto a bordo della nave da carico Khandanyang",
+	"ui_salty_pier_desc": "Si arriva al molo del porto di Hantu in barca",
+	"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC": "Un contatto può contrabbandare un oggetto nell'ufficio all'interno del magazzino del porto di Hantu. Penseresti che con tutte le scatole in giro non avrebbero bisogno di metterlo nella spazzatura, ma chi siamo noi per giudicare.",
+	"UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC": "Un contatto può contrabbandare un oggetto nella capanna vicino all'eliporto della nave Khandanyang.",
+	"ui_salty_entrance_desc": "Arrivi al cancello principale della struttura del porto di Hantu",
+	"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Salvare",
+	"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Scorta gli ostaggi a un'uscita",
+	"UI_CONTRACT_SEAGULL_RESCUE_DESC": "Devi estrarre gli ostaggi in sicurezza dalla struttura del porto di Hantu. Usa qualsiasi uscita possibile. Se muoiono fallirai la missione.",
+	"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "Ufficio Magazzino",
+	"UI_CREWMEMBER": "come membro dell'equipaggio",
+	"UI_HEAVENLYGUARD": "come Guardia Celeste",
+	"UI_KEYPADCLUE_NAME": "Il computer portatile del soldato",
+	"UI_KEYPADCLUE_DESC": "'Un promemoria interno visibile solo al personale della Guardia Celeste. Codice chiave armeria aggiornato al 1912. Ricorda questo numero (l'anno di nascita del tuo Leader Eterno) e scarta immediatamente questo messaggio!\r\rMorte all'occidente, gloria al nostro capo'\r\r[Tradotto da Joogle]",
+	"UI_HANTUFREELANCE": "Porto di Hantu, Singapore"
+},
+	"german": {"ui_salty_cargo_name": "Frachtschiff",
+	"ui_salty_cargo_desc": "Es ist Ihnen gelungen, sich an Bord des Frachtschiffs Khandanyang zu schmuggeln",
+	"ui_salty_pier_desc": "Sie erreichen den Pier im Hafen von Hantu mit dem Boot",
+	"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC": "Ein Kontakt kann einen Artikel in das Büro im Hantu Port-Lager schmuggeln. Man könnte meinen, mit all den Kartons, die herumliegen, müssten sie es nicht in den Mülleimer werfen, aber wer sind wir, das können wir beurteilen?",
+	"UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC": "Ein Kontakt kann einen Gegenstand in die Hütte in der Nähe des Hubschrauberlandeplatzes des Khandanyang-Schiffes schmuggeln.",
+	"ui_salty_entrance_desc": "Sie erreichen das Eingangstor der Hantu-Hafenanlage",
+	"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rettung",
+	"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Begleiten Sie Geiseln zu einem Ausgang",
+	"UI_CONTRACT_SEAGULL_RESCUE_DESC": "Sie müssen die Geiseln sicher aus der Hantu-Hafenanlage befreien. Benutzen Sie jeden möglichen Ausgang. Wenn sie sterben, scheitern Sie an der Mission.",
+	"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "Lagerbüro",
+	"UI_CREWMEMBER": "als Besatzungsmitglied",
+	"UI_HEAVENLYGUARD": "als Himmlischer Wächter",
+	"UI_KEYPADCLUE_NAME": "Soldaten-Laptop",
+	"UI_KEYPADCLUE_DESC": "'Ein internes Memo, das nur für das Personal der Himmlischen Wache sichtbar ist. Schlüsselcode der Waffenkammer auf 1912 aktualisiert. Merken Sie sich diese Nummer (das Geburtsjahr Ihres Ewigen Anführers) und verwerfen Sie diese Nachricht sofort!\r\rTod im Westen, Ruhm unserem Anführer'\r\r[Übersetzt von Joogle]",
+	"UI_HANTUFREELANCE": "Hantu-Hafen, Singapur"
+},
+	"spanish": {"ui_salty_cargo_name": "Barco de carga",
+	"ui_salty_cargo_desc": "Te las has arreglado para pasar de contrabando a bordo del carguero de Khandanyang.",
+	"ui_salty_pier_desc": "Llegas al muelle del puerto de Hantu en barco.",
+	"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC": "Un contacto puede pasar de contrabando un artículo a la oficina dentro del almacén del puerto de Hantu. Uno pensaría que con todas las cajas alrededor no necesitarían tirarlo a la basura, pero quiénes somos nosotros para juzgar.",
+	"UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC": "Un contacto puede pasar de contrabando un artículo a la cabaña cerca del helipuerto del buque Khandanyang.",
+	"ui_salty_entrance_desc": "Llegas a la puerta principal de las instalaciones del puerto de Hantu.",
+	"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Rescate",
+	"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Escoltar a los rehenes a una salida.",
+	"UI_CONTRACT_SEAGULL_RESCUE_DESC": "Debes sacar a los rehenes de forma segura de las instalaciones del puerto de Hantu. Usa cualquier salida que puedas. Si mueren, fallarás en la misión.",
+	"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "Oficina de Almacén",
+	"UI_CREWMEMBER": "como miembro de la tripulación",
+	"UI_HEAVENLYGUARD": "como Guardia Celestial",
+	"UI_KEYPADCLUE_NAME": "Laptop del soldado",
+	"UI_KEYPADCLUE_DESC": "'Una nota interna visible solo para el personal de la Guardia Celestial. Código de llave de la armería actualizado a 1912. ¡Recuerde este número (el año de nacimiento de su Líder Eterno) y descarte este mensaje inmediatamente!\r\rMuerte al oeste, gloria a nuestro líder'\r\r[Traducido por Joogle]",
+	"UI_HANTUFREELANCE": "Puerto de Hantu, Singapur"
+},
+	"russian": {"ui_salty_cargo_name": "Грузовое судно",
+	"ui_salty_cargo_desc": "Вам удалось пробраться на борт грузового корабля Кханданьянг.",
+	"ui_salty_pier_desc": "Вы прибываете на пирс в порту Ханту на лодке.",
+	"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC": "Свой человек может пронести предмет в офис на складе порта Ханту. Можно было бы подумать, что со всеми коробками вокруг им не нужно было бы выбрасывать его в мусорное ведро, но кто мы такие, чтобы судить.",
+	"UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC": "Свой человек может пронести предмет в хижину рядом с вертолетной площадкой корабля Ханданьянг.",
+	"ui_salty_entrance_desc": "Вы прибываете к главным воротам порта Ханту.",
+	"UI_CONTRACT_SEAGULL_RESCUE_NAME": "Освободить",
+	"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "Сопроводить заложников к выходу",
+	"UI_CONTRACT_SEAGULL_RESCUE_DESC": "Вы должны безопасно вывести заложников из порта Ханту. Используйте любой выход, который вы можете. Если они умрут, вы провалите миссию.",
+	"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "Складской офис",
+	"UI_CREWMEMBER": "как член экипажа",
+	"UI_HEAVENLYGUARD": "как Небесный страж",
+	"UI_KEYPADCLUE_NAME": "Ноутбук солдат",
+	"UI_KEYPADCLUE_DESC": "'Внутренний меморандум, видимый только сотрудникам Небесной Стражи. Код ключа Оружейной палаты обновлен до 1912 года. Запомните это число (год рождения вашего Вечного Лидера) и немедленно выбросьте это сообщение!\r\rСмерть западу, слава нашему лидеру'\r\r[Переведено Джуглом]",
+	"UI_HANTUFREELANCE": "Ханту-Порт, Сингапур"
+},
+	"chineseSimplified": {"ui_salty_cargo_name": "货船",
+	"ui_salty_cargo_desc": "你已经成功偷偷登上了 Khandanyang 货船",
+	"ui_salty_pier_desc": "乘船抵达汉图港码头",
+	"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC": "联系人可以将物品走私到汉图港仓库内的办公室。你可能会认为周围有这么多盒子，他们不需要把它放进垃圾箱，但我们有什么资格评判。",
+	"UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC": "联系人可以将物品走私到 Khandanyang 船只直升机停机坪附近的小屋中。",
+	"ui_salty_entrance_desc": "您到达汉图港设施的正门",
+	"UI_CONTRACT_SEAGULL_RESCUE_NAME": "救援",
+	"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "护送人质至出口",
+	"UI_CONTRACT_SEAGULL_RESCUE_DESC": "您必须将人质安全地从汉图港设施中解救出来。使用任何可以使用的出口。如果他们死了，你的任务就会失败。",
+	"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "仓库办公室",
+	"UI_CREWMEMBER": "作为一名船员",
+	"UI_HEAVENLYGUARD": "作为天卫",
+	"UI_KEYPADCLUE_NAME": "士兵的笔记本电脑",
+	"UI_KEYPADCLUE_DESC": "'只有天卫人员可见的内部备忘录。军械库密钥代码更新为 1912。记住这个数字（你永恒领袖的出生年份）并立即丢弃此消息！\r\r死亡归于西方，荣耀归于我们的领袖'\r\r[中文谷歌翻译]",
+	"UI_HANTUFREELANCE": "鬼港，新加坡"
+},
+	"chineseTraditional": {"ui_salty_cargo_name": "貨船",
+	"ui_salty_cargo_desc": "你已經成功偷偷登上了 Khandanyang 貨船",
+	"ui_salty_pier_desc": "乘船抵達漢圖港碼頭",
+	"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC": "聯繫人可以將物品走私到漢圖港倉庫內的辦公室。你可能會認為周圍有這麼多盒子，他們不需要把它放進垃圾箱，但我們有什麼資格評判。",
+	"UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC": "聯繫人可以將物品走私到 Khandanyang 船隻直升機停機坪附近的小屋中。",
+	"ui_salty_entrance_desc": "您到達漢圖港設施的正門",
+	"UI_CONTRACT_SEAGULL_RESCUE_NAME": "救援",
+	"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "護送人質至出口",
+	"UI_CONTRACT_SEAGULL_RESCUE_DESC": "您必須將人質安全地從漢圖港設施中解救出來。使用任何可以使用的出口。如果他們死了，你的任務就會失敗。",
+	"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "倉庫辦公室",
+	"UI_CREWMEMBER": "作為一名船員",
+	"UI_HEAVENLYGUARD": "作為天衛",
+	"UI_KEYPADCLUE_NAME": "士兵的筆記本電腦",
+	"UI_KEYPADCLUE_DESC": "'只有天衛人員可見的內部備忘錄。軍械庫密鑰代碼更新為 1912。記住這個數字（你永恆領袖的出生年份）並立即丟棄此消息！\r\r死亡歸西方，榮耀歸我們的領袖'\r\r[中文谷歌翻譯]",
+	"UI_HANTUFREELANCE": "新加坡韓都港"
+},
+	"japanese": {"ui_salty_cargo_name": "貨物船",
+	"ui_salty_cargo_desc": "あなたはカンダニャン貨物船に密航することに成功しました",
+	"ui_salty_pier_desc": "ボートで漢図港の桟橋に到着します",
+	"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC": "連絡先は漢図港倉庫内の事務所に品物を密輸することができます。周りに箱がたくさんあるのなら、ゴミ箱に入れる必要はないだろうと思うかもしれないが、それを私たちは誰が判断するのだろうか。",
+	"UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC": "連絡先は、カンダヤン船のヘリポート近くの小屋に物品を密輸することができます。",
+	"ui_salty_entrance_desc": "漢図港施設の正門に到着します",
+	"UI_CONTRACT_SEAGULL_RESCUE_NAME": "救援",
+	"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "人質を出口まで護送する",
+	"UI_CONTRACT_SEAGULL_RESCUE_DESC": "人質をハントゥ港施設から安全に救出する必要があります。可能な限り出口を使用してください。彼らが死んだ場合、ミッションは失敗します。",
+	"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "倉庫事務所",
+	"UI_CREWMEMBER": "乗組員として",
+	"UI_HEAVENLYGUARD": "天の守護者として",
+	"UI_KEYPADCLUE_NAME": "兵士のラップトップ",
+	"UI_KEYPADCLUE_DESC": "'ヘブンリーガードの人員だけが見られる内部メモ。武器庫のキーコードが1912に更新されました。この番号（永遠の指導者の誕生年）を覚えて、すぐにこのメッセージを破棄してください！\r\r西に死を、私たちの指導者に栄光を'\r\r[翻訳：Joogle]",
+	"UI_HANTUFREELANCE": "シンガポール、ハンツ港"}
+},
+"localisedLines": {
+	"00C021BBA3818C7A": "UI_CREWMEMBER",
+	"00C021BBA3818C7C": "UI_HEAVENLYGUARD",
+	"01C021BBA3818C7A": "UI_KEYPADCLUE_NAME",
+	"01C021BBA3818C7B": "UI_KEYPADCLUE_DESC",
+	"01C021BBA3818C70": "UI_HANTUFREELANCE"
+}
 }
