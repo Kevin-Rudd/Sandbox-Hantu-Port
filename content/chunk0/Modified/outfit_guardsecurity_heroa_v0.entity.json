@@ -1,6 +1,6 @@
 {
-	"tempHash": "00ED26F8647AF8E2",
-	"tbluHash": "00822F62978BAA94",
+	"tempHash": "00F4F3D43286F76B",
+	"tbluHash": "00FB1D115CD6B6F6",
 	"rootEntity": "a16e6e624d2f6cd2",
 	"entities": {
 		"3704afb24e276222": {
@@ -59,7 +59,7 @@
 		},
 		"a16e6e624d2f6cd2": {
 			"parent": null,
-			"name": "OUTFIT_GuardSecurity_HeroA_v8",
+			"name": "OUTFIT_GuardSecurity_HeroA_v0",
 			"template": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entityblueprint",
 			"properties": {
@@ -149,7 +149,7 @@
 			"postInitProperties": {
 				"m_aBodyParts": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["69a57e41fb21f3b7", "ea3fe078da5d7445", "f27f315e6b13b241", "d422bddfbc39d4dd", "f6e2440353b2e345", "8909c1dfc8f0bf07", "6f4751e953c5e003", "3704afb24e276222", "c6f2475d7f51ce39"]
+					"value": ["69a57e41fb21f3b7", "ea3fe078da5d7445", "f27f315e6b13b241", "d422bddfbc39d4dd", "2bb608b3dc8a9efb", "f6e2440353b2e345", "8909c1dfc8f0bf07", "6f4751e953c5e003", "3704afb24e276222", "c6f2475d7f51ce39"]
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -224,6 +224,28 @@
 						"resource": "[assembly:/_pro/characters/assets/workers/mansionstaff_01/geometry/malereg_mansionstaff.wl2?/shoes.weightedprim](bodypart).pc_weightedprim",
 						"flag": "5F"
 					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"2bb608b3dc8a9efb": {
+			"parent": "a16e6e624d2f6cd2",
+			"name": "Mesh_Hat",
+			"template": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/greenland/securityguard/geometry/male_reg_securityguard_01.wl2?/hat_01.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_IsHiddenInVR": {
+					"type": "bool",
+					"value": true
 				}
 			},
 			"postInitProperties": {},
@@ -508,6 +530,10 @@
 				"onEvent": "Lerp",
 				"shouldTrigger": "ConstantVector1D_06_Value",
 				"onEntity": "c6f2475d7f51ce39"
+			}, {
+				"onEvent": "Lerp",
+				"shouldTrigger": "ConstantVector1D_06_Value",
+				"onEntity": "abcd7b9763035c32"
 			}]
 		},
 		"abcd9339776df64a": {
@@ -636,6 +662,10 @@
 				"onEvent": "Lerp",
 				"shouldTrigger": "ConstantVector1D_04_Value",
 				"onEntity": "6f4751e953c5e003"
+			}, {
+				"onEvent": "Lerp",
+				"shouldTrigger": "ConstantVector1D_14_Value",
+				"onEntity": "abcd7b9763035c32"
 			}]
 		},
 		"abcdfe0e179d275c": {
@@ -661,6 +691,41 @@
 					"value": "eReplace"
 				},
 				"ConstantVector1D_04_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_15_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd7b9763035c32": {
+			"parent": "2bb608b3dc8a9efb",
+			"name": "securityguard_hat_01",
+			"template": "[assembly:/_pro/characters/assets/individuals/greenland/securityguard/materials/securityguard_hat_01.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/individuals/greenland/securityguard/materials/securityguard_hat_01.mi].pc_entityblueprint",
+			"properties": {
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["a16e6e624d2f6cd2"]
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "a16e6e624d2f6cd2"
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_14_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
 					"value": "eReplace"
 				},
