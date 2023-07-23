@@ -1177,7 +1177,7 @@
 			"postInitProperties": {
 				"HeadMaterialOverride": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": []
+					"value": ["d0f4c23e57de8271"]
 				}
 			},
 			"editorOnly": false,
