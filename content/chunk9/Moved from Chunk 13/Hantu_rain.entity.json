@@ -34,8 +34,8 @@
 			]
 		},
 		"abcdc39c3d64d440": {
-			"parent": "fffffffffffffffe",
-			"name": "Rain",
+			"parent": "abcd3e4e6abe8fd4",
+			"name": "Rain killboxes",
 			"template": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"properties": {},
@@ -47,7 +47,7 @@
 			"outputCopying": []
 		},
 		"abcd13b3bb143f6d": {
-			"parent": "abcdc39c3d64d440",
+			"parent": "abcd3e4e6abe8fd4",
 			"name": "FX_E_Rain",
 			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/fx_e_rain.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/fx_e_rain.entitytemplate].pc_entityblueprint",
@@ -125,7 +125,7 @@
 			"platformSpecificPropertyValues": []
 		},
 		"abcddf4dcc857c69": {
-			"parent": "abcdc39c3d64d440",
+			"parent": "abcd3e4e6abe8fd4",
 			"name": "HitmanRainWetLogic",
 			"template": "00FDB8565FFAA61A",
 			"blueprint": "00609605E8B31DA5",
@@ -135,6 +135,138 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [{
 						"ref": "abcde896f339a524",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd3ca2cae2b0b8",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd7a334fdec270",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcdde4c925dcad1",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd255050b50b69",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcdc5344f1a5568",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd081ab7a5ca8d",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd76bb1b6e7c97",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd6a00d2e2afa7",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcda3c1c106685b",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcdaa2a9a61faa1",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcdef765d617311",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd104f0f457633",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd133d49379acf",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcdf48e914606ff",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcdfbb7c8bf4c8a",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcdcaa852397a9b",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcda21bba5b4ee3",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcdfdee10b2d0a5",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd7bc1f79f4e5b",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd9b69355be486",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcdbafbe370f0a5",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd4dff03ac10ac",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd7152d6eac6ff",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd5b584b1a3280",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd5686e264a5db",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcded3c21bd75c6",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd3d1fb22d9e7f",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd8ec54dadb909",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd8f584a689342",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcdec68ce1bf747",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcda69d5d6de74c",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd3db1bc148859",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd93c08a8e92d2",
 						"externalScene": null,
 						"exposedEntity": "NotInRain"
 					}]
@@ -1232,7 +1364,7 @@
 			"platformSpecificPropertyValues": []
 		},
 		"abcd0d3fbfd8d373": {
-			"parent": "fffffffffffffffe",
+			"parent": "abcd3e4e6abe8fd4",
 			"name": "Rat_Sounbank",
 			"template": "[modules:/zsoundbankentity.class].pc_entitytype",
 			"blueprint": "[modules:/zsoundbankentity.class].pc_entityblueprint",
@@ -1316,6 +1448,166 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
+		},
+		"abcd3e4e6abe8fd4": {
+			"parent": "fffffffffffffffe",
+			"name": "Rain Effects",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"DryVolumes": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [{
+						"ref": "abcde896f339a524",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd3ca2cae2b0b8",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd7a334fdec270",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcdde4c925dcad1",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd255050b50b69",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcdc5344f1a5568",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd081ab7a5ca8d",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd76bb1b6e7c97",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd6a00d2e2afa7",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcda3c1c106685b",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcdaa2a9a61faa1",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcdef765d617311",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd104f0f457633",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd133d49379acf",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcdf48e914606ff",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcdfbb7c8bf4c8a",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcdcaa852397a9b",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcda21bba5b4ee3",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcdfdee10b2d0a5",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd7bc1f79f4e5b",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd9b69355be486",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcdbafbe370f0a5",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd4dff03ac10ac",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd7152d6eac6ff",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd5b584b1a3280",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd5686e264a5db",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcded3c21bd75c6",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd3d1fb22d9e7f",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd8ec54dadb909",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd8f584a689342",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcdec68ce1bf747",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcda69d5d6de74c",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd3db1bc148859",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd93c08a8e92d2",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"propertyAliases": [{
+				"exposeProperty": "ParentHitman",
+				"onEntity": "abcd13b3bb143f6d",
+				"asProperty": "m_linkedEntity"
+			}, {
+				"exposeProperty": "DryVolumes",
+				"onEntity": "abcddf4dcc857c69",
+				"asProperty": "DryVolumes"
+			}]
 		}
 	},
 	"propertyOverrides": [{
