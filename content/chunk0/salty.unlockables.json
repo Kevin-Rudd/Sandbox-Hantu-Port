@@ -29,8 +29,8 @@
             "Equip": []
         },
         "Rarity": null
-    }, "STARTING_LOCATION_SALTY_SEAGULL_PIER": {
-        "Id": "STARTING_LOCATION_SALTY_SEAGULL_PIER",
+    }, "FIREARMS_SC_SEAGULL_HM_LVL_3": {
+        "Id": "FIREARMS_SC_SEAGULL_HM_LVL_3",
         "Guid": "deb39a7a-1ef3-4a47-a29c-06015f67edc7",
         "Type": "access",
         "Subtype": "startinglocation",
@@ -49,8 +49,8 @@
             "UnlockOrder": 1
         },
         "Rarity": null
-    }, "STARTING_LOCATION_SALTY_SEAGULL_CARGO": {
-        "Id": "STARTING_LOCATION_SALTY_SEAGULL_CARGO",
+    }, "FIREARMS_SC_SEAGULL_HM_LVL_5": {
+        "Id": "FIREARMS_SC_SEAGULL_HM_LVL_5",
         "Guid": "deb39a7a-1ef3-4a47-a29c-06015f67edc7",
         "Type": "access",
         "Subtype": "startinglocation",
@@ -70,8 +70,8 @@
         },
         "Rarity": null
     }, 
-    "AGENCYPICKUP_SALTY_SMALL_OFFICE": {
-        "Id": "AGENCYPICKUP_SALTY_SMALL_OFFICE",
+    "FIREARMS_SC_SEAGULL_HM_LVL_2": {
+        "Id": "FIREARMS_SC_SEAGULL_HM_LVL_2",
         "Guid": "d373d22b-8469-43e6-8b5a-2bb20de2c931",
         "Type": "agencypickup",
         "Subtype": "small",
@@ -89,8 +89,8 @@
         },
         "Rarity": null
     }, 
-    "AGENCYPICKUP_SALTY_LARGE_HELIPAD": {
-        "Id": "AGENCYPICKUP_SALTY_SMALL_OFFICE",
+    "FIREARMS_SC_SEAGULL_HM_LVL_4": {
+        "Id": "FIREARMS_SC_SEAGULL_HM_LVL_4",
         "Guid": "d373d22b-8469-43e6-8b5a-2bb20de2c930",
         "Type": "agencypickup",
         "Subtype": "large",
