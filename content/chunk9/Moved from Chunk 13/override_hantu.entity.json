@@ -2231,7 +2231,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "88b9568377773f47",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				}
 			},
@@ -4725,7 +4725,7 @@
 					"type": "SEntityTemplateReference",
 					"value": {
 						"ref": "abcd981c95e940df",
-						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+						"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 					}
 				},
 				"m_eidParent": {
@@ -7817,6 +7817,21 @@
 	},
 	"propertyOverrides": [{
 		"entities": [{
+			"ref": "abcd4aecf12003c9",
+			"comment": "Alerted Difficulty",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_rCondition": {
+				"type": "SEntityTemplateReference",
+				"value": {
+					"ref": "cda7d844786bffdf",
+					"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+				}
+			}
+		}
+	}, {
+		"entities": [{
 			"ref": "b49ab20b98ae6af3",
 			"comment": "Yacht Crew Vanilla",
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype"
@@ -7843,7 +7858,7 @@
 		"entities": [{
 			"ref": "abcd85718fd6dbe9",
 			"comment": "Armoury Fusil",
-			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 		}],
 		"properties": {
 			"m_RepositoryId": {
@@ -7855,11 +7870,11 @@
 		"entities": [{
 			"ref": "c22a1aa8549d2bbb",
 			"comment": "Hostages",
-			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 		}, {
 			"ref": "2523d67b214d8ab6",
 			"comment": "Hostages",
-			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 		}],
 		"properties": {
 			"m_eGlowOverride": {
@@ -7871,7 +7886,7 @@
 		"entities": [{
 			"ref": "abcd0e6a901ac369",
 			"comment": "Car Spawn",
-			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 		}],
 		"properties": {
 			"m_sId": {
@@ -7883,7 +7898,7 @@
 		"entities": [{
 			"ref": "abcd36021db4f2aa",
 			"comment": "Pier Spawn",
-			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 		}],
 		"properties": {
 			"m_sId": {
@@ -7895,7 +7910,7 @@
 		"entities": [{
 			"ref": "abcdb261a482910c",
 			"comment": "Cargo Spawn",
-			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 		}],
 		"properties": {
 			"m_sId": {
@@ -7938,145 +7953,145 @@
 	"overrideDeletes": [{
 		"ref": "abcd4f5c999e7169",
 		"comment": "2kpr Logic",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "abcd3664396ed160",
 		"comment": "2kpr Logic",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "abcd340b3ec560e3",
 		"comment": "2kpr Logic",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "abcd7e1a8646eb22",
 		"comment": "Helipad Hut Laptop",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "4ba5f658ee7b8f3f",
 		"comment": "Escape dramas",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "abcd7f9fa6e68ec2",
 		"comment": "exits",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "abcdf2c8761aa27c",
 		"comment": "exits",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "abcde82ebc00f7ee",
 		"comment": "exits",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "6d15ac44bf496c32",
 		"_comment": "Floating Crane Wire",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "eeb28ce533b1cc04",
 		"_comment": "Sniper Challenge Properties",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "c4bca6349166c58d",
 		"_comment": "Body Containers",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "112d56688e14615a",
 		"_comment": "LightingHitman",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "edac44b3e4ad05c2",
 		"_comment": "Vital Info Messages",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "d8b34f455f473311",
 		"_comment": "Rubber Ducks",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "9aab2aa6c6678caa",
 		"_comment": "Sniper Nest",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "aff1312a3445d764",
 		"_comment": "Traps - Explosives",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "54032181a0d49205",
 		"_comment": "Rats",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "abcd83cc94db0b7d",
 		"_comment": "Fake Lights for Night Deletion",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "2568a2a3059522d5",
 		"_comment": "Flight case in hut",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "2bff79c96c925e6f",
 		"_comment": "SetpieceHelper_Sniper_HideBody",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "657a96ff5bdcaa1e",
 		"_comment": "Container Doors",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "8431b00da4881f71",
 		"_comment": "Setpiece_SC_Bodydump_Container_PlasticCurtain",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "2f5b9e59865540e7",
 		"_comment": "Setpiece_SC_Bodydump_Container_PlasticCurtain",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "97c7a589b60627a6",
 		"_comment": "Setpiece_SC_Bodydump_Container_PlasticCurtain",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "b5275bd21d3a2ae3",
 		"_comment": "Setpiece_SC_Bodydump_Container_PlasticCurtain",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "a5c86559aacaea0d",
 		"_comment": "Setpiece_SC_ContainerDoors_Shootable",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "7c3315f0bf468d0e",
 		"_comment": "Setpiece_SC_ContainerDoors_Shootable",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "5c897c4a6953b527",
 		"_comment": "Setpiece_SC_ContainerDoors_Shootable",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "81e4afdbb6e1f5b3",
 		"_comment": "Setpiece_SC_ContainerDoors_Shootable",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "3bb836c1506b4617",
 		"_comment": "Setpiece_SC_ContainerDoors_Shootable",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "2bed1d2dd18a6fba",
 		"_comment": "Combat Positions",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "2806507ddc45b928",
 		"_comment": "Bodyguard Escapes",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "db37817c4e55f052",
 		"_comment": "AI Tension State",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}, {
 		"ref": "91fd86af3d098cf2",
 		"_comment": "Foghorn Shotlistener",
-		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+		"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 	}],
 	"pinConnectionOverrides": [{
 		"fromEntity": "3b98fd686f33955e",
 		"toEntity": {
 			"ref": "abcd80554e43c80a",
-			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 		},
 		"fromPinName": "Exit",
 		"toPinName": "TransmitEvent",
@@ -8088,7 +8103,7 @@
 		"fromEntity": "4bc5435a8cf12c3c",
 		"toEntity": {
 			"ref": "abcd80554e43c80a",
-			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 		},
 		"fromPinName": "Exit",
 		"toPinName": "TransmitEvent",
@@ -8100,7 +8115,7 @@
 		"fromEntity": "64c007aaf8738129",
 		"toEntity": {
 			"ref": "abcd408a01d18810",
-			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 		},
 		"fromPinName": "Exit",
 		"toPinName": "In",
@@ -8109,9 +8124,21 @@
 			"$val": null
 		}
 	}, {
+		"fromEntity": "64c007aaf8738129",
+		"toEntity": {
+			"ref": "abcd80554e43c80a",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
+		},
+		"fromPinName": "Exit",
+		"toPinName": "TransmitEvent",
+		"constantPinValue": {
+			"$type": "void",
+			"$val": null
+		}
+	}, {
 		"fromEntity": {
 			"ref": "abcd2412094742f4",
-			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype"
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 		},
 		"toEntity": "64c007aaf8738129",
 		"fromPinName": "Event_Track_LastFrame_Fired",
@@ -8122,7 +8149,7 @@
 		}
 	}],
 	"pinConnectionOverrideDeletes": [],
-	"externalScenes": ["[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull.brick].pc_entitytype", "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype", "[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype"],
+	"externalScenes": ["[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype", "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype", "[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype"],
 	"subType": 2,
 	"quickEntityVersion": 2.1
 }
