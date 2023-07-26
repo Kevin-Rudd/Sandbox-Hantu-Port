@@ -150,10 +150,6 @@
 						"externalScene": null,
 						"exposedEntity": "NotInRain"
 					}, {
-						"ref": "abcd255050b50b69",
-						"externalScene": null,
-						"exposedEntity": "NotInRain"
-					}, {
 						"ref": "abcdc5344f1a5568",
 						"externalScene": null,
 						"exposedEntity": "NotInRain"
@@ -269,6 +265,14 @@
 						"ref": "abcd93c08a8e92d2",
 						"externalScene": null,
 						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd59134c9a31de",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd0640fc4700a7",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
 					}]
 				}
 			},
@@ -292,7 +296,7 @@
 						"position": {
 							"x": 73.1579910278,
 							"y": 9.9616300583,
-							"z": -13.0
+							"z": -13.15
 						}
 					}
 				},
@@ -411,40 +415,6 @@
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
 		},
-		"abcd255050b50b69": {
-			"parent": "abcdc39c3d64d440",
-			"name": "RainKillBox For 004_roof_3",
-			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": -0.0
-						},
-						"position": {
-							"x": 81.3359,
-							"y": 32.2525,
-							"z": -13
-						}
-					}
-				},
-				"m_vGlobalSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 12.500700569099996,
-						"y": 6.0203994751,
-						"z": 11.0886189274
-					}
-				}
-			},
-			"postInitProperties": {},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": []
-		},
 		"abcdc5344f1a5568": {
 			"parent": "abcdc39c3d64d440",
 			"name": "RainKillBox For 004_roof_4",
@@ -481,7 +451,7 @@
 		},
 		"abcd081ab7a5ca8d": {
 			"parent": "abcdc39c3d64d440",
-			"name": "RainKillBox For 004_roof_5",
+			"name": "RainKillBox For 004_roof_3",
 			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -1475,10 +1445,6 @@
 						"externalScene": null,
 						"exposedEntity": "NotInRain"
 					}, {
-						"ref": "abcd255050b50b69",
-						"externalScene": null,
-						"exposedEntity": "NotInRain"
-					}, {
 						"ref": "abcdc5344f1a5568",
 						"externalScene": null,
 						"exposedEntity": "NotInRain"
@@ -1594,6 +1560,14 @@
 						"ref": "abcd93c08a8e92d2",
 						"externalScene": null,
 						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd59134c9a31de",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
+					}, {
+						"ref": "abcd0640fc4700a7",
+						"externalScene": null,
+						"exposedEntity": "NotInRain"
 					}]
 				}
 			},
@@ -1608,6 +1582,74 @@
 				"onEntity": "abcddf4dcc857c69",
 				"asProperty": "DryVolumes"
 			}]
+		},
+		"abcd59134c9a31de": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For cargo_armoury",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 132.312,
+							"y": -35.577,
+							"z": 31.6345
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 5.5,
+						"y": 5.5,
+						"z": 8
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd0640fc4700a7": {
+			"parent": "abcdc39c3d64d440",
+			"name": "RainKillBox For cargo_storage",
+			"template": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/rainkillbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"position": {
+							"x": 132.312,
+							"y": -53.7746,
+							"z": 31.6345
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 5.5,
+						"y": 5.5,
+						"z": 8
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
 		}
 	},
 	"propertyOverrides": [{
