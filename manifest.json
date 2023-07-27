@@ -82,6 +82,10 @@
 		"comment": "Pilot Shirt MATT",
 		"portFromChunk1": true
 	},{
+		"runtimeID": "00572715CC4463BD",
+		"comment": "fusebox from dartmoor",
+		"toChunk": 9
+	},{
 		"runtimeID": "00CB93E8EC14AD89",
 		"comment": "Barber chairs for command room",
 		"toChunk": 9

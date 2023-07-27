@@ -33,7 +33,7 @@
 			"postInitProperties": {
 				"m_aPhysicsObjects": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["ab209b6d94ec7bbf"]
+					"value": []
 				}
 			},
 			"editorOnly": false,
@@ -310,98 +310,6 @@
 				"onEvent": "Value",
 				"shouldTrigger": "SetAngles",
 				"onEntity": "b673e0974643bd9e"
-			}]
-		},
-		"ab209b6d94ec7bbf": {
-			"parent": "461d69cd40315c83",
-			"name": "gantry_crane_override_box_door_a",
-			"template": "00B32E1AE4D6C00B",
-			"blueprint": "00D229F2AB7A7A46",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 90.0,
-							"y": 0.0,
-							"z": -90.0
-						},
-						"position": {
-							"x": -0.057175001353025439,
-							"y": 0.07917899638414383,
-							"z": 0.14537200331687928
-						}
-					}
-				},
-				"m_bKinematic": {
-					"type": "bool",
-					"value": true
-				},
-				"m_fMass": {
-					"type": "float32",
-					"value": 5
-				},
-				"m_bStartSleeping": {
-					"type": "bool",
-					"value": false
-				},
-				"m_fFriction": {
-					"type": "float32",
-					"value": 50
-				},
-				"m_fLinearDampening": {
-					"type": "float32",
-					"value": 0.10000000149011612
-				},
-				"m_fAngularDampening": {
-					"type": "float32",
-					"value": 0.10000000149011612
-				},
-				"m_eCCD": {
-					"type": "ECCDUsage",
-					"value": "ECCDUSAGE_AGAINST_STATIC"
-				},
-				"m_bIgnoreCharacters": {
-					"type": "bool",
-					"value": true
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_fLODScale": {
-					"type": "float32",
-					"value": 1.5
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 1,
-						"z": 1
-					}
-				},
-				"m_bVisible": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bAffectedByExplosionEffectRadius": {
-					"type": "bool",
-					"value": false
-				}
-			},
-			"postInitProperties": {
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "5d1cf5dcd1f9963"
-				}
-			},
-			"editorOnly": false,
-			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "OnSleep",
-				"shouldTrigger": "SetTrue",
-				"onEntity": "72254f85a02b5161"
 			}]
 		},
 		"fdd73e4aeb01e888": {
@@ -967,7 +875,7 @@
 			"postInitProperties": {
 				"m_EntityListA": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["ab209b6d94ec7bbf", "3199226782e2294"]
+					"value": ["3199226782e2294"]
 				}
 			},
 			"editorOnly": false,
@@ -3179,17 +3087,17 @@
 				},
 				"m_ExplosionListenerTargets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["ab209b6d94ec7bbf"]
+					"value": []
 				},
 				"m_PhysicsListenerTargets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["ab209b6d94ec7bbf"]
+					"value": []
 				}
 			},
 			"postInitProperties": {
 				"m_ShotListenerTargets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["ab209b6d94ec7bbf", "3199226782e2294"]
+					"value": ["3199226782e2294"]
 				}
 			},
 			"editorOnly": false,
@@ -4358,11 +4266,11 @@
 				},
 				"m_arTargets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["ab209b6d94ec7bbf"]
+					"value": []
 				},
 				"OuterGlowTargets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["ab209b6d94ec7bbf"]
+					"value": []
 				}
 			},
 			"postInitProperties": {},
@@ -5748,7 +5656,7 @@
 			"postInitProperties": {
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["ab209b6d94ec7bbf", "3199226782e2294"]
+					"value": ["3199226782e2294"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5932,11 +5840,7 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "OnValue",
-				"shouldTrigger": "KinematicBody",
-				"onEntity": "ab209b6d94ec7bbf"
-			}]
+			"events": []
 		},
 		"64fd514e5df86ede": {
 			"parent": "328d8f892f93566e",
@@ -7208,7 +7112,7 @@
 			"properties": {
 				"m_arTargets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["ab209b6d94ec7bbf"]
+					"value": []
 				},
 				"GlowActiveConditions": {
 					"type": "TArray<SEntityTemplateReference>",
