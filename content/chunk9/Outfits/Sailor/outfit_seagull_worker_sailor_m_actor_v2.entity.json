@@ -261,7 +261,7 @@
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
 		},
-		"7f1969ee0662291e": {
+		"3aa2843b5a63efe5": {
 			"parent": "3fdf645f1c2b5932",
 			"name": "Mesh_Shirt",
 			"template": "[modules:/zbodypartentity.class].pc_entitytype",
@@ -445,7 +445,7 @@
 			"postInitProperties": {
 				"m_aBodyParts": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["8a921788ea0318a5", "c1e4022a1ae07a92", "7f1969ee0662291e", "6c35400607fc7021", "3c80137103cbd030", "4efa7129589a5de1", "b43ea97ee88f3550", "9e77079e5b0be9a1"]
+					"value": ["8a921788ea0318a5", "c1e4022a1ae07a92", "3aa2843b5a63efe5", "6c35400607fc7021", "f1d756ada4099573", "4efa7129589a5de1", "b43ea97ee88f3550", "9e77079e5b0be9a1"]
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -821,7 +821,7 @@
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
 		},
-		"3c80137103cbd030": {
+		"f1d756ada4099573": {
 			"parent": "3fdf645f1c2b5932",
 			"name": "Mesh_Trousers",
 			"template": "[modules:/zbodypartentity.class].pc_entitytype",
@@ -836,6 +836,19 @@
 				}
 			},
 			"postInitProperties": {},
+			"inputCopying": [{
+				"whenTriggered": "ConstantVector1D_06_Value",
+				"alsoTrigger": "ConstantVector1D_06_Value",
+				"onEntity": "abcd827e7e0b96eb"
+			}, {
+				"whenTriggered": "ConstantVector1D_04_Value",
+				"alsoTrigger": "ConstantVector1D_04_Value",
+				"onEntity": "abcd827e7e0b96eb"
+			}, {
+				"whenTriggered": "ConstantVector1D_01_Value",
+				"alsoTrigger": "ConstantVector1D_01_Value",
+				"onEntity": "abcd827e7e0b96eb"
+			}],
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
 		},
@@ -958,8 +971,8 @@
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
 		},
-		"39884f818afe7879": {
-			"parent": "3fdf645f1c2b5932",
+		"abcd5aea7cde0aef": {
+			"parent": "3aa2843b5a63efe5",
 			"name": "securityguard_shirt_01",
 			"template": "[assembly:/_pro/characters/assets/individuals/greenland/securityguard/materials/securityguard_shirt_01.mi].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/assets/individuals/greenland/securityguard/materials/securityguard_shirt_01.mi].pc_entityblueprint",
@@ -1019,6 +1032,22 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "3fdf645f1c2b5932"
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_14_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_15_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
 				}
 			},
 			"postInitProperties": {},
@@ -1144,6 +1173,233 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": []
+		},
+		"abcd827e7e0b96eb": {
+			"parent": "f1d756ada4099573",
+			"name": "yachtcrew_trousers_01",
+			"template": "[assembly:/_pro/characters/assets/individuals/greenland/yachtcrew/materials/yachtcrew_trousers_01.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/individuals/greenland/yachtcrew/materials/yachtcrew_trousers_01.mi].pc_entityblueprint",
+			"properties": {
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["3fdf645f1c2b5932"]
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_04_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_15_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd2b3016d84014": {
+			"parent": "3fdf645f1c2b5932",
+			"name": "FX_Hitman_Wet_Logic_Character",
+			"template": "0067CFB703A80787",
+			"blueprint": "00AA88C960CD2080",
+			"properties": {
+				"HeadMaterialToOverride": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "009F7978C601815A",
+						"flag": "5F"
+					}
+				}
+			},
+			"postInitProperties": {
+				"HeadMaterialOverride": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["3fdf645f1c2b5932"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "HitmanWetness",
+				"shouldTrigger": "T",
+				"onEntity": "abcdbb5cc79d4e72"
+			}, {
+				"onEvent": "HitmanWetness",
+				"shouldTrigger": "T",
+				"onEntity": "abcd8445fdb41c59"
+			}, {
+				"onEvent": "HitmanWetness",
+				"shouldTrigger": "T",
+				"onEntity": "abcdd4f594029d16"
+			}, {
+				"onEvent": "HitmanWetness",
+				"shouldTrigger": "T",
+				"onEntity": "abcd7459140d0be8"
+			}, {
+				"onEvent": "HitmanWetness",
+				"shouldTrigger": "T",
+				"onEntity": "abcd65ece3e343b9"
+			}]
+		},
+		"abcd8445fdb41c59": {
+			"parent": "abcd2b3016d84014",
+			"name": "Norml",
+			"template": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_B": {
+					"type": "float32",
+					"value": 1.2000000476837158
+				},
+				"m_fT": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_A": {
+					"type": "float32",
+					"value": 1
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "Lerp",
+				"shouldTrigger": "ConstantVector1D_06_Value",
+				"onEntity": "abcd827e7e0b96eb"
+			}, {
+				"onEvent": "Lerp",
+				"shouldTrigger": "ConstantVector1D_06_Value",
+				"onEntity": "f1d756ada4099573"
+			}]
+		},
+		"abcdd4f594029d16": {
+			"parent": "abcd2b3016d84014",
+			"name": "Albedo",
+			"template": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_B": {
+					"type": "float32",
+					"value": 0.25
+				},
+				"m_fT": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_A": {
+					"type": "float32",
+					"value": 0.5
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "Lerp",
+				"shouldTrigger": "ConstantVector1D_01_Value",
+				"onEntity": "abcd5aea7cde0aef"
+			}, {
+				"onEvent": "Lerp",
+				"shouldTrigger": "ConstantVector1D_01_Value",
+				"onEntity": "f1d756ada4099573"
+			}]
+		},
+		"abcd7459140d0be8": {
+			"parent": "abcd2b3016d84014",
+			"name": "roough",
+			"template": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_B": {
+					"type": "float32",
+					"value": 1.1799999475479126
+				},
+				"m_fT": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_A": {
+					"type": "float32",
+					"value": 0.5
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "Lerp",
+				"shouldTrigger": "ConstantVector1D_15_Value",
+				"onEntity": "abcd827e7e0b96eb"
+			}, {
+				"onEvent": "Lerp",
+				"shouldTrigger": "ConstantVector1D_15_Value",
+				"onEntity": "f1d756ada4099573"
+			}]
+		},
+		"abcd65ece3e343b9": {
+			"parent": "abcd2b3016d84014",
+			"name": "Albedo 2",
+			"template": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_B": {
+					"type": "float32",
+					"value": 0.079999998211860657
+				},
+				"m_fT": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_A": {
+					"type": "float32",
+					"value": 0.14000000059604645
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": []
+		},
+		"abcdbb5cc79d4e72": {
+			"parent": "abcd2b3016d84014",
+			"name": "baseRough",
+			"template": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_B": {
+					"type": "float32",
+					"value": 0.34999999403953552
+				},
+				"m_fT": {
+					"type": "float32",
+					"value": 0
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "Lerp",
+				"shouldTrigger": "ConstantVector1D_14_Value",
+				"onEntity": "abcd827e7e0b96eb"
+			}, {
+				"onEvent": "Lerp",
+				"shouldTrigger": "ConstantVector1D_04_Value",
+				"onEntity": "f1d756ada4099573"
+			}, {
+				"onEvent": "Lerp",
+				"shouldTrigger": "ConstantVector1D_04_Value",
+				"onEntity": "6c35400607fc7021"
+			}]
 		}
 	},
 	"overrideDeletes": [],
