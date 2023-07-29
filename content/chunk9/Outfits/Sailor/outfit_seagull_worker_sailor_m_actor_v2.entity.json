@@ -973,61 +973,13 @@
 		},
 		"abcd5aea7cde0aef": {
 			"parent": "3aa2843b5a63efe5",
-			"name": "securityguard_shirt_01",
-			"template": "[assembly:/_pro/characters/assets/individuals/greenland/securityguard/materials/securityguard_shirt_01.mi].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/assets/individuals/greenland/securityguard/materials/securityguard_shirt_01.mi].pc_entityblueprint",
+			"name": "yachtcrew_shirt_01",
+			"template": "[assembly:/_pro/characters/assets/individuals/greenland/yachtcrew/materials/yachtcrew_shirt_01.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/individuals/greenland/yachtcrew/materials/yachtcrew_shirt_01.mi].pc_entityblueprint",
 			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 0.0
-						},
-						"position": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 0.0
-						}
-					}
-				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["3fdf645f1c2b5932"]
-				},
-				"Texture2D_01_enab": {
-					"type": "bool",
-					"value": true
-				},
-				"Texture2D_03_enab": {
-					"type": "bool",
-					"value": true
-				},
-				"Texture2DNormal_01_enab": {
-					"type": "bool",
-					"value": true
-				},
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00B5EBD0CDB13CCA",
-						"flag": "5F"
-					}
-				},
-				"Texture2DNormal_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00332FE720364441",
-						"flag": "5F"
-					}
-				},
-				"Texture2D_03": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "001FF2A2912DFED9",
-						"flag": "5F"
-					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1214,7 +1166,7 @@
 				"HeadMaterialToOverride": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "009F7978C601815A",
+						"resource": "007D01E917089636",
 						"flag": "5F"
 					}
 				}
@@ -1278,7 +1230,7 @@
 			}, {
 				"onEvent": "Lerp",
 				"shouldTrigger": "ConstantVector1D_06_Value",
-				"onEntity": "f1d756ada4099573"
+				"onEntity": "abcd5aea7cde0aef"
 			}]
 		},
 		"abcdd4f594029d16": {
@@ -1342,7 +1294,7 @@
 			}, {
 				"onEvent": "Lerp",
 				"shouldTrigger": "ConstantVector1D_15_Value",
-				"onEntity": "f1d756ada4099573"
+				"onEntity": "abcd5aea7cde0aef"
 			}]
 		},
 		"abcd65ece3e343b9": {
@@ -1394,7 +1346,7 @@
 			}, {
 				"onEvent": "Lerp",
 				"shouldTrigger": "ConstantVector1D_04_Value",
-				"onEntity": "f1d756ada4099573"
+				"onEntity": "abcd5aea7cde0aef"
 			}, {
 				"onEvent": "Lerp",
 				"shouldTrigger": "ConstantVector1D_04_Value",

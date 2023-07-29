@@ -1059,7 +1059,7 @@
 				"HeadMaterialToOverride": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "009F7978C601815A",
+						"resource": "00819FCC65631CCD",
 						"flag": "5F"
 					}
 				}
@@ -1123,7 +1123,7 @@
 			}, {
 				"onEvent": "Lerp",
 				"shouldTrigger": "ConstantVector1D_06_Value",
-				"onEntity": "f1d756ada4099573"
+				"onEntity": "abcd5aea7cde0aef"
 			}]
 		},
 		"abcd26d8506cbb85": {
@@ -1187,7 +1187,7 @@
 			}, {
 				"onEvent": "Lerp",
 				"shouldTrigger": "ConstantVector1D_15_Value",
-				"onEntity": "f1d756ada4099573"
+				"onEntity": "abcd5aea7cde0aef"
 			}]
 		},
 		"abcd76e4c536b9ec": {
@@ -1239,7 +1239,7 @@
 			}, {
 				"onEvent": "Lerp",
 				"shouldTrigger": "ConstantVector1D_04_Value",
-				"onEntity": "f1d756ada4099573"
+				"onEntity": "abcd5aea7cde0aef"
 			}, {
 				"onEvent": "Lerp",
 				"shouldTrigger": "ConstantVector1D_04_Value",

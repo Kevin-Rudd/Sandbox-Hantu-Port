@@ -1883,7 +1883,7 @@
 			"properties": {
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["40d70a75f318664e"]
+					"value": []
 				},
 				"ConstantVector1D_01_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -1914,7 +1914,7 @@
 			"properties": {
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["40d70a75f318664e"]
+					"value": []
 				},
 				"ConstantVector1D_01_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
