@@ -6,6 +6,7 @@
 	"scripts": [
         "script/CopyHantu.ts"
     ],
+	"updateCheck": "https://raw.githubusercontent.com/Kevin-Rudd/Sandbox-Hantu-Port/main/updates.json",
 	"authors": [
 		"Kevin Rudd",
 		"Kercyx",
