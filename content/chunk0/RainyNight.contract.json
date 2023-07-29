@@ -150,7 +150,12 @@
             "Bricks": []
         }
     ],
-        "GameChangers": []
+        "GameChangers": [],
+        "Entrances": ["e690549c-d035-46fe-b175-2b73e1c048d2", "e690549c-d035-46fe-b175-2b73e1c048d1"],
+        "Stashpoints": [
+            "384c9fcb-6f7f-41b9-9029-cc6b3f583355",
+            "384c9fcb-6f7f-41b9-9029-cc6b3f583353"
+          ]
     },
     "Metadata": {
         "DebriefingVideo": "debriefing_seagull",
