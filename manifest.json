@@ -61,10 +61,6 @@
 		"type": "entity",
 		"partition": "season2",
 		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/night.brick].entitytype"
-	  },{
-		"type": "entity",
-		"partition": "season2",
-		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scene_test_mild_whist.entity].entitytemplate"
 	  },
 	  {
 		"type": "entity",
