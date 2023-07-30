@@ -46,6 +46,7 @@
                 "Primary": true,
                 "ForceShowOnLoadingScreen": true,
                 "ObjectiveType": "custom",
+                "ExcludeFromScoring": true,
                 "LongBriefingText": "$loc UI_CONTRACT_SEAGULL_RESCUE_DESC",
                 "Image": "images/contracts/seagull/tile_hostages.jpg",
                 "BriefingName": "$loc UI_CONTRACT_SEAGULL_RESCUE_NAME",

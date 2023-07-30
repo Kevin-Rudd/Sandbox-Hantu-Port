@@ -45,6 +45,7 @@
                 "Id": "0b935cd6-8ca4-4094-81a4-2b1c24465cee",
                 "Primary": true,
                 "ForceShowOnLoadingScreen": true,
+                "ExcludeFromScoring": true,
                 "ObjectiveType": "custom",
                 "LongBriefingText": "$loc UI_CONTRACT_SEAGULL_RESCUE_DESC",
                 "Image": "images/contracts/seagull/tile_hostages.jpg",
