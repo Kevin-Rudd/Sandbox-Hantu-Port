@@ -1,5 +1,5 @@
 {
-    "version": "0.9.1",
-    "changelog": "- Improves Chinese translations (suanjiansalt on NexusMods) \n- Adds Lethal and Emetic Poisons to map \n- Blade's Bodyguard now waits three minutes to search for him upon his death \n- Deploy script now works on Microsoft Store version (Gamepass untested) \n- Cameras across the game no longer disappear on recorder being disabled \n- Peacock: Objectives show as complete on end screen",
-    "url": "https://github.com/Kevin-Rudd/Sandbox-Hantu-Port/releases/download/0.9.1/Sandbox.Hantu.Port.0.9.1.zip"
+    "version": "0.9.2",
+    "changelog": "- Updates script to include patch4 so vanilla stays up to date\n- Adds 'proper' intro cutscenes to each spawn\n- Adds basic online version of mod (Not great) in SMF options\n- Restores Chinese translations (With help from suanjiansalt) \n- Makes lethal pills reachable \n- Unlocks other agency pickup \n- Replaces manual depends with SMF depends to reduce 'warning' messages",
+    "url": "https://github.com/Kevin-Rudd/Sandbox-Hantu-Port/releases/download/0.9.2/Sandbox.Hantu.Port.0.9.2.zip"
 }
