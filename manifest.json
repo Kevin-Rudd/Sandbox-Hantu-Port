@@ -80,6 +80,26 @@
 		"comment": "Pilot Shirt MATT",
 		"portFromChunk1": true
 	},{
+		"runtimeID": "005EBD6CCE984CEB",
+		"comment": "Fox Roof Window",
+		"toChunk": 9
+	},{
+		"runtimeID": "00AE49B4BBEEB4BB",
+		"comment": "Fox Roof Window",
+		"toChunk": 9
+	},{
+		"runtimeID": "00CAF0EA808158DD",
+		"comment": "Fox Roof Window",
+		"toChunk": 9
+	},{
+		"runtimeID": "00CD1C0F48567462",
+		"comment": "NZ Ocean Far",
+		"toChunk": 9
+	},{
+		"runtimeID": "00E1407525CEC4BA",
+		"comment": "NZ Ocean Horizon",
+		"toChunk": 9
+	},{
 		"runtimeID": "00572715CC4463BD",
 		"comment": "fusebox from dartmoor",
 		"toChunk": 9
