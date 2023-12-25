@@ -1,5 +1,5 @@
 {
-	"version": "0.9.1",
+	"version": "0.9.2",
 	"id": "KevinRudd.SandboxHantu",
 	"name": "Sandbox Hantu Port",
 	"description": "Converts Hantu Port into a sandbox map",
@@ -22,9 +22,9 @@
 	"options": [
         {
             "name": "Playing on official servers",
-            "tooltip": "Playing on official servers",
+            "tooltip": "ONLY GOOD FOR DICKING AROUND IN. Replaces online version of Pen And The Sword with a BASIC sandbox version. Objectives are not good as it's still using online version, so you will be expected to kill 15 specific bodyguards but they won't be highlighted. There's also no planning screen.",
             "type": "checkbox",
-            "enabledByDefault": true,
+            "enabledByDefault": false,
             "thumbs": [
                 "ConsoleCmd OnlineResources_Disable 1"
             ]
@@ -715,26 +715,26 @@
 	"UI_CONTRACT_SEAGULL_RESCUE_DESC": "您必须从鬼港设施中安全解救人质。使用任何可以使用的出口。一旦他们死亡任务将失败。",
 	"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "仓库办公室",
 	"UI_CREWMEMBER": "扮演船员",
-	"UI_HEAVENLYGUARD": "扮演“神圣护卫”",
+	"UI_HEAVENLYGUARD": "扮演神圣护卫成员",
 	"UI_KEYPADCLUE_NAME": "士兵的笔记本电脑",
-	"UI_KEYPADCLUE_DESC": "'只有天卫人员可见的内部备忘录。军械库密钥代码更新为 1912。记住这个数字（你永恒领袖的出生年份）并立即丢弃此消息！\r\r死亡归于西方，荣耀归于我们的领袖'\r\r[中文谷歌翻译]",
-	"UI_HANTUFREELANCE": "鬼港，新加坡"
+	"UI_KEYPADCLUE_DESC": "‘只有神圣护卫人员可见的内部备忘录。军械库密钥代码更新为 1912。记住这个数字（此为你永恒领袖的出生年份），阅后即焚！\r\r西方势必衰败，荣耀归于我们的领袖’\r\r[ Joogle 翻译]",
+	"UI_HANTUFREELANCE": "新加坡，鬼港"
 },
 	"chineseTraditional": {"ui_salty_cargo_name": "貨船",
-	"ui_salty_cargo_desc": "你已經成功地把自己偷偷帶上了Khandanyang貨船。",
-	"ui_salty_pier_desc": "您乘船抵達漢圖港碼頭。",
-	"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC": "連絡人可以將物品偷運到漢圖港倉庫內的辦公室。 你可能會認為周圍有這麼多盒子，他們不需要把它放進垃圾桶，但我們有資格判斷嗎",
-	"UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC": "聯絡人可以將一件物品偷偷帶進Khandanyang貨船直升機停機坪附近的小屋。",
-	"ui_salty_entrance_desc": "你已經到達了漢圖港設施的前門。",
+	"ui_salty_cargo_desc": "你已經成功偷偷登上了 Khandanyang 貨船",
+	"ui_salty_pier_desc": "您已搭船抵達漢圖港碼頭",
+	"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_DESC": "聯絡人可以將物品走私到漢圖港倉庫內的辦公室。你可能會認為，周圍都是盒子，他們不需要將其放入垃圾箱…但我們有什麼資格評判呢？ ",
+	"UI_AGENCYPICKUP_SALTY_LARGE_HELIPAD_DESC": "聯絡人可以將物品走私到 Khandanyang 船隻直升機停機坪附近的小屋中。",
+	"ui_salty_entrance_desc": "您已抵達漢圖港設施的前門",
 	"UI_CONTRACT_SEAGULL_RESCUE_NAME": "救援",
-	"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "护送人质至出口",
-	"UI_CONTRACT_SEAGULL_RESCUE_DESC": "您必须从鬼港设施中安全解救人质。使用任何可以使用的出口。一旦他们死亡任务将失败。",
+	"UI_CONTRACT_SEAGULL_RESCUE_OBJ": "護送人質至出口",
+	"UI_CONTRACT_SEAGULL_RESCUE_DESC": "你必須從漢圖港設施中安全地解救人質。任何出口都可用。如果他們死了，你的任務就會失敗。",
 	"UI_AGENCYPICKUP_SALTY_SMALL_OFFICE_NAME": "倉庫辦公室",
-	"UI_CREWMEMBER": "扮演船員",
+	"UI_CREWMEMBER": "扮演港口船員",
 	"UI_HEAVENLYGUARD": "扮演天衛",
-	"UI_KEYPADCLUE_NAME": "士兵的筆記本電腦",
-	"UI_KEYPADCLUE_DESC": "'只有天衛人員可見的內部備忘錄。軍械庫密鑰代碼更新為 1912。記住這個數字（你永恆領袖的出生年份）並立即丟棄此消息！\r\r死亡歸西方，榮耀歸我們的領袖'\r\r[中文谷歌翻譯]",
-	"UI_HANTUFREELANCE": "新加坡韓都港"
+	"UI_KEYPADCLUE_NAME": "士兵的筆記型電腦",
+	"UI_KEYPACLUE_DESC": "‘只有天衛人員可見的內部備忘錄。軍械庫密鑰代碼已更新為1912。記住這個數字（這是你永恆領袖的出生年份）並立即丟棄此消息！\r\r西方之死，榮耀致我們的領袖！’\r\r[ Joogle 翻譯]",
+	"UI_HANTUFREELANCE": "新加坡，漢圖港"
 },
 	"japanese": {"ui_salty_cargo_name": "貨物船",
 	"ui_salty_cargo_desc": "あなたはカンダニャン貨物船に密航することに成功しました",

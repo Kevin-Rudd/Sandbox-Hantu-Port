@@ -15,6 +15,7 @@ export const afterDeploy: ModScript["afterDeploy"] = async function (context, ap
   fs.copyFileSync(context.config.runtimePath + '/chunk13patch1.rpkg', context.config.runtimePath + '/chunk9patch201.rpkg');
   fs.copyFileSync(context.config.runtimePath + '/chunk13patch2.rpkg', context.config.runtimePath + '/chunk9patch202.rpkg');
   if(fs.existsSync(`${context.config.runtimePath}/chunk13patch3.rpkg`)) fs.copyFileSync(context.config.runtimePath + '/chunk13patch3.rpkg', context.config.runtimePath + '/chunk9patch203.rpkg');
+  if(fs.existsSync(`${context.config.runtimePath}/chunk13patch4.rpkg`)) fs.copyFileSync(context.config.runtimePath + '/chunk13patch4.rpkg', context.config.runtimePath + '/chunk9patch204.rpkg');
   
   return Promise.resolve();
 };
