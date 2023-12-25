@@ -22,8 +22,9 @@
 	"options": [
         {
             "name": "Playing on official servers",
-            "tooltip": "ONLY GOOD FOR DICKING AROUND IN. Replaces online version of Pen And The Sword with a BASIC sandbox version. Objectives are not good as it's still using online version, so you will be expected to kill 15 specific bodyguards but they won't be highlighted. There's also no planning screen.",
+            "tooltip": "ONLY GOOD FOR DICKING AROUND IN. Replaces online version of Pen And The Sword with a BASIC sandbox version. Objectives are not good as it's still using online version. There's also no planning screen.",
             "type": "checkbox",
+			"contentFolders": ["Online"],
             "enabledByDefault": false,
             "thumbs": [
                 "ConsoleCmd OnlineResources_Disable 1"
