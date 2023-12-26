@@ -1,5 +1,5 @@
 {
-    "version": "0.9.2",
-    "changelog": "- Updates script to include patch4 so vanilla stays up to date\n- Adds 'proper' intro cutscenes to each spawn\n- Adds basic online version of mod (Not great) in SMF options\n- Restores Chinese translations (With help from suanjiansalt) \n- Makes lethal pills reachable \n- Unlocks other agency pickup \n- Replaces manual depends with SMF depends to reduce 'warning' messages",
-    "url": "https://github.com/Kevin-Rudd/Sandbox-Hantu-Port/releases/download/0.9.2/Sandbox.Hantu.Port.0.9.2.zip"
+    "version": "0.9.3",
+    "changelog": "- Fixes Freelancer exits not working",
+    "url": "https://github.com/Kevin-Rudd/Sandbox-Hantu-Port/releases/download/0.9.3/Sandbox.Hantu.Port.0.9.3.zip"
 }
