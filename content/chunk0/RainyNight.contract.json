@@ -178,5 +178,11 @@
         "BackgroundImage": "images/contracts/seagull/tile_background.jpg",
         "Entitlements": ["H2_LEGACY_EXPANSION"]
     },
+    "SMF": {
+        "destinations": {
+            "addToDestinations": true,
+            "peacockIntegration": true
+        }
+    },
     "UserData": {}
 }

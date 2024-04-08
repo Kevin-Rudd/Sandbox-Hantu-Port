@@ -1,11 +1,12 @@
 {
-	"version": "0.9.3",
+	"version": "0.9.4",
 	"id": "KevinRudd.SandboxHantu",
 	"name": "Sandbox Hantu Port",
 	"description": "Converts Hantu Port into a sandbox map",
 	"scripts": [
         "script/CopyHantu.ts"
     ],
+	"peacockPlugins": ["SandboxHantu.plugin.js"],
 	"updateCheck": "https://raw.githubusercontent.com/Kevin-Rudd/Sandbox-Hantu-Port/master/updates.json",
 	"authors": [
 		"Kevin Rudd",
