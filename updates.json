@@ -1,5 +1,5 @@
 {
-    "version": "0.9.4",
-    "changelog": "- Updates and integrates Peacock plugin and rainy night contract \n- Reduces number of Heavenly Guard disguise enforcers on the ship \n- Makes NPCs no longer walk through fences (that have been reported)",
-    "url": "https://github.com/Kevin-Rudd/Sandbox-Hantu-Port/releases/download/0.9.4/Sandbox.Hantu.Port.0.9.4.zip"
+    "version": "0.9.5",
+    "changelog": "- Fixes silencer workbench reverting to Romanian HWK Pale version if you have Freelancer Variations installed",
+    "url": "https://github.com/Kevin-Rudd/Sandbox-Hantu-Port/releases/download/0.9.5/Sandbox.Hantu.Port.0.9.5.zip"
 }
