@@ -163,7 +163,7 @@
 "Image": "images/actors/sailor_1.jpg",
 "ID_": "0cb9d334-99b3-4cab-9dba-6d7c3691a308",
 "Name": "Kim Sung-il",
-"Outfit": "bbffa24b-fa46-4f9d-a73d-71de56ff3bfe"
+"Outfit": "bbffa24b-fa46-4f9d-a73d-71de56ff3bfd"
 },
 "0cb9d334-99b3-4cab-9dba-6d7c3691a309": {
 "Description": "Unknown",
@@ -172,7 +172,7 @@
 "Image": "images/actors/sailor_2.jpg",
 "ID_": "0cb9d334-99b3-4cab-9dba-6d7c3691a309",
 "Name": "Jong Wang",
-"Outfit": "bbffa24b-fa46-4f9d-a73d-71de56ff3bfe"
+"Outfit": "bbffa24b-fa46-4f9d-a73d-71de56ff3bfd"
 },
 "0cb9d334-99b3-4cab-9dba-6d7c3691a310": {
 "Description": "Unknown",
@@ -181,7 +181,7 @@
 "Image": "images/actors/sailor_0.jpg",
 "ID_": "0cb9d334-99b3-4cab-9dba-6d7c3691a310",
 "Name": "Liu Deman",
-"Outfit": "bbffa24b-fa46-4f9d-a73d-71de56ff3bfe"
+"Outfit": "bbffa24b-fa46-4f9d-a73d-71de56ff3bfd"
 },
 "0cb9d334-99b3-4cab-9dba-6d7c3691a311": {
 "Description": "Unknown",
@@ -190,7 +190,7 @@
 "Image": "images/actors/sailor_0.jpg",
 "ID_": "0cb9d334-99b3-4cab-9dba-6d7c3691a311",
 "Name": "Jagiya Aegiya",
-"Outfit": "bbffa24b-fa46-4f9d-a73d-71de56ff3bfe"
+"Outfit": "bbffa24b-fa46-4f9d-a73d-71de56ff3bfd"
 },
 "644cf474-b9cf-497a-bd6f-e10df7d9ed31": {
 "Image": "images/actors/sailor_1.jpg"
@@ -287,5 +287,41 @@
 "ID_": "0cb9d334-99b3-4cab-9dba-6d7c3691a322",
 "Name": "Dawei Xu",
 "Outfit": "65f23b45-f5ab-4ede-82ec-46e4de38c0e9"
+},
+"88f1516f-f81d-4a7b-a593-0674e4091d36": {
+    "ID_": "88f1516f-f81d-4a7b-a593-0674e4091d36",
+    "Description": "UI_HEAVENLYGUARDOUTFIT",
+    "HeroDisguiseAvailable": true,
+    "Image": "images/actors/actor_88f1516f-f81d-4a7b-a593-0674e4091d36_0_0_0.jpg",
+    "Name": "UI_HEAVENLYGUARDOUTFIT"
+},
+"2096b4c1-b687-4829-8a25-7854cde529a2": {
+    "Description": "OUTFITS_BANGKOK_WORKER_DOCKWORKER_M_HPA1073_DESCRIPTION_AE605162-AA6B-4292-8A84-21759F9A4D8B",
+    "HeroDisguiseAvailable": true,
+    "Image": "images/unlockables/outfit_c3af265c-7648-4ddb-a02b-ab605a053886_0.jpg",
+    "Name": "OUTFITS_BANGKOK_WORKER_DOCKWORKER_M_HPA1073_NAME_AE605162-AA6B-4292-8A84-21759F9A4D8B"
+}, "8f928c7a-99dd-43db-a027-1310cf49f3ac": {
+    "ID_": "8f928c7a-99dd-43db-a027-1310cf49f3ac",
+    "CommonName": "Greenland_Guard_GenericSecurity_M_HPA752",
+    "Description": "OUTFITS_SAPIENZA_GUARD_SECURITY_M_HPA1261_DESCRIPTION_94A0D283-BEA4-468D-AD8F-EC2735008511",
+    "HeroDisguiseAvailable": true,
+    "Image": "images/unlockables/outfit_8f928c7a-99dd-43db-a027-1310cf49f3ad_0.jpg",
+    "Name": "OUTFITS_SAPIENZA_GUARD_SECURITY_M_HPA1261_NAME_94A0D283-BEA4-468D-AD8F-EC2735008511",
+    "Category": "",
+    "ImageTransparent": "",
+    "IsHitmanSuit": false,
+    "TokenID": ""
+},
+"bbffa24b-fa46-4f9d-a73d-71de56ff3bfd": {
+    "ID_": "bbffa24b-fa46-4f9d-a73d-71de56ff3bfd",
+    "CommonName": "Greenland_Worker_YachtCrew_M_HPA1299",
+    "Description": "outfits_greenland_worker_yachtcrew_m_hpa1299_description_bbffa24b-fa46-4f9d-a73d-71de56ff3bfe",
+    "HeroDisguiseAvailable": true,
+    "Image": "images/unlockables/outfit_bbffa24b-fa46-4f9d-a73d-71de56ff3bfe_0.jpg",
+    "Name": "UI_CREWOUTFIT",
+    "Category": "",
+    "ImageTransparent": "",
+    "IsHitmanSuit": false,
+    "TokenID": ""
 }
 }
