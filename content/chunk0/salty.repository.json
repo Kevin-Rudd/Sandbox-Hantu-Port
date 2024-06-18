@@ -268,7 +268,7 @@
 "Image": "images/actors/pam.jpg",
 "ID_": "0cb9d334-99b3-4cab-9dba-6d7c3691a319",
 "Name": "Tan Halpert",
-"Outfit": "65f23b45-f5ab-4ede-82ec-46e4de38c0e9"
+"Outfit": "81fc37ca-e20b-495f-961f-d5be311a6e6a"
 },
 "0cb9d334-99b3-4cab-9dba-6d7c3691a321": {
 "Description": "Unknown",
@@ -277,7 +277,7 @@
 "Image": "images/actors/asian_jim.jpg",
 "ID_": "0cb9d334-99b3-4cab-9dba-6d7c3691a321",
 "Name": "Jim Halpert",
-"Outfit": "65f23b45-f5ab-4ede-82ec-46e4de38c0e9"
+"Outfit": "81fc37ca-e20b-495f-961f-d5be311a6e6a"
 },
 "0cb9d334-99b3-4cab-9dba-6d7c3691a322": {
 "Description": "Unknown",
@@ -286,7 +286,7 @@
 "Image": "images/actors/dwight.jpg",
 "ID_": "0cb9d334-99b3-4cab-9dba-6d7c3691a322",
 "Name": "Dawei Xu",
-"Outfit": "65f23b45-f5ab-4ede-82ec-46e4de38c0e9"
+"Outfit": "81fc37ca-e20b-495f-961f-d5be311a6e6a"
 },
 "88f1516f-f81d-4a7b-a593-0674e4091d36": {
     "ID_": "88f1516f-f81d-4a7b-a593-0674e4091d36",
@@ -319,6 +319,18 @@
     "HeroDisguiseAvailable": true,
     "Image": "images/unlockables/outfit_bbffa24b-fa46-4f9d-a73d-71de56ff3bfe_0.jpg",
     "Name": "UI_CREWOUTFIT",
+    "Category": "",
+    "ImageTransparent": "",
+    "IsHitmanSuit": false,
+    "TokenID": ""
+},
+"81fc37ca-e20b-495f-961f-d5be311a6e6a": {
+    "ID_": "81fc37ca-e20b-495f-961f-d5be311a6e6a",
+    "CommonName": "Trapped_Worker_Office_M",
+    "Description": "outfits_trapped_worker_office_m_description_81fc37ca-e20b-495f-961f-d5be311a6e6d",
+    "HeroDisguiseAvailable": true,
+    "Image": "images/unlockables/outfit_65f23b45-f5ab-4ede-82ec-46e4de38c0e9_0.jpg",
+    "Name": "outfits_trapped_worker_office_m_name_81fc37ca-e20b-495f-961f-d5be311a6e6d",
     "Category": "",
     "ImageTransparent": "",
     "IsHitmanSuit": false,
