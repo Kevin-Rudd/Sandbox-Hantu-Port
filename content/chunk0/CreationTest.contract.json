@@ -1,0 +1,50 @@
+{
+    "Data": {
+        "EnableSaving": true,
+        "Objectives": [],
+        "Bricks": ["assembly:/_pro/scenes/missions/salty/mission_seagull/contracts_mode.brick","assembly:/_pro/scenes/missions/salty/mission_seagull/rain.brick","assembly:/_pro/scenes/missions/salty/mission_seagull/night.brick"],
+        "GameDifficulties": [{
+            "Difficulty": "easy",
+            "Bricks": []
+        }, {
+            "Difficulty": "normal",
+            "Bricks": []
+        }, {
+            "Difficulty": "hard",
+            "Bricks": []
+        }
+    ],
+        "GameChangers": [],
+        "Entrances": [],
+        "Stashpoints": [
+            "384c9fcb-6f7f-41b9-9029-cc6b3f583355",
+            "384c9fcb-6f7f-41b9-9029-cc6b3f583353"
+          ]
+    },
+    "Metadata": {
+        "DebriefingVideo": "debriefing_seagull",
+        "Location": "LOCATION_SALTY_SEAGULL",
+        "Title": "UI_CONTRACT_CREATE_CONTRACT_TITLE",
+        "CodeName_Hint": "SC_Seagull",
+        "ScenePath": "assembly:/_pro/scenes/missions/salty/mission_seagull/scene_seagull_sandbox.entity",
+        "Description": "UI_CONTRACT_SEAGULL_DESC",
+        "Id": "00c57709-e049-44c9-a2c3-7655e19884fd",
+        "CreationTimestamp": "2014-04-04T09:41:25.473Z",
+        "LastUpdate": "2015-05-19T09:56:04.984Z",
+        "Type": "creation",
+        "Release": "2.20.x",
+        "CreatorUserId": "ae4a3efe-63c9-43e9-8f57-67678b9f95e2",
+        "IsPublished": true,
+        "TileImage": "images/sandboxnight_tile.jpg",
+        "BriefingVideo": "briefing_seagull",
+        "BackgroundImage": "images/contracts/seagull/tile_background.jpg",
+        "Entitlements": ["H2_LEGACY_EXPANSION"]
+    },
+    "SMF": {
+        "destinations": {
+            "addToDestinations": true,
+            "peacockIntegration": true
+        }
+    },
+    "UserData": {}
+}

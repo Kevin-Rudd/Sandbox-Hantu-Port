@@ -1,0 +1,24 @@
+{
+    "$schema": "https://tonytools.win/schemas/dlge.schema.json",
+    "hash": "0091AECD8F6D7CD5",
+    "DITL": "00B7E83B2B5BFE20",
+    "CLNG": "00E3CBB0725ED16C",
+    "rootContainer": {
+        "type": "WavFile",
+        "wavName": "ds32010_sp_missionsuccess_diana_001",
+        "soundtag": "Voiceover_Handler",
+        "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/salty/32000_seagull/ds32010_sp_missionsuccess_sandbox_diana_001.wav].pc_wes",
+        "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/salty/32000_seagull/ds32010_sp_missionsuccess_diana_001.animset].pc_animset",
+        "languages": {
+            "en": "//(0,2.758)\\\\The Heavenly Guard has been taken care of.//(2.758,5.675)\\\\Now, secure the hostages.",
+            "fr": "//(0,2.45)\\\\La Garde céleste est hors d'état de nuire.//(2.45,5.6)\\\\Maintenant, sécurisez les otages.",
+            "it": "//(0,30)\\\\La Guardia celestiale è sistemata. Ora, metti al sicuro gli ostaggi.",
+            "de": "//(0,30)\\\\Die Himmlische Garde wurde erledigt. Sichern Sie jetzt die Geiseln.",
+            "es": "//(0,30)\\\\La Guardia Celestial ha sido eliminada. Ahora, asegura a los rehenes.",
+            "ru": "//(0,2.672393)\\\\С «Небесной гвардией» покончено.//(2.672393,5.601)\\\\Теперь обезопасьте заложников.",
+            "cn": "//(0,30)\\\\神圣护卫已被解决。現在，保護人質。",
+            "tc": "//(0,30)\\\\天衛已經被解決了。現在，保護人質。",
+            "jp": "//(0,5.48)\\\\天の警護の排除完了。さあ、人質を確保してください。"
+        }
+    }
+}

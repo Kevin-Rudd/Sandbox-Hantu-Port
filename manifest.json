@@ -1,5 +1,5 @@
 {
-	"version": "0.9.5",
+	"version": "0.9.6",
 	"id": "KevinRudd.SandboxHantu",
 	"name": "Sandbox Hantu Port",
 	"description": "Converts Hantu Port into a sandbox map",
@@ -67,12 +67,17 @@
 	  {
 		"type": "entity",
 		"partition": "season2",
-		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/mission_hot_hantu.brick].pc_entitytype"
+		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/mission_hot_hantu.brick].entitytype"
 	  },
 	  {
 		"type": "entity",
 		"partition": "season2",
-		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/mission_mild_hantu.brick].pc_entitytype"
+		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/mission_mild_hantu.brick].entitytype"
+	  },
+	  {
+		"type": "entity",
+		"partition": "season2",
+		"path": "[assembly:/_pro/scenes/missions/salty/mission_seagull/contracts_mode.brick].entitytype"
 	  }
   ],
   "dependencies": [
