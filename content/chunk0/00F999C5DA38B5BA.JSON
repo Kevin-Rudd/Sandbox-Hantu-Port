@@ -23,6 +23,18 @@
         "id": "3204ef1b-d51d-411b-bbc0-b72faf9cfe73",
         "WorldTransform": "-1, 0, 0, 0, -1, 0, 0, 0, 1, -36.04174, 89.5, 93",
         "RequireKey": false
+    },{
+        "id": "b65de273-2d10-4b3b-bc0d-0d29ec1ed4f2",
+        "WorldTransform": "-1, 0, 0, 0, -1, 0, 0, 0, 1, -36.04174, 89.5, 93",
+        "RequireKey": false
+    },{
+        "id": "b65de273-2d10-4b3b-bc0d-0d29ec1ed4f3",
+        "WorldTransform": "-1, 0, 0, 0, -1, 0, 0, 0, 1, -36.04174, 89.5, 93",
+        "RequireKey": false
+    },{
+        "id": "b65de273-2d10-4b3b-bc0d-0d29ec1ed4f4",
+        "WorldTransform": "-1, 0, 0, 0, -1, 0, 0, 0, 1, -36.04174, 89.5, 93",
+        "RequireKey": false
     }],
     "AgencyPickups": [{
         "id": "384c9fcb-6f7f-41b9-9029-cc6b3f583355",

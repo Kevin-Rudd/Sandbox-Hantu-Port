@@ -1,10 +1,92 @@
 const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
 
+const contracts = [{
+    "Data": {
+        "EnableSaving": false,
+        "Objectives": [],
+        "Bricks": ["assembly:/_pro/scenes/missions/salty/mission_seagull/contracts_mode.brick","assembly:/_pro/scenes/missions/salty/mission_seagull/rain.brick","assembly:/_pro/scenes/missions/salty/mission_seagull/night.brick"],
+        "GameDifficulties": [],
+        "GameChangers": ["61a618c2-1cfc-46fa-846b-467de76042d6",
+      "b48bb7f9-b630-48cb-a816-720ed7959319",
+      "1f8f0b8b-1f65-4d6c-a2f4-fc8adffa394a",
+      "9673f602-3b2a-4bd3-94b3-b3b311b7bc7e",
+      "a77cf01e-ab02-4b1c-a4bd-a37fb8be1114",
+      "008d2eb9-c1c8-44e0-a636-ccca63629f3c",
+      "1efef5c0-7381-4e22-ac04-ffbd0822cc96",
+      "f96e94b7-1c0e-49c9-9332-07346a955fd2",
+      "95690829-7da4-4225-a087-08918cccf120"],
+        "Entrances": [],
+        "Stashpoints": [
+            "384c9fcb-6f7f-41b9-9029-cc6b3f583355",
+            "384c9fcb-6f7f-41b9-9029-cc6b3f583353"
+          ]
+    },
+    "Metadata": {
+        "Location": "LOCATION_SALTY_SEAGULL",
+        "Title": "UI_CONTRACT_CREATE_CONTRACT_TITLE",
+        "CodeName_Hint": "SC_Seagull",
+        "ScenePath": "assembly:/_pro/scenes/missions/salty/mission_seagull/scene_seagull_sandbox.entity",
+        "Description": "UI_CONTRACT_CREATE_CONTRACT_DESC",
+        "Id": "00c57709-e049-44c9-a1b2-7655e19884fd",
+        "CreationTimestamp": "2014-04-04T09:41:25.473Z",
+        "LastUpdate": "2015-05-19T09:56:04.984Z",
+        "Type": "creation",
+        "Release": "2.20.x",
+        "CreatorUserId": "ae4a3efe-63c9-43e9-8f57-67678b9f95e2",
+        "IsPublished": true,
+        "TileImage": "images/hantunight.jpg",
+        "BackgroundImage": "images/contracts/seagull/tile_background.jpg",
+        "Entitlements": ["H2_LEGACY_EXPANSION"]
+    },
+    "UserData": {}
+},
+{
+    "Data": {
+        "EnableSaving": false,
+        "Objectives": [],
+        "Bricks": ["assembly:/_pro/scenes/missions/salty/mission_seagull/contracts_mode.brick"],
+        "GameDifficulties": [],
+        "GameChangers": ["61a618c2-1cfc-46fa-846b-467de76042d6",
+      "b48bb7f9-b630-48cb-a816-720ed7959319",
+      "1f8f0b8b-1f65-4d6c-a2f4-fc8adffa394a",
+      "9673f602-3b2a-4bd3-94b3-b3b311b7bc7e",
+      "a77cf01e-ab02-4b1c-a4bd-a37fb8be1114",
+      "008d2eb9-c1c8-44e0-a636-ccca63629f3c",
+      "1efef5c0-7381-4e22-ac04-ffbd0822cc96",
+      "f96e94b7-1c0e-49c9-9332-07346a955fd2",
+      "95690829-7da4-4225-a087-08918cccf120"],
+        "Entrances": [],
+        "Stashpoints": [
+            "384c9fcb-6f7f-41b9-9029-cc6b3f583355",
+            "384c9fcb-6f7f-41b9-9029-cc6b3f583353"
+          ]
+    },
+    "Metadata": {
+        "Location": "LOCATION_SALTY_SEAGULL",
+        "Title": "UI_CONTRACT_CREATE_CONTRACT_TITLE",
+        "CodeName_Hint": "SC_Seagull",
+        "ScenePath": "assembly:/_pro/scenes/missions/salty/mission_seagull/scene_seagull_sandbox.entity",
+        "Description": "UI_CONTRACT_CREATE_CONTRACT_DESC",
+        "Id": "00c57709-e049-44c9-a1b3-7655e19884fd",
+        "CreationTimestamp": "2014-04-04T09:41:25.473Z",
+        "LastUpdate": "2015-05-19T09:56:04.984Z",
+        "Type": "creation",
+        "Release": "2.20.x",
+        "CreatorUserId": "ae4a3efe-63c9-43e9-8f57-67678b9f95e2",
+        "IsPublished": true,
+        "TileImage": "images/locations/location_salty/tile.jpg",
+        "BackgroundImage": "images/contracts/seagull/tile_background.jpg",
+        "Entitlements": ["H2_LEGACY_EXPANSION"]
+    },
+    "UserData": {}
+}]
+
 module.exports = function SandboxHantuPlugin(controller) {
     if (!controller.smf.modIsInstalled("KevinRudd.SandboxHantu")) {
         log(LogLevel.ERROR, "[Sandbox Hantu] Mod currently not deployed, please deploy it in SMF")
         return
     }
+
 
     controller.hooks.getContractManifest.tap("SandboxHantu", (id) => {        
         if (id === "00e57709-e049-44c9-a2c3-7655e19884fb") {
@@ -198,6 +280,11 @@ module.exports = function SandboxHantuPlugin(controller) {
         "384c9fcb-6f7f-41b9-9029-cc6b3f583353"
 
     ]
+
+    contracts.forEach((contract) => {
+        controller.addMission(contract)
+        controller.missionsInLocations[contract.Metadata.Location].push(contract.Metadata.Id)
+    })
 
     controller.configManager.configs.LocationsData.parents.LOCATION_PARENT_SALTY.Properties.Order = 160;
 
