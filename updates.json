@@ -1,5 +1,5 @@
 {
-    "version": "0.9.5",
-    "changelog": "- Fixes silencer workbench reverting to Romanian HWK Pale version if you have Freelancer Variations installed",
-    "url": "https://github.com/Kevin-Rudd/Sandbox-Hantu-Port/releases/download/0.9.5/Sandbox.Hantu.Port.0.9.5.zip"
+    "version": "0.9.6",
+    "changelog": "- New Exit: Spider Lilly's car\n- Pilot now visits helipad\n- Adds sailor to port\n- Contracts Mode for Peacock (Accessible in Destination screen)\n- More variety to dockworkers\n- Climbable warehouse pipes now highlighted in Instinct",
+    "url": "https://github.com/Kevin-Rudd/Sandbox-Hantu-Port/releases/download/0.9.6/Sandbox.Hantu.Port.0.9.6.zip"
 }
