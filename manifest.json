@@ -9,9 +9,7 @@
 	"peacockPlugins": ["SandboxHantu.plugin.js"],
 	"updateCheck": "https://raw.githubusercontent.com/Kevin-Rudd/Sandbox-Hantu-Port/master/updates.json",
 	"authors": [
-		"Kevin Rudd",
-		"Kercyx",
-		"2kpr"
+		"Team Ruddcy"
 	],
 	"frameworkVersion": "2.0.0",
 	"contentFolders": [
