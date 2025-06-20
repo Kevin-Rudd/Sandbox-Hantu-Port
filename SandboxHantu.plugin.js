@@ -81,6 +81,77 @@ const contracts = [{
     "UserData": {}
 }]
 
+var LOCATION_SALTY_SEAGULL = "LOCATION_SALTY_SEAGULL"
+var LOCATION_SALTY_NIGHT = "LOCATION_SALTY_NIGHT"
+
+var DaytimeLocationData = {
+		Id: "LOCATION_SALTY_SEAGULL",
+		Type: "location",
+		Subtype: "sublocation",
+		GameAsset: null,
+		ImageId: "",
+		RMTPrice: -1,
+		GamePrice: -1,
+		IsPurchasable: false,
+		IsPublished: true,
+		IsDroppable: false,
+		Capabilities: [],
+		Qualities: {},
+		Properties: {
+			ParentLocation: "LOCATION_PARENT_SALTY",
+			Icon: "images/locations/location_salty/tile.jpg",
+			Background: "images/contracts/seagull/tile_background.jpg",
+			DlcImage: "images/livetile/dlc/tile_hitman3.jpg",
+			DlcName: "GAME_STORE_METADATA_S3_GAME_TITLE",
+			LockedIcon: "images/contracts/seagull/tile_background.jpg",
+			IsLocked: false,
+			UpcomingContent: false,
+			UpcomingKey: "UI_MENU_LIVETILE_CONTENT_UPCOMING_HEADLINE",
+			Order: 69,
+			Season: 2,
+			ProgressionKey: "H2_LEGACY_EXPANSION",
+			CreateContractId: "00c57709-e049-44c9-a1b3-7655e19884fd",
+			RequiredResources: ["[assembly:/_pro/scenes/missions/salty/mission_seagull/scene_seagull_sandbox.entity].entitytemplate"],
+			Entitlements: ["H2_LEGACY_EXPANSION"]
+		},
+		Guid: "a24c04e8-1bc2-45a2-b370-6fc1bcac488f",
+		Rarity: null
+	}
+
+var NighttimeLocationData = {
+		Id: "LOCATION_SALTY_NIGHT",
+		Type: "location",
+		Subtype: "sublocation",
+		GameAsset: null,
+		ImageId: "",
+		RMTPrice: -1,
+		GamePrice: -1,
+		IsPurchasable: false,
+		IsPublished: true,
+		IsDroppable: false,
+		Capabilities: [],
+		Qualities: {},
+		Properties: {
+			ParentLocation: "LOCATION_PARENT_SALTY",
+			Icon: "images/hantunight.jpg",
+			Background: "images/contracts/seagull/tile_background.jpg",
+			DlcImage: "images/livetile/dlc/tile_hitman3.jpg",
+			DlcName: "GAME_STORE_METADATA_S3_GAME_TITLE",
+			LockedIcon: "images/contracts/seagull/tile_background.jpg",
+			IsLocked: false,
+			UpcomingContent: false,
+			UpcomingKey: "UI_MENU_LIVETILE_CONTENT_UPCOMING_HEADLINE",
+			Order: 69,
+			Season: 2,
+			ProgressionKey: "H2_LEGACY_EXPANSION",
+			CreateContractId: "00c57709-e049-44c9-a1b2-7655e19884fd",
+			RequiredResources: ["[assembly:/_pro/scenes/missions/salty/mission_seagull/scene_seagull_sandbox.entity].entitytemplate"],
+			Entitlements: ["H2_LEGACY_EXPANSION"]
+		},
+		Guid: "245cc871-c09e-46c8-a708-e47376f509d2",
+		Rarity: null
+	}
+
 module.exports = function SandboxHantuPlugin(controller) {
     if (!controller.smf.modIsInstalled("KevinRudd.SandboxHantu")) {
         log(LogLevel.ERROR, "[Sandbox Hantu] Mod currently not deployed, please deploy it in SMF")
@@ -283,10 +354,12 @@ module.exports = function SandboxHantuPlugin(controller) {
 
     contracts.forEach((contract) => {
         controller.addMission(contract)
-        controller.missionsInLocations[contract.Metadata.Location].push(contract.Metadata.Id)
+
     })
 
-    controller.configManager.configs.LocationsData.parents.LOCATION_PARENT_SALTY.Properties.Order = 160;
+    controller.configManager.configs.LocationsData.parents.LOCATION_PARENT_SALTY.Properties.Order = 160
+    controller.configManager.configs.LocationsData.children[LOCATION_SALTY_SEAGULL] = DaytimeLocationData
+    controller.configManager.configs.LocationsData.children[LOCATION_SALTY_NIGHT] = NighttimeLocationData
 
     log(LogLevel.INFO, "[Sandbox Hantu] Plugin successfully loaded. Access via Destinations menu")
 }
