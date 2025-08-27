@@ -176,7 +176,7 @@
         "TileImage": "images/sandboxnight_tile.jpg",
         "BriefingVideo": "briefing_seagull",
         "BackgroundImage": "images/contracts/seagull/tile_background.jpg",
-        "Entitlements": ["H2_LEGACY_EXPANSION"]
+        "Entitlements": ["LOCATION_SALTY"]
     },
     "SMF": {
         "destinations": {
