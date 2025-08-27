@@ -256,26 +256,7 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-		{
-			"entities": [
-				{
-					"ref": "c22a1aa8549d2bbb",
-					"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
-				},
-				{
-					"ref": "2523d67b214d8ab6",
-					"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
-				}
-			],
-			"properties": {
-				"m_eGlowOverride": {
-					"type": "ERenderGlowTypes",
-					"value": "ERENDERGLOWTYPE_CIVILIAN"
-				}
-			}
-		}
-	],
+	"propertyOverrides": [],
 	"overrideDeletes": [
 		{
 			"ref": "abcd4f5c999e7169",
@@ -416,6 +397,10 @@
 		{
 			"ref": "cafe40d2a8d50259",
 			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
+		},
+		{
+			"ref": "cafe7f25f405004d",
+			"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [
@@ -447,7 +432,7 @@
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
 		{ "resource": "00A54816A96A08FE", "flag": "5F" },
-		{ "resource": "01C021BBA3818C70", "flag": "5F" }
+		{ "resource": "00C021BBA3818C70", "flag": "5F" }
 	],
 	"extraBlueprintDependencies": [],
 	"comments": []

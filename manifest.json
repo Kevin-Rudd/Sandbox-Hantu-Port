@@ -1,5 +1,5 @@
 {
-	"version": "0.9.7",
+	"version": "0.9.8",
 	"id": "KevinRudd.SandboxHantu",
 	"name": "Sandbox Hantu Port",
 	"description": "Converts Hantu Port into a sandbox map",
@@ -84,6 +84,10 @@
 		"comment": "Pilot Shirt MATT",
 		"portFromChunk1": true
 	},{
+		"runtimeID": "005A8EE337CA2012",
+		"comment": "helper_bellflower_objectiveicon",
+		"toChunk": 1
+	},{
 		"runtimeID": "005EBD6CCE984CEB",
 		"comment": "Fox Roof Window",
 		"toChunk": 9
@@ -143,7 +147,7 @@
 },
 
 {
-	"runtimeID": "012D88D993FBCC0",
+	"runtimeID": "0012D88D993FBCC0",
 	"comment": "Plastic for storage",
 	"toChunk": 9
 },
@@ -795,7 +799,7 @@
 	"UI_HEAVENLYGUARD": "扮演天衛",
 	"UI_HEAVENLYGUARDOUTFIT": "演天衛",
 	"UI_KEYPADCLUE_NAME": "士兵的筆記型電腦",
-	"UI_KEYPACLUE_DESC": "‘只有天衛人員可見的內部備忘錄。軍械庫密鑰代碼已更新為1912。記住這個數字（這是你永恆領袖的出生年份）並立即丟棄此消息！\r\r西方之死，榮耀致我們的領袖！’\r\r[ Joogle 翻譯]",
+	"UI_KEYPADCLUE_DESC": "‘只有天衛人員可見的內部備忘錄。軍械庫密鑰代碼已更新為1912。記住這個數字（這是你永恆領袖的出生年份）並立即丟棄此消息！\r\r西方之死，榮耀致我們的領袖！’\r\r[ Joogle 翻譯]",
 	"UI_HANTUFREELANCE": "新加坡，漢圖港",
 	"UI_LOCATION_SALTY_NIGHT_COUNTRY": "新加坡",
             "UI_LOCATION_SALTY_NIGHT_CITY": "韓都港",
@@ -825,8 +829,8 @@
 "localisedLines": {
 	"00C021BBA3818C7A": "UI_CREWMEMBER",
 	"00C021BBA3818C7C": "UI_HEAVENLYGUARD",
-	"01C021BBA3818C7A": "UI_KEYPADCLUE_NAME",
-	"01C021BBA3818C7B": "UI_KEYPADCLUE_DESC",
-	"01C021BBA3818C70": "UI_HANTUFREELANCE"
+	"00C021BBA3818C7D": "UI_KEYPADCLUE_NAME",
+	"00C021BBA3818C7E": "UI_KEYPADCLUE_DESC",
+	"00C021BBA3818C70": "UI_HANTUFREELANCE"
 }
 }
