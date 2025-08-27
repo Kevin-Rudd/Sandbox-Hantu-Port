@@ -1,5 +1,5 @@
 {
-    "version": "0.9.7",
-    "changelog": "- New NAVP/AIRG (Pathfinding) files to help NPC movement (Thanks to AtomicForce)\n- NPCs should now hear through less walls (but still some walls)\n- Peacock Plugin: Contract creation is now accessed via creation menu instead of destination (Thanks to Riisikumi)\n- Can no longer get stuck inside armoury\n- Converts raw file to SMF-friendly file to remove warning\n- Moves lamps to boat rental window and turns them on at night",
-    "url": "https://github.com/Kevin-Rudd/Sandbox-Hantu-Port/releases/download/0.9.7/Sandbox.Hantu.Port.0.9.7.zip"
+    "version": "0.9.8",
+    "changelog": "- Hostages instinct display now works better (can now be painted as targets in Freelancer)\n- Fixes backend issues preventing future SMF3 conversion\n- Uses new IO-made entitlements for Hantu Port as a precaution",
+    "url": "https://github.com/Kevin-Rudd/Sandbox-Hantu-Port/releases/download/0.9.8/Sandbox.Hantu.Port.0.9.8.zip"
 }
