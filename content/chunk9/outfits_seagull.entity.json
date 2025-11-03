@@ -1578,7 +1578,7 @@
 				"m_rDescriptionTextResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_greenland.sweetmenutext?/outfits_greenland_guard_genericsecurity_m_hpa752_description_8f928c7a-99dd-43db-a027-1310cf49f3ac.sweetline].pc_sweetline",
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_greenland.sweetmenutext?/outfits_greenland_guard_genericsecurity_m_hpa752_description_8f928c7a-99dd-43db-a027-1310cf49f3ad.sweetline].pc_sweetline",
 						"flag": "5F"
 					}
 				},

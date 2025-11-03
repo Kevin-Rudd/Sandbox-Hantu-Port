@@ -1,1 +1,2166 @@
-{"tempHash":"009CF0BE045CAD1D","tbluHash":"0084D8336F890781","rootEntity":"d66aac1b5dda6d89","entities":{"73c73bb5caff6b2f":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_54","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":-20.16530990600586,"y":-2.1588289737701416,"z":32.0152587890625}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1,"y":0.949999988079071,"z":1}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#dbdbdb"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"9b8a4632549b0583":{"parent":"d66aac1b5dda6d89","name":"painted_metal_trim_rust_b","factory":"[assembly:/_pro/environment/materials/generic/trim/painted_metal_trim_rust_b.mi].pc_entitytype","blueprint":"[assembly:/_pro/environment/materials/generic/trim/painted_metal_trim_rust_b.mi].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"ConstantColorRGB_02_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#cccccc"},"ConstantVector1D_05_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantVector1D_04_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantVector1D_04_Value":{"type":"float32","value":0},"ConstantVector1D_05_Value":{"type":"float32","value":0.9100000262260437},"Clients":{"type":"TArray<SEntityTemplateReference>","value":["d66aac1b5dda6d89"],"postInit":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"176b567ae076b616":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_59","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":20.10909080505371,"y":-7.745635986328125,"z":32.0152587890625}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1,"y":0.949999988079071,"z":1}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#dbdbdb"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"843992a2b0d9cb54":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_29","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":2.5015029907226563,"y":1.8681180477142334,"z":36.218509674072266}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"2690f9f913d262a3":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_64","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":8.46234130859375,"y":-16.694019317626953,"z":32.09175109863281}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1,"y":1,"z":1}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#dbdbdb"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"3b573801e63fb097":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_33","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":-19.914979934692383,"y":-1.8700870275497437,"z":36.20998001098633}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"6d4e2dd3ce37fe58":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_60","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":14.545929908752441,"y":-7.745635986328125,"z":32.0152587890625}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1,"y":0.949999988079071,"z":1}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#dbdbdb"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"aa7454035da41096":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_31","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":-9.432029724121094,"y":-1.8700870275497437,"z":36.20998001098633}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"fa7bafc84c5f8aef":{"parent":"d66aac1b5dda6d89","name":"Cell_Tower_Antenna_B_01","factory":"[assembly:/_pro/environment/templates/props/electronics/cell_tower_a.template?/cell_tower_antenna_b.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/props/electronics/cell_tower_a.template?/cell_tower_antenna_b.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":176.2378345876946},"position":{"x":23.081769943237305,"y":-5.2357177734375,"z":32.34477996826172}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1.25,"y":1.25,"z":1.25}},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"7c4c64302f5f5870":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_55","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":-8.986076354980469,"y":-1.2330780029296875,"z":31.998329162597656}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1,"y":0.949999988079071,"z":1}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#dbdbdb"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"3706f1f098318b44":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_74","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":14.364999771118164,"y":-16.765779495239258,"z":20.06147003173828}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"a9a643d061ccbef0":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_65","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":6.882216930389404,"y":-19.40353012084961,"z":24.15669059753418}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"bf669cb89b8e61c5":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_57","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":-20.154850006103516,"y":-7.745604991912842,"z":32.0152587890625}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1,"y":0.949999988079071,"z":1}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#dbdbdb"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"615dbb7e0b5a5dcf":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_43","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":22.970569610595703,"y":-5.051848888397217,"z":36.198490142822266}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"7de08c842e19aa52":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_40","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":9.630638122558594,"y":-1.8700870275497437,"z":36.20998001098633}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"8c9a74e5c10667b1":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_32","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":-14.63698959350586,"y":-1.8700870275497437,"z":36.20998001098633}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"e01b7095e9432b32":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_72","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_c_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_c_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":6.850449085235596,"y":-28.452289581298828,"z":24.15648078918457}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"b50dfbc197c4ff45":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_80","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-16.847009658813477,"y":-13.981829643249512,"z":20.06147003173828}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"c96ea92e50830183":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_50","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":24.999981453272202},"position":{"x":-6.001244068145752,"y":-0.0017089999746531248,"z":36.202579498291016}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.6700000166893005,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"27b6bedbdcdfb666":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_78","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":-14.420040130615234,"y":-16.765779495239258,"z":20.06147003173828}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"f4a9da9c4a312c8d":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_35","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":-15.027350425720215,"y":-8.06158447265625,"z":36.20998001098633}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"9ae48527e0a59afe":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_36","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":-9.749359130859375,"y":-8.06158447265625,"z":36.20998001098633}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"e98a571d311f317d":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_71","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_c_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_c_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":5.2630391120910645,"y":-29.693269729614258,"z":24.15648078918457}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"3d5b3be4e5648a45":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_42","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":20.113590240478516,"y":-1.8700870275497437,"z":36.20998001098633}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"4dfa6127057910aa":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_66","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":6.882216930389404,"y":-24.64664077758789,"z":24.15669059753418}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"27edc393fbc1aee5":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_53","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":-14.602140426635742,"y":-2.1588289737701416,"z":32.0152587890625}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1,"y":0.949999988079071,"z":1}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#dbdbdb"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"8b4d039396561fcb":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_73","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_c_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_c_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-6.918212890625,"y":-28.45237922668457,"z":24.15648078918457}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"d48a769c0ed83ed4":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_77","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":16.784740447998047,"y":-13.981829643249512,"z":20.06147003173828}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"ba52f3cb25e9b0c7":{"parent":"d66aac1b5dda6d89","name":"container_ship_metal_panels_dualtone_a","factory":"[assembly:/_pro/environment/materials/generic/panels/container_ship_metal_panels_dualtone_a.mi].pc_entitytype","blueprint":"[assembly:/_pro/environment/materials/generic/panels/container_ship_metal_panels_dualtone_a.mi].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":-11.791099548339844,"y":-12.746720314025879,"z":21.90838050842285}}},"ConstantColorRGB_02_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#b05656"},"ConstantColorRGB_04_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantColorRGB_04_Value":{"type":"SColorRGB","value":"#6ab0d4"},"Clients":{"type":"TArray<SEntityTemplateReference>","value":["d66aac1b5dda6d89"],"postInit":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"459ca33413f8c6d":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_69","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":1.4962010383605957,"y":-29.693269729614258,"z":24.15648078918457}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"bfc0b49be33c9fed":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_46","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":2.5114290714263916,"y":-11.788180351257324,"z":36.20402908325195}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"9fe4dd4b9fcea573":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_45","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":-2.693535089492798,"y":-11.788180351257324,"z":36.20402908325195}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"1e4b47d603db8550":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_63","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":11.676830291748047,"y":-13.669219970703125,"z":32.09503173828125}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1,"y":1,"z":1}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#dbdbdb"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"1b311bfe78e3f49c":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_44","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-23.02705955505371,"y":-4.996947765350342,"z":36.1965217590332}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"6f00d5cb34527c82":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_38","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":14.92831039428711,"y":-8.06158447265625,"z":36.20998001098633}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"ac8d184e42a842bb":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_67","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-6.934722900390625,"y":-24.65652084350586,"z":24.15669059753418}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"9ec4b9e6106af776":{"parent":"d66aac1b5dda6d89","name":"mumbai_corrugated_metal_plate_f","factory":"[assembly:/_pro/environment/materials/generic/metal/mumbai_corrugated_metal_plate_f.mi].pc_entitytype","blueprint":"[assembly:/_pro/environment/materials/generic/metal/mumbai_corrugated_metal_plate_f.mi].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":86.31302642822266,"y":-189.7270965576172,"z":32.792598724365234}}},"ConstantColorRGB_01_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantColorRGB_01_Value":{"type":"SColorRGB","value":"#b0b0b0"},"Clients":{"type":"TArray<SEntityTemplateReference>","value":["d66aac1b5dda6d89"],"postInit":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"1de1dab405f89bf4":{"parent":"d66aac1b5dda6d89","name":"container_ship_metal_panels_a","factory":"[assembly:/_pro/environment/materials/generic/panels/container_ship_metal_panels_a.mi].pc_entitytype","blueprint":"[assembly:/_pro/environment/materials/generic/panels/container_ship_metal_panels_a.mi].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":-11.808340072631836,"y":-15.908140182495117,"z":25.71221923828125}}},"ConstantColorRGB_02_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#d1d1d1"},"ConstantVector1D_01_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantVector1D_01_Value":{"type":"float32","value":0.44999998807907104},"Clients":{"type":"TArray<SEntityTemplateReference>","value":["d66aac1b5dda6d89"],"postInit":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"ad45f87547aca979":{"parent":"d66aac1b5dda6d89","name":"painted_metal_trim_rust_a","factory":"[assembly:/_pro/environment/materials/generic/trim/painted_metal_trim_rust_a.mi].pc_entitytype","blueprint":"[assembly:/_pro/environment/materials/generic/trim/painted_metal_trim_rust_a.mi].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":109.83270263671875,"y":-186.70350646972656,"z":41.93230056762695}}},"ConstantColorRGB_02_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#6ab0d4"},"ConstantVector1D_05_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantVector1D_05_Value":{"type":"float32","value":0.75},"Clients":{"type":"TArray<SEntityTemplateReference>","value":["d66aac1b5dda6d89"],"postInit":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"e9df7cb87f9f2deb":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_47","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-155.0000185467278},"position":{"x":5.966484069824219,"y":-9.804901123046875,"z":36.2098503112793}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.6700000166893005,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"6eb201948f41fdfd":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_49","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":155.94295320692748},"position":{"x":5.925095081329346,"y":-0.04347199946641922,"z":36.2098503112793}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.6700000166893005,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"148a3cec9158a00c":{"parent":"d66aac1b5dda6d89","name":"ceiling_laboratory_a","factory":"[assembly:/_pro/environment/materials/generic/ceiling/ceiling_laboratory_a.mi].pc_entitytype","blueprint":"[assembly:/_pro/environment/materials/generic/ceiling/ceiling_laboratory_a.mi].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":107.02940368652344,"y":-191.87429809570313,"z":59.3065299987793}}},"ConstantVector1D_01_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantVector1D_01_Value":{"type":"float32","value":0.25},"Specular_Multiplier_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"Specular_Multiplier_Value":{"type":"float32","value":0.4000000059604645},"ConstantVector1D_05_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantVector1D_05_Value":{"type":"float32","value":0.5},"Clients":{"type":"TArray<SEntityTemplateReference>","value":["d66aac1b5dda6d89"],"postInit":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"f90befa199e60e58":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_68","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-6.9347147941589355,"y":-19.413419723510742,"z":24.15669059753418}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"475f3052ebb64299":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_48","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-24.999981453272202},"position":{"x":-6.0085530281066895,"y":-9.854721069335938,"z":36.202579498291016}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.6700000166893005,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"85bd1943fdeafa27":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_76","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":16.784740447998047,"y":-3.919342041015625,"z":20.06147003173828}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"3b2eb31073317acb":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_62","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-11.747989654541016,"y":-13.6,"z":32.09175109863281}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1,"y":1,"z":1}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#dbdbdb"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"f1489a28b9515a9f":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_39","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":20.206310272216797,"y":-8.06158447265625,"z":36.20998001098633}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"c2a1af583fd77494":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_41","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":14.90863037109375,"y":-1.8700870275497437,"z":36.20998001098633}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"42d36ca4fd958025":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_30","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":-2.703460931777954,"y":1.8681180477142334,"z":36.218509674072266}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"7b8c543c5e28eed7":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_56","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":8.981483459472656,"y":-1.2330780029296875,"z":31.998329162597656}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1,"y":0.949999988079071,"z":1}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#dbdbdb"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"493cc4669c4d6d2a":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_52","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":14.535460472106934,"y":-2.1588289737701416,"z":32.0152587890625}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1,"y":0.949999988079071,"z":1}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#dbdbdb"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"e50bfaa83053ca40":{"parent":"d66aac1b5dda6d89","name":"Cell_Tower_Antenna_B","factory":"[assembly:/_pro/environment/templates/props/electronics/cell_tower_a.template?/cell_tower_antenna_b.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/props/electronics/cell_tower_a.template?/cell_tower_antenna_b.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-3.7621654123053823},"position":{"x":-23.078279495239258,"y":-5.235686779022217,"z":32.34477996826172}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1.25,"y":1.25,"z":1.25}},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"d343707b954fde63":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_61","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":-8.38739013671875,"y":-16.694019317626953,"z":32.09175109863281}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1,"y":1,"z":1}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#dbdbdb"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"65bceb36720d147a":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_81","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-16.847009658813477,"y":-3.919312000274658,"z":20.06147003173828}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"df9e036cebf00681":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_37","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":9.723358154296875,"y":-8.06158447265625,"z":36.20998001098633}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89","postInit":true}}},"d66aac1b5dda6d89":{"parent":null,"name":"container_ship_superstructure_a","factory":"[assembly:/_pro/vehicles/geometry/container_ship_a/container_ship_a.wl2?/container_ship_superstructure_a.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":98.04163360595703,"y":-196.57119750976563,"z":23.81777000427246}}}}},"b076e01afcc1d139":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_34","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":-20.232309341430664,"y":-8.06158447265625,"z":36.20998001098633}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89"}}},"28b4a31e20c26bd9":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_70","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":-3.7469019889831543,"y":-29.693269729614258,"z":24.15648078918457}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.8999999761581421,"y":0.8999999761581421,"z":0.8999999761581421}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#82c0d9"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89"}}},"fc6f70239cfde3b4":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_58","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":-14.591670036315918,"y":-7.745604991912842,"z":32.0152587890625}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1,"y":0.949999988079071,"z":1}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#dbdbdb"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89"}}},"5b5503475ce26357":{"parent":"d66aac1b5dda6d89","name":"Railing_Laboratory_A_ColourMod_51","factory":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":20.098630905151367,"y":-2.1588289737701416,"z":32.0152587890625}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1,"y":0.949999988079071,"z":1}},"ConstantColorRGB_02_Value":{"type":"SColorRGB","value":"#dbdbdb"},"m_eidParent":{"type":"SEntityTemplateReference","value":"d66aac1b5dda6d89"}}},"abcdefcadc2e258e":{"parent":null,"name":"QNE In-Vivo Helper Entity","factory":"[modules:/zmultiparentspatialentity.class].pc_entitytype","blueprint":"[modules:/zmultiparentspatialentity.class].pc_entityblueprint","properties":{"m_aParents":{"type":"TArray<SEntityTemplateReference>","value":["73c73bb5caff6b2f","9b8a4632549b0583","176b567ae076b616","843992a2b0d9cb54","2690f9f913d262a3","3b573801e63fb097","6d4e2dd3ce37fe58","aa7454035da41096","fa7bafc84c5f8aef","7c4c64302f5f5870","3706f1f098318b44","a9a643d061ccbef0","bf669cb89b8e61c5","615dbb7e0b5a5dcf","7de08c842e19aa52","8c9a74e5c10667b1","e01b7095e9432b32","b50dfbc197c4ff45","c96ea92e50830183","27b6bedbdcdfb666","f4a9da9c4a312c8d","9ae48527e0a59afe","e98a571d311f317d","3d5b3be4e5648a45","4dfa6127057910aa","27edc393fbc1aee5","8b4d039396561fcb","d48a769c0ed83ed4","ba52f3cb25e9b0c7","459ca33413f8c6d","bfc0b49be33c9fed","9fe4dd4b9fcea573","1e4b47d603db8550","1b311bfe78e3f49c","6f00d5cb34527c82","ac8d184e42a842bb","9ec4b9e6106af776","1de1dab405f89bf4","ad45f87547aca979","e9df7cb87f9f2deb","6eb201948f41fdfd","148a3cec9158a00c","f90befa199e60e58","475f3052ebb64299","85bd1943fdeafa27","3b2eb31073317acb","f1489a28b9515a9f","c2a1af583fd77494","42d36ca4fd958025","7b8c543c5e28eed7","493cc4669c4d6d2a","e50bfaa83053ca40","d343707b954fde63","65bceb36720d147a","df9e036cebf00681","d66aac1b5dda6d89","b076e01afcc1d139","28b4a31e20c26bd9","fc6f70239cfde3b4","5b5503475ce26357"]}}},"abcdefcadc77e4f2":{"parent":"abcdefcadc2e258e","name":"QNE In-Vivo Helper Entity GameEventListener","factory":"[modules:/zgameeventlistenerentity.class].pc_entitytype","blueprint":"[modules:/zgameeventlistenerentity.class].pc_entityblueprint","properties":{"m_eEvent":{"type":"EGameEventType","value":"GET_IntroCutEnd"}},"events":{"EventOccurred":{"GetIndex":["abcdefcadc2e258e"]}}}},"propertyOverrides":[],"overrideDeletes":[],"pinConnectionOverrides":[],"pinConnectionOverrideDeletes":[],"externalScenes":[],"subType":"template","quickEntityVersion":3.1,"extraFactoryDependencies":[{"resource":"[assembly:/_pro/vehicles/geometry/container_ship_a/container_ship_a.wl2?/container_ship_superstructure_a.prim].pc_prim","flag":"5F"},{"resource":"[assembly:/_pro/vehicles/geometry/container_ship_a/container_ship_a.wl2?/container_ship_superstructure_a.prim].pc_coll","flag":"5F"},{"resource":"0063CDCE808A4657","flag":"5F"},{"resource":"001E46DECD709149","flag":"5F"},{"resource":"0077B741527E188D","flag":"5F"},{"resource":"[assembly:/_pro/environment/textures/constants/color_black.texture?/diffuse_a.tex](ascolormap).pc_tex","flag":"5F"},{"resource":"007BCB9B31C21A5A","flag":"5F"},{"resource":"[assembly:/_pro/environment/textures/detailmaps/default.texture?/detail_a.tex](ascompoundnormal).pc_tex","flag":"5F"},{"resource":"0096EAD96770A720","flag":"5F"},{"resource":"[assembly:/_pro/environment/textures/generic/metal/mumbai_corrugated_metal_plate_d.texture?/height_a.tex](asheightmap).pc_tex","flag":"5F"},{"resource":"[assembly:/_pro/environment/textures/generic/metal/mumbai_corrugated_metal_plate_d.texture?/normal_a.tex](asnormalmap).pc_tex","flag":"5F"},{"resource":"0034FBB03BEFF249","flag":"5F"},{"resource":"[assembly:/_pro/environment/textures/generic/metal/mumbai_corrugated_metal_plate_d.texture?/diffuse_c.tex](ascolormap).pc_tex","flag":"5F"},{"resource":"[assembly:/_pro/environment/textures/generic/metal/metal_rust_b.texture?/diffuse_a.tex](ascolormap).pc_tex","flag":"5F"},{"resource":"[assembly:/_pro/environment/textures/generic/metal/mumbai_corrugated_metal_plate_d.texture?/specular_b.tex](ascolormap).pc_tex","flag":"5F"},{"resource":"[assembly:/_pro/environment/textures/generic/trim/painted_metal_trim_rust_a.texture?/diffuse_a.tex](ascolormap).pc_tex","flag":"5F"},{"resource":"[assembly:/_pro/environment/textures/generic/trim/painted_metal_trim_rust_a.texture?/specular_a.tex](ascolormap).pc_tex","flag":"5F"},{"resource":"[assembly:/_pro/environment/textures/detailmaps/paint/crackled_paint_a.texture?/detail_a.tex](ascompoundnormal).pc_tex","flag":"5F"},{"resource":"[assembly:/_pro/environment/textures/generic/trim/painted_metal_trim_rust_a.texture?/normal_a.tex](asnormalmap).pc_tex","flag":"5F"},{"resource":"[assembly:/_pro/environment/textures/generic/trim/painted_metal_trim_rust_a.texture?/mask_a.tex](ascolormap).pc_tex","flag":"5F"},{"resource":"[assembly:/_pro/environment/geometry/architecture/railing/railing_laboratory_a.wl2?/railing_laboratory_a_00.prim].pc_prim","flag":"5F"},{"resource":"[assembly:/_pro/environment/geometry/architecture/railing/railing_laboratory_a.wl2?/railing_laboratory_a_00.prim].pc_coll","flag":"5F"},{"resource":"[assembly:/_pro/environment/materials/architecture/railing/railing_laboratory_b.mi].pc_mi","flag":"5F"},{"resource":"[assembly:/_pro/environment/geometry/architecture/railing/railing_laboratory_a.wl2?/railing_laboratory_c_00.prim].pc_prim","flag":"5F"},{"resource":"[assembly:/_pro/environment/geometry/architecture/railing/railing_laboratory_a.wl2?/railing_laboratory_c_00.prim].pc_coll","flag":"5F"},{"resource":"[assembly:/_pro/environment/textures/generic/ceiling/ceiling_resin_white_a.texture?/diffuse_a.tex](ascolormap).pc_tex","flag":"5F"},{"resource":"[assembly:/_pro/environment/textures/generic/ceiling/ceiling_resin_white_a.texture?/normal_a.tex](asnormalmap).pc_tex","flag":"5F"},{"resource":"[assembly:/_pro/environment/textures/generic/ceiling/ceiling_resin_white_a.texture?/specular_a.tex](ascolormap).pc_tex","flag":"5F"},{"resource":"004DFC638F1FD276","flag":"5F"},{"resource":"[assembly:/_pro/environment/geometry/props/electronics/cell_tower_a.wl2?/cell_tower_antenna_b.prim].pc_prim","flag":"5F"},{"resource":"[assembly:/_pro/environment/geometry/props/electronics/cell_tower_a.wl2?/cell_tower_antenna_b.prim].pc_coll","flag":"5F"}],"extraBlueprintDependencies":[],"comments":[]}
+{
+	"tempHash": "009CF0BE045CAD1D",
+	"tbluHash": "0084D8336F890781",
+	"rootEntity": "d66aac1b5dda6d89",
+	"entities": {
+		"73c73bb5caff6b2f": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_54",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": -20.16530990600586,
+							"y": -2.1588289737701416,
+							"z": 32.0152587890625
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 0.949999988079071, "z": 1 }
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#dbdbdb"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"9b8a4632549b0583": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "painted_metal_trim_rust_b",
+			"factory": "[assembly:/_pro/environment/materials/generic/trim/painted_metal_trim_rust_b.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/materials/generic/trim/painted_metal_trim_rust_b.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"ConstantColorRGB_02_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#cccccc"
+				},
+				"ConstantVector1D_05_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_04_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 0
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.9100000262260436
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["d66aac1b5dda6d89"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"176b567ae076b616": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_59",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": 20.10909080505371,
+							"y": -7.745635986328125,
+							"z": 32.0152587890625
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 0.949999988079071, "z": 1 }
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#dbdbdb"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"843992a2b0d9cb54": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_29",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": 2.5015029907226562,
+							"y": 1.8681180477142336,
+							"z": 36.218509674072266
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"2690f9f913d262a3": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_64",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": 8.46234130859375,
+							"y": -16.694019317626953,
+							"z": 32.09175109863281
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 1, "z": 1 }
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#dbdbdb"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"3b573801e63fb097": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_33",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": -19.914979934692383,
+							"y": -1.8700870275497437,
+							"z": 36.20998001098633
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"6d4e2dd3ce37fe58": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_60",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": 14.54592990875244,
+							"y": -7.745635986328125,
+							"z": 32.0152587890625
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 0.949999988079071, "z": 1 }
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#dbdbdb"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"aa7454035da41096": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_31",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": -9.432029724121094,
+							"y": -1.8700870275497437,
+							"z": 36.20998001098633
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"fa7bafc84c5f8aef": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Cell_Tower_Antenna_B_01",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/cell_tower_a.template?/cell_tower_antenna_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/cell_tower_a.template?/cell_tower_antenna_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 176.2378345876946
+						},
+						"position": {
+							"x": 23.081769943237305,
+							"y": -5.2357177734375,
+							"z": 32.34477996826172
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.25, "y": 1.25, "z": 1.25 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"7c4c64302f5f5870": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_55",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": -8.986076354980469,
+							"y": -1.2330780029296875,
+							"z": 31.998329162597656
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 0.949999988079071, "z": 1 }
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#dbdbdb"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"3706f1f098318b44": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_74",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": 14.364999771118164,
+							"y": -16.765779495239258,
+							"z": 20.06147003173828
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"a9a643d061ccbef0": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_65",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": 6.882216930389404,
+							"y": -19.40353012084961,
+							"z": 24.15669059753418
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"bf669cb89b8e61c5": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_57",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": -20.154850006103516,
+							"y": -7.745604991912842,
+							"z": 32.0152587890625
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 0.949999988079071, "z": 1 }
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#dbdbdb"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"615dbb7e0b5a5dcf": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_43",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": 22.970569610595703,
+							"y": -5.051848888397217,
+							"z": 36.198490142822266
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"7de08c842e19aa52": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_40",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": 9.630638122558594,
+							"y": -1.8700870275497437,
+							"z": 36.20998001098633
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"8c9a74e5c10667b1": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_32",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": -14.63698959350586,
+							"y": -1.8700870275497437,
+							"z": 36.20998001098633
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"e01b7095e9432b32": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_72",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_c_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_c_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": 6.850449085235596,
+							"y": -28.452289581298828,
+							"z": 24.15648078918457
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"b50dfbc197c4ff45": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_80",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": -16.847009658813477,
+							"y": -13.981829643249512,
+							"z": 20.06147003173828
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"c96ea92e50830183": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_50",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 24.9999814532722
+						},
+						"position": {
+							"x": -6.001244068145752,
+							"y": -0.0017089999746531248,
+							"z": 36.202579498291016
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.6700000166893005,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"27b6bedbdcdfb666": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_78",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": -14.420040130615234,
+							"y": -16.765779495239258,
+							"z": 20.06147003173828
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"f4a9da9c4a312c8d": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_35",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": -15.027350425720217,
+							"y": -8.06158447265625,
+							"z": 36.20998001098633
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"9ae48527e0a59afe": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_36",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": -9.749359130859377,
+							"y": -8.06158447265625,
+							"z": 36.20998001098633
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"e98a571d311f317d": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_71",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_c_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_c_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": 5.2630391120910645,
+							"y": -29.693269729614254,
+							"z": 24.15648078918457
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"3d5b3be4e5648a45": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_42",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": 20.113590240478516,
+							"y": -1.8700870275497437,
+							"z": 36.20998001098633
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"4dfa6127057910aa": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_66",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": 6.882216930389404,
+							"y": -24.64664077758789,
+							"z": 24.15669059753418
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"27edc393fbc1aee5": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_53",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": -14.602140426635742,
+							"y": -2.1588289737701416,
+							"z": 32.0152587890625
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 0.949999988079071, "z": 1 }
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#dbdbdb"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"8b4d039396561fcb": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_73",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_c_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_c_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": -6.918212890625,
+							"y": -28.45237922668457,
+							"z": 24.15648078918457
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"d48a769c0ed83ed4": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_77",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": 16.784740447998047,
+							"y": -13.981829643249512,
+							"z": 20.06147003173828
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"ba52f3cb25e9b0c7": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "container_ship_metal_panels_dualtone_a",
+			"factory": "[assembly:/_pro/environment/materials/generic/panels/container_ship_metal_panels_dualtone_a.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/materials/generic/panels/container_ship_metal_panels_dualtone_a.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": -11.791099548339844,
+							"y": -12.74672031402588,
+							"z": 21.90838050842285
+						}
+					}
+				},
+				"ConstantColorRGB_02_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#b05656"
+				},
+				"ConstantColorRGB_04_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_04_Value": {
+					"type": "SColorRGB",
+					"value": "#6ab0d4"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["d66aac1b5dda6d89"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"459ca33413f8c6d": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_69",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": 1.4962010383605957,
+							"y": -29.693269729614254,
+							"z": 24.15648078918457
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"bfc0b49be33c9fed": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_46",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": 2.5114290714263916,
+							"y": -11.788180351257324,
+							"z": 36.20402908325195
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"9fe4dd4b9fcea573": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_45",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": -2.693535089492798,
+							"y": -11.788180351257324,
+							"z": 36.20402908325195
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"1e4b47d603db8550": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_63",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": 11.676830291748049,
+							"y": -13.669219970703123,
+							"z": 32.09503173828125
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 1, "z": 1 }
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#dbdbdb"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"1b311bfe78e3f49c": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_44",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": -23.02705955505371,
+							"y": -4.996947765350342,
+							"z": 36.1965217590332
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"6f00d5cb34527c82": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_38",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": 14.92831039428711,
+							"y": -8.06158447265625,
+							"z": 36.20998001098633
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"ac8d184e42a842bb": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_67",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": -6.934722900390625,
+							"y": -24.65652084350586,
+							"z": 24.15669059753418
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"9ec4b9e6106af776": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "mumbai_corrugated_metal_plate_f",
+			"factory": "[assembly:/_pro/environment/materials/generic/metal/mumbai_corrugated_metal_plate_f.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/materials/generic/metal/mumbai_corrugated_metal_plate_f.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 86.31302642822266,
+							"y": -189.7270965576172,
+							"z": 32.792598724365234
+						}
+					}
+				},
+				"ConstantColorRGB_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#b0b0b0"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["d66aac1b5dda6d89"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"1de1dab405f89bf4": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "container_ship_metal_panels_a",
+			"factory": "[assembly:/_pro/environment/materials/generic/panels/container_ship_metal_panels_a.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/materials/generic/panels/container_ship_metal_panels_a.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": -11.808340072631836,
+							"y": -15.908140182495115,
+							"z": 25.71221923828125
+						}
+					}
+				},
+				"ConstantColorRGB_02_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#d1d1d1"
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.44999998807907104
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["d66aac1b5dda6d89"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"ad45f87547aca979": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "painted_metal_trim_rust_a",
+			"factory": "[assembly:/_pro/environment/materials/generic/trim/painted_metal_trim_rust_a.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/materials/generic/trim/painted_metal_trim_rust_a.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": 109.83270263671876,
+							"y": -186.70350646972656,
+							"z": 41.93230056762695
+						}
+					}
+				},
+				"ConstantColorRGB_02_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#6ab0d4"
+				},
+				"ConstantVector1D_05_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.75
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["d66aac1b5dda6d89"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"e9df7cb87f9f2deb": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_47",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -155.0000185467278
+						},
+						"position": {
+							"x": 5.966484069824219,
+							"y": -9.804901123046877,
+							"z": 36.2098503112793
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.6700000166893005,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"6eb201948f41fdfd": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_49",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 155.94295320692748
+						},
+						"position": {
+							"x": 5.925095081329346,
+							"y": -0.04347199946641922,
+							"z": 36.2098503112793
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.6700000166893005,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"148a3cec9158a00c": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "ceiling_laboratory_a",
+			"factory": "[assembly:/_pro/environment/materials/generic/ceiling/ceiling_laboratory_a.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/materials/generic/ceiling/ceiling_laboratory_a.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 107.02940368652344,
+							"y": -191.87429809570312,
+							"z": 59.3065299987793
+						}
+					}
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.25
+				},
+				"Specular_Multiplier_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Specular_Multiplier_Value": {
+					"type": "float32",
+					"value": 0.4000000059604645
+				},
+				"ConstantVector1D_05_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["d66aac1b5dda6d89"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"f90befa199e60e58": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_68",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": -6.9347147941589355,
+							"y": -19.413419723510746,
+							"z": 24.15669059753418
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"475f3052ebb64299": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_48",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -24.9999814532722
+						},
+						"position": {
+							"x": -6.0085530281066895,
+							"y": -9.854721069335938,
+							"z": 36.202579498291016
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.6700000166893005,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"85bd1943fdeafa27": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_76",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": 16.784740447998047,
+							"y": -3.919342041015625,
+							"z": 20.06147003173828
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"3b2eb31073317acb": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_62",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": -11.747989654541016,
+							"y": -13.6,
+							"z": 32.09175109863281
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 1, "z": 1 }
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#dbdbdb"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"f1489a28b9515a9f": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_39",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": 20.206310272216797,
+							"y": -8.06158447265625,
+							"z": 36.20998001098633
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"c2a1af583fd77494": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_41",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": 14.90863037109375,
+							"y": -1.8700870275497437,
+							"z": 36.20998001098633
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"42d36ca4fd958025": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_30",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": -2.703460931777954,
+							"y": 1.8681180477142336,
+							"z": 36.218509674072266
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"7b8c543c5e28eed7": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_56",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": 8.981483459472656,
+							"y": -1.2330780029296875,
+							"z": 31.998329162597656
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 0.949999988079071, "z": 1 }
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#dbdbdb"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"493cc4669c4d6d2a": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_52",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": 14.535460472106934,
+							"y": -2.1588289737701416,
+							"z": 32.0152587890625
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 0.949999988079071, "z": 1 }
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#dbdbdb"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"e50bfaa83053ca40": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Cell_Tower_Antenna_B",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/cell_tower_a.template?/cell_tower_antenna_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/cell_tower_a.template?/cell_tower_antenna_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -3.7621654123053823
+						},
+						"position": {
+							"x": -23.078279495239254,
+							"y": -5.235686779022217,
+							"z": 32.34477996826172
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.25, "y": 1.25, "z": 1.25 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"d343707b954fde63": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_61",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": -8.38739013671875,
+							"y": -16.694019317626953,
+							"z": 32.09175109863281
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 1, "z": 1 }
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#dbdbdb"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"65bceb36720d147a": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_81",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": -16.847009658813477,
+							"y": -3.919312000274658,
+							"z": 20.06147003173828
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"df9e036cebf00681": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_37",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": 9.723358154296877,
+							"y": -8.06158447265625,
+							"z": 36.20998001098633
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89",
+					"postInit": true
+				}
+			}
+		},
+		"d66aac1b5dda6d89": {
+			"parent": null,
+			"name": "container_ship_superstructure_a",
+			"factory": "[assembly:/_pro/vehicles/geometry/container_ship_a/container_ship_a.wl2?/container_ship_superstructure_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": 98.04163360595705,
+							"y": -196.57119750976565,
+							"z": 23.81777000427246
+						}
+					}
+				}
+			}
+		},
+		"b076e01afcc1d139": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_34",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": -20.232309341430664,
+							"y": -8.06158447265625,
+							"z": 36.20998001098633
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89"
+				}
+			}
+		},
+		"28b4a31e20c26bd9": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_70",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": -3.7469019889831543,
+							"y": -29.693269729614254,
+							"z": 24.15648078918457
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8999999761581421,
+						"y": 0.8999999761581421,
+						"z": 0.8999999761581421
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#82c0d9"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89"
+				}
+			}
+		},
+		"fc6f70239cfde3b4": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_58",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": -14.591670036315918,
+							"y": -7.745604991912842,
+							"z": 32.0152587890625
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 0.949999988079071, "z": 1 }
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#dbdbdb"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89"
+				}
+			}
+		},
+		"5b5503475ce26357": {
+			"parent": "d66aac1b5dda6d89",
+			"name": "Railing_Laboratory_A_ColourMod_51",
+			"factory": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/coastal_town_italy/laboratory_a.template?/railing_laboratory_a_colourmod.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": 20.098630905151367,
+							"y": -2.1588289737701416,
+							"z": 32.0152587890625
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 0.949999988079071, "z": 1 }
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#dbdbdb"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d66aac1b5dda6d89"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
