@@ -150,7 +150,8 @@
 						"eAVV_CIVMALECH01",
 						"eAVV_CIVMALECH02",
 						"eAVV_HUSH",
-						"eAVV_KONG"
+						"eAVV_KONG",
+						"eAVV_ET_BAIJ"
 					]
 				},
 				"m_bIsFemale": { "type": "bool", "value": false },
@@ -1588,7 +1589,8 @@
 						"eAVV_HUSH",
 						"eAVV_CIVMALECH01",
 						"eAVV_CIVMALECH02",
-						"eAVV_KONG"
+						"eAVV_KONG",
+						"eAVV_ET_BAIJ"
 					]
 				},
 				"m_pParentOutfit": {
@@ -1815,7 +1817,11 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": ["eAVV_CIVMALECH01", "eAVV_CIVMALECH02"]
+					"value": [
+						"eAVV_CIVMALECH01",
+						"eAVV_CIVMALECH02",
+						"eAVV_ET_BAIJ"
+					]
 				},
 				"m_pParentOutfit": {
 					"type": "SEntityTemplateReference",
@@ -1967,7 +1973,11 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": ["eAVV_CIVMALECH01", "eAVV_CIVMALECH02"]
+					"value": [
+						"eAVV_CIVMALECH01",
+						"eAVV_CIVMALECH02",
+						"eAVV_ET_BAIJ"
+					]
 				},
 				"m_eOutfitAICategory": {
 					"type": "EOutfitAICategory",

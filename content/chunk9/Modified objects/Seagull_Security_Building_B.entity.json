@@ -1,1 +1,1523 @@
-{"tempHash":"005C82832EE4DBDE","tbluHash":"009AE0FF1AD13DB1","rootEntity":"6e995fa0f8b433fb","entities":{"b7df12d3b829233e":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1x1_concrete_corner_a_02","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x1_concrete_corner_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x1_concrete_corner_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":5.7589569091796875,"y":-3.2905120849609375,"z":0.009091000072658062}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb","postInit":true}}},"69b7a1ea083dc462":{"parent":"6e995fa0f8b433fb","name":"seagull_roof_sealant_trim_corner_a_03","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_roof_sealant_trim_corner_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_roof_sealant_trim_corner_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":5.784247875213623,"y":-3.30023193359375,"z":4.0145440101623535}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb","postInit":true}}},"c6b55f992a161c6c":{"parent":"6e995fa0f8b433fb","name":"seagull_warhouse_gutter_4m_a_04","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warhouse_gutter_4m_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warhouse_gutter_4m_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":1.5978009700775146,"y":-2.9531099796295166,"z":4.2304229736328125}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1,"y":1.328819990158081,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb","postInit":true}}},"e1aba039c6ef0a92":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1cmx4m_metal_trim_a_12","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":5.897605895996094,"y":2.7207789421081543,"z":3.950000047683716}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.756301999092102,"y":1,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb","postInit":true}}},"8f77e53036f6bfbd":{"parent":"6e995fa0f8b433fb","name":"seagull_warhouse_gutter_4m_a_01","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warhouse_gutter_4m_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warhouse_gutter_4m_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":5.446784973144531,"y":-3.5059049129486084,"z":4.2304229736328125}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1,"y":0.8249949812889099,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb","postInit":true}}},"a16646bb71d1aba8":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1x4_concrete_a_03","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x2_concrete_b.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x2_concrete_b.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":4.772597789764404,"y":2.670409917831421,"z":0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb","postInit":true}}},"17e922ce5467c284":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1x1_concrete_corner_a_04","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x1_concrete_corner_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x1_concrete_corner_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":1.7776110172271729,"y":2.667236089706421,"z":0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb","postInit":true}}},"884005287cb95a66":{"parent":"6e995fa0f8b433fb","name":"seagull_warhouse_gutter_4m_a_05","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warhouse_gutter_4m_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warhouse_gutter_4m_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":5.9984660148620605,"y":2.3625640869140625,"z":4.2304229736328125}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1,"y":1.328819990158081,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb","postInit":true}}},"d548573ba0639034":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1cmx4m_metal_trim_a_13","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":5.897605895996094,"y":-0.30442801117897034,"z":3.950000047683716}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.756301999092102,"y":1,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb","postInit":true}}},"c3f6eecaea6638b7":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_roof_panels_a_01","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_roof_panels_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_roof_panels_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":1.8850940465927124,"y":0.7579039931297302,"z":3.9876279830932617}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb","postInit":true}}},"985d1f7ac01340da":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_gutter_corner_a_03","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_gutter_corner_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_gutter_corner_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":5.9942169189453125,"y":2.911133050918579,"z":4.230000019073486}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb","postInit":true}}},"250e6db2cdd54171":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1x4_metal_sheets_a_04","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_metal_sheets_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_metal_sheets_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":5.7725830078125,"y":2.6704859733581543,"z":1}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb","postInit":true}}},"35526d5483fba955":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_gutter_corner_a_01","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_gutter_corner_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_gutter_corner_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":5.9984211921691895,"y":-3.5045928955078125,"z":4.230000019073486}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb","postInit":true}}},"64307220eab8d131":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1cmx4m_metal_trim_a_22","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":90,"z":0},"position":{"x":5.801224231719971,"y":-1.429595947265625,"z":0.9499920010566711}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.7626060247421265,"y":1,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb","postInit":true}}},"d977b9c51b124887":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_4x2_metal_sheets_a_02","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":5.7404022216796875,"y":0.6658329963684082,"z":-2}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1.0045700073242188,"y":1,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb","postInit":true}}},"6e995fa0f8b433fb":{"parent":null,"name":"Seagull_Security_Building_B","factory":"[modules:/zcompositeentity.class].pc_entitytype","blueprint":"[modules:/zcompositeentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":107.40959930419922,"y":169.3795928955078,"z":0}}}}},"f74276cc402f4b2e":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1cmx4m_metal_trim_a_07","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":5.814949035644531,"y":-0.30438199639320374,"z":0.949999988079071}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.756301999092102,"y":1,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"97398aa388fac070":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1cmx4m_metal_trim_a_04","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":1.8372039794921875,"y":2.6873629093170166,"z":0.9749320149421692}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.7423049807548523,"y":1,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"a56735301fc79049":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_2x4_metal_sheets_c_01","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_2x4_metal_sheets_c.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_2x4_metal_sheets_c.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":5.7404022216796875,"y":-1.3295899629592896,"z":2}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"9cc9e603293a66b8":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1x1_concrete_corner_a_01","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x1_concrete_corner_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x1_concrete_corner_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":1.7908480167388916,"y":-3.279572010040283,"z":0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"2e270a9a947fcbbf":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1x1_concrete_corner_a_03","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x1_concrete_corner_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x1_concrete_corner_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":5.758522033691406,"y":2.6840059757232666,"z":0.009091000072658062}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"12a0c6635e357233":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1cmx4m_metal_trim_a_11","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":90,"z":0},"position":{"x":1.8300549983978271,"y":2.740112066268921,"z":0.024932000786066055}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"72da6c4a78d34065":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1cmx4m_metal_trim_a_16","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":1.83501398563385,"y":2.72039794921875,"z":3.950000047683716}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.7562549710273743,"y":1,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"30902038dcf6046b":{"parent":"6e995fa0f8b433fb","name":"seagull_roof_sealant_trim_corner_a","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_roof_sealant_trim_corner_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_roof_sealant_trim_corner_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":1.8003159761428833,"y":2.716033935546875,"z":4.0145440101623535}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"cc481889e2554600":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1x4_metal_sheets_a_09","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_metal_sheets_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_metal_sheets_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":5.772597789764404,"y":2.670409917831421,"z":3}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"783fcb0b2a4f1066":{"parent":"6e995fa0f8b433fb","name":"seagull_roof_sealant_trim_corner_a_01","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_roof_sealant_trim_corner_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_roof_sealant_trim_corner_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":1.7913440465927124,"y":-3.291260004043579,"z":4.0145440101623535}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"0885504d7e10c967":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1cmx4m_metal_trim_a_18","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":1.83501398563385,"y":-0.3046109974384308,"z":3.950000047683716}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.7562549710273743,"y":1,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"d6e11c2dafa6937d":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1cmx4m_metal_trim_a_09","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":90,"z":0},"position":{"x":5.822600841522217,"y":-3.254578113555908,"z":0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"5ad05d7f5df8c60a":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_2x4_metal_sheets_c","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_2x4_metal_sheets_c.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_2x4_metal_sheets_c.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":1.7726060152053833,"y":-3.2795870304107666,"z":2}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"5d841ef63f47b8b4":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_4x2_metal_sheets_a_06","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":5.7404022216796875,"y":-1.3341670036315918,"z":-2}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1.0045700073242188,"y":1,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"29becf0456d4990c":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1cmx4m_metal_trim_a_23","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":90,"z":0},"position":{"x":5.801224231719971,"y":0.5704039931297302,"z":0.9499920010566711}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.7626060247421265,"y":1,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"9d1c46ce8c101113":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_4x2_metal_sheets_a","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-180,"y":0,"z":90},"position":{"x":5.754622936248779,"y":-1.3295899629592896,"z":3.962204933166504}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"195a7f3f44732195":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1x4_concrete_a_04","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_concrete_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_concrete_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":1.790405035018921,"y":1.6704100370407104,"z":0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"15721ffdce66932d":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1cmx4m_metal_trim_a_08","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":90,"z":0},"position":{"x":1.8300780057907104,"y":-3.2318570613861084,"z":0.024932000786066055}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"003328a87a962d57":{"parent":"6e995fa0f8b433fb","name":"seagull_warhouse_gutter_4m_a_03","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warhouse_gutter_4m_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warhouse_gutter_4m_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":2.145576000213623,"y":2.9115750789642334,"z":4.2304229736328125}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1,"y":0.8243190050125122,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"c545c205fc4499c2":{"parent":"6e995fa0f8b433fb","name":"Lamp_Wall_Modern_Spot_Italy_B_09","factory":"[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_b.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_b.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":90,"y":0,"z":90},"position":{"x":5.7308268547058105,"y":1.8597110509872437,"z":3.6575069427490234}}},"m_mHeadTransform":{"type":"SMatrix43","value":{"rotation":{"x":-49.99951171875,"y":0,"z":0},"position":{"x":0,"y":0.029089000076055527,"z":0.23292599618434906},"scale":{"x":1,"y":0.9999999999999999,"z":0.9999999999999999}}},"DiffuseColor":{"type":"SColorRGB","value":"#d4ebff"},"IgnoreTimeOfDay":{"type":"bool","value":true},"m_vFarAttenuation":{"type":"SVector2","value":{"x":3.325611114501953,"y":20}},"GlowPower":{"type":"float32","value":2000},"DiffusePower":{"type":"float32","value":300},"m_fLightFadeDistance":{"type":"float32","value":400},"m_vAngularAttenuation":{"type":"SVector2","value":{"x":0.7241889834403992,"y":1.0453979969024658}},"m_bLightCastShadows":{"type":"bool","value":true},"m_fShadowFadeDistance":{"type":"float32","value":50},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}},"subsets":{"AudioEmitters":["6e995fa0f8b433fb"]}},"64700ee1a2bd267e":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1cmx4m_metal_trim_a_05","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":1.8372039794921875,"y":-0.28184500336647034,"z":0.9749320149421692}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.7562549710273743,"y":1,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"e6947a39f5fcd935":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1cmx4m_metal_trim_a_14","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":5.797599792480469,"y":2.620361089706421,"z":3.950000047683716}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"4a1d98614c5126b9":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_4x2_metal_sheets_a_03","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-180,"y":0,"z":-90},"position":{"x":1.790405035018921,"y":-3.3493189811706543,"z":3.950000047683716}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":1.0197199583053589,"y":1,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"f8dbd3d7be3b0bf3":{"parent":"6e995fa0f8b433fb","name":"Lamp_Wall_Modern_Spot_Italy_B_08","factory":"[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_b.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_b.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":90,"y":0,"z":0},"position":{"x":4.996284008026123,"y":2.670409917831421,"z":3.5019690990448}}},"m_mHeadTransform":{"type":"SMatrix43","value":{"rotation":{"x":-49.99951171875,"y":0,"z":0},"position":{"x":0,"y":0.029089000076055527,"z":0.23292599618434906},"scale":{"x":1,"y":0.9999999999999999,"z":0.9999999999999999}}},"DiffuseColor":{"type":"SColorRGB","value":"#d4ebff"},"IgnoreTimeOfDay":{"type":"bool","value":true},"m_vFarAttenuation":{"type":"SVector2","value":{"x":3.325611114501953,"y":20}},"GlowPower":{"type":"float32","value":2000},"DiffusePower":{"type":"float32","value":400},"m_fLightFadeDistance":{"type":"float32","value":400},"m_bLightCastShadows":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}},"subsets":{"AudioEmitters":["6e995fa0f8b433fb"]}},"b8ed11a70edc33c3":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1cmx4m_metal_trim_a_20","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":90,"z":0},"position":{"x":1.8539810180664063,"y":-1.4068759679794312,"z":0.9749240279197693}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.7626060247421265,"y":1,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"5b7918fc3c00044a":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_roof_panels_a_03","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_roof_panels_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_roof_panels_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":1.8850940465927124,"y":2.7079010009765625,"z":3.9605720043182373}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"62ed8dd35bc36ade":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1x4_concrete_a_02","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_concrete_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_concrete_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":5.75897216796875,"y":-2.3159639835357666,"z":0.009091000072658062}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"d6e214a2c0f97316":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1cmx4m_metal_trim_a_10","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":90,"z":0},"position":{"x":5.822600841522217,"y":2.710541009902954,"z":0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"4f604d19b9323399":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_4x2_metal_sheets_a_05","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-180,"y":0,"z":-90},"position":{"x":1.790405035018921,"y":0.6704099774360657,"z":3.950000047683716}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"95d6bb17bda16f92":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1cmx4m_metal_trim_a_01","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":1.7726060152053833,"y":-3.229583978652954,"z":0.949999988079071}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"c422070a88cf05de":{"parent":"6e995fa0f8b433fb","name":"seagull_roof_sealant_trim_corner_a_02","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_roof_sealant_trim_corner_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_roof_sealant_trim_corner_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":5.7932209968566895,"y":2.707062005996704,"z":4.0145440101623535}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"f735cea35434655b":{"parent":"6e995fa0f8b433fb","name":"Door_Single_Underground_Miami_A","factory":"[assembly:/_pro/environment/templates/architecture/doors/doors_miami_a.template?/door_single_underground_miami_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/architecture/doors/doors_miami_a.template?/door_single_underground_miami_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":4.042572021484375,"y":2.66668701171875,"z":0.016773000359535217}}},"m_bEnabled":{"type":"bool","value":false},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}},"subsets":{"AudioEmitters":["6e995fa0f8b433fb"]}},"b02fc6a0ccbaaf9a":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1cmx4m_metal_trim_a_17","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":1.7976069450378418,"y":-3.2296299934387207,"z":3.950000047683716}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"3ddf07f5a9672837":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1x4_metal_sheets_a_01","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_metal_sheets_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_metal_sheets_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":1.7726060152053833,"y":-3.2795870304107666,"z":1}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"92eadd6489e2d917":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1cmx4m_metal_trim_a_06","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":5.814940929412842,"y":2.6291050910949707,"z":0.949999988079071}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.7333719730377197,"y":1,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"089cc3385b196dae":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1x4_metal_sheets_a_08","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_metal_sheets_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_metal_sheets_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":5.772597789764404,"y":2.670409917831421,"z":2}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"68602d535db84bb5":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_gutter_corner_a","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_gutter_corner_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_gutter_corner_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":1.5981520414352417,"y":-3.505402088165283,"z":4.230000019073486}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"65b4d6bf3640f92a":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1cmx4m_metal_trim_a_21","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":90,"z":0},"position":{"x":1.8539810180664063,"y":0.5931239724159241,"z":0.9749240279197693}}},"m_PrimitiveScale":{"type":"SVector3","value":{"x":0.7626060247421265,"y":1,"z":1}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"7b57bed9db5296e4":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1cmx4m_metal_trim_a_02","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":5.772597789764404,"y":2.598206043243408,"z":0.949999988079071}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"5facb4c4d0191d39":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_4x2_metal_sheets_a_04","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-180,"y":0,"z":-90},"position":{"x":1.790405035018921,"y":-1.3295899629592896,"z":3.950000047683716}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"638b220e45dc6fd5":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_gutter_corner_a_02","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_gutter_corner_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_gutter_corner_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":1.5939480066299438,"y":2.9103240966796875,"z":4.230000019073486}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}},"00e9a16e7cfe2fd7":{"parent":"6e995fa0f8b433fb","name":"seagull_warehouse_1x2_concrete_b_01","factory":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x2_concrete_b.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x2_concrete_b.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":2.7589800357818604,"y":-3.2909700870513916,"z":0.009091000072658062}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"6e995fa0f8b433fb"}}}},"propertyOverrides":[],"overrideDeletes":[],"pinConnectionOverrides":[],"pinConnectionOverrideDeletes":[],"externalScenes":[],"subType":"template","quickEntityVersion":3.1,"extraFactoryDependencies":[],"extraBlueprintDependencies":[],"comments":[]}
+{
+	"tempHash": "005C82832EE4DBDE",
+	"tbluHash": "009AE0FF1AD13DB1",
+	"rootEntity": "6e995fa0f8b433fb",
+	"entities": {
+		"b7df12d3b829233e": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1x1_concrete_corner_a_02",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x1_concrete_corner_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x1_concrete_corner_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": 5.7589569091796875,
+							"y": -3.2905120849609375,
+							"z": 0.009091000072658062
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb",
+					"postInit": true
+				}
+			}
+		},
+		"69b7a1ea083dc462": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_roof_sealant_trim_corner_a_03",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_roof_sealant_trim_corner_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_roof_sealant_trim_corner_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": 5.784247875213623,
+							"y": -3.30023193359375,
+							"z": 4.0145440101623535
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb",
+					"postInit": true
+				}
+			}
+		},
+		"c6b55f992a161c6c": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warhouse_gutter_4m_a_04",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warhouse_gutter_4m_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warhouse_gutter_4m_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": 1.5978009700775146,
+							"y": -2.9531099796295166,
+							"z": 4.2304229736328125
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 1.328819990158081, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb",
+					"postInit": true
+				}
+			}
+		},
+		"e1aba039c6ef0a92": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1cmx4m_metal_trim_a_12",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": 5.897605895996094,
+							"y": 2.7207789421081543,
+							"z": 3.950000047683716
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.756301999092102, "y": 1, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb",
+					"postInit": true
+				}
+			}
+		},
+		"8f77e53036f6bfbd": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warhouse_gutter_4m_a_01",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warhouse_gutter_4m_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warhouse_gutter_4m_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": 5.446784973144531,
+							"y": -3.5059049129486084,
+							"z": 4.2304229736328125
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 0.8249949812889099, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb",
+					"postInit": true
+				}
+			}
+		},
+		"a16646bb71d1aba8": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1x4_concrete_a_03",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x2_concrete_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x2_concrete_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": 4.772597789764404,
+							"y": 2.670409917831421,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb",
+					"postInit": true
+				}
+			}
+		},
+		"17e922ce5467c284": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1x1_concrete_corner_a_04",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x1_concrete_corner_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x1_concrete_corner_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": 1.7776110172271729,
+							"y": 2.667236089706421,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb",
+					"postInit": true
+				}
+			}
+		},
+		"884005287cb95a66": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warhouse_gutter_4m_a_05",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warhouse_gutter_4m_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warhouse_gutter_4m_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 5.9984660148620605,
+							"y": 2.3625640869140625,
+							"z": 4.2304229736328125
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 1.328819990158081, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb",
+					"postInit": true
+				}
+			}
+		},
+		"d548573ba0639034": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1cmx4m_metal_trim_a_13",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": 5.897605895996094,
+							"y": -0.30442801117897034,
+							"z": 3.950000047683716
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.756301999092102, "y": 1, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb",
+					"postInit": true
+				}
+			}
+		},
+		"c3f6eecaea6638b7": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_roof_panels_a_01",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_roof_panels_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_roof_panels_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 1.8850940465927124,
+							"y": 0.7579039931297302,
+							"z": 3.9876279830932617
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb",
+					"postInit": true
+				}
+			}
+		},
+		"985d1f7ac01340da": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_gutter_corner_a_03",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_gutter_corner_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_gutter_corner_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 5.9942169189453125,
+							"y": 2.911133050918579,
+							"z": 4.230000019073486
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb",
+					"postInit": true
+				}
+			}
+		},
+		"250e6db2cdd54171": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1x4_metal_sheets_a_04",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_metal_sheets_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_metal_sheets_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": 5.7725830078125,
+							"y": 2.6704859733581543,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb",
+					"postInit": true
+				}
+			}
+		},
+		"35526d5483fba955": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_gutter_corner_a_01",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_gutter_corner_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_gutter_corner_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": 5.9984211921691895,
+							"y": -3.5045928955078125,
+							"z": 4.230000019073486
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb",
+					"postInit": true
+				}
+			}
+		},
+		"64307220eab8d131": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1cmx4m_metal_trim_a_22",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 90, "z": 0 },
+						"position": {
+							"x": 5.801224231719971,
+							"y": -1.429595947265625,
+							"z": 0.9499920010566713
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.7626060247421265, "y": 1, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb",
+					"postInit": true
+				}
+			}
+		},
+		"d977b9c51b124887": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_4x2_metal_sheets_a_02",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": 5.7404022216796875,
+							"y": 0.6658329963684082,
+							"z": -2
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0045700073242188, "y": 1, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb",
+					"postInit": true
+				}
+			}
+		},
+		"6e995fa0f8b433fb": {
+			"parent": null,
+			"name": "Seagull_Security_Building_B",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 107.40959930419922,
+							"y": 169.3795928955078,
+							"z": 0
+						}
+					}
+				}
+			}
+		},
+		"f74276cc402f4b2e": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1cmx4m_metal_trim_a_07",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": 5.814949035644531,
+							"y": -0.30438199639320374,
+							"z": 0.949999988079071
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.756301999092102, "y": 1, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"97398aa388fac070": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1cmx4m_metal_trim_a_04",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": 1.8372039794921875,
+							"y": 2.6873629093170166,
+							"z": 0.9749320149421692
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.7423049807548523, "y": 1, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"a56735301fc79049": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_2x4_metal_sheets_c_01",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_2x4_metal_sheets_c.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_2x4_metal_sheets_c.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": 5.7404022216796875,
+							"y": -1.3295899629592896,
+							"z": 2
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"9cc9e603293a66b8": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1x1_concrete_corner_a_01",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x1_concrete_corner_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x1_concrete_corner_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 1.7908480167388916,
+							"y": -3.279572010040283,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"2e270a9a947fcbbf": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1x1_concrete_corner_a_03",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x1_concrete_corner_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x1_concrete_corner_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": 5.758522033691406,
+							"y": 2.6840059757232666,
+							"z": 0.009091000072658062
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"12a0c6635e357233": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1cmx4m_metal_trim_a_11",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 90, "z": 0 },
+						"position": {
+							"x": 1.8300549983978271,
+							"y": 2.740112066268921,
+							"z": 0.024932000786066055
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"72da6c4a78d34065": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1cmx4m_metal_trim_a_16",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": 1.83501398563385,
+							"y": 2.72039794921875,
+							"z": 3.950000047683716
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.7562549710273743, "y": 1, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"30902038dcf6046b": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_roof_sealant_trim_corner_a",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_roof_sealant_trim_corner_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_roof_sealant_trim_corner_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 1.8003159761428833,
+							"y": 2.716033935546875,
+							"z": 4.0145440101623535
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"cc481889e2554600": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1x4_metal_sheets_a_09",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_metal_sheets_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_metal_sheets_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": 5.772597789764404,
+							"y": 2.670409917831421,
+							"z": 3
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"783fcb0b2a4f1066": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_roof_sealant_trim_corner_a_01",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_roof_sealant_trim_corner_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_roof_sealant_trim_corner_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": 1.7913440465927124,
+							"y": -3.291260004043579,
+							"z": 4.0145440101623535
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"0885504d7e10c967": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1cmx4m_metal_trim_a_18",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": 1.83501398563385,
+							"y": -0.3046109974384308,
+							"z": 3.950000047683716
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.7562549710273743, "y": 1, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"d6e11c2dafa6937d": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1cmx4m_metal_trim_a_09",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 90, "z": 0 },
+						"position": {
+							"x": 5.822600841522217,
+							"y": -3.254578113555908,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"5ad05d7f5df8c60a": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_2x4_metal_sheets_c",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_2x4_metal_sheets_c.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_2x4_metal_sheets_c.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 1.7726060152053833,
+							"y": -3.2795870304107666,
+							"z": 2
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"5d841ef63f47b8b4": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_4x2_metal_sheets_a_06",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": 5.7404022216796875,
+							"y": -1.3341670036315918,
+							"z": -2
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0045700073242188, "y": 1, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"29becf0456d4990c": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1cmx4m_metal_trim_a_23",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 90, "z": 0 },
+						"position": {
+							"x": 5.801224231719971,
+							"y": 0.5704039931297302,
+							"z": 0.9499920010566713
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.7626060247421265, "y": 1, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"9d1c46ce8c101113": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_4x2_metal_sheets_a",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -180, "y": 0, "z": 90 },
+						"position": {
+							"x": 5.754622936248779,
+							"y": -1.3295899629592896,
+							"z": 3.962204933166504
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"195a7f3f44732195": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1x4_concrete_a_04",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_concrete_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_concrete_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": 1.790405035018921,
+							"y": 1.6704100370407104,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"15721ffdce66932d": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1cmx4m_metal_trim_a_08",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 90, "z": 0 },
+						"position": {
+							"x": 1.8300780057907104,
+							"y": -3.2318570613861084,
+							"z": 0.024932000786066055
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"003328a87a962d57": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warhouse_gutter_4m_a_03",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warhouse_gutter_4m_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warhouse_gutter_4m_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": 2.145576000213623,
+							"y": 2.9115750789642334,
+							"z": 4.2304229736328125
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 0.8243190050125122, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"c545c205fc4499c2": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "Lamp_Wall_Modern_Spot_Italy_B_09",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 90, "y": 0, "z": 90 },
+						"position": {
+							"x": 5.7308268547058105,
+							"y": 1.8597110509872437,
+							"z": 3.657506942749023
+						}
+					}
+				},
+				"m_mHeadTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -49.99951171875,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0.029089000076055527,
+							"z": 0.23292599618434903
+						},
+						"scale": { "x": 1, "y": 1.0, "z": 1.0 }
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#d4ebff"
+				},
+				"IgnoreTimeOfDay": { "type": "bool", "value": true },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 3.325611114501953, "y": 20 }
+				},
+				"GlowPower": { "type": "float32", "value": 2000 },
+				"DiffusePower": { "type": "float32", "value": 300 },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 400
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.7241889834403992,
+						"y": 1.0453979969024658
+					}
+				},
+				"m_bLightCastShadows": { "type": "bool", "value": true },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 50
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			},
+			"subsets": { "AudioEmitters": ["6e995fa0f8b433fb"] }
+		},
+		"64700ee1a2bd267e": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1cmx4m_metal_trim_a_05",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": 1.8372039794921875,
+							"y": -0.28184500336647034,
+							"z": 0.9749320149421692
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.7562549710273743, "y": 1, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"e6947a39f5fcd935": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1cmx4m_metal_trim_a_14",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": 5.797599792480469,
+							"y": 2.620361089706421,
+							"z": 3.950000047683716
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"4a1d98614c5126b9": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_4x2_metal_sheets_a_03",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -180, "y": 0, "z": -90 },
+						"position": {
+							"x": 1.790405035018921,
+							"y": -3.3493189811706543,
+							"z": 3.950000047683716
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0197199583053589, "y": 1, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"f8dbd3d7be3b0bf3": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "Lamp_Wall_Modern_Spot_Italy_B_08",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 90, "y": 0, "z": 0 },
+						"position": {
+							"x": 4.996284008026123,
+							"y": 2.670409917831421,
+							"z": 3.5019690990448
+						}
+					}
+				},
+				"m_mHeadTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -49.99951171875,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0.029089000076055527,
+							"z": 0.23292599618434903
+						},
+						"scale": { "x": 1, "y": 1.0, "z": 1.0 }
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#d4ebff"
+				},
+				"IgnoreTimeOfDay": { "type": "bool", "value": true },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 3.325611114501953, "y": 20 }
+				},
+				"GlowPower": { "type": "float32", "value": 2000 },
+				"DiffusePower": { "type": "float32", "value": 400 },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 400
+				},
+				"m_bLightCastShadows": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			},
+			"subsets": { "AudioEmitters": ["6e995fa0f8b433fb"] }
+		},
+		"b8ed11a70edc33c3": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1cmx4m_metal_trim_a_20",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 90, "z": 0 },
+						"position": {
+							"x": 1.8539810180664065,
+							"y": -1.4068759679794312,
+							"z": 0.9749240279197692
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.7626060247421265, "y": 1, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"5b7918fc3c00044a": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_roof_panels_a_03",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_roof_panels_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_roof_panels_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 1.8850940465927124,
+							"y": 2.7079010009765625,
+							"z": 3.9605720043182377
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"62ed8dd35bc36ade": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1x4_concrete_a_02",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_concrete_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_concrete_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": 5.75897216796875,
+							"y": -2.3159639835357666,
+							"z": 0.009091000072658062
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"d6e214a2c0f97316": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1cmx4m_metal_trim_a_10",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 90, "z": 0 },
+						"position": {
+							"x": 5.822600841522217,
+							"y": 2.710541009902954,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"4f604d19b9323399": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_4x2_metal_sheets_a_05",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -180, "y": 0, "z": -90 },
+						"position": {
+							"x": 1.790405035018921,
+							"y": 0.6704099774360657,
+							"z": 3.950000047683716
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"95d6bb17bda16f92": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1cmx4m_metal_trim_a_01",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 1.7726060152053833,
+							"y": -3.229583978652954,
+							"z": 0.949999988079071
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"c422070a88cf05de": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_roof_sealant_trim_corner_a_02",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_roof_sealant_trim_corner_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_roof_sealant_trim_corner_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": 5.7932209968566895,
+							"y": 2.707062005996704,
+							"z": 4.0145440101623535
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"f735cea35434655b": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "Door_Single_Underground_Miami_A",
+			"factory": "[assembly:/_pro/environment/templates/architecture/doors/doors_miami_a.template?/door_single_underground_miami_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/doors/doors_miami_a.template?/door_single_underground_miami_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 4.042572021484375,
+							"y": 2.66668701171875,
+							"z": 0.016773000359535217
+						}
+					}
+				},
+				"m_bEnabled": { "type": "bool", "value": false },
+				"Reinforced": { "type": "bool", "value": true },
+				"RequireActivation": { "type": "bool", "value": true },
+				"Sign_Back_Restricted_Access_A": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			},
+			"subsets": { "AudioEmitters": ["6e995fa0f8b433fb"] }
+		},
+		"b02fc6a0ccbaaf9a": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1cmx4m_metal_trim_a_17",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 1.7976069450378418,
+							"y": -3.2296299934387207,
+							"z": 3.950000047683716
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"3ddf07f5a9672837": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1x4_metal_sheets_a_01",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_metal_sheets_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_metal_sheets_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 1.7726060152053833,
+							"y": -3.2795870304107666,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"92eadd6489e2d917": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1cmx4m_metal_trim_a_06",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": 5.814940929412842,
+							"y": 2.6291050910949707,
+							"z": 0.949999988079071
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.7333719730377197, "y": 1, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"089cc3385b196dae": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1x4_metal_sheets_a_08",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_metal_sheets_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x4_metal_sheets_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": 5.772597789764404,
+							"y": 2.670409917831421,
+							"z": 2
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"68602d535db84bb5": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_gutter_corner_a",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_gutter_corner_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_gutter_corner_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": 1.5981520414352417,
+							"y": -3.505402088165283,
+							"z": 4.230000019073486
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"65b4d6bf3640f92a": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1cmx4m_metal_trim_a_21",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 90, "z": 0 },
+						"position": {
+							"x": 1.8539810180664065,
+							"y": 0.5931239724159241,
+							"z": 0.9749240279197692
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.7626060247421265, "y": 1, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"7b57bed9db5296e4": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1cmx4m_metal_trim_a_02",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1cmx4m_metal_trim_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": 5.772597789764404,
+							"y": 2.598206043243408,
+							"z": 0.949999988079071
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"5facb4c4d0191d39": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_4x2_metal_sheets_a_04",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_4x2_metal_sheets_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -180, "y": 0, "z": -90 },
+						"position": {
+							"x": 1.790405035018921,
+							"y": -1.3295899629592896,
+							"z": 3.950000047683716
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"638b220e45dc6fd5": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_gutter_corner_a_02",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_gutter_corner_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_gutter_corner_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": 1.5939480066299438,
+							"y": 2.9103240966796875,
+							"z": 4.230000019073486
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		},
+		"00e9a16e7cfe2fd7": {
+			"parent": "6e995fa0f8b433fb",
+			"name": "seagull_warehouse_1x2_concrete_b_01",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x2_concrete_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_1x2_concrete_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 2.7589800357818604,
+							"y": -3.2909700870513916,
+							"z": 0.009091000072658062
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "6e995fa0f8b433fb"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

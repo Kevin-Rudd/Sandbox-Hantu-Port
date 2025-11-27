@@ -1,0 +1,28 @@
+{
+	"tempHash": "00BCD27B9FAFAA57",
+	"tbluHash": "0014999C27FD5276",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafeb1eb1ab6fbee",
+				{
+					"parent": "d3542102b3e6329d",
+					"name": "zhm5collisionlayerentity",
+					"factory": "[modules:/zhm5collisionlayerentity.class].pc_entitytype",
+					"blueprint": "[modules:/zhm5collisionlayerentity.class].pc_entityblueprint",
+					"properties": {
+						"m_eLayer": {
+							"type": "ECollidableLayer",
+							"value": "eCollLayer_STATIC_COLLIDABLES_ONLY_TRANSPARENT"
+						},
+						"m_pPhysics": {
+							"type": "SEntityTemplateReference",
+							"value": "d3542102b3e6329d"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

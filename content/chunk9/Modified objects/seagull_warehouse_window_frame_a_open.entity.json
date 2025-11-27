@@ -1,0 +1,330 @@
+{
+	"tempHash": "00AC8F502D938848",
+	"tbluHash": "0091E20D017817EA",
+	"rootEntity": "89898fc2d2ce804e",
+	"entities": {
+		"cd4718b6d9778b55": {
+			"parent": "89898fc2d2ce804e",
+			"name": "seagull_warehouse_window_large_a",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_window_large_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_window_large_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 2.753029108047486,
+							"y": -0.11073300242424013,
+							"z": 2.1742570400238037
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0199999809265137,
+						"y": 1.0,
+						"z": 1.0
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "89898fc2d2ce804e",
+					"postInit": true
+				}
+			}
+		},
+		"e257c6d25fc66e72": {
+			"parent": "89898fc2d2ce804e",
+			"name": "seagull_warehouse_window_large_a_02",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_window_large_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_window_large_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -93.31676 },
+						"position": {
+							"x": 0.05,
+							"y": 0.444,
+							"z": 2.1742568
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0199999809265137,
+						"y": 1.0,
+						"z": 1.0
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "89898fc2d2ce804e",
+					"postInit": true
+				}
+			}
+		},
+		"0795d18c9dad736d": {
+			"parent": "89898fc2d2ce804e",
+			"name": "seagull_warehouse_window_small_a_01",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_window_small_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_window_small_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 30.000012398127733,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 2.753029108047486,
+							"y": -0.11071799695491792,
+							"z": 3.254646062850952
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0199999809265137,
+						"y": 1.0,
+						"z": 1.0
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "89898fc2d2ce804e",
+					"postInit": true
+				}
+			}
+		},
+		"89898fc2d2ce804e": {
+			"parent": null,
+			"name": "seagull_warehouse_window_frame_a_open",
+			"factory": "[assembly:/_pro/environment/geometry/levels/seagull/seagull_warehouse_a.wl2?/seagull_warehouse_window_frame_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 121.53459930419922,
+							"y": 135.3144073486328,
+							"z": 1.4738320112228394
+						}
+					}
+				}
+			}
+		},
+		"e8c79f6a62e65bd7": {
+			"parent": "89898fc2d2ce804e",
+			"name": "seagull_warehouse_window_small_a_02",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_window_small_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_window_small_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 30.000012398127733,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 0.554984986782074,
+							"y": -0.11071799695491792,
+							"z": 3.254646062850952
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0199999809265137,
+						"y": 1.0,
+						"z": 1.0
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "89898fc2d2ce804e"
+				}
+			}
+		},
+		"850b0d64b9043861": {
+			"parent": "89898fc2d2ce804e",
+			"name": "trims_painted_metal_seagull_a",
+			"factory": "[assembly:/_pro/environment/materials/levels/seagull/trims_painted_metal_seagull_a.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/materials/levels/seagull/trims_painted_metal_seagull_a.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 123.16169738769533,
+							"y": 135.17100524902344,
+							"z": 4.72318696975708
+						}
+					}
+				},
+				"ConstantColorRGB_02_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#88b299"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "89898fc2d2ce804e"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cd4718b6d9778b55",
+						"fb5f88b787581d03",
+						"e257c6d25fc66e72",
+						"8d1597c4f858b488",
+						"0795d18c9dad736d",
+						"e8c79f6a62e65bd7",
+						"89898fc2d2ce804e"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"8d1597c4f858b488": {
+			"parent": "89898fc2d2ce804e",
+			"name": "seagull_warehouse_window_small_a",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_window_small_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_window_small_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 30.000012398127733,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 1.6521300077438354,
+							"y": -0.11071799695491792,
+							"z": 3.254646062850952
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0199999809265137,
+						"y": 1.0,
+						"z": 1.0
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "89898fc2d2ce804e"
+				}
+			}
+		},
+		"fb5f88b787581d03": {
+			"parent": "89898fc2d2ce804e",
+			"name": "seagull_warehouse_window_large_a_01",
+			"factory": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_window_large_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/levels/seagull/seagull_warehouse_a.template?/seagull_warehouse_window_large_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 1.6521300077438354,
+							"y": -0.11073300242424013,
+							"z": 2.1742570400238037
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.0199999809265137,
+						"y": 1.0,
+						"z": 1.0
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "89898fc2d2ce804e"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/seagull/seagull_warehouse_a.wl2?/seagull_warehouse_window_frame_a.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/seagull/seagull_warehouse_a.wl2?/seagull_warehouse_window_frame_a.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/seagull/seagull_warehouse_a.wl2?/seagull_warehouse_window_small_a.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/seagull/seagull_warehouse_a.wl2?/seagull_warehouse_window_small_a.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/seagull/seagull_warehouse_a.wl2?/seagull_warehouse_window_large_a.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/geometry/levels/seagull/seagull_warehouse_a.wl2?/seagull_warehouse_window_large_a.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/levels/seagull/trims_painted_metal_seagull_a.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/levels/seagull/trims_painted_metal_seagull_a.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/detailmaps/default.texture?/detail_a.tex](ascompoundnormal).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/levels/seagull/trims_painted_metal_seagull_a.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/levels/seagull/trims_painted_metal_seagull_a.texture?/mask_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/constants/color_black.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
