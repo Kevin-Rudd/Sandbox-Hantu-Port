@@ -556,7 +556,7 @@
 		"cafe006a95fea512": {
 			"parent": "cafe0257341fcd19",
 			"name": "Leader_Alive",
-			"factory": "003D556A7AFD9477",
+			"factory": "[assembly:/_pro/design/gamecore/actorlogic.template?/subjectivecondition.entitytemplate].pc_entitytype",
 			"blueprint": "00F99643C329547A",
 			"properties": {
 				"m_bValue": { "type": "bool", "value": true },
@@ -804,7 +804,7 @@
 		"cafeb353dcbffede": {
 			"parent": "cafe34f6c114a114",
 			"name": "Leader_Alive",
-			"factory": "003D556A7AFD9477",
+			"factory": "[assembly:/_pro/design/gamecore/actorlogic.template?/subjectivecondition.entitytemplate].pc_entitytype",
 			"blueprint": "00F99643C329547A",
 			"properties": {
 				"m_bValue": { "type": "bool", "value": true },
@@ -840,12 +840,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -15.068174243066215
+							"z": -94.95272976600532
 						},
 						"position": {
-							"x": 61.37233,
-							"y": 76.98064,
-							"z": -13.000001
+							"x": 81.14124,
+							"y": 41.366028,
+							"z": -13
 						}
 					}
 				},
