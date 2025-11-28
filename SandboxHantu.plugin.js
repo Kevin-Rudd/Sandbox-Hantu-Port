@@ -311,7 +311,7 @@ module.exports = function SandboxHantuPlugin(controller) {
                         "Bricks": []
                     }, {
                         "Difficulty": "hard",
-                        "Bricks": []
+                        "Bricks": ["assembly:/_pro/scenes/missions/salty/mission_seagull/difficulty_hard_hantu.brick"]
                     }
                 ],
                     "GameChangers": []
