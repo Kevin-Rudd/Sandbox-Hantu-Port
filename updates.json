@@ -1,5 +1,5 @@
 {
-    "version": "0.9.9",
-    "changelog": "Fixes deploy issue caused by September 2025 game update",
-    "url": "https://github.com/Kevin-Rudd/Sandbox-Hantu-Port/releases/download/0.9.9/Sandbox.Hantu.Port.0.9.9.zip"
+    "version": "1.0.0",
+    "changelog": "- Hostage prompts now display to proper quality with translations\n- Hostage glow no longer disappears after repeated Instinct use\n- Updates to latest AOM files, includes Bruce Lee voice\n- NPCs can now see through warehouse windows\n- A forklift at the dock is now functional\n- Forklift distraction zones now work as intended\n- Five more body dumping containers have been added\n- Master mode guards no longer spawn in wrong place\n- Baseball bat can now be picked up, crowbar next to it moved to somewhere else\n- Opens window to warehouse bathroom and improves that area\n- Cameras will no longer be 'destroyed' at beginning of Professional mode playthrough\n- Adds plain map from Freelancer Variations\n- Fixes for SMF3 Beta",
+    "url": "https://github.com/Kevin-Rudd/Sandbox-Hantu-Port/releases/download/1.0.0/Sandbox.Hantu.Port.1.0.0.zip"
 }
