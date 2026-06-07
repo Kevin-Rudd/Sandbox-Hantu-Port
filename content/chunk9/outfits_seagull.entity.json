@@ -2174,9 +2174,9 @@
 		},
 		"abcdbdf1ee0fa4a5": {
 			"parent": "abcdbd0cec83f612",
-			"name": "prof_wet_worker_dumplingcook",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_wet_worker_dumplingcook.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_wet_worker_dumplingcook.entitytemplate].pc_entityblueprint",
+			"name": "prof_wet_unique_sisterlei",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_wet_unique_sisterlei.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_wet_unique_sisterlei.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
