@@ -80,7 +80,18 @@
 			},
 			"events": {
 				"Exit": {
-					"Trigger": ["4bc5435a8cf12c3c"],
+					"StartExitSequence": [
+						{
+							"ref": "cafeedcfbe9871a8",
+							"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
+						}
+					],
+					"In": [
+						{
+							"ref": "cafeef6de7905c46",
+							"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
+						}
+					],
 					"TransmitEvent": [
 						{
 							"ref": "feedf894a4d38d48",
@@ -420,6 +431,15 @@
 			},
 			"fromPin": "Event_Track_1_LastFrame_Fired",
 			"toEntity": "cafed7621406a516",
+			"toPin": "Trigger"
+		},
+		{
+			"fromEntity": {
+				"ref": "cafeedcfbe9871a8",
+				"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
+			},
+			"fromPin": "ExitSequenceOver",
+			"toEntity": "4bc5435a8cf12c3c",
 			"toPin": "Trigger"
 		}
 	],

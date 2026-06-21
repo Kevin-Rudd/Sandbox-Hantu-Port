@@ -1,5 +1,5 @@
 {
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"id": "KevinRudd.SandboxHantu",
 	"name": "Sandbox Hantu Port",
 	"description": "Converts Hantu Port into a sandbox map",
@@ -113,17 +113,17 @@
 		"comment": "helper_bellflower_objectiveicon",
 		"toChunk": 1
 	},{
-		"runtimeID": "005EBD6CCE984CEB",
+		"runtimeID": "005EBD6CCE984CEB,00AE49B4BBEEB4BB,00CAF0EA808158DD",
 		"comment": "Fox Roof Window",
 		"toChunk": 9
 	},{
-		"runtimeID": "00AE49B4BBEEB4BB",
-		"comment": "Fox Roof Window",
-		"toChunk": 9
+		"runtimeID": "00F3001045A3EB48",
+		"comment": "Boat Exit",
+		"toChunk": 8
 	},{
-		"runtimeID": "00CAF0EA808158DD",
-		"comment": "Fox Roof Window",
-		"toChunk": 9
+		"runtimeID": "008503DBBCF9B4EE,00F22A4C6E9E4FCA,004A475128C88405,00E8341B6B22BBC3,00B0B4B21A75DCDD",
+		"comment": "Car Exit",
+		"toChunk": 1
 	},{
 		"runtimeID": "00CD1C0F48567462",
 		"comment": "NZ Ocean Far",

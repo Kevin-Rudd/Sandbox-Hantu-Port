@@ -1427,6 +1427,10 @@
 				{
 					"ref": "3a47125191640bd7",
 					"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
+				},
+				{
+					"ref": "abcdf7a05e9faf28",
+					"externalScene": "[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype"
 				}
 			],
 			"properties": {
